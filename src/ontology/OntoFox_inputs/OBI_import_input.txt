@@ -33,7 +33,7 @@ http://purl.obolibrary.org/obo/BFO_0000020
 
 
 http://purl.obolibrary.org/obo/OBI_0000011 #planned process
-subClassOf http://purl.obolibrary.org/obo/BFO_0000007 #process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 #process
 
 http://purl.obolibrary.org/obo/OBI_0600007 #administering substance in vivo (OBI)
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011
