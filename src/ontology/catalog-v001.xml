@@ -8,17 +8,17 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ohpi/external/SO_import.owl" uri="SO_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ohpi/external/NCBITaxon_import.owl" uri="NCBITaxon_import.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/bfo.owl" uri="external/bfo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/ogg-victors.owl" uri="OGG-Victors.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="duplicate:http://purl.obolibrary.org/obo/ohpi.owl" uri="ohpi.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="duplicate:http://purl.obolibrary.org/obo/ohpi.owl" uri="ohpi_merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/ohpi/CLO_import.owl" uri="CLO_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/ohpi/CL_import.owl" uri="CL_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/ohpi/IDOBRU_import.owl" uri="IDOBRU_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/ohpi/external/NCBIGene_import.owl" uri="NCBIGene_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/ohpi/external/NCBITaxon_import.owl" uri="NCBITaxon_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/ohpi/external/OBI_import.owl" uri="OBI_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/ohpi/external/PR_import.owl" uri="PR_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1534442323859" name="http://purl.obolibrary.org/obo/ohpi/external/SO_import.owl" uri="SO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/bfo.owl" uri="external/bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/ogg-victors.owl" uri="OGG-Victors.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="duplicate:http://purl.obolibrary.org/obo/ohpi.owl" uri="ohpi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="duplicate:http://purl.obolibrary.org/obo/ohpi.owl" uri="ohpi_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/ohpi/CLO_import.owl" uri="CLO_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/ohpi/CL_import.owl" uri="CL_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/ohpi/IDOBRU_import.owl" uri="IDOBRU_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/ohpi/external/NCBIGene_import.owl" uri="NCBIGene_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/ohpi/external/NCBITaxon_import.owl" uri="NCBITaxon_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/ohpi/external/OBI_import.owl" uri="OBI_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/ohpi/external/PR_import.owl" uri="PR_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1534465937712" name="http://purl.obolibrary.org/obo/ohpi/external/SO_import.owl" uri="SO_import.owl"/>
     </group>
 </catalog>
