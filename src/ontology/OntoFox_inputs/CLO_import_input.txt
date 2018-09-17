@@ -17,8 +17,9 @@ http://purl.obolibrary.org/obo/CLO_0002421 #CHO cell
 http://purl.obolibrary.org/obo/CLO_0050025 #A549
 http://purl.obolibrary.org/obo/CLO_0007393 #LS 174T cell
 http://purl.obolibrary.org/obo/CLO_0006953 #INT 407 cell
-http://purl.obolibrary.org/obo/CLO_0001601
-http://purl.obolibrary.org/obo/CLO_0008080
+http://purl.obolibrary.org/obo/CLO_0001601 #A549 cell
+http://purl.obolibrary.org/obo/CLO_0008080 #NCI-H292 cell
+http://purl.obolibrary.org/obo/CLO_0007005 #J774A.1 cell
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 #entity
@@ -27,6 +28,6 @@ http://purl.obolibrary.org/obo/BFO_0000001 #entity
 includeAllIntermediates
 
 [Source annotation URIs]
-includeAllAnnotationProperties
+includeAllAxiomsRecursively
 
 [Source annotation URIs to be excluded]
