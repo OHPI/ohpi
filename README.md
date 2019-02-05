@@ -2,6 +2,14 @@
 
 OHPI is a community-driven ontology of host-pathogen interactions (HPI). It is developed to represent manually curated HPI knowledge available in the PHIDIAS resource (http://www.phidias.us).
 
+# Relevant links
+- Ontology discussion mailing-list: ohpi-discuss@googlegroups.com
+- Disussion forum: https://groups.google.com/forum/?hl=en#!forum/ohpi-discuss
+
+# Download
+Use the following link to download this ontology
+https://raw.githubusercontent.com/OHPI/ohpi/master/src/ontology/ohpi_merged.owl
+
 # Reference
 
 Sayers S, Li L, Ong E, Deng S, Fu G, Lin Y, Yang B, Zhang S, Fa Z, Zhao B, Xiang Z, Li Y, Zhao Z, Olszewski MA, Chen L, He Y. Victors: a web-based knowledge base of virulence factors in human and animal pathogens. Nucleic Acid Research. 2019 Jan 8;47(D1):D693-D700. doi: 10.1093/nar/gky999. PMID: 30365026. PMCID: PMC6324020.
