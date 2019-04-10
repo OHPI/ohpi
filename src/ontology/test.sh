@@ -1,2 +1,2 @@
 #!/bin/sh
-./run.sh make test
+make test

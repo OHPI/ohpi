@@ -1,4 +1,5 @@
 .DS_Store
+catalog-v001.xml
 *.tmp
 src/ontology/mirror
 src/ontology/mirror/*

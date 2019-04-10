@@ -1,0 +1,800 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002328",
+      "meta" : {
+        "definition" : {
+          "val" : "An epithelial cell of the bronchus.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "BTO:0002922"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "tmeehan"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-09-20T02:00:00Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "bronchial epithelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000766",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell of the monocyte, granulocyte, or mast cell lineage.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "myeloid leukocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000988",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell of a hematopoietic lineage.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "CALOHA:TS-2017"
+        }, {
+          "val" : "FMA:70366"
+        }, {
+          "val" : "BTO:0000574"
+        }, {
+          "val" : "FMA:83598"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "haemopoietic cell",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hemopoietic cell",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "haematopoietic cell",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "hematopoietic cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000548",
+      "meta" : {
+        "subsets" : [ "http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "animal cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level" ],
+        "xrefs" : [ {
+          "val" : "KUPO:0000002"
+        }, {
+          "val" : "GO:0005623"
+        }, {
+          "val" : "VHOG:0001533"
+        }, {
+          "val" : "CALOHA:TS-2035"
+        }, {
+          "val" : "FMA:68646"
+        }, {
+          "val" : "XAO:0003012"
+        }, {
+          "val" : "WBbt:0004017"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one)."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000066",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "FBbt:00000124"
+        }, {
+          "val" : "FMA:66768"
+        }, {
+          "val" : "CARO:0000077"
+        }, {
+          "val" : "BTO:0000414"
+        }, {
+          "val" : "CALOHA:TS-2026"
+        }, {
+          "val" : "WBbt:0003672"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "epitheliocyte",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "epithelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002563",
+      "meta" : {
+        "definition" : {
+          "val" : "An epithelial cell of the intestine.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-03-01T05:18:31Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "tmeehan"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intestinal epithelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000542",
+      "meta" : {
+        "definition" : {
+          "val" : "A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "BTO:0000775"
+        }, {
+          "val" : "CALOHA:TS-0583"
+        }, {
+          "val" : "FMA:62863"
+        }, {
+          "val" : "VHOG:0001535"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Editors note: consider adding taxon constraint to vertebrata (PMID:18025161)"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lymphocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000003",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell that is found in a natural setting, which includes multicellular organism cells 'in vivo' (i.e. part of an organism), and unicellular organisms 'in environment' (i.e. part of a natural environment).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level" ],
+        "xrefs" : [ {
+          "val" : "CARO:0000013"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasNarrowSynonym",
+          "val" : "cell in vivo",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "To accommodate unicellular organisms better, 'cell in vivo' has been re-labeled 'native cell' to better represent its intended meaning - that is, that it is a cell in the context of a multicellular organism or in a natural environment. 'Native' is intended to contrast with 'in vitro', which refers to cells or other biological entities that have been intentionally placed in a controlled, non-natural setting for the purpose of study or manipulation. (MAH 1.12.12)."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "native cell"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "type" : "PROPERTY",
+      "lbl" : "in_subset"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000763",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "CALOHA:TS-0647"
+        }, {
+          "val" : "BTO:0001441"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "myeloid cell"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000114",
+      "type" : "PROPERTY",
+      "lbl" : "has curation status"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000081",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell found predominately in the blood.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "FMA:62844"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "blood cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000412",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "imported from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002087",
+      "meta" : {
+        "definition" : {
+          "val" : "A leukocyte that lacks granules.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "FMA:62855"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "agranular leukocyte",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-07-22T11:30:33Z"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "tmeehan"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nongranular leukocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000219",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell that moves by its own activities.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "motile cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000738",
+      "meta" : {
+        "definition" : {
+          "val" : "An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "BTO:0000751"
+        }, {
+          "val" : "FMA:62852"
+        }, {
+          "val" : "CALOHA:TS-0549"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "white blood cell",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "immune cell",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "leucocyte",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "leukocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_2000008",
+      "meta" : {
+        "definition" : {
+          "val" : "Any blood vessel endothelial cell that is part of a microvascular endothelium.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "TermGenie"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2014-06-04T15:07:42Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "microvascular endothelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000010",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell in vitro that is or has been maintained or propagated as part of a cell culture.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Note that this class was re-labeled to 'cultured cell' instead of 'cell line cell', as it intent was clarified to cover any cultured cells of multicellular and unicellular organisms. This includes cells actively being cultured, or cells that have been cultured but are stored in a quiescent state for future use. In having been cultured, cells must establish homeostasis and often replicate in a foreign environment. Accomodation of this stress initiates a selection of cells fit for such challenges, wherein necessary adaptive biochemical and.or genetic changes can occur. These changes can set them apart from the in vivo cells from which they derive, and such changes will typically accumulate and change over increasing time in culture. "
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cultured cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002355",
+      "meta" : {
+        "definition" : {
+          "val" : "A large nucleated basophilic erythrocyte found in mammalian embryos. This cell type arises from the blood islands of yolk sacs and expresses different types of hemoglobins (beta-H1, gamma-1 and zeta) than adult erythrocytes. Considered a type of erythroblast as this cell type can enucleate in circulation.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "primitive erythrocyte",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primitive erythroblast",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primitive erythroid cell",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-09-22T09:27:05Z"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "tmeehan"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "primitive red blood cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000255",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "eukaryotic cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_1001573",
+      "meta" : {
+        "definition" : {
+          "val" : "Cell of the nasopharyngeal epithelium.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "CALOHA:TS-2398"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "nasopharynx respiratory epithelial cells",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "nasopharyngeal epithelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000576",
+      "meta" : {
+        "definition" : {
+          "val" : "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "CALOHA:TS-0638"
+        }, {
+          "val" : "FMA:62864"
+        }, {
+          "val" : "BTO:0000876"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Morphology: Mononuclear cell, diameter, 14 to 20 _M, N/C ratio 2:1-1:1. Nucleus may appear in variety of shapes: round, kidney, lobulated, or convoluted. Fine azurophilic granules present; markers: CD11b (shared with other myeloid cells), human: CD14, mouse: F4/80-mid,GR1-low; location: Blood, but can be recruited into tissues; role or process: immune & tissue remodelling; lineage: hematopoietic, myeloid."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "monocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000235",
+      "meta" : {
+        "definition" : {
+          "val" : "A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "FMA:83585"
+        }, {
+          "val" : "FMA:63261"
+        }, {
+          "val" : "CALOHA:TS-0587"
+        }, {
+          "val" : "BTO:0000801"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "histiocyte",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Morphology: Diameter 30_M-80 _M, abundant cytoplasm, low N/C ratio, eccentric nucleus. Irregular shape with pseudopods, highly adhesive. Contain vacuoles and phagosomes, may contain azurophilic granules; markers: Mouse & Human: CD68, in most cases CD11b. Mouse: in most cases F4/80+; role or process: immune, antigen presentation, & tissue remodelling; lineage: hematopoietic, myeloid."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "macrophage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000115",
+      "meta" : {
+        "definition" : {
+          "val" : "An endothelial cell comprises the outermost layer or lining of anatomical structures and can be squamous or cuboidal. In mammals, endothelial cell has vimentin filaments and is derived from the mesoderm.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "BTO:0001176"
+        }, {
+          "val" : "CALOHA:TS-0278"
+        }, {
+          "val" : "FMA:66772"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "endotheliocyte",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "From FMA: 9.07.2001: Endothelial cell has always been classified as a kind of epithelial cell, specifically a squamous cell but that is not true. First, endothelial cell can either be squamous or cuboidal (e.g. high-endothelial cell) and secondly, it has different embryological derivation (mesodermal) than a true epithelial cell (ectodermal and endodermal). The basis for present classification is the fact that it comprises the outermost layer or lining of anatomical structures (location-based) but a better structural basis for the differentia is the cytoskeleton of the cell. Endothelial cell has vimentin filaments while an epithelial cell has keratin filaments. [Onard]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "endothelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000589",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "OBO foundry unique label"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002371",
+      "meta" : {
+        "definition" : {
+          "val" : "A cell of an organism that does not pass on its genetic material to the organism's offspring (i.e. a non-germ line cell).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level" ],
+        "xrefs" : [ {
+          "val" : "WBbt:0008378"
+        }, {
+          "val" : "FMA:72300"
+        }, {
+          "val" : "BTO:0001268"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-09-24T09:44:42Z"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "tmeehan"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "somatic cell"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_narrow_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "type" : "PROPERTY",
+      "lbl" : "has_alternative_id"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/CL_1001573",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000763",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000988"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000576",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0002087"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002087",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000738"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000988",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000548"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000576",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000766"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002328",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000766",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000738"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000988",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0002371"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_2000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000115"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000576",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002563",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000766",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000763"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000542",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000115",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000066",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000081",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000988"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000235",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002355",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000548",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000255"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000219",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000738",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000219"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000738",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000988"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000255",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0002371",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/ohpi/imports/cl_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/imports/cl_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

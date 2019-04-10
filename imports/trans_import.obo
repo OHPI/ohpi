@@ -1,0 +1,10 @@
+format-version: 1.2
+data-version: ohpi/releases/2019-04-10/imports/trans_import.owl
+ontology: ohpi/imports/trans_import
+
+[Term]
+id: TRANS:0000000
+name: transmission process
+namespace: transmission_process
+def: "A process that is the means during which the pathogen is transmitted directly or indirectly from its natural reservoir, a susceptible host or source to a new host." [URL:http\://www2a.cdc.gov/phtn/catalog/pdf-file/Epi_Course.pdf]
+
