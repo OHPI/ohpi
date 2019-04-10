@@ -1,0 +1,469 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000016",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ido/brucellosis.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type [89"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "disposition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Disposition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "certain people have a predisposition to colon cancer"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "children are innately disposed to categorize objects in certain ways."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "If b is a realizable entity then for all t at which b exists, b s-depends_on some material entity at t. (axiom label in BFO2 Reference: [063-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an atom of element X has the disposition to decay to an atom of element Y"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ogg/ogg-bru.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the cell wall is disposed to filter chemicals in endocitosis and exocitosis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
+        } ]
+      },
+      "type" : "INDIVIDUAL",
+      "lbl" : "disposition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000602",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has associated axiom(fol)"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IDO_0100879",
+      "meta" : {
+        "definition" : {
+          "val" : "A disposition of a pathogen becoming harmless or less virulent towards its host, when the pathogen is altered physically or genetically. This disposition is realized in the process of the pathogen-host interaction. It is host dependent, or host specific.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ido/brucellosis.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "http://en.wikipedia.org/wiki/Attenuated_vaccine"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/creator",
+          "val" : "YL, Y.H."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "attenuated disposition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000116",
+      "meta" : {
+        "definition" : {
+          "val" : "An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "editor note"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obfoundry.org/obo/obi>"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "editor note"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000176",
+      "type" : "PROPERTY",
+      "lbl" : "part of continuant at some time"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000117",
+      "meta" : {
+        "definition" : {
+          "val" : "Name of editor entering the definition in the file. The definition editor is a point of contact for information regarding the term. The definition editor may be, but is not always, the author of the definition, which may have been worked upon by several people",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term editor"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition editor"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "term editor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000114",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Melanie Courtot"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "has curation status"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "OBI_0000281"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Bill Bug"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Alan Ruttenberg"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has curation status"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "meta" : {
+        "definition" : {
+          "val" : "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000412",
+      "meta" : {
+        "definition" : {
+          "val" : "For external terms/classes, the ontology from which the term was imported",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Melanie Courtot"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ido/brucellosis.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "imported from"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Alan Ruttenberg"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "imported from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000179",
+      "meta" : {
+        "definition" : {
+          "val" : "Relates an entity in the ontology to the name of the variable that is used to represent it in the code that generates the BFO OWL file from the lispy specification.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "Really of interest to developers only"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "BFO OWL specification label"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000112",
+      "meta" : {
+        "definition" : {
+          "val" : "A phrase describing how a class name should be used. May also include other kinds of examples that facilitate immediate understanding of a class semantics, such as widely known prototypical subclasses or instances of the class. Although essential for high level terms, examples for low level terms (e.g., Affymetrix HU133 array) are not",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "example"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "example of usage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000111",
+      "meta" : {
+        "definition" : {
+          "val" : "The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "editor preferred label"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "editor preferred term"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "editor preferred term"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000232",
+      "meta" : {
+        "definition" : {
+          "val" : "An administrative note of use for a curator but of no use for a user",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "curator note"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "curator note"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000054",
+      "type" : "PROPERTY",
+      "lbl" : "realized in"
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/description",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "An account of the content of the resource."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.org/dc/elements/1.1/"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/description",
+          "val" : "Description may include but is not limited to: an abstract,\n         table of contents, reference to a graphical representation\n         of content or a free-text account of the content."
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "Description"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+      "meta" : {
+        "definition" : {
+          "val" : "formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition source"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "definition source"
+    }, {
+      "id" : "http://purl.org/dc/elements/1.1/creator",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.org/dc/elements/1.1/"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/description",
+          "val" : "Examples of a Creator include a person, an organisation,\n         or a service.  Typically, the name of a Creator should \n         be used to indicate the entity."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "An entity primarily responsible for making the content \n         of the resource."
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "Creator"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000180",
+      "meta" : {
+        "definition" : {
+          "val" : "Relates an entity in the ontology to the term that is used to represent it in the the CLIF specification of BFO2",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "Really of interest to developers only"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "BFO CLIF specification label"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000600",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "elucidation"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000601",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has associated axiom(nl)"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000125",
+      "type" : "INDIVIDUAL",
+      "lbl" : "pending final vetting"
+    }, {
+      "id" : "_:genid2147483651"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000186",
+      "type" : "PROPERTY",
+      "lbl" : "part of continuant at all times that whole exists"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000122",
+      "type" : "INDIVIDUAL",
+      "lbl" : "ready for release"
+    }, {
+      "id" : "_:genid2147483650"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/IDO_0100879",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000016"
+    }, {
+      "sub" : "_:genid2147483650",
+      "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+      "obj" : "http://purl.obolibrary.org/obo/ido/brucellosis.owl"
+    }, {
+      "sub" : "_:genid2147483651",
+      "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+      "obj" : "http://purl.obolibrary.org/obo/ido/brucellosis.owl"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/ohpi/imports/idobru_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/imports/idobru_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

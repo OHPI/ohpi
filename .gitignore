@@ -1,0 +1,17 @@
+.DS_Store
+*.tmp
+src/ontology/mirror
+src/ontology/mirror/*
+src/ontology/ohpi.obo
+src/ontology/ohpi.owl
+src/ontology/ohpi-base.owl
+semantic.cache
+bin/
+src/ontology/seed.txt
+src/ontology/target/
+src/ontology/dosdp-tools.log
+src/patterns/imports/seed_sorted.txt
+src/ontology/ed_definitions_merged.owl
+src/ontology/patterns 
+*.tmp.obo
+*.tmp.owl

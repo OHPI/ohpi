@@ -1,0 +1,2106 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_93838",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Influenza A virus (A/goose/Guangdong/1/1996(H5N1))"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10254",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Vaccinia virus WR"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_4932",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "baker's yeast",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Saccharomyces cerevisiae"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_199310",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Escherichia coli CFT073"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585056",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Escherichia coli UMN026"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_585057",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Escherichia coli IAI39"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_359391",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "BmelAbo2308-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Brucella abortus 2308"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33090",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "plant-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Viridiplantae"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002331",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002331"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "involved_in"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "involved_in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9823",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "pig",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "pig-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Sus scrofa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0001000"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "derives_from"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "derives_from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_226185",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Enterococcus faecalis V583"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_301447",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Streptococcus pyogenes serotype M1"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "euk-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Eukaryota"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000050"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "part_of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "part_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "mouse",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "m",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Mus musculus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1392",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "anthrax-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Bacillus anthracis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_121791",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Nipah henipavirus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "BFO:0000051"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "has_part"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has_part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9031",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "chicken",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "chick-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Gallus gallus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10029",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Chinese hamster",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Cgri-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Cricetulus griseus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_283643",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Cryptococcus neoformans var. neoformans B-3501A"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_623",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Shigella flexneri"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_559292",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "y",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "yeast",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Saccharomyces cerevisiae S288c"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_224326",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Borreliella burgdorferi B31"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_192222",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Campylobacter jejuni subsp. jejuni NCTC 11168"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000040",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "bfo"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "material entity"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_narrow_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1280",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Staph-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Staphylococcus aureus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_11320",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Influenza A virus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_7227",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "fruit fly",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Drosophila melanogaster"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_4751",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "fungal-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Fungi"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Viruses",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "viral-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "virus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_234",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Bru-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Brucella"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_630",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Yersinia enterocolitica"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_197911",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "FluA-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Influenzavirus A"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_632",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Ypes-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Yersinia pestis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_353153",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Trypanosoma cruzi strain CL Brener"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/GO_0008150",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "biological_process"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "biological_process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9534",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "green monkey",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "GrMonkey-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Chlorocebus aethiops"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_122586",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Neisseria meningitidis MC58"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "type" : "PROPERTY",
+      "lbl" : "term replaced by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_170187",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Streptococcus pneumoniae TIGR4"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1773",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Mtub-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Mycobacterium tuberculosis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_208964",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Pseudomonas aeruginosa PAO1"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_40674",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "mammal-",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mammal",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Mammalia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0000087"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "has_role"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has_role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_158878",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Staphylococcus aureus subsp. aureus Mu50"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_158879",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Staphylococcus aureus subsp. aureus N315"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_273036",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Staphylococcus aureus RF122"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_185431",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Trypanosoma brucei brucei TREU927"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_441771",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Clostridium botulinum A str. Hall"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9940",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "sheep",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Ovis aries"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_189518",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Leptospira interrogans serovar Lai str. 56601"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0100026",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "obi"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "organism"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "type" : "PROPERTY",
+      "lbl" : "has_alternative_id"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_71421",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Haemophilus influenzae Rd KW20"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_211044",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Influenza A virus (A/Puerto Rico/8/1934(H1N1))"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000019",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "bfo"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_426430",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Staphylococcus aureus subsp. aureus str. Newman"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10298",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasBroadSynonym",
+          "val" : "HSV1",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Human herpesvirus 1"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10299",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "HSV1(17)",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Herpes simplex virus type 1 strain 17"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1502",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Clostridium perfringens"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000015",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "bfo"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10334",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Felid alphaherpesvirus 1"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_393305",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Yersinia enterocolitica subsp. enterocolitica 8081"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_6239",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "w",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "worm",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Caenorhabditis elegans"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_5664",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Leishmania major"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasSynonymType",
+      "type" : "PROPERTY",
+      "lbl" : "has_synonym_type"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2157",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "arch-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Archaea"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_171101",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Streptococcus pneumoniae R6"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9989",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "rodent",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Rodentia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_208435",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Streptococcus agalactiae 2603V/R"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_243277",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Vchol-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Vibrio cholerae O1 biovar El Tor str. N16961"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pr#PRO-short-label",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasScope",
+          "val" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "Unique short label for PRO terms for display purposes; based on orthology"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_273123",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Yersinia pseudotuberculosis IP 32953"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_90371",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Styphi-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Salmonella enterica subsp. enterica serovar Typhimurium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_90370",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Salmonella enterica subsp. enterica serovar Typhi"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_243160",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Burkholderia mallei ATCC 23344"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_224914",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Brucella melitensis biotype 1 (strain 16m / atcc 23456 / nctc 10094)",
+          "xrefs" : [ "PRO:CNA" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Bmel16M-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Brucella melitensis bv. 1 str. 16M"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pr#PRO-common-name",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasScope",
+          "val" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "Label appended to organism-specific terms in place of scientific name"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_36329",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Plasmodium falciparum 3D7"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1351",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Enterococcus faecalis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_237561",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Candida albicans SC5314"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_73239",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Plasmodium yoelii yoelii"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_257313",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Bordetella pertussis Tohama I"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "meta" : {
+        "definition" : {
+          "val" : "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.",
+          "xrefs" : [ "fake:2" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "molecular entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_5833",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "malaria parasite",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Plasmodium falciparum"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_85962",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Helicobacter pylori 26695"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1352",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Enterococcus faecium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_300267",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Shigella dysenteriae Sd197"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9913",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cow-",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cow",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Bos taurus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_118882",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Brucellaceae"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_85963",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Helicobacter pylori J99"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_272563",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Clostridioides difficile 630"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_272561",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Chlamydia trachomatis D/UW-3/CX"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_418127",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Staphylococcus aureus subsp. aureus Mu3"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001025",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0001025"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "located_in"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "located_in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_272560",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Burkholderia pseudomallei K96243"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "metazoan-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Metazoa"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_broad_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Fungi/Metazoa group",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Opisthokonta"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_83332",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Mycobacterium tuberculosis H37Rv"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_83333",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Ec-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Escherichia coli K-12"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_exact_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_196620",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Staphylococcus aureus subsp. aureus MW2"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002353",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002353"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "output_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "output_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_212717",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Clostridium tetani E88"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_44689",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "slime mold",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Dictyostelium discoideum"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "human",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "h",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Homo sapiens"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0000056"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "participates_in"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "participates_in"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_373153",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Streptococcus pneumoniae D39"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_227377",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Coxiella burnetii RSA 493"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_93061",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Staphylococcus aureus subsp. aureus NCTC 8325"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "type" : "PROPERTY",
+      "lbl" : "shorthand"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_99287",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "SaltyLT2-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Salmonella enterica subsp. enterica serovar Typhimurium str. LT2"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_204722",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Bsuis1330-",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Brucella suis biovar 1 (strain 1330)",
+          "xrefs" : [ "PRO:CNA" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Brucella suis 1330"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_11082",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "WNV-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "West Nile virus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000030",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "bfo"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "object"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002180"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "has_component"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has_component"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "meta" : {
+        "definition" : {
+          "val" : "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "chemical entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_7955",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "zebrafish",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Danio rerio"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_568206",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Bacillus anthracis str. CDC 684"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_282458",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Staphylococcus aureus subsp. aureus MRSA252"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_287",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Pseudomonas aeruginosa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_562",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Escherichia coli"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_3879",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "alfalfa",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Medicago sativa subsp. sativa",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Medicago sativa"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "rabbit",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "rabbit-",
+          "xrefs" : [ "PRO:DAN" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Oryctolagus cuniculus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_330879",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Aspergillus fumigatus Af293"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000024",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "bfo"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "fiat object part"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasScope",
+      "type" : "PROPERTY",
+      "lbl" : "has_scope"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "bact-",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Bacteria <prokaryote>",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Bacteria"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0008150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_585057",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_7227",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_90371",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9989"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_426430",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_85963",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_196620",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_300267",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_441771",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33208",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33154"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_122586",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_585056",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_90370",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9940",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_85962",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_273123",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_208435",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_224914",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_234"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_632",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_83333",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9989",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_393305",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_282458",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_185431",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_287",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_227377",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_630",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_272561",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_6239",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1352",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_158879",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_301447",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_283643",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_4751"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_171101",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_568206",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1392"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9989"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_272560",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_158878",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_192222",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_189518",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9823",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_199310",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1351",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_418127",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_272563",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10299",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10298"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_3879",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33090"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10334",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2759",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9913",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5664",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_93838",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_197911"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_243160",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_71421",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_330879",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_4751"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_121791",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_562",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_170187",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_204722",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_234"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_211044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_197911"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1502",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33090",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_73239",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_559292",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_4932"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_273036",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_118882",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_197911",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_373153",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5833",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OBI_0100026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_212717",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1392",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2157",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_40674",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_353153",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_234",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_118882"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_7955",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_23367",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_44689",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_99287",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_90371"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_208964",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33154",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1280",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_359391",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_234"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_83332",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1773"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_237561",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_4751"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24431",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_226185",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_243277",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10254",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_36329",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_5833"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_224326",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_257313",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11082",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1773",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_623",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_93061",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_4932",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_4751"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10298",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9534",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_4751",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33154"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11320",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_197911"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/ohpi/imports/pr_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/imports/pr_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ ],
+    "domainRangeAxioms" : [ ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

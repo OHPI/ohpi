@@ -1,0 +1,271 @@
+format-version: 1.2
+data-version: ohpi/releases/2019-04-10/imports/cl_import.owl
+ontology: ohpi/imports/cl_import
+
+[Term]
+id: CL:0000000
+name: cell
+namespace: cell
+def: "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane." []
+comment: The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).
+subset: ubprop:upper_level
+xref: CALOHA:TS-2035
+xref: FMA:68646
+xref: GO:0005623
+xref: KUPO:0000002
+xref: VHOG:0001533
+xref: WBbt:0004017
+xref: XAO:0003012
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000003
+name: native cell
+namespace: cell
+def: "A cell that is found in a natural setting, which includes multicellular organism cells 'in vivo' (i.e. part of an organism), and unicellular organisms 'in environment' (i.e. part of a natural environment)." []
+comment: To accommodate unicellular organisms better, 'cell in vivo' has been re-labeled 'native cell' to better represent its intended meaning - that is, that it is a cell in the context of a multicellular organism or in a natural environment. 'Native' is intended to contrast with 'in vitro', which refers to cells or other biological entities that have been intentionally placed in a controlled, non-natural setting for the purpose of study or manipulation. (MAH 1.12.12).
+subset: ubprop:upper_level
+synonym: "cell in vivo" NARROW []
+xref: CARO:0000013
+is_a: CL:0000000 ! cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000010
+name: cultured cell
+namespace: cell
+def: "A cell in vitro that is or has been maintained or propagated as part of a cell culture." []
+comment: Note that this class was re-labeled to 'cultured cell' instead of 'cell line cell', as it intent was clarified to cover any cultured cells of multicellular and unicellular organisms. This includes cells actively being cultured, or cells that have been cultured but are stored in a quiescent state for future use. In having been cultured, cells must establish homeostasis and often replicate in a foreign environment. Accomodation of this stress initiates a selection of cells fit for such challenges, wherein necessary adaptive biochemical and.or genetic changes can occur. These changes can set them apart from the in vivo cells from which they derive, and such changes will typically accumulate and change over increasing time in culture. 
+is_a: CL:0000000 ! cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000066
+name: epithelial cell
+namespace: cell
+def: "A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina." []
+synonym: "epitheliocyte" EXACT []
+xref: BTO:0000414
+xref: CALOHA:TS-2026
+xref: CARO:0000077
+xref: FBbt:00000124
+xref: FMA:66768
+xref: WBbt:0003672
+is_a: CL:0000003 ! native cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000081
+name: blood cell
+namespace: cell
+def: "A cell found predominately in the blood." []
+xref: FMA:62844
+is_a: CL:0000988 ! hematopoietic cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000115
+name: endothelial cell
+namespace: cell
+def: "An endothelial cell comprises the outermost layer or lining of anatomical structures and can be squamous or cuboidal. In mammals, endothelial cell has vimentin filaments and is derived from the mesoderm." []
+comment: From FMA: 9.07.2001: Endothelial cell has always been classified as a kind of epithelial cell, specifically a squamous cell but that is not true. First, endothelial cell can either be squamous or cuboidal (e.g. high-endothelial cell) and secondly, it has different embryological derivation (mesodermal) than a true epithelial cell (ectodermal and endodermal). The basis for present classification is the fact that it comprises the outermost layer or lining of anatomical structures (location-based) but a better structural basis for the differentia is the cytoskeleton of the cell. Endothelial cell has vimentin filaments while an epithelial cell has keratin filaments. [Onard].
+synonym: "endotheliocyte" EXACT []
+xref: BTO:0001176
+xref: CALOHA:TS-0278
+xref: FMA:66772
+is_a: CL:0000003 ! native cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000219
+name: motile cell
+namespace: cell
+def: "A cell that moves by its own activities." []
+is_a: CL:0000003 ! native cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000235
+name: macrophage
+namespace: cell
+def: "A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells." []
+comment: Morphology: Diameter 30_M-80 _M, abundant cytoplasm, low N/C ratio, eccentric nucleus. Irregular shape with pseudopods, highly adhesive. Contain vacuoles and phagosomes, may contain azurophilic granules; markers: Mouse & Human: CD68, in most cases CD11b. Mouse: in most cases F4/80+; role or process: immune, antigen presentation, & tissue remodelling; lineage: hematopoietic, myeloid.
+synonym: "histiocyte" EXACT []
+xref: BTO:0000801
+xref: CALOHA:TS-0587
+xref: FMA:63261
+xref: FMA:83585
+is_a: CL:0000003 ! native cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000255
+name: eukaryotic cell
+namespace: cell
+is_a: CL:0000003 ! native cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000542
+name: lymphocyte
+namespace: cell
+def: "A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin." []
+comment: Editors note: consider adding taxon constraint to vertebrata (PMID:18025161)
+xref: BTO:0000775
+xref: CALOHA:TS-0583
+xref: FMA:62863
+xref: VHOG:0001535
+is_a: CL:0000003 ! native cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000548
+name: animal cell
+namespace: cell
+subset: ubprop:upper_level
+is_a: CL:0000255 ! eukaryotic cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000576
+name: monocyte
+namespace: cell
+def: "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells." []
+comment: Morphology: Mononuclear cell, diameter, 14 to 20 _M, N/C ratio 2:1-1:1. Nucleus may appear in variety of shapes: round, kidney, lobulated, or convoluted. Fine azurophilic granules present; markers: CD11b (shared with other myeloid cells), human: CD14, mouse: F4/80-mid,GR1-low; location: Blood, but can be recruited into tissues; role or process: immune & tissue remodelling; lineage: hematopoietic, myeloid.
+xref: BTO:0000876
+xref: CALOHA:TS-0638
+xref: FMA:62864
+is_a: CL:0000003 ! native cell
+is_a: CL:0000766 ! myeloid leukocyte
+is_a: CL:0002087 ! nongranular leukocyte
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000738
+name: leukocyte
+namespace: cell
+def: "An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue." []
+synonym: "immune cell" EXACT []
+synonym: "leucocyte" EXACT []
+synonym: "white blood cell" EXACT []
+xref: BTO:0000751
+xref: CALOHA:TS-0549
+xref: FMA:62852
+is_a: CL:0000219 ! motile cell
+is_a: CL:0000988 ! hematopoietic cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000763
+name: myeloid cell
+namespace: cell
+def: "A cell of the monocyte, granulocyte, mast cell, megakaryocyte, or erythroid lineage." []
+xref: BTO:0001441
+xref: CALOHA:TS-0647
+is_a: CL:0000988 ! hematopoietic cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000766
+name: myeloid leukocyte
+namespace: cell
+def: "A cell of the monocyte, granulocyte, or mast cell lineage." []
+is_a: CL:0000738 ! leukocyte
+is_a: CL:0000763 ! myeloid cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0000988
+name: hematopoietic cell
+namespace: cell
+def: "A cell of a hematopoietic lineage." []
+synonym: "haematopoietic cell" EXACT []
+synonym: "haemopoietic cell" EXACT []
+synonym: "hemopoietic cell" EXACT []
+xref: BTO:0000574
+xref: CALOHA:TS-2017
+xref: FMA:70366
+xref: FMA:83598
+is_a: CL:0000548 ! animal cell
+is_a: CL:0002371 ! somatic cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:0002087
+name: nongranular leukocyte
+namespace: cell
+def: "A leukocyte that lacks granules." []
+synonym: "agranular leukocyte" EXACT []
+xref: FMA:62855
+is_a: CL:0000738 ! leukocyte
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+created_by: tmeehan
+creation_date: 2010-07-22T11:30:33Z
+
+[Term]
+id: CL:0002328
+name: bronchial epithelial cell
+namespace: cell
+def: "An epithelial cell of the bronchus." []
+xref: BTO:0002922
+is_a: CL:0000066 ! epithelial cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+created_by: tmeehan
+creation_date: 2010-09-20T02:00:00Z
+
+[Term]
+id: CL:0002355
+name: primitive red blood cell
+namespace: cell
+def: "A large nucleated basophilic erythrocyte found in mammalian embryos. This cell type arises from the blood islands of yolk sacs and expresses different types of hemoglobins (beta-H1, gamma-1 and zeta) than adult erythrocytes. Considered a type of erythroblast as this cell type can enucleate in circulation." []
+synonym: "primitive erythroblast" EXACT []
+synonym: "primitive erythrocyte" EXACT []
+synonym: "primitive erythroid cell" EXACT []
+is_a: CL:0000003 ! native cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+created_by: tmeehan
+creation_date: 2010-09-22T09:27:05Z
+
+[Term]
+id: CL:0002371
+name: somatic cell
+namespace: cell
+def: "A cell of an organism that does not pass on its genetic material to the organism's offspring (i.e. a non-germ line cell)." []
+subset: ubprop:upper_level
+xref: BTO:0001268
+xref: FMA:72300
+xref: WBbt:0008378
+is_a: CL:0000003 ! native cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+created_by: tmeehan
+creation_date: 2010-09-24T09:44:42Z
+
+[Term]
+id: CL:0002563
+name: intestinal epithelial cell
+namespace: cell
+def: "An epithelial cell of the intestine." []
+is_a: CL:0000066 ! epithelial cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+created_by: tmeehan
+creation_date: 2011-03-01T05:18:31Z
+
+[Term]
+id: CL:1001573
+name: nasopharyngeal epithelial cell
+def: "Cell of the nasopharyngeal epithelium." []
+synonym: "nasopharynx respiratory epithelial cells" RELATED []
+xref: CALOHA:TS-2398
+is_a: CL:0000066 ! epithelial cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+
+[Term]
+id: CL:2000008
+name: microvascular endothelial cell
+namespace: cell
+def: "Any blood vessel endothelial cell that is part of a microvascular endothelium." []
+is_a: CL:0000115 ! endothelial cell
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+created_by: TermGenie
+creation_date: 2014-06-04T15:07:42Z
+

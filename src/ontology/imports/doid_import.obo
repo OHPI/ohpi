@@ -1,0 +1,836 @@
+format-version: 1.2
+data-version: ohpi/releases/2019-04-10/imports/doid_import.owl
+ontology: ohpi/imports/doid_import
+
+[Term]
+id: DOID:0050161
+name: lower respiratory tract disease
+namespace: disease_ontology
+def: "A respiratory system disease which involves the lower respiratory tract." [url:http\://en.wikipedia.org/wiki/lower_respiratory_tract]
+xref: ICD9CM:478.1
+xref: ICD9CM:478.19
+xref: UMLS_CUI:C0029581
+is_a: DOID:1579 ! respiratory system disease
+
+[Term]
+id: DOID:0050615
+name: respiratory system cancer
+namespace: disease_ontology
+def: "An organ system cancer located_in the respiratory system that is characterized by uncontrolled cellular proliferation in the respiratory tract." [url:http\://en.wikipedia.org/wiki/Respiratory_tract_neoplasm]
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:1579 ! respiratory system disease
+
+[Term]
+id: DOID:0050686
+name: organ system cancer
+namespace: disease_ontology
+def: "A cancer that is classified based on the organ it starts in." [url:http\://cancerguide.org/basic.html]
+xref: MESH:D009371
+is_a: DOID:162 ! cancer
+created_by: snadendla
+creation_date: 2011-06-13T03:28:33Z
+
+[Term]
+id: DOID:0050687
+name: cell type cancer
+namespace: disease_ontology
+def: "A cancer that is classified by the type of cell from which it is derived." [url:http\://cancerguide.org/basic.html, url:http\://en.wikipedia.org/wiki/Cancer]
+subset: DO_MGI_slim
+is_a: DOID:162 ! cancer
+created_by: snadendla
+creation_date: 2011-06-13T03:28:50Z
+
+[Term]
+id: DOID:10155
+name: intestinal cancer
+namespace: disease_ontology
+def: "A gastrointestinal system cancer that is located_in the intestine." [url:http\://en.wikipedia.org/wiki/Intestine]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "malignant intestinal tumors" EXACT [NCI2004_11_17:C4572]
+synonym: "malignant neoplasm of intestine" EXACT [SNOMEDCT_2005_07_31:93838000]
+xref: ICD10CM:C26.0
+xref: ICD9CM:159.0
+xref: MESH:D007414
+xref: NCI2004_11_17:C4572
+xref: NCI:C4572
+xref: SNOMEDCT_US_2018_03_01:93838000
+xref: UMLS_CUI:C0346627
+is_a: DOID:3119 ! gastrointestinal system cancer
+is_a: DOID:5295 ! intestinal disease
+
+[Term]
+id: DOID:10534
+name: stomach cancer
+namespace: disease_ontology
+alt_id: DOID:10539
+alt_id: DOID:10542
+alt_id: DOID:10543
+alt_id: DOID:4713
+def: "A gastrointestinal system cancer that is located_in the stomach." [url:http\://cancergenome.nih.gov/cancersselected/stomach-esophagealcancer, url:http\://en.wikipedia.org/wiki/Stomach]
+comment: OMIM mapping confirmed by DO. [SN].
+subset: DO_cancer_slim
+subset: DO_FlyBase_slim
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "Ca body - stomach" EXACT []
+synonym: "ca greater curvature of stomach" EXACT []
+synonym: "Ca lesser curvature - stomach" EXACT []
+synonym: "gastric cancer" EXACT []
+synonym: "gastric neoplasm" EXACT []
+synonym: "malignant neoplasm of body of stomach" EXACT []
+synonym: "malignant neoplasm of lesser curve of stomach" EXACT []
+synonym: "malignant tumor of body of stomach" EXACT []
+synonym: "malignant tumor of greater curve of stomach" EXACT []
+synonym: "malignant tumor of lesser curve of stomach" EXACT []
+xref: GARD:7704
+xref: ICD10CM:C16
+xref: ICD10CM:C16.2
+xref: ICD10CM:C16.5
+xref: ICD10CM:C16.6
+xref: ICD10CM:C16.9
+xref: ICD9CM:151
+xref: ICD9CM:151.4
+xref: ICD9CM:151.5
+xref: ICD9CM:151.6
+xref: ICD9CM:151.9
+xref: MESH:D013274
+xref: NCI:C3387
+xref: NCI:C9331
+xref: OMIM:137215
+xref: OMIM:613659
+xref: SNOMEDCT_US_2018_03_01:93717002
+xref: SNOMEDCT_US_2018_03_01:93818001
+xref: SNOMEDCT_US_2018_03_01:93867004
+xref: SNOMEDCT_US_2018_03_01:94074003
+xref: UMLS_CUI:C0024623
+xref: UMLS_CUI:C0038356
+xref: UMLS_CUI:C0153421
+xref: UMLS_CUI:C0153422
+xref: UMLS_CUI:C0153423
+is_a: DOID:3119 ! gastrointestinal system cancer
+is_a: DOID:76 ! stomach disease
+
+[Term]
+id: DOID:120
+name: female reproductive organ cancer
+namespace: disease_ontology
+alt_id: DOID:1244
+alt_id: DOID:1281
+def: "A reproductive organ cancer that is manifested in the female genitals. This includes organs such as the ovaries, fallopian tubes, uterus, cervix, vagina and vulva." [url:http\://en.wikipedia.org/wiki/Template\:Female_genital_neoplasia, url:http\://www.wrongdiagnosis.com/g/genital_system_cancer/intro.htm]
+subset: NCIthesaurus
+synonym: "female reproductive cancer" EXACT []
+synonym: "malignant Gynecologic tumor" EXACT [NCI2004_11_17:C4913]
+synonym: "malignant neoplasm of female genital organ" EXACT []
+xref: ICD10CM:C57
+xref: ICD9CM:184
+xref: MESH:D005833
+xref: NCI2004_11_17:C4913
+xref: NCI:C3053
+xref: NCI:C4913
+xref: UMLS_CUI:C0017416
+xref: UMLS_CUI:C0153585
+xref: UMLS_CUI:C0699889
+is_a: DOID:193 ! reproductive organ cancer
+is_a: DOID:229 ! female reproductive system disease
+
+[Term]
+id: DOID:1240
+name: leukemia
+namespace: disease_ontology
+alt_id: DOID:9145
+def: "A cancer that affects the blood or bone marrow characterized by an abnormal proliferation of blood cells." [url:http\://en.wikipedia.org/wiki/Leukemia, url:http\://www.cancer.gov/dictionary?CdrID=45343]
+subset: DO_cancer_slim
+subset: NCIthesaurus
+xref: ICD10CM:C95
+xref: ICD10CM:C95.9
+xref: ICD10CM:C95.90
+xref: ICD9CM:208
+xref: ICD9CM:208.9
+xref: MESH:D007938
+xref: NCI:C3161
+xref: SNOMEDCT_US_2018_03_01:87163000
+xref: SNOMEDCT_US_2018_03_01:93143009
+xref: UMLS_CUI:C0023418
+is_a: DOID:2531 ! hematologic cancer
+
+[Term]
+id: DOID:1324
+name: lung cancer
+namespace: disease_ontology
+alt_id: DOID:13075
+alt_id: DOID:1322
+alt_id: DOID:9881
+def: "A respiratory system cancer that is located_in the lung." [url:http\://en.wikipedia.org/wiki/Lung_cancer]
+subset: TopNodes_DOcancerslim
+synonym: "lung neoplasm" RELATED []
+xref: ICD10CM:C34.1
+xref: ICD10CM:C34.2
+xref: ICD10CM:C34.3
+xref: ICD9CM:162.3
+xref: ICD9CM:162.4
+xref: ICD9CM:162.5
+xref: ICD9CM:162.8
+xref: OMIM:211980
+xref: OMIM:608935
+xref: OMIM:612571
+xref: OMIM:612593
+xref: OMIM:614210
+xref: UMLS_CUI:C0024624
+xref: UMLS_CUI:C0153491
+xref: UMLS_CUI:C0153492
+xref: UMLS_CUI:C0153493
+is_a: DOID:0050615 ! respiratory system cancer
+is_a: DOID:850 ! lung disease
+
+[Term]
+id: DOID:14566
+name: disease of cellular proliferation
+namespace: disease_ontology
+alt_id: DOID:0000818
+def: "A disease that is characterized by abnormally rapid cell division." [url:http\://en.wikipedia.org/w/index.php?title=Cell_proliferation]
+subset: DO_FlyBase_slim
+synonym: "cell process disease" EXACT []
+synonym: "neoplasm" EXACT []
+is_a: DOID:4 ! disease
+
+[Term]
+id: DOID:15
+name: reproductive system disease
+namespace: disease_ontology
+alt_id: DOID:6309
+def: "A disease of anatomical entity that is located_in reproductive system organs." [url:http\://en.wikipedia.org/wiki/Reproductive_system]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+subset: NCIthesaurus
+synonym: "genital system disease" EXACT []
+xref: NCI:C27613
+xref: UMLS_CUI:C1335037
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
+id: DOID:1520
+name: colon carcinoma
+namespace: disease_ontology
+def: "A colon cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells." [url:http\://en.wikipedia.org/wiki/Carcinoma]
+comment: OMIM mapping confirmed by DO. [SN].
+subset: NCIthesaurus
+synonym: "carcinoma of colon" EXACT []
+synonym: "Colonic carcinoma" EXACT [NCI2004_11_17:C4910]
+xref: NCI2004_11_17:C4910
+xref: NCI:C4910
+xref: UMLS_CUI:C0699790
+is_a: DOID:219 ! colon cancer
+is_a: DOID:305 ! carcinoma
+
+[Term]
+id: DOID:1579
+name: respiratory system disease
+namespace: disease_ontology
+alt_id: DOID:3226
+def: "A disease of anatomical entity that located_in the respiratory system which extends from the nasal sinuses to the diaphragm." [url:http\://en.wikipedia.org/wiki/File\:Respiratory_system_complete_en.svg, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=respiratory%20system]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+xref: ICD10CM:J96-J99
+xref: ICD10CM:J98
+xref: ICD9CM:510-519.99
+xref: ICD9CM:519
+xref: UMLS_CUI:C0029582
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
+id: DOID:162
+name: cancer
+namespace: disease_ontology
+def: "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis." [stedman:rlc, url:http\://en.wikipedia.org/wiki/cancer, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cancer]
+comment: Updating out dated UMLS CUI.
+subset: DO_AGR_slim
+subset: DO_FlyBase_slim
+subset: NCIthesaurus
+synonym: "malignant neoplasm" EXACT []
+synonym: "malignant tumor" EXACT []
+synonym: "primary cancer" EXACT []
+xref: ICD10CM:C80
+xref: ICD10CM:C80.1
+xref: ICD9CM:199
+xref: MESH:D009369
+xref: NCI:C9305
+xref: SNOMEDCT_US_2018_03_01:38807002
+xref: stedman:rlc
+xref: UMLS_CUI:C0006826
+is_a: DOID:14566 ! disease of cellular proliferation
+
+[Term]
+id: DOID:193
+name: reproductive organ cancer
+namespace: disease_ontology
+alt_id: DOID:1900
+def: "An organ system cancer that is manifested in the reproductive organs." [url:http\://en.wikipedia.org/wiki/Reproductive_system#Examples_of_cancers]
+subset: NCIthesaurus
+synonym: "cancer of reproductive system" RELATED []
+synonym: "malignant reproductive system neoplasm" EXACT []
+synonym: "Reproductive tumor" EXACT [NCI2004_11_17:C3674]
+xref: NCI2004_11_17:C3674
+xref: NCI:C3674
+xref: UMLS_CUI:C0178830
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:15 ! reproductive system disease
+
+[Term]
+id: DOID:219
+name: colon cancer
+namespace: disease_ontology
+def: "A large intestine cancer that is located_in the colon." [url:http\://www.cancer.gov/dictionary?CdrID=44237]
+subset: DO_cancer_slim
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+xref: ICD10CM:C18
+xref: ICD10CM:C18.9
+xref: ICD9CM:153
+xref: ICD9CM:153.9
+xref: MESH:D003110
+xref: NCI:C9242
+xref: SNOMEDCT_US_2018_03_01:93761005
+xref: UMLS_CUI:C0007102
+is_a: DOID:5353 ! colonic disease
+is_a: DOID:5672 ! large intestine cancer
+
+[Term]
+id: DOID:2253
+name: cervix disease
+namespace: disease_ontology
+def: "A uterine disease that is located_in the cervix." [url:https\://www.mdedge.com/obgmanagement/article/136739/gynecology/2017-update-cervical-disease]
+subset: NCIthesaurus
+xref: MESH:D002577
+xref: NCI:C40241
+xref: SNOMEDCT_US_2018_03_01:63339007
+xref: UMLS_CUI:C0007867
+is_a: DOID:345 ! uterine disease
+
+[Term]
+id: DOID:229
+name: female reproductive system disease
+namespace: disease_ontology
+def: "A reproductive system disease that impairs the ability to reproduce and is located in the uterus, vagina, cervix, ovaries or fallopian tubes." [url:http\://en.wikipedia.org/wiki/Female_reproductive_system, url:http\://en.wikipedia.org/wiki/Reproductive_system_disease]
+xref: ICD9CM:629.9
+xref: MESH:D005831
+xref: SNOMEDCT_US_2018_03_01:38233001
+xref: UMLS_CUI:C0017411
+is_a: DOID:15 ! reproductive system disease
+
+[Term]
+id: DOID:234
+name: colon adenocarcinoma
+namespace: disease_ontology
+def: "A colon carcinoma that derives_from epithelial cells of glandular origin." [url:http\://en.wikipedia.org/wiki/Adenocarcinoma]
+subset: DO_cancer_slim
+subset: NCIthesaurus
+synonym: "adenocarcinoma of colon" EXACT []
+synonym: "adenocarcinoma of the colon" RELATED []
+synonym: "Colonic adenocarcinoma" EXACT [NCI2004_11_17:C4349]
+xref: NCI2004_11_17:C4349
+xref: NCI:C4349
+xref: UMLS_CUI:C0338106
+is_a: DOID:1520 ! colon carcinoma
+is_a: DOID:299 ! adenocarcinoma
+
+[Term]
+id: DOID:2531
+name: hematologic cancer
+namespace: disease_ontology
+alt_id: DOID:1034
+alt_id: DOID:2532
+def: "An organ system cancer located in the hematological system that is characterized by uncontrolled cellular proliferation in blood, bone marrow and lymph nodes." [url:http\://en.wikipedia.org/wiki/Blood_cancer, url:http\://www.cancer.gov/dictionary/?CdrID=45708]
+subset: DO_FlyBase_slim
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "blood cancer" EXACT [CSP2005:2004-0139]
+synonym: "Hematologic malignancy" EXACT []
+synonym: "Hematologic neoplasm" EXACT []
+synonym: "Hematological tumors" EXACT [NCI2004_11_17:C27134]
+synonym: "hematopoietic and lymphoid system tumor" EXACT []
+synonym: "hematopoietic cancer" EXACT []
+synonym: "hematopoietic neoplasm" EXACT []
+synonym: "hematopoietic tumors" EXACT [NCI2004_11_17:C27134]
+synonym: "malignant hematopoietic neoplasm" EXACT []
+xref: CSP2005:2004-0139
+xref: MESH:D019337
+xref: NCI2004_11_17:C27134
+xref: NCI:C27134
+xref: UMLS_CUI:C0376544
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:74 ! hematopoietic system disease
+
+[Term]
+id: DOID:2893
+name: cervix carcinoma
+namespace: disease_ontology
+def: "A cervical cancer that is located_in the cervix uteri or located_in the cervical area and that has_material_basis_in abnormally proliferating cells derives_from epithelial cells." [url:http\://en.wikipedia.org/wiki/Cervical_cancer]
+comment: OMIM mapping confirmed by DO. [SN].
+subset: DO_cancer_slim
+subset: NCIthesaurus
+synonym: "cancer of cervix" EXACT [SNOMEDCT_2005_07_31:93752005]
+synonym: "carcinoma cervix uteri" EXACT []
+synonym: "carcinoma OF CERVIX" EXACT [MTH:166]
+synonym: "carcinoma of cervix" EXACT []
+synonym: "carcinoma of the Cervix Uteri" EXACT [NCI2004_11_17:C9039]
+xref: MTH:166
+xref: NCI2004_11_17:C9039
+xref: NCI:C9039
+xref: SNOMEDCT_US_2018_03_01:93752005
+xref: UMLS_CUI:C0302592
+is_a: DOID:305 ! carcinoma
+is_a: DOID:4362 ! cervical cancer
+
+[Term]
+id: DOID:299
+name: adenocarcinoma
+namespace: disease_ontology
+def: "A carcinoma that has_material_basis_in abnormally proliferating cells, derives_from epithelial cells, which originate in glandular tissue." [url:http\://en.wikipedia.org/wiki/Adenocarcinoma]
+subset: NCIthesaurus
+synonym: "adenocarcinomas" EXACT []
+xref: MESH:D000230
+xref: NCI:C2852
+xref: SNOMEDCT_US_2018_03_01:35917007
+xref: UMLS_CUI:C0001418
+is_a: DOID:305 ! carcinoma
+
+[Term]
+id: DOID:305
+name: carcinoma
+namespace: disease_ontology
+alt_id: DOID:2428
+alt_id: DOID:6570
+def: "A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells." [url:http\://en.wikipedia.org/wiki/Carcinoma]
+subset: DO_cancer_slim
+subset: DO_FlyBase_slim
+subset: NCIthesaurus
+synonym: "epithelioma" EXACT [CSP2005:2000-5801]
+synonym: "malignant Epithelioma" EXACT [NCI2004_11_17:C6927]
+xref: CSP2005:2000-5801
+xref: MESH:D002277
+xref: MESH:D009375
+xref: NCI2004_11_17:C6927
+xref: NCI:C2916
+xref: NCI:C3709
+xref: SNOMEDCT_US_2018_03_01:68453008
+xref: SNOMEDCT_US_2018_03_01:71298006
+xref: UMLS_CUI:C0007097
+xref: UMLS_CUI:C0553707
+xref: UMLS_CUI:C1368683
+is_a: DOID:0050687 ! cell type cancer
+
+[Term]
+id: DOID:3119
+name: gastrointestinal system cancer
+namespace: disease_ontology
+alt_id: DOID:4945
+alt_id: DOID:8377
+def: "An organ system cancer located_in gastrointestinal tract that is manifested in organs of the gastrointestinal system." [url:http\://en.wikipedia.org/wiki/Human_gastrointestinal_tract]
+subset: DO_FlyBase_slim
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "digestive system cancer" EXACT []
+synonym: "gastrointestinal tract cancer" EXACT [NCI2004_11_17:C4890]
+synonym: "GI tumor" EXACT [NCI2004_11_17:C3052]
+xref: ICD10CM:C26.9
+xref: ICD9CM:239.0
+xref: MESH:D004067
+xref: MESH:D005770
+xref: NCI2004_11_17:C3052
+xref: NCI2004_11_17:C4890
+xref: NCI:C3052
+xref: NCI:C4890
+xref: SNOMEDCT_US_2018_03_01:93811007
+xref: UMLS_CUI:C0012243
+xref: UMLS_CUI:C0017185
+xref: UMLS_CUI:C0685938
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:77 ! gastrointestinal system disease
+
+[Term]
+id: DOID:345
+name: uterine disease
+namespace: disease_ontology
+def: "A female reproductive system disease that is located_in the uterus." [url:http\://www.merriam-webster.com/dictionary/uterus]
+subset: NCIthesaurus
+xref: ICD10CM:N85.9
+xref: ICD9CM:621.9
+xref: MESH:D014591
+xref: NCI:C26907
+xref: SNOMEDCT_US_2018_03_01:12337004
+xref: UMLS_CUI:C0042131
+is_a: DOID:229 ! female reproductive system disease
+
+[Term]
+id: DOID:363
+name: uterine cancer
+namespace: disease_ontology
+alt_id: DOID:4363
+def: "A female reproductive organ cancer that is located_in the uterus." [url:http\://www.cancer.gov/dictionary?CdrID=445094]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "CA - cancer of uterus" EXACT [SNOMEDCT_2005_07_31:93718007]
+synonym: "malignant neoplasm of uterus" EXACT []
+synonym: "malignant uterine tumor" EXACT [NCI2004_11_17:C3552]
+synonym: "neoplasm of uterus" EXACT []
+synonym: "Tumour of uterus" EXACT []
+synonym: "uterine tumor" EXACT [NCI2004_11_17:C3435]
+synonym: "uterus neoplasm" EXACT [CSP2005:2016-1566]
+xref: CSP2005:2016-1566
+xref: ICD10CM:C55
+xref: ICD9CM:179
+xref: MESH:D014594
+xref: NCI2004_11_17:C3435
+xref: NCI2004_11_17:C3552
+xref: NCI:C3435
+xref: NCI:C3552
+xref: SNOMEDCT_US_2018_03_01:93718007
+xref: SNOMEDCT_US_2018_03_01:94127009
+xref: UMLS_CUI:C0042138
+xref: UMLS_CUI:C0153567
+is_a: DOID:120 ! female reproductive organ cancer
+is_a: DOID:345 ! uterine disease
+
+[Term]
+id: DOID:3702
+name: cervical adenocarcinoma
+namespace: disease_ontology
+def: "A cervix carcinoma that derives_from epithelial cells of glandular origin." [url:http\://en.wikipedia.org/wiki/Adenocarcinoma]
+subset: NCIthesaurus
+synonym: "adenocarcinoma cervix uteri" EXACT []
+synonym: "adenocarcinoma of cervix" EXACT []
+synonym: "adenocarcinoma of the uterine Cervix" EXACT [NCI2004_11_17:C4029]
+xref: NCI2004_11_17:C4029
+xref: NCI:C4029
+xref: UMLS_CUI:C0279672
+is_a: DOID:2893 ! cervix carcinoma
+is_a: DOID:299 ! adenocarcinoma
+
+[Term]
+id: DOID:3717
+name: gastric adenocarcinoma
+namespace: disease_ontology
+def: "A stomach carcinoma that derives_from epithelial cells of glandular origin." [url:http\://en.wikipedia.org/wiki/Adenocarcinoma]
+subset: DO_cancer_slim
+subset: NCIthesaurus
+synonym: "adenocarcinoma of stomach" EXACT []
+synonym: "stomach adenocarcinoma" EXACT [NCI2004_11_17:C4004]
+xref: NCI2004_11_17:C4004
+xref: NCI:C4004
+xref: UMLS_CUI:C0278701
+is_a: DOID:299 ! adenocarcinoma
+is_a: DOID:5517 ! stomach carcinoma
+
+[Term]
+id: DOID:3905
+name: lung carcinoma
+namespace: disease_ontology
+def: "A lung cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells and is located_in the lungs and has_symptom cough and has_symptom chest discomfort or pain and has_symptom weight loss and has_symptom hemoptysis." [url:https\://merck.com/mmpe/sec05/ch062/ch062b.html]
+comment: OMIM mapping confirmed by DO. [SN].
+subset: DO_cancer_slim
+subset: NCIthesaurus
+synonym: "cancer of lung" EXACT [NCI2004_11_17:C4878]
+synonym: "carcinoma of lung" RELATED []
+xref: EFO:0001071
+xref: ICD10CM:C34.90
+xref: NCI2004_11_17:C4878
+xref: NCI:C4878
+xref: UMLS_CUI:C0684249
+is_a: DOID:1324 ! lung cancer
+is_a: DOID:305 ! carcinoma
+
+[Term]
+id: DOID:3908
+name: non-small cell lung carcinoma
+namespace: disease_ontology
+def: "A lung carcinoma that is characterized as any type of epithelial lung cancer other than small cell lung carcinoma." [url:http\://en.wikipedia.org/wiki/Non-small-cell_lung_carcinoma]
+subset: DO_cancer_slim
+subset: NCIthesaurus
+synonym: "Non-small cell lung cancer" EXACT []
+synonym: "NSCLC" EXACT []
+xref: EFO:0003060
+xref: KEGG:05223
+xref: MESH:D002289
+xref: NCI:C2926
+xref: UMLS_CUI:C0007131
+is_a: DOID:3905 ! lung carcinoma
+
+[Term]
+id: DOID:4
+name: disease
+namespace: disease_ontology
+def: "A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism." [url:http\://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf]
+subset: NCIthesaurus
+xref: MESH:D004194
+xref: NCI:C2991
+xref: SNOMEDCT_US_2018_03_01:64572001
+xref: UMLS_CUI:C0012634
+
+[Term]
+id: DOID:4362
+name: cervical cancer
+namespace: disease_ontology
+alt_id: DOID:4361
+def: "A female reproductive organ cancer that is located_in the cervix." [url:http\://cancergenome.nih.gov/cancersselected/cervicalcancer, url:http\://en.wikipedia.org/wiki/Cervical_cancer, url:http\://www.cancer.gov/dictionary?CdrID=444973]
+subset: DO_cancer_slim
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "cervical neoplasm" EXACT [CSP2005:2016-1746]
+synonym: "cervix cancer" EXACT []
+synonym: "cervix uteri cancer" EXACT []
+synonym: "neoplasm of uterine cervix" EXACT []
+synonym: "tumor of the Cervix Uteri" EXACT [NCI2004_11_17:C2940]
+synonym: "uterine cervical neoplasm" EXACT []
+xref: CSP2005:2016-1746
+xref: ICD10CM:C53
+xref: ICD10CM:C53.9
+xref: ICD9CM:180
+xref: ICD9CM:180.9
+xref: MESH:D002583
+xref: NCI2004_11_17:C2940
+xref: NCI:C2940
+xref: NCI:C9311
+xref: OMIM:603956
+xref: SNOMEDCT_US_2018_03_01:93752005
+xref: UMLS_CUI:C0007847
+xref: UMLS_CUI:C0007873
+is_a: DOID:2253 ! cervix disease
+is_a: DOID:363 ! uterine cancer
+
+[Term]
+id: DOID:5295
+name: intestinal disease
+namespace: disease_ontology
+alt_id: DOID:10759
+alt_id: DOID:11222
+alt_id: DOID:11789
+alt_id: DOID:8531
+alt_id: DOID:8558
+alt_id: DOID:8591
+def: "A gastrointestinal system disease that is located_in the intestine." [url:http\://en.wikipedia.org/wiki/Human_gastrointestinal_tract]
+subset: NCIthesaurus
+xref: ICD10CM:K63.9
+xref: ICD9CM:569.9
+xref: MESH:D007410
+xref: NCI:C26801
+xref: SNOMEDCT_US_2018_03_01:85919009
+xref: UMLS_CUI:C0021831
+is_a: DOID:77 ! gastrointestinal system disease
+
+[Term]
+id: DOID:5353
+name: colonic disease
+namespace: disease_ontology
+alt_id: DOID:10758
+synonym: "colon disorder" EXACT [CSP2005:1248-3971]
+xref: CSP2005:1248-3971
+xref: MESH:D003108
+xref: UMLS_CUI:C0009373
+is_a: DOID:5295 ! intestinal disease
+
+[Term]
+id: DOID:5517
+name: stomach carcinoma
+namespace: disease_ontology
+def: "A stomach cancer that is located_in the stomach." [url:http\://en.wikipedia.org/wiki/Stomach_cancer]
+subset: NCIthesaurus
+synonym: "cancer of the stomach" EXACT [NCI2004_11_17:C4911]
+synonym: "carcinoma of stomach" EXACT []
+synonym: "gastric carcinoma" EXACT []
+xref: EFO:0000178
+xref: NCI2004_11_17:C4911
+xref: NCI:C4911
+xref: UMLS_CUI:C0699791
+is_a: DOID:10534 ! stomach cancer
+is_a: DOID:305 ! carcinoma
+
+[Term]
+id: DOID:5672
+name: large intestine cancer
+namespace: disease_ontology
+alt_id: DOID:1994
+alt_id: DOID:1997
+def: "An intestinal cancer that effects the long, tube-like organ that is connected to the small intestine at one end and the anus at the other." [url:http\://en.wikipedia.org/wiki/Large_intestine]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+xref: ICD10CM:C18.9
+xref: MESH:D015179
+xref: NCI:C2955
+xref: NCI:C4978
+xref: NCI:C5105
+xref: SNOMEDCT_US_2018_03_01:93854002
+xref: UMLS_CUI:C0009402
+xref: UMLS_CUI:C0346629
+xref: UMLS_CUI:C1319315
+is_a: DOID:10155 ! intestinal cancer
+
+[Term]
+id: DOID:7
+name: disease of anatomical entity
+namespace: disease_ontology
+alt_id: DOID:1
+alt_id: DOID:2
+alt_id: DOID:5
+alt_id: DOID:71
+alt_id: DOID:72
+alt_id: DOID:8
+def: "A disease that manifests in a defined anatomical structure." [DO:wk\,ls, URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anatomic]
+is_a: DOID:4 ! disease
+
+[Term]
+id: DOID:74
+name: hematopoietic system disease
+namespace: disease_ontology
+def: "A disease of anatomical entity that has_material_basis_in hematopoietic cells." [url:http\://en.wikipedia.org/wiki/Hematopathology, url:https\://www.ncbi.nlm.nih.gov/books/NBK1741/]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+subset: NCIthesaurus
+synonym: "Blood disease" EXACT []
+synonym: "blood disorder" EXACT [CSP2005:0427-3600]
+synonym: "Blood dyscrasia" EXACT [MTHICD9_2006:289.9]
+synonym: "disease of hematopoietic system" EXACT []
+synonym: "DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS" EXACT [ICD9CM_2006:280-289.99]
+synonym: "Hematological disease" EXACT [MTH:NOCODE]
+xref: CSP2005:0427-3600
+xref: ICD10CM:D75.9
+xref: ICD9CM:280-289.99
+xref: ICD9CM:289.9
+xref: ICD9CM_2006:280-289.99
+xref: MESH:D006402
+xref: MTH:NOCODE
+xref: MTHICD9_2006:289.9
+xref: NCI:C26323
+xref: SNOMEDCT_US_2018_03_01:34093004
+xref: UMLS_CUI:C0018939
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
+id: DOID:76
+name: stomach disease
+namespace: disease_ontology
+def: "A gastrointestinal system disease that is located_in the stomach." [url:http\://en.wikipedia.org/wiki/Stomach_disease]
+subset: NCIthesaurus
+synonym: "gastric disease" RELATED []
+synonym: "Gastropathy" EXACT []
+synonym: "stomach disorder" EXACT [NCI2004_11_17:C26886]
+xref: MESH:D013272
+xref: NCI2004_11_17:C26886
+xref: NCI:C26886
+xref: SNOMEDCT_US_2018_03_01:29384001
+xref: UMLS_CUI:C0038354
+is_a: DOID:77 ! gastrointestinal system disease
+
+[Term]
+id: DOID:77
+name: gastrointestinal system disease
+namespace: disease_ontology
+alt_id: DOID:27
+alt_id: DOID:944
+def: "A disease of anatomical entity that is located_in the gastrointestinal tract." [url:http\://en.wikipedia.org/wiki/Human_gastrointestinal_tract]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+synonym: "alimentary system disease" EXACT []
+synonym: "digestive system disorder" EXACT []
+synonym: "Gastroenteropathy" EXACT [SNOMEDCT_2005_07_31:25374005]
+synonym: "gastrointestinal disease" EXACT []
+synonym: "gastrointestinal disorder" EXACT [CSP2005:1248-3545]
+synonym: "GIT disease" EXACT [SNOMEDCT_2005_07_31:53619000]
+xref: CSP2005:1248-3545
+xref: ICD10CM:K92.9
+xref: ICD9CM:520-579.99
+xref: MESH:D004066
+xref: SNOMEDCT_US_2018_03_01:53619000
+xref: UMLS_CUI:C0012242
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
+id: DOID:850
+name: lung disease
+namespace: disease_ontology
+alt_id: DOID:11894
+alt_id: DOID:11895
+alt_id: DOID:29
+alt_id: DOID:766
+def: "A lower respiratory tract disease in which the function of the lungs is adversely affected by narrowing or blockage of the airways resulting in poor air flow, a loss of elasticity in the lungs that produces a decrease in the total volume of air that the lungs are able to hold, and clotting, scarring, or inflammation of the blood vessels that affect the ability of the lungs to take up oxygen and to release carbon dioxide." [url:http\://www.niehs.nih.gov/health/topics/conditions/lung-disease/index.cfm, url:http\://www.nlm.nih.gov/medlineplus/ency/article/000066.htm]
+comment: Updating out dated CUI and removing lung abscess as a synonym.
+subset: NCIthesaurus
+xref: ICD10CM:J98.4
+xref: MESH:D008171
+xref: NCI:C3198
+xref: SNOMEDCT_US_2018_03_01:19829001
+xref: UMLS_CUI:C0024115
+is_a: DOID:0050161 ! lower respiratory tract disease
+
+[Term]
+id: DOID:8527
+name: monocytic leukemia
+namespace: disease_ontology
+alt_id: DOID:8526
+alt_id: DOID:8809
+alt_id: DOID:8884
+alt_id: DOID:8935
+alt_id: DOID:9151
+def: "A myeloid leukemia that is characterized by a dominance of monocytes in the marrow." [url:https\://en.wikipedia.org/wiki/Monocytic_leukemia]
+synonym: "Schilling's leukemia" EXACT [CSP2005:2004-2820]
+xref: CSP2005:2004-2820
+xref: ICD10CM:C93
+xref: ICD9CM:206.8
+xref: UMLS_CUI:C0153903
+is_a: DOID:8692 ! myeloid leukemia
+
+[Term]
+id: DOID:8692
+name: myeloid leukemia
+namespace: disease_ontology
+alt_id: DOID:8878
+alt_id: DOID:8879
+alt_id: DOID:8910
+alt_id: DOID:9066
+alt_id: DOID:9126
+def: "A leukemia that is located_in myeloid tissue." [url:http\://en.wikipedia.org/wiki/Myeloid_leukemia]
+subset: NCIthesaurus
+synonym: "leukemia myelogenous" EXACT [MTH:NOCODE]
+synonym: "myeloid granulocytic leukemia" EXACT [CSP2005:2004-4431]
+synonym: "Non-Lymphocytic Leukemia" EXACT [NCI2004_11_17:C3172]
+xref: CSP2005:2004-4431
+xref: GARD:8226
+xref: ICD10CM:C92
+xref: ICD10CM:C92.9
+xref: ICD10CM:C92.90
+xref: ICD9CM:205
+xref: ICD9CM:205.9
+xref: MESH:D007951
+xref: MTH:NOCODE
+xref: NCI2004_11_17:C3172
+xref: NCI:C3172
+xref: SNOMEDCT_US_2018_03_01:37810007
+xref: SNOMEDCT_US_2018_03_01:94717009
+xref: UMLS_CUI:C0023470
+is_a: DOID:1240 ! leukemia
+
+[Term]
+id: DOID:8864
+name: acute monocytic leukemia
+namespace: disease_ontology
+alt_id: DOID:9208
+def: "A monocytic leukemia where the majority of monocytic cells are promonocytes." [url:https\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=18.09d&ns=ncit&code=C4861]
+comment: OMIM mapping confirmed by DO. [SN].
+synonym: "acute Monoblastic Leukemia and acute Monocytic Leukemia" EXACT [NCI2004_11_17:C7318]
+synonym: "acute monocytic leukemia without mention of remission" EXACT []
+synonym: "acute monocytic leukemia, FAB M5" EXACT [SNOMEDCT_2005_07_31:91859000]
+synonym: "acute monocytic leukemia, morphology" EXACT [SNOMEDCT_2005_07_31:22331004]
+xref: GARD:525
+xref: ICD9CM:206.0
+xref: MESH:D007948
+xref: NCI2004_11_17:C7318
+xref: OMIM:151380
+xref: SNOMEDCT_US_2018_03_01:22331004
+xref: SNOMEDCT_US_2018_03_01:91859000
+xref: UMLS_CUI:C0023465
+is_a: DOID:8527 ! monocytic leukemia
+
+[Typedef]
+id: IDO:0000664
+name: has material basis in
+

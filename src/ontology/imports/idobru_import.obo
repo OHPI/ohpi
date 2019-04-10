@@ -1,0 +1,59 @@
+format-version: 1.2
+data-version: ohpi/releases/2019-04-10/imports/idobru_import.owl
+ontology: ohpi/imports/idobru_import
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/ido/brucellosis.owl>))\nDeclaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000179>))\nDeclaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000180>))\n############################\n#   Annotation Properties\n############################\n\n# Annotation Property: <http://purl.obolibrary.org/obo/BFO_0000179> (BFO OWL specification label)\n\nSubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000179> rdfs:label)\n\n# Annotation Property: <http://purl.obolibrary.org/obo/BFO_0000180> (BFO CLIF specification label)\n\nSubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000180> rdfs:label)\n\n\n\n\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> _:genid2147483650 <http://purl.obolibrary.org/obo/ido/brucellosis.owl>)\nObjectPropertyAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> _:genid2147483651 <http://purl.obolibrary.org/obo/ido/brucellosis.owl>)\n)
+
+[Term]
+id: BFO:0000016
+name: disposition
+property_value: BFO:0000179 "disposition" xsd:string
+property_value: BFO:0000180 "Disposition" xsd:string
+property_value: IAO:0000112 "an atom of element X has the disposition to decay to an atom of element Y" xsd:string
+property_value: IAO:0000112 "certain people have a predisposition to colon cancer" xsd:string
+property_value: IAO:0000112 "children are innately disposed to categorize objects in certain ways." xsd:string
+property_value: IAO:0000112 "the cell wall is disposed to filter chemicals in endocitosis and exocitosis" xsd:string
+property_value: IAO:0000112 "the cell wall is disposed to filter chemicals in endocytosis and exocytosis" xsd:string
+property_value: IAO:0000116 "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type [89" xsd:string
+property_value: IAO:0000116 "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type." xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido/brucellosis.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogg/ogg-bru.owl
+property_value: IAO:0000600 "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])" xsd:string
+property_value: IAO:0000601 "If b is a realizable entity then for all t at which b exists, b s-depends_on some material entity at t. (axiom label in BFO2 Reference: [063-002])" xsd:string
+property_value: IAO:0000602 "(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] " xsd:string
+property_value: IAO:0000602 "(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] " xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: IDO:0100879
+name: attenuated disposition
+def: "A disposition of a pathogen becoming harmless or less virulent towards its host, when the pathogen is altered physically or genetically. This disposition is realized in the process of the pathogen-host interaction. It is host dependent, or host specific." []
+is_a: BFO:0000016 ! disposition
+property_value: http://purl.org/dc/elements/1.1/creator "YL, Y.H." xsd:string
+property_value: IAO:0000119 http://en.wikipedia.org/wiki/Attenuated_vaccine xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido/brucellosis.owl
+
+[Typedef]
+id: BFO:0000054
+name: realized in
+
+[Typedef]
+id: BFO:0000176
+name: part of continuant at some time
+
+[Typedef]
+id: BFO:0000186
+name: part of continuant at all times that whole exists
+is_transitive: true
+
+[Typedef]
+id: IAO:0000412
+name: imported from
+def: "For external terms/classes, the ontology from which the term was imported" []
+property_value: IAO:0000111 "imported from" xsd:string
+property_value: IAO:0000114 IAO:0000125
+property_value: IAO:0000117 "PERSON:Alan Ruttenberg" xsd:string
+property_value: IAO:0000117 "PERSON:Melanie Courtot" xsd:string
+property_value: IAO:0000119 GROUP:OBI:<http://purl.obolibrary.org/obo/obi> xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido/brucellosis.owl
+property_value: isDefinedBy http://purl.obolibrary.org/obo/iao.owl
+

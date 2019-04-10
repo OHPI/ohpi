@@ -1,0 +1,58 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohpi/imports/clo_import.owl
+
+[Source ontology]
+CLO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CLO_0003684 #HeLa cell
+http://purl.obolibrary.org/obo/CLO_0003707 #HEp-2 cell
+http://purl.obolibrary.org/obo/CLO_0009348 #THP-1 cell
+http://purl.obolibrary.org/obo/CLO_0002172 #Caco-2 cell
+http://purl.obolibrary.org/obo/CLO_0002752 #Detroit 562 cell
+http://purl.obolibrary.org/obo/CLO_0009524 #Vero cell
+http://purl.obolibrary.org/obo/CLO_0001686 #AGS cell
+http://purl.obolibrary.org/obo/CLO_0002421 #CHO cell
+http://purl.obolibrary.org/obo/CLO_0050025 #A549
+http://purl.obolibrary.org/obo/CLO_0007393 #LS 174T cell
+http://purl.obolibrary.org/obo/CLO_0006953 #INT 407 cell
+http://purl.obolibrary.org/obo/CLO_0001601 #A549 cell
+http://purl.obolibrary.org/obo/CLO_0008080 #NCI-H292 cell
+http://purl.obolibrary.org/obo/CLO_0007005 #J774A.1 cell
+http://purl.obolibrary.org/obo/CLO_0000001 #cell line cell
+http://purl.obolibrary.org/obo/CLO_0000000 #cell line cell culturing
+includeAllChildren
+http://purl.obolibrary.org/obo/CLO_0000030 #cell culture growth mode
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CLO_0000001
+subClassOf http://purl.obolibrary.org/obo/CL_0000010
+
+http://purl.obolibrary.org/obo/CLO_0000000
+subClassOf http://purl.obolibrary.org/obo/OBI_0600024
+
+http://purl.obolibrary.org/obo/CLO_0000008
+subClassOf http://purl.obolibrary.org/obo/OBI_0000245
+
+http://purl.obolibrary.org/obo/CLO_0000042
+subClassOf http://purl.obolibrary.org/obo/CLO_0000019
+
+http://purl.obolibrary.org/obo/CLO_0000005
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023
+
+# Temporary fix for CLO
+http://www.ebi.ac.uk/cellline#cervical_carcinoma
+subClassOf http://purl.obolibrary.org/obo/DOID_4362
+
+# Temporary fix for CLO
+http://www.ebi.ac.uk/efo/EFO_0000834
+subClassOf http://purl.obolibrary.org/obo/UBERON_0004921
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
