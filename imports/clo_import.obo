@@ -1,0 +1,1373 @@
+format-version: 1.2
+data-version: ohpi/releases/2019-04-10/imports/clo_import.owl
+ontology: ohpi/imports/clo_import
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000006>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000019>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000042>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000106>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000129>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000219>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000220>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000236>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000243>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000249>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000283>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000493>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000511>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000513>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000533>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000549>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000563>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000636>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0000936>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0001601>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0001686>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0002172>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0002421>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0003684>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0003707>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0006953>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0007393>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0008080>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0009524>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CLO_0050025>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CL_0000066>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/DOID_299>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/DOID_305>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10029>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10090>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9534>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_9606>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000002>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000068>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000170>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000945>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000992>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001155>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002113>))\nDeclaration(Class(<http://www.ebi.ac.uk/efo/EFO_0000834>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000050>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000052>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000176>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000186>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/CLO_0000167>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/CLO_0000174>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/CLO_0037208>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0001000>))\nDeclaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002488>))\nDeclaration(NamedIndividual(<http://purl.obolibrary.org/obo/CLO_0000173>))\nDeclaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000179>))\nDeclaration(AnnotationProperty(<http://purl.obolibrary.org/obo/BFO_0000180>))\n############################\n#   Annotation Properties\n############################\n\n# Annotation Property: <http://purl.obolibrary.org/obo/BFO_0000179> (BFO OWL规范标签)\n\nSubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000179> rdfs:label)\n\n# Annotation Property: <http://purl.obolibrary.org/obo/BFO_0000180> (BFO CLIF specification label)\n\nSubAnnotationPropertyOf(<http://purl.obolibrary.org/obo/BFO_0000180> rdfs:label)\n\n\n\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000016> (倾向)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000176> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000023>)))\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000186> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000023>)))\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000017> (可实现实体)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000017> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000176> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000019>)))\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000017> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000186> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000019>)))\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (特定依赖性常体)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000052> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000004> ObjectComplementOf(<http://purl.obolibrary.org/obo/BFO_0000006>))))\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000176> ObjectComplementOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000031>))))\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> ObjectAllValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000186> ObjectComplementOf(ObjectUnionOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000031>))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000042> (immortal mouse cell line cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000042> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CLO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_10090>))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000219> (immortal lung-derived cell line cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000219> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000170>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000220> (immortal kidney-derived cell line cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0002113>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000236> (immortal colon-derived cell line cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/CLO_0037208> <http://purl.obolibrary.org/obo/UBERON_0001155>))\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0001155>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000243> (immortal female gonad-derived cell line cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000243> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000992>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000249> (immortal stomach-derived cell line cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000945>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000283> (immortal uterine cervix-derived epithelial cell line cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000283> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/UBERON_0000002>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000493> (immortal human lung-derived cell line cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000493> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CLO_0000219> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000493> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000511> (immortal human cell line cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000511> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CLO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000511> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000513> (immortal human colon-derived cell line cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000513> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CLO_0000236> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000513> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000533> (永生的黑长尾猴肾衍生细胞系细胞)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000533> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CLO_0000220> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9534>))))\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000533> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9534>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000549> (immortal human stomach-derived cell line cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000549> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CLO_0000249> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000549> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000563> (永生的人上皮细胞系细胞)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000563> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CLO_0000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000563> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000636> (永生的人宫颈衍生上皮细胞系细胞)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000636> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CLO_0000283> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000636> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0000936> (immortal human monocyte cell line cell)\n\nEquivalentClasses(<http://purl.obolibrary.org/obo/CLO_0000936> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CLO_0000106> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0000936> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0001601> (A549 cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0001601> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/CLO_0000167> <http://purl.obolibrary.org/obo/DOID_305>))))))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0001686> (AGS cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0001686> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000945> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0002172> (Caco-2 cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0002172> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001155> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0002421> (CHO cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0002421> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000992> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_10029>))))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0003684> (HeLa cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0003684> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/CLO_0000167> <http://purl.obolibrary.org/obo/DOID_299>))))))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0003707> (HEp-2 cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0003707> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000066> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0006953> (INT 407 cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0006953> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002488> <http://purl.obolibrary.org/obo/UBERON_0000068>))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0007393> (LS 174T cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0007393> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0001155> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0008080> (NCI-H292 cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0008080> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0000170> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9606>))))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0009524> (Vero cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0009524> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0001000> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/CL_0000000> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/UBERON_0002113> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/NCBITaxon_9534>))))))\n\n# Class: <http://purl.obolibrary.org/obo/CLO_0050025> (RCB0098 cell)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CLO_0050025> ObjectHasValue(<http://purl.obolibrary.org/obo/CLO_0000174> <http://purl.obolibrary.org/obo/CLO_0000173>))\n\n# Class: <http://www.ebi.ac.uk/efo/EFO_0000834> (intestine)\n\nEquivalentClasses(<http://www.ebi.ac.uk/efo/EFO_0000834> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://www.ebi.ac.uk/efo/EFO_0000834>))\n\n\n\n)
+
+[Term]
+id: BFO:0000001
+name: entity
+name: 实体
+property_value: BFO:0000179 "entity" xsd:string
+property_value: BFO:0000179 "entity" xsd:string
+property_value: BFO:0000179 "实体" xsd:string
+property_value: BFO:0000180 "Entity" xsd:string
+property_value: BFO:0000180 "Entity" xsd:string
+property_value: BFO:0000180 "实体" xsd:string
+property_value: editor_note "BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81" xsd:string
+property_value: editor_note "BFO 2参考：在经验性总结分析的所有领域，我们遇到两种一般术语。首先是指共相或类型的一般术语：animaltuberculosissurgical proceduredisease其次，是用来指以下实例组的一般术语，这些实例组实例化一个给定共性但对应于该共相的任何子共相的扩展，因为没有实体的内在本质讨论因为他们-只有他们-被视为属于给定的群体。例子是：对斯德哥尔摩病人进行的周三手术过程中诊断出结核分枝杆菌而购买的动物，被确定为临床试验的候选人＃2056-555根据莱昂纳多·达·芬奇（Leonardo da Vinci）条款制定的656-PPV表格的签名人。这些术语代表所谓的“专业化'[81" xsd:string
+property_value: editor_note "Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf" xsd:string
+property_value: editor_note "实体不具有闭合公理，因为子类不一定丧失所有可能性。例如，Werner Ceusters的“现实的部分”包括4类，实体（当BFO构造它们时）、普遍性、配置和关系。这是一个开放性的问题，即在BFO中所解释的实体是否会在某个时候也包含这些其他的现实部分。参见，例如“如何完全追踪所有事物”在http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf" xsd:string
+property_value: IAO:0000111 "entity" xsd:string
+property_value: IAO:0000111 "实体" xsd:string
+property_value: IAO:0000112 "Julius Caesar" xsd:string
+property_value: IAO:0000112 "the Second World War" xsd:string
+property_value: IAO:0000112 "Verdi’s Requiem" xsd:string
+property_value: IAO:0000112 "your body mass index" xsd:string
+property_value: IAO:0000112 "你的身体质量指数" xsd:string
+property_value: IAO:0000112 "凯撒大帝" xsd:string
+property_value: IAO:0000112 "威尔第年代安魂曲" xsd:string
+property_value: IAO:0000112 "第二次世界大战" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/BFO
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogg.owl
+property_value: IAO:0000600 "An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])" xsd:string
+property_value: IAO:0000600 "一个实体是存在或已经存在或将存在的任何事物。 （BFO2公理标签参考：[001-001]）" xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000002
+name: continuant
+name: 常体
+def: "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts." []
+def: "一个在任何时候都存在的实体，它持续存在，在维持其特性的同时且没有暂时的部分。" []
+is_a: BFO:0000001 ! entity
+property_value: BFO:0000179 "continuant" xsd:string
+property_value: BFO:0000179 "continuant" xsd:string
+property_value: BFO:0000179 "常体" xsd:string
+property_value: BFO:0000180 "Continuant" xsd:string
+property_value: BFO:0000180 "Continuant" xsd:string
+property_value: BFO:0000180 "常体" xsd:string
+property_value: editor_note "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240" xsd:string
+property_value: editor_note "BFO 2参考：持续实体是可以被分割的实体，只能沿着空间维度分割成部分，例如产生您的桌子的部分，我们称之为它的腿、顶部、指甲。 “我的桌子从窗户延伸到门口。它有空间部分，可以在空间切成两半。不过，就时间而言，一个事物是连续的。“[60，p。 240" xsd:string
+property_value: editor_note "Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants" xsd:string
+property_value: editor_note "常体不具有闭合公理，因为子类不一定丧失所有可能性。例如，在涉及引入一些Ceuster的实体的其他部分的扩展中，提出了普遍性是否是连续性的问题" xsd:string
+property_value: IAO:0000111 "continuant" xsd:string
+property_value: IAO:0000111 "常体" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogg.owl
+property_value: IAO:0000600 "A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])" xsd:string
+property_value: IAO:0000600 "一个常体是一个持续、持久或持续存在且同时保持其身份的实体。 （BFO2中的公理标签参考：[008-002]）" xsd:string
+property_value: IAO:0000601 "if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])" xsd:string
+property_value: IAO:0000601 "if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])" xsd:string
+property_value: IAO:0000601 "if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])" xsd:string
+property_value: IAO:0000601 "如果b是一个常体，并且如果对于某个t，c在t时刻具有_常体_部分b，则c是一个常体。 （BFO2公理标签参考：[126-001]）" xsd:string
+property_value: IAO:0000601 "如果b是一个常体，并且如果，对于某个t，c是在t时刻的b的常体_部分，则c是一个常体。 （BFO2公理标签参考：[009-002]）" xsd:string
+property_value: IAO:0000601 "如果b是物质实体，则在b存在期间有一些时间间隔（以下称为一维时间区域）。 （BFO2公理标签：[011-002]）" xsd:string
+property_value: IAO:0000602 "(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] " xsd:string
+property_value: IAO:0000602 "(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] " xsd:string
+property_value: IAO:0000602 "(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] " xsd:string
+property_value: IAO:0000602 "(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] " xsd:string
+property_value: IAO:0000602 "(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] " xsd:string
+property_value: IAO:0000602 "(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] " xsd:string
+property_value: IAO:0000602 "(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] " xsd:string
+property_value: IAO:0000602 "(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] " xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000004
+name: independent continuant
+name: 独立常体
+
+[Term]
+id: BFO:0000006
+name: spatial region
+
+[Term]
+id: BFO:0000016
+name: disposition
+name: 倾向
+is_a: BFO:0000017 ! 可实现实体
+property_value: BFO:0000179 "disposition" xsd:string
+property_value: BFO:0000179 "disposition" xsd:string
+property_value: BFO:0000179 "倾向" xsd:string
+property_value: BFO:0000180 "Disposition" xsd:string
+property_value: BFO:0000180 "Disposition" xsd:string
+property_value: BFO:0000180 "倾向" xsd:string
+property_value: editor_note "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type [89" xsd:string
+property_value: editor_note "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type." xsd:string
+property_value: editor_note "BFO 2参考：倾向存在于强度连续体中。只有一小部分触发事件才能实现较弱的倾向形式。这些形式出现在相当数量的类似案例中。" xsd:string
+property_value: IAO:0000111 "disposition" xsd:string
+property_value: IAO:0000111 "倾向" xsd:string
+property_value: IAO:0000112 "an atom of element X has the disposition to decay to an atom of element Y" xsd:string
+property_value: IAO:0000112 "certain people have a predisposition to colon cancer" xsd:string
+property_value: IAO:0000112 "children are innately disposed to categorize objects in certain ways." xsd:string
+property_value: IAO:0000112 "the cell wall is disposed to filter chemicals in endocitosis and exocitosis" xsd:string
+property_value: IAO:0000112 "the cell wall is disposed to filter chemicals in endocytosis and exocytosis" xsd:string
+property_value: IAO:0000112 "元素X的原子具有衰减到元素Y的原子的倾向" xsd:string
+property_value: IAO:0000112 "孩子天生就倾向于以特定的方式对物体进行分类。" xsd:string
+property_value: IAO:0000112 "某些人有结肠癌的倾向" xsd:string
+property_value: IAO:0000112 "细胞壁被设置为过滤内吞作用和胞吐作用中的化学物质" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogg.owl
+property_value: IAO:0000600 "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])" xsd:string
+property_value: IAO:0000600 "b是倾向方式：b是可实现的实体； b的持有人是一些物质实体； b是这样的，如果它不复存在，那么它的持有人发生了物理变化； b的实现发生在且因为这个持有者处于一些特殊的物理环境中；这种实现是由于持有者的物理构成而发生的。 （BFO2公理标签参考：[062-002]）" xsd:string
+property_value: IAO:0000601 "If b is a realizable entity then for all t at which b exists, b s-depends_on some material entity at t. (axiom label in BFO2 Reference: [063-002])" xsd:string
+property_value: IAO:0000601 "如果b是一个可实现的实体，那么对于存在b的所有t时刻，b s-依赖_于t时刻的一个物质实体。 （BFO2公理标签参考：[063-002]）" xsd:string
+property_value: IAO:0000602 "(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] " xsd:string
+property_value: IAO:0000602 "(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] " xsd:string
+property_value: IAO:0000602 "(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] " xsd:string
+property_value: IAO:0000602 "(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] " xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000017
+name: realizable entity
+name: 可实现实体
+def: "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances." []
+def: "一个特定依赖性常体，在常体实体中存在，并且在每个实体或一组实体中都不会全部展现出来。可实现实体的展示或实现是在特定情况下发生的特定表现、功能或过程。" []
+is_a: BFO:0000020 ! 特定依赖性常体
+property_value: BFO:0000179 "realizable" xsd:string
+property_value: BFO:0000179 "realizable" xsd:string
+property_value: BFO:0000179 "可实现的" xsd:string
+property_value: BFO:0000180 "RealizableEntity" xsd:string
+property_value: BFO:0000180 "RealizableEntity" xsd:string
+property_value: BFO:0000180 "可实现实体(RealizableEntity)" xsd:string
+property_value: IAO:0000111 "realizable entity" xsd:string
+property_value: IAO:0000111 "可实现实体" xsd:string
+property_value: IAO:0000112 "the disposition of this piece of metal to conduct electricity." xsd:string
+property_value: IAO:0000112 "the disposition of your blood to coagulate" xsd:string
+property_value: IAO:0000112 "the function of your reproductive organs" xsd:string
+property_value: IAO:0000112 "the role of being a doctor" xsd:string
+property_value: IAO:0000112 "the role of this boundary to delineate where Utah and Colorado meet" xsd:string
+property_value: IAO:0000112 "作为医生的角色" xsd:string
+property_value: IAO:0000112 "你的生殖器官的功能" xsd:string
+property_value: IAO:0000112 "你的血液的凝结倾向" xsd:string
+property_value: IAO:0000112 "这个边界角色描绘了犹他州和科罗拉多州的交汇点" xsd:string
+property_value: IAO:0000112 "这块金属的导电倾向。" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogg.owl
+property_value: IAO:0000600 "To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])" xsd:string
+property_value: IAO:0000600 "要说b是一个可实现实体，就是说b是一个特定依赖性常体，它存在于某些依赖常体中，这个连续体不是一个空间区域，而是一个在相关类型的过程中实现的类型实例。 （BFO2公理标签参考：[058-002]）" xsd:string
+property_value: IAO:0000601 "All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])" xsd:string
+property_value: IAO:0000601 "所有可实现依赖常体都有独立常体，这些独立常体不是空间区域作为承载。 （BFO2公理标签参考：[060-002]）" xsd:string
+property_value: IAO:0000602 "(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] " xsd:string
+property_value: IAO:0000602 "(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] " xsd:string
+property_value: IAO:0000602 "(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] " xsd:string
+property_value: IAO:0000602 "(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] " xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000019
+name: quality
+name: 性质
+
+[Term]
+id: BFO:0000020
+name: specifically dependent continuant
+name: 特定依赖性常体
+def: "A continuant that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same." []
+def: "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])" []
+def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" []
+def: "b是一个关系特定依赖性常体 = Def. b是特定依赖性常体并且有n &gt;1个独立常体c1，... cn不是空间区域且是这样的，即对于全部1个 i&lt;j n，ci和cj没有共同的部分，对于每个1 i n，在b存在的过程中每个时间t，b s-依赖_于 ci（BFO2中的公理标号：[131-004]）" []
+def: "b是一个特定依赖性常体 = Def. b是一个常体& 存在一些独立常体c，c不是一个空间区域且是这样的，在b的存在过程地每个时间t，b s-依赖_于c。 （BFO2公理标签参考：[050-003]）" []
+def: "一个在其他实体中存在或由其他实体承担的常体。 A的每个实例都需要一些特定的B实例，这些B实例必须始终相同。" []
+is_a: BFO:0000002 ! continuant
+property_value: BFO:0000179 "sdc" xsd:string
+property_value: BFO:0000179 "sdc" xsd:string
+property_value: BFO:0000180 "SpecificallyDependentContinuant" xsd:string
+property_value: BFO:0000180 "SpecificallyDependentContinuant" xsd:string
+property_value: BFO:0000180 "特定依赖性常体(SpecificallyDependentContinuant)" xsd:string
+property_value: editor_note "Specifically dependent continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. We're not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc." xsd:string
+property_value: editor_note "具体而言，相关常体不具有闭合公理，因为子类不一定丧失所有可能性。我们不确定在这里会发生什么，但是会有如什么是承诺，义务等等的问题。" xsd:string
+property_value: IAO:0000111 "specifically dependent continuant" xsd:string
+property_value: IAO:0000111 "特定依赖性常体" xsd:string
+property_value: IAO:0000112 "of one-sided specifically dependent continuants: the mass of this tomato" xsd:string
+property_value: IAO:0000112 "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates." xsd:string
+property_value: IAO:0000112 "Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key" xsd:string
+property_value: IAO:0000112 "the disposition of this fish to decay" xsd:string
+property_value: IAO:0000112 "the function of this heart: to pump blood" xsd:string
+property_value: IAO:0000112 "the mutual dependence of proton donors and acceptors in chemical reactions [79" xsd:string
+property_value: IAO:0000112 "the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction" xsd:string
+property_value: IAO:0000112 "the pink color of a medium rare piece of grilled filet mignon at its center" xsd:string
+property_value: IAO:0000112 "the role of being a doctor" xsd:string
+property_value: IAO:0000112 "the shape of this hole." xsd:string
+property_value: IAO:0000112 "the smell of this portion of mozzarella" xsd:string
+property_value: IAO:0000112 "交互特定依赖性常体：这个键的功能打开这个锁和这个锁的相互依赖的配置：被这个键打开" xsd:string
+property_value: IAO:0000112 "作为医生的角色" xsd:string
+property_value: IAO:0000112 "关系独立常体（对个载体）：约翰对玛丽的爱，约翰与这座雕像之间的所有关系，以及约翰与他的下属之间的权力关系。" xsd:string
+property_value: IAO:0000112 "在它中心的一块四分熟烤菲力牛排的粉色" xsd:string
+property_value: IAO:0000112 "局部特定依赖性常体：这个番茄的性质" xsd:string
+property_value: IAO:0000112 "捕食者角色和猎物角色的相互依赖由两个生物体在给定的相互作用中扮演" xsd:string
+property_value: IAO:0000112 "质子供体和受体在化学反应中的相互依赖[79" xsd:string
+property_value: IAO:0000112 "这个洞的形状。" xsd:string
+property_value: IAO:0000112 "这条鱼的腐烂倾向" xsd:string
+property_value: IAO:0000112 "这部分马苏里拉奶酪的气味" xsd:string
+property_value: IAO:0000112 "这颗心的功能：抽血" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogg.owl
+property_value: IAO:0000602 "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] " xsd:string
+property_value: IAO:0000602 "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] " xsd:string
+property_value: IAO:0000602 "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] " xsd:string
+property_value: IAO:0000602 "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] " xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000023
+name: role
+name: 角色
+
+[Term]
+id: BFO:0000031
+name: generically dependent continuant
+name: 普遍依赖性常体
+
+[Term]
+id: CL:0000000
+name: cell
+name: cell type
+name: 细胞
+name: 细胞类型
+
+[Term]
+id: CL:0000001
+name: primary cultured cell
+name: 原代培养细胞
+
+[Term]
+id: CL:0000066
+name: epithelial cell
+name: 上皮细胞
+
+[Term]
+id: CL:0000081
+name: blood cell
+name: 血细胞
+
+[Term]
+id: CL:0000219
+name: motile cell
+name: 游动细胞
+
+[Term]
+id: CL:0000235
+name: macrophage
+name: 巨噬细胞
+
+[Term]
+id: CL:0000255
+name: eukaryotic cell
+name: 真核细胞
+
+[Term]
+id: CL:0000548
+name: animal cell
+name: 动物细胞
+
+[Term]
+id: CL:0000576
+name: monocyte
+name: 单核细胞
+
+[Term]
+id: CL:0000738
+name: leukocyte
+name: 白血球
+
+[Term]
+id: CL:0000763
+name: myeloid cell
+name: 骨髓细胞
+
+[Term]
+id: CL:0000766
+name: myeloid leukocyte
+name: 骨髓白细胞
+
+[Term]
+id: CL:0000988
+name: hematopoietic cell
+name: 造血干细胞
+
+[Term]
+id: CL:0002087
+name: nongranular leukocyte
+name: 无颗粒白细胞
+
+[Term]
+id: CL:0002371
+name: somatic cell
+name: 体细胞
+
+[Term]
+id: CLO:0000000
+name: cell line cell culturing
+name: 细胞系细胞培养
+def: "a maintaining cell culture process that keeps cell line cell alive and actively cultured." []
+def: "维持细胞株存活和活跃培养的细胞培养过程。" []
+is_a: OBI:0600024
+property_value: IAO:0000117 "YH" xsd:string
+property_value: IAO:0000117 "YH" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000001
+name: cell line cell
+name: 细胞系细胞
+def: "A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture" []
+def: "A cultured cell that is part of a cell line - a stable and homogeneous population of cells with a common biological origin and propagation history in culture\n" []
+def: "一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分" []
+def: "一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分\n" []
+comment: A 'cell line cell' is a part of a cell line established through the passaging/selection of a primary cultured cells or the experimental modification of an existing cell line. New types of cell line cells are established after sufficient passaging of a primary culture to establish a stable and homogenous population that qualifies as a line (typically 1-20 passages), or following some spontaneous or experimental modification that confers novel characteristics to an existing line. A cell line cell typically has mutations of five or more genes compared to the original cell that derives the cell line cell. Some gene mutations may turn on some oncogenes.  Cell line cells can be in active culture, stored in a quiescent state for future use (e.g. frozen in liquid nitrogen), or applied in experimental procedures.  
+comment: “细胞系细胞”是通过原代培养细胞的传代/选择或现有细胞系的实验性修饰而建立的细胞系的一部分。新类型的细胞系细胞的建立过程是原代培养物充分传代后以建立符合条件（典型地1-20代）的稳定且同质的群体，或者在某些自发或实验性修饰之后赋予现有细胞系新的特征。与产生细胞系细胞的原始细胞相比，细胞系细胞通常具有5个或更多个基因的突变。 一些基因突变可能会开启一些致癌基因。 细胞系细胞可处于活性培养物中，以静止状态储存以供将来使用（例如在液氮中冷冻），或者在实验程序使用。
+is_a: CL:0000010
+property_value: IAO:0000111 "cell line cell" xsd:string
+property_value: IAO:0000111 "cell line cell" xsd:string
+property_value: IAO:0000111 "细胞系细胞" xsd:string
+property_value: IAO:0000117 "Yongqun He, Matthew Brush, Sirarat Sarntivijai, Alexander Diehl, Jie Zheng, Yu Lin, Bjoern Peters" xsd:string
+property_value: IAO:0000117 "Yongqun He, Matthew Brush, Sirarat Sarntivijai, Alexander Diehl, Jie Zheng, Yu Lin, Bjoern Peters" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
+
+[Term]
+id: CLO:0000002
+name: suspension cell line culturing
+name: 悬浮细胞培养
+def: "suspension cell line culturing is a cell line culturing method where cells do not require a surface for growth and differentiation. This method is appropriate for cells that are adapted to suspension culture or cells that are non-adhesive (e.g. hematopoietic cells)" []
+def: "悬浮细胞系培养是其中细胞不需要生长和分化表面的细胞系培养方法。 该方法适用于适合悬浮培养的细胞或非贴壁细胞（如造血细胞）" []
+is_a: CLO:0000000 ! 细胞系细胞培养
+relationship: BFO:0000055 CLO:0000029 ! realizes suspension cell culture growth mode
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000003
+name: adherent cell line culturing
+name: 贴壁细胞系培养
+def: "adherent cell line culturing is a cell line culturing method where cells require a surface for growth and differentiation." []
+def: "贴壁细胞系培养是一种细胞系培养方法，其中细胞需要一个表面进行生长和分化。" []
+is_a: CLO:0000000 ! 细胞系细胞培养
+relationship: BFO:0000055 CLO:0000028 ! realizes 贴壁细胞培养生长模式
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000005
+name: cell line repository role
+name: 细胞库角色
+def: "a role that inheres in a cell line repository organization." []
+def: "一个细胞系资源组织中所起的作用" []
+is_a: BFO:0000023 ! 角色
+property_value: IAO:0000117 "SS, YH" xsd:string
+property_value: IAO:0000117 "SS, YH" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000008
+name: cell line repository
+name: 细胞库
+def: "an organization that serves as a repository of cell lines." []
+def: "一个作为细胞系存储库的组织。" []
+is_a: OBI:0000245 ! organization
+intersection_of: OBI:0000245 ! organization
+intersection_of: RO:0000087 CLO:0000005 ! has role 细胞库角色
+property_value: IAO:0000117 "SS, YH" xsd:string
+property_value: IAO:0000117 "SS, YH" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000009
+name: adherent on coated surface cell line culturing
+is_a: CLO:0000003 ! 贴壁细胞系培养
+property_value: hasDefinition "adherent on coated surface cell line culturing is an adherent cell line culturing method that the surface is coated with extracellular matrix component to increase adhesion properties and provide other signals needed for growth and differentiation." xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000013
+name: adherent on feeder cells cell line culturing
+name: 在饲养细胞上贴壁培养细胞系
+is_a: CLO:0000003 ! 贴壁细胞系培养
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000014
+name: adherent-patchy cell line culturing
+name: 贴壁斑片状细胞培养
+is_a: CLO:0000003 ! 贴壁细胞系培养
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000016
+name: loosely adherent cell line culturing
+name: 松散贴壁细胞培养
+is_a: CLO:0000003 ! 贴壁细胞系培养
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000019
+name: immortal cell line cell
+name: 永生细胞系细胞
+def: "A cell line cell that is expected to be capable of an unlimited number of divisions, and is thus able to support indefinite propagation in vitro as part of an immortal cell line." []
+def: "预期能够进行无限次分裂的细胞系细胞，作为永生细胞系一部分，能够支持体外无限增殖。" []
+is_a: CLO:0000001 ! cell line cell
+property_value: IAO:0000111 "immortal cell line cell" xsd:string
+property_value: IAO:0000111 "immortal cell line cell" xsd:string
+property_value: IAO:0000111 "永生细胞系细胞" xsd:string
+property_value: IAO:0000117 "Yongqun He, Matthew Brush, Allen Xiang, Asiyah Yu Lin,  Sirarat Sarntivijai, James Malone, Jie Zheng, Tomasz Adamusiak" xsd:string
+property_value: IAO:0000117 "Yongqun He, Matthew Brush, Allen Xiang, Asiyah Yu Lin,  Sirarat Sarntivijai, James Malone, Jie Zheng, Tomasz Adamusiak" xsd:string
+property_value: IAO:0000118 "continuous cell line cell" xsd:string
+property_value: IAO:0000118 "continuous cell line cell" xsd:string
+property_value: IAO:0000118 "permanent cell line cell" xsd:string
+property_value: IAO:0000118 "permanent cell line cell" xsd:string
+property_value: IAO:0000118 "永久细胞系细胞" xsd:string
+property_value: IAO:0000118 "连续细胞系细胞" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
+
+[Term]
+id: CLO:0000028
+name: adherent cell culture growth mode
+name: 贴壁细胞培养生长模式
+is_a: CLO:0000030 ! cell culture growth mode
+property_value: definition:editor "YH" xsd:string
+property_value: definition:editor "YH" xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "a cell culture growth mode that indicates a cell needs to adhere to a cell culture plate to grow." xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "a cell culture growth mode that indicates a cell needs to adhere to a cell culture plate to grow." xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "一种细胞培养生长模式：细胞需要粘附在细胞培养板上生长" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000029
+name: suspension cell culture growth mode
+name: 悬浮细胞培养生长模式
+is_a: CLO:0000030 ! cell culture growth mode
+property_value: definition:editor "YH" xsd:string
+property_value: definition:editor "YH" xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "a cell culture growth mode that indicates a cell can grow when the cell is suspended in cell culture medium." xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "a cell culture growth mode that indicates a cell can grow when the cell is suspended in cell culture medium." xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "一种细胞培养生长模式：当细胞悬浮在细胞培养基中时，细胞可以生长" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000030
+name: cell culture growth mode
+name: 细胞培养生长模式
+is_a: BFO:0000016 ! 倾向
+property_value: definition:editor "YH" xsd:string
+property_value: definition:editor "YH" xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "a disposition that represents a mode of cell culture growth, i.e., the cell will grow at a specific cell culture mode. For example, an adherent cell culture growh mode means that the cell will grow when the cell is adhere to a cell culture plate." xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "a disposition that represents a mode of cell culture growth, i.e., the cell will grow at a specific cell culture mode. For example, an adherent cell culture growh mode means that the cell will grow when the cell is adhere to a cell culture plate." xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "一种代表细胞培养生长模式的配置，即细胞将以特定细胞培养模式生长。 例如，贴壁细胞培养生长模式意味着当细胞粘附于细胞培养板时细胞将生长。" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000031
+name: cell line
+name: 细胞系
+
+[Term]
+id: CLO:0000032
+name: mixed adherent and suspension cell line culturing
+name: 混合贴壁悬浮细胞培养
+is_a: CLO:0000000 ! 细胞系细胞培养
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000033
+name: mixed suspension
+is_a: CLO:0000032 ! mixed adherent and suspension cell line culturing
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000034
+name: clusters in suspension cell line culturing
+name: 在悬浮细胞系培养中的成簇细胞
+is_a: CLO:0000002 ! suspension cell line culturing
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000040
+name: suspension with feeder cells cell line culturing
+is_a: CLO:0000002 ! suspension cell line culturing
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000041
+name: suspension-multicell aggregates cell line culturing
+is_a: CLO:0000002 ! suspension cell line culturing
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000042
+name: immortal mouse cell line cell
+name: 永生的小鼠细胞系细胞
+def: "a immortal cell line that is dervied from mouse tissue." []
+def: "从老鼠组织中得到的一种永生细胞系。" []
+is_a: CLO:0000019 ! immortal cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000118 "immortal mouse cell line" xsd:string
+property_value: IAO:0000118 "永生的小鼠细胞系" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000043
+name: immortal mouse macrophage cell line
+intersection_of: CLO:0000042 ! immortal mouse cell line cell
+intersection_of: RO:0001000 CL:0000235 ! derives_from macrophage
+property_value: IAO:0000117 "a immortal cell line that is dervied from mouse macrophage." xsd:string
+property_value: IAO:0000117 "YH" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000093
+name: immortal motile cell line cell
+name: 永生的游动细胞系细胞
+def: "a cell line that is derived from motile cell" []
+def: "源自运动细胞的细胞系" []
+is_a: CLO:0000019 ! immortal cell line cell
+relationship: RO:0001000 CL:0000219 ! derives_from motile cell
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000118 "immortal motile cell line" xsd:string
+property_value: IAO:0000118 "immortal motile cell line" xsd:string
+property_value: IAO:0000118 "永生的游动细胞系" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000102
+name: immortal leukocyte cell line cell
+name: 永生的白细胞系细胞
+def: "a immortal motile cell line that is derived from leukocyte" []
+def: "源自白细胞的永生游动细胞系" []
+is_a: CLO:0000093 ! immortal motile cell line cell
+is_a: CLO:0000147 ! 永生的造血细胞系细胞
+relationship: RO:0001000 CL:0000738 ! derives_from leukocyte
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000118 "immortal leukocyte cell line" xsd:string
+property_value: IAO:0000118 "immortal leukocyte cell line" xsd:string
+property_value: IAO:0000118 "永生的白细胞系" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000105
+name: immortal myeloid leukocyte cell line cell
+name: 永生的髓样白血球细胞系细胞
+def: "a immortal leukocyte cell line that is derived from myeloid leukocyte" []
+def: "源自髓系白细胞的永生白细胞系" []
+is_a: CLO:0000102 ! immortal leukocyte cell line cell
+is_a: CLO:0000150 ! 永生的骨髓细胞系细胞
+relationship: RO:0001000 CL:0000766 ! derives_from myeloid leukocyte
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000118 "immortal myeloid leukocyte cell line" xsd:string
+property_value: IAO:0000118 "immortal myeloid leukocyte cell line" xsd:string
+property_value: IAO:0000118 "永生的髓样白血球细胞系" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000106
+name: immortal monocyte cell line cell
+name: 永生的单核细胞系细胞
+def: "a immortal myeloid leukocyte cell line that is derived from monocyte" []
+def: "源自单核细胞的永生髓系白细胞系" []
+is_a: CLO:0000105 ! immortal myeloid leukocyte cell line cell
+is_a: CLO:0000107 ! immortal nongranular leukocyte cell line cell
+relationship: RO:0001000 CL:0000576 ! derives_from monocyte
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000118 "immortal monocyte cell line" xsd:string
+property_value: IAO:0000118 "immortal monocyte cell line" xsd:string
+property_value: IAO:0000118 "永生的单核细胞系" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000107
+name: immortal nongranular leukocyte cell line cell
+name: 永生的无颗粒白细胞细胞系细胞
+def: "a immortal leukocyte cell line that is derived from nongranular leukocyte" []
+def: "源自无粒白细胞的永生白细胞细胞系" []
+is_a: CLO:0000102 ! immortal leukocyte cell line cell
+relationship: RO:0001000 CL:0002087 ! derives_from nongranular leukocyte
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000118 "immortal nongranular leukocyte cell line" xsd:string
+property_value: IAO:0000118 "immortal nongranular leukocyte cell line" xsd:string
+property_value: IAO:0000118 "永生的无颗粒白细胞细胞系" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000124
+name: immortal eukaryotic cell line cell
+name: 永生的真核细胞系细胞
+def: "a immortal cell line cell that is derived from eukaryotic cell" []
+def: "源自真核细胞的永生细胞系细胞" []
+is_a: CLO:0000019 ! immortal cell line cell
+relationship: RO:0001000 CL:0000255 ! derives_from eukaryotic cell
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000128
+name: immortal animal cell line cell
+name: 永生的动物细胞系细胞
+def: "a immortal eukaryotic cell line that is derived from animal cell" []
+def: "源自动物细胞的永生真核细胞系" []
+is_a: CLO:0000124 ! 永生的真核细胞系细胞
+relationship: RO:0001000 CL:0000548 ! derives_from animal cell
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000118 "immortal animal cell line" xsd:string
+property_value: IAO:0000118 "immortal animal cell line" xsd:string
+property_value: IAO:0000118 "永生的动物细胞系" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000129
+name: immortal epithelial cell line cell
+name: 永生的上皮细胞系细胞
+def: "a immortal animal cell line that is derived from epithelial cell" []
+def: "源自上皮细胞的永生动物细胞系" []
+is_a: CLO:0000128 ! immortal animal cell line cell
+relationship: RO:0001000 CL:0000066 ! derives_from epithelial cell
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000147
+name: immortal hematopoietic cell line cell
+name: 永生的造血细胞系细胞
+def: "a immortal animal cell line that is derived from hematopoietic cell" []
+def: "源自造血细胞的永生动物细胞系" []
+is_a: CLO:0000128 ! immortal animal cell line cell
+is_a: CLO:0000166 ! immortal somatic cell line cell
+relationship: RO:0001000 CL:0000988 ! derives_from 造血干细胞
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000118 "immortal hematopoietic cell line" xsd:string
+property_value: IAO:0000118 "immortal hematopoietic cell line" xsd:string
+property_value: IAO:0000118 "永生的造血细胞系" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000150
+name: immortal myeloid cell line cell
+name: 永生的骨髓细胞系细胞
+def: "a immortal hematopoietic cell line that is derived from myeloid cell" []
+def: "源自骨髓细胞的永生造血细胞系" []
+is_a: CLO:0000147 ! 永生的造血细胞系细胞
+relationship: RO:0001000 CL:0000763 ! derives_from myeloid cell
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000118 "immortal myeloid cell line" xsd:string
+property_value: IAO:0000118 "immortal myeloid cell line" xsd:string
+property_value: IAO:0000118 "永生的骨髓细胞系" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000166
+name: immortal somatic cell line cell
+name: 永生的体细胞系细胞
+def: "a cell line that is derived from somatic cell" []
+def: "源自体细胞的细胞系" []
+is_a: CLO:0000019 ! immortal cell line cell
+relationship: RO:0001000 CL:0002371 ! derives_from somatic cell
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000117 "ZX, YH" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000219
+name: immortal lung-derived cell line cell
+name: 永生化的肺衍生细胞系细胞
+def: "An immortal cell line cell that derives from pair of lungs." []
+def: "源自一对肺的永生细胞系细胞。" []
+is_a: CLO:0000019 ! immortal cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000220
+name: immortal kidney-derived cell line cell
+name: 永生化的肾衍生细胞系细胞
+def: "An immortal cell line cell that derives from kidney." []
+def: "源自肾的永生细胞系细胞。" []
+is_a: CLO:0000019 ! immortal cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000236
+name: immortal colon-derived cell line cell
+name: 永生的结肠衍生细胞系细胞
+def: "An immortal cell line cell that derives from colon." []
+def: "源自结肠的永生细胞系细胞。" []
+is_a: CLO:0000019 ! immortal cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000243
+name: immortal female gonad-derived cell line cell
+name: 永生的雌性性腺衍生细胞系细胞
+def: "An immortal cell line cell that derives from female gonad." []
+def: "源自雌性性腺的永生细胞系细胞。" []
+is_a: CLO:0000019 ! immortal cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000249
+name: immortal stomach-derived cell line cell
+name: 永生化的胃衍生细胞系细胞
+def: "An immortal cell line cell that derives from stomach." []
+def: "源自胃的永生细胞系细胞。" []
+is_a: CLO:0000019 ! immortal cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000283
+name: immortal uterine cervix-derived epithelial cell line cell
+name: 永生的宫颈衍生上皮细胞系细胞
+def: "An immortal epithelial cell line cell that derives from uterine cervix." []
+def: "源自子宫颈的永生上皮细胞系细胞。" []
+is_a: CLO:0000129 ! immortal epithelial cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000493
+name: immortal human lung-derived cell line cell
+name: 永生的人肺衍生细胞系细胞
+def: "An immortal lung-derived cell line cell that derives from human." []
+def: "源自人的永生肺衍生细胞系细胞。" []
+is_a: CLO:0000219 ! immortal lung-derived cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000511
+name: immortal human cell line cell
+name: 永生的人细胞系细胞
+def: "An immortal cell line cell that derives from human." []
+def: "源自人的永生细胞系细胞。" []
+is_a: CLO:0000019 ! immortal cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000513
+name: immortal human colon-derived cell line cell
+name: 永生化的人结肠衍生细胞系细胞
+def: "An immortal colon-derived cell line cell that derives from human." []
+def: "源自人的永生结肠衍生细胞系细胞。" []
+is_a: CLO:0000236 ! immortal colon-derived cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000533
+name: immortal vervet monkey kidney-derived cell line cell
+name: 永生的黑长尾猴肾衍生细胞系细胞
+def: "An immortal kidney-derived cell line cell that derives from vervet monkey." []
+def: "源自黑长尾猴的永生肾衍生细胞系细胞。" []
+is_a: CLO:0000220 ! immortal kidney-derived cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000549
+name: immortal human stomach-derived cell line cell
+name: 永生的人胃衍生细胞系细胞
+def: "An immortal stomach-derived cell line cell that derives from human." []
+def: "源自人的永生胃衍生细胞系细胞。" []
+is_a: CLO:0000249 ! immortal stomach-derived cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000563
+name: immortal human epithelial cell line cell
+name: 永生的人上皮细胞系细胞
+def: "An immortal epithelial cell line cell that derives from human." []
+def: "源自人的永生上皮细胞系细胞。" []
+is_a: CLO:0000129 ! immortal epithelial cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000636
+name: immortal human uterine cervix-derived epithelial cell line cell
+name: 永生的人宫颈衍生上皮细胞系细胞
+def: "An immortal uterine cervix-derived epithelial cell line cell that derives from human." []
+def: "源自人的永生子宫颈衍生上皮细胞系细胞。" []
+is_a: CLO:0000283 ! immortal uterine cervix-derived epithelial cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0000936
+name: immortal human monocyte cell line cell
+name: 永生的人单核细胞系细胞
+def: "An immortal monocyte cell line cell that derives from human." []
+def: "源自人的永生单核细胞系细胞。" []
+is_a: CLO:0000106 ! immortal monocyte cell line cell
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000117 "Yue Liu, Yongqun He" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Term]
+id: CLO:0001601
+name: A549 cell
+name: A549 细胞
+is_a: CLO:0000493 ! immortal human lung-derived cell line cell
+relationship: CLO:0000015 DOID:3908 ! derives from patient having disease non-small cell lung carcinoma
+relationship: CLO:0000179 DOID:3908 ! is disease model for non-small cell lung carcinoma
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+property_value: CLO:0000178 "LCL-1601" xsd:string
+property_value: CLO:0000178 "LCL-1601" xsd:string
+property_value: IAO:0000118 "A549" xsd:string
+property_value: IAO:0000118 "A549" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: CCL-185" xsd:string
+property_value: seeAlso "ATCC: CCL-185" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307651" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307651" xsd:string
+property_value: seeAlso "CVCL: CVCL_0023" xsd:string
+property_value: seeAlso "CVCL: CVCL_0023" xsd:string
+property_value: seeAlso "EFO: EFO_0001086" xsd:string
+property_value: seeAlso "EFO: EFO_0001086" xsd:string
+property_value: seeAlso "HyperCLDB: cl207" xsd:string
+property_value: seeAlso "HyperCLDB: cl207" xsd:string
+
+[Term]
+id: CLO:0001686
+name: AGS cell
+name: AGS 细胞
+is_a: CLO:0000549 ! immortal human stomach-derived cell line cell
+relationship: CLO:0000015 DOID:3717 ! derives from patient having disease gastric adenocarcinoma
+relationship: CLO:0000179 DOID:3717 ! is disease model for gastric adenocarcinoma
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+property_value: CLO:0000178 "LCL-1893" xsd:string
+property_value: CLO:0000178 "LCL-1893" xsd:string
+property_value: IAO:0000118 "AGS" xsd:string
+property_value: IAO:0000118 "AGS" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: CRL-1739" xsd:string
+property_value: seeAlso "ATCC: CRL-1739" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3308078" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3308078" xsd:string
+property_value: seeAlso "CVCL: CVCL_0139" xsd:string
+property_value: seeAlso "CVCL: CVCL_0139" xsd:string
+property_value: seeAlso "EFO: EFO_0002109" xsd:string
+property_value: seeAlso "EFO: EFO_0002109" xsd:string
+
+[Term]
+id: CLO:0002172
+name: Caco-2 cell
+name: Caco-2 细胞
+comment: disease: colorectal adenocarcinoma
+comment: 疾病：结肠直肠腺癌
+is_a: CLO:0000513 ! immortal human colon-derived cell line cell
+relationship: CLO:0000015 DOID:234 ! derives from patient having disease colon adenocarcinoma
+relationship: CLO:0000179 DOID:234 ! is disease model for colon adenocarcinoma
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+relationship: RO:0001000 EFO:0000834 ! derives_from intestine
+property_value: CLO:0000178 "LCL-1170" xsd:string
+property_value: CLO:0000178 "LCL-1170" xsd:string
+property_value: IAO:0000118 "Caco-2" xsd:string
+property_value: IAO:0000118 "Caco-2" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: HTB-37" xsd:string
+property_value: seeAlso "ATCC: HTB-37" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307519" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307519" xsd:string
+property_value: seeAlso "CVCL: CVCL_0025" xsd:string
+property_value: seeAlso "CVCL: CVCL_0025" xsd:string
+property_value: seeAlso "EFO: EFO_0001099" xsd:string
+property_value: seeAlso "EFO: EFO_0001099" xsd:string
+property_value: seeAlso "HyperCLDB: cl618" xsd:string
+property_value: seeAlso "HyperCLDB: cl618" xsd:string
+property_value: seeAlso "MeSH: D018938" xsd:string
+property_value: seeAlso "MeSH: D018938" xsd:string
+
+[Term]
+id: CLO:0002421
+name: CHO cell
+name: CHO 细胞
+is_a: CLO:0000243 ! immortal female gonad-derived cell line cell
+property_value: IAO:0000118 "Chinese Hamster Ovary cell" xsd:string
+property_value: IAO:0000118 "Chinese Hamster Ovary cell" xsd:string
+property_value: IAO:0000118 "CHO" xsd:string
+property_value: IAO:0000118 "CHO" xsd:string
+property_value: IAO:0000118 "中国仓鼠卵巢细胞" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "HyperCLDB: cl721" xsd:string
+property_value: seeAlso "HyperCLDB: cl721" xsd:string
+property_value: seeAlso "MeSH: D016466" xsd:string
+property_value: seeAlso "MeSH: D016466" xsd:string
+
+[Term]
+id: CLO:0002752
+name: Detroit 562 cell
+comment: disease: carcinoma (pharynx primary)
+is_a: CLO:0000563 ! 永生的人上皮细胞系细胞
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+property_value: CLO:0000178 "LCL-1226" xsd:string
+property_value: IAO:0000118 "Detroit 562" xsd:string
+property_value: IAO:0000119 https://www.atcc.org/products/all/CCL-138.aspx xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: CCL-138" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3308486" xsd:string
+property_value: seeAlso "CVCL: CVCL_1171" xsd:string
+property_value: seeAlso "ECACC: 87042205" xsd:string
+property_value: seeAlso "EFO: EFO_0002170" xsd:string
+
+[Term]
+id: CLO:0003684
+name: HeLa cell
+name: HeLa 细胞
+is_a: CLO:0000636 ! 永生的人宫颈衍生上皮细胞系细胞
+relationship: CLO:0000015 DOID:3702 ! derives from patient having disease 子宫颈腺癌
+relationship: CLO:0000179 cervical_carcinoma ! is disease model for cervical carcinoma
+relationship: CLO:0000179 DOID:3702 ! is disease model for 子宫颈腺癌
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+property_value: CLO:0000178 "LCL-1512" xsd:string
+property_value: CLO:0000178 "LCL-1512" xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "1951年2月8日从一位于1951年10月4日因癌症死亡的病人Henrietta Lacks中获取的宫颈腺癌癌细胞衍生的永生人类子宫颈衍生上皮细胞系。" xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "an immortal human uterine cervix-derived epithelial cell line that was derived from cervical adenocarcinoma cancer cells taken on February 8, 1951 from Henrietta Lacks, a patient who died of her cancer on October 4, 1951." xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "an immortal human uterine cervix-derived epithelial cell line that was derived from cervical adenocarcinoma cancer cells taken on February 8, 1951 from Henrietta Lacks, a patient who died of her cancer on October 4, 1951." xsd:string
+property_value: IAO:0000118 "HeLa" xsd:string
+property_value: IAO:0000118 "HeLa" xsd:string
+property_value: IAO:0000119 "WEB: http://en.wikipedia.org/wiki/HeLa" xsd:string
+property_value: IAO:0000119 "WEB: http://en.wikipedia.org/wiki/HeLa" xsd:string
+property_value: IAO:0000119 "WEB: http://www.atcc.org/products/all/CCL-2.aspx" xsd:string
+property_value: IAO:0000119 "WEB: http://www.atcc.org/products/all/CCL-2.aspx" xsd:string
+property_value: IAO:0000119 "WEB: https://www.ncbi.nlm.nih.gov/pubmed/12001993" xsd:string
+property_value: IAO:0000119 "WEB: https://www.ncbi.nlm.nih.gov/pubmed/12001993" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: CCL-2" xsd:string
+property_value: seeAlso "ATCC: CCL-2" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3308376" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3308376" xsd:string
+property_value: seeAlso "EFO: EFO_0001185" xsd:string
+property_value: seeAlso "EFO: EFO_0001185" xsd:string
+property_value: seeAlso "HyperCLDB: cl1601" xsd:string
+property_value: seeAlso "HyperCLDB: cl1601" xsd:string
+property_value: seeAlso "MeSH: D006367" xsd:string
+property_value: seeAlso "MeSH: D006367" xsd:string
+property_value: seeAlso RRID:CVCL_0030 xsd:string
+property_value: seeAlso RRID:CVCL_0030 xsd:string
+
+[Term]
+id: CLO:0003707
+name: HEp-2 cell
+is_a: CLO:0000563 ! 永生的人上皮细胞系细胞
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+property_value: IAO:0000118 "HEp-2" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: CCL-23" xsd:string
+
+[Term]
+id: CLO:0006953
+name: INT 407 cell
+is_a: CLO:0000511 ! immortal human cell line cell
+property_value: IAO:0000118 "INT 407" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "HyperCLDB: cl2897" xsd:string
+
+[Term]
+id: CLO:0007005
+name: J774A.1 cell
+name: J774A.1 细胞
+is_a: CLO:0000019 ! immortal cell line cell
+is_a: CLO:0000043 ! immortal mouse macrophage cell line
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+property_value: alternative:term "J 774A.1" xsd:string
+property_value: IAO:0000118 "J774A.1" xsd:string
+property_value: IAO:0000118 "J774A.1" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: TIB-67" xsd:string
+property_value: seeAlso "ATCC: TIB-67" xsd:string
+property_value: seeAlso "HyperCLDB: cl2928" xsd:string
+property_value: seeAlso "HyperCLDB: cl2928" xsd:string
+
+[Term]
+id: CLO:0007393
+name: LS 174T cell
+name: LS 174T 细胞
+comment: disease: colorectal adenocarcinoma
+comment: 疾病：大肠腺癌
+is_a: CLO:0000513 ! immortal human colon-derived cell line cell
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+property_value: IAO:0000118 "LS 174T" xsd:string
+property_value: IAO:0000118 "LS 174T" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: CL-188" xsd:string
+property_value: seeAlso "ATCC: CL-188" xsd:string
+
+[Term]
+id: CLO:0008080
+name: NCI-H292 cell
+name: NCI-H292 细胞
+comment: disease: mucoepidermoid pulmonary carcinoma
+comment: 疾病：黏液表皮样肺癌
+is_a: CLO:0000493 ! immortal human lung-derived cell line cell
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+property_value: IAO:0000118 "NCI-H292" xsd:string
+property_value: IAO:0000118 "NCI-H292" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: CRL-1848" xsd:string
+property_value: seeAlso "ATCC: CRL-1848" xsd:string
+
+[Term]
+id: CLO:0009348
+name: THP-1 cell
+name: THP-1 细胞
+is_a: CLO:0000936 ! immortal human monocyte cell line cell
+relationship: CLO:0000015 DOID:8864 ! derives from patient having disease acute monocytic leukemia
+relationship: CLO:0000179 DOID:8864 ! is disease model for acute monocytic leukemia
+relationship: OBI:0000295 CLO:0000002 ! is_specified_input_of suspension cell line culturing
+relationship: RO:0001000 CL:0000081 ! derives_from 血细胞
+property_value: alternative:term "THP1" xsd:string
+property_value: alternative:term "THP1" xsd:string
+property_value: CLO:0000178 "LCL-1072" xsd:string
+property_value: CLO:0000178 "LCL-1072" xsd:string
+property_value: IAO:0000118 "THP-1" xsd:string
+property_value: IAO:0000118 "THP-1" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: TIB-202" xsd:string
+property_value: seeAlso "ATCC: TIB-202" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307574" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307574" xsd:string
+property_value: seeAlso "CVCL: CVCL_0006" xsd:string
+property_value: seeAlso "CVCL: CVCL_0006" xsd:string
+property_value: seeAlso "EFO: EFO_0001253" xsd:string
+property_value: seeAlso "EFO: EFO_0001253" xsd:string
+property_value: seeAlso "HyperCLDB: cl4514" xsd:string
+property_value: seeAlso "HyperCLDB: cl4514" xsd:string
+
+[Term]
+id: CLO:0009524
+name: Vero cell
+name: Vero 细胞
+is_a: CLO:0000533 ! 永生的黑长尾猴肾衍生细胞系细胞
+relationship: OBI:0000295 CLO:0000003 ! is_specified_input_of 贴壁细胞系培养
+property_value: IAO:0000118 "Vero" xsd:string
+property_value: IAO:0000118 "Vero" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: CCL-81" xsd:string
+property_value: seeAlso "ATCC: CCL-81" xsd:string
+property_value: seeAlso "HyperCLDB: cl4644" xsd:string
+property_value: seeAlso "HyperCLDB: cl4644" xsd:string
+property_value: seeAlso "MeSH: D014709" xsd:string
+property_value: seeAlso "MeSH: D014709" xsd:string
+
+[Term]
+id: CLO:0050025
+name: RCB0098 cell
+def: "A immortal human cell line cell that has the characteristics: Lung carcinoma, refer to ATCC CCL185" []
+comment: Derived from tissue: lung in animal: human.
+comment: Originator: Giard, D. J.
+comment: Register: Abe, Shin-ichiro
+is_a: CLO:0001601 ! A549 cell
+relationship: CLO:0000015 DOID:3908 ! derives from patient having disease non-small cell lung carcinoma
+relationship: CLO:0000179 DOID:3908 ! is disease model for non-small cell lung carcinoma
+property_value: CLO:0000178 "LCL-1601" xsd:string
+property_value: IAO:0000117 "RIKEN Cell bank Team Yongqun He" xsd:string
+property_value: IAO:0000118 "A549" xsd:string
+property_value: IAO:0000118 "RCB0098" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "ATCC: CCL-185" xsd:string
+
+[Term]
+id: DOID:234
+name: colon adenocarcinoma
+name: 结肠腺癌
+
+[Term]
+id: DOID:299
+name: adenocarcinoma
+name: 腺癌
+
+[Term]
+id: DOID:305
+name: carcinoma
+name: 癌
+
+[Term]
+id: DOID:3702
+name: cervical adenocarcinoma
+name: 子宫颈腺癌
+
+[Term]
+id: DOID:3717
+name: gastric adenocarcinoma
+name: 胃腺癌
+
+[Term]
+id: DOID:3908
+name: non-small cell lung carcinoma
+name: 非小细胞肺癌
+
+[Term]
+id: DOID:8864
+name: acute monocytic leukemia
+name: 急性单核细胞性白血病
+
+[Term]
+id: EFO:0000834
+name: intestine
+name: 肠(intestine)
+comment: The fluid-feeding habit of adult mosquitoes is reflected in the structure and ultrastructure of the alimentary canal.
+comment: The tubular part of the alimentary canal that extends from the stomach to the anus.
+comment: 从胃延伸到肛门的消化道的管状部分。
+comment: 成年蚊子的摄食习惯反映在消化道的结构和超微结构上。
+is_a: UBERON:0004921
+property_value: IAO:0000117 "James Malone" xsd:string
+property_value: IAO:0000117 "James Malone" xsd:string
+property_value: IAO:0000118 "adult alimentary canal" xsd:string
+property_value: IAO:0000118 "adult alimentary canal" xsd:string
+property_value: IAO:0000118 "Bowel" xsd:string
+property_value: IAO:0000118 "Bowel" xsd:string
+property_value: IAO:0000118 "gut" xsd:string
+property_value: IAO:0000118 "gut" xsd:string
+property_value: IAO:0000118 "intestines" xsd:string
+property_value: IAO:0000118 "intestines" xsd:string
+property_value: IAO:0000118 "成人消化道" xsd:string
+property_value: IAO:0000118 "肠(Bowel)" xsd:string
+property_value: IAO:0000118 "肠(intestines)" xsd:string
+property_value: IAO:0000118 "肠道" xsd:string
+property_value: IAO:0000119 AAO:0000246 xsd:string
+property_value: IAO:0000119 AAO:0000246 xsd:string
+property_value: IAO:0000119 BTO:0000648 xsd:string
+property_value: IAO:0000119 BTO:0000648 xsd:string
+property_value: IAO:0000119 EHDAA:518 xsd:string
+property_value: IAO:0000119 EHDAA:518 xsd:string
+property_value: IAO:0000119 EV:0100071 xsd:string
+property_value: IAO:0000119 EV:0100071 xsd:string
+property_value: IAO:0000119 FMAID:7199 xsd:string
+property_value: IAO:0000119 FMAID:7199 xsd:string
+property_value: IAO:0000119 MA:0000328 xsd:string
+property_value: IAO:0000119 MA:0000328 xsd:string
+property_value: IAO:0000119 MAT:0000043 xsd:string
+property_value: IAO:0000119 MAT:0000043 xsd:string
+property_value: IAO:0000119 MFO:0003040 xsd:string
+property_value: IAO:0000119 MFO:0003040 xsd:string
+property_value: IAO:0000119 SAEL:55 xsd:string
+property_value: IAO:0000119 SAEL:55 xsd:string
+property_value: IAO:0000119 TADS:0000165 xsd:string
+property_value: IAO:0000119 TADS:0000165 xsd:string
+property_value: IAO:0000119 TAO:0001338 xsd:string
+property_value: IAO:0000119 TAO:0001338 xsd:string
+property_value: IAO:0000119 TGMA:0001819 xsd:string
+property_value: IAO:0000119 TGMA:0001819 xsd:string
+property_value: IAO:0000119 WBbt:0005772 xsd:string
+property_value: IAO:0000119 WBbt:0005772 xsd:string
+property_value: IAO:0000119 XAO:0000129 xsd:string
+property_value: IAO:0000119 XAO:0000129 xsd:string
+property_value: IAO:0000119 ZFA:0001338 xsd:string
+property_value: IAO:0000119 ZFA:0001338 xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+property_value: seeAlso "URI: http://www.ebi.ac.uk/cellline#intestine" xsd:string
+property_value: seeAlso "URI: http://www.ebi.ac.uk/cellline#intestine" xsd:string
+
+[Term]
+id: NCBITaxon:10029
+name: Cricetulus griseus
+name: 灰仓鼠
+
+[Term]
+id: NCBITaxon:10090
+name: Mus musculus
+name: 小家鼠
+
+[Term]
+id: NCBITaxon:9534
+name: Chlorocebus aethiops
+name: 绿猴属
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+name: 人类
+
+[Term]
+id: OBI:0000245
+name: organization
+name: 组织
+
+[Term]
+id: OBI:0001867
+name: establishing cell line
+name: 建立细胞系
+
+[Term]
+id: UBERON:0000002
+name: cervix
+name: uterine cervix
+name: 子宫颈(cervix)
+name: 子宫颈(uterine cervix)
+
+[Term]
+id: UBERON:0000068
+name: embryo stage
+name: 胚胎期
+
+[Term]
+id: UBERON:0000170
+name: pair of lungs
+name: 肺对
+
+[Term]
+id: UBERON:0000945
+name: stomach
+name: 胃
+
+[Term]
+id: UBERON:0000992
+name: female gonad
+name: 雌性生殖腺
+
+[Term]
+id: UBERON:0001155
+name: colon
+name: 结肠
+
+[Term]
+id: UBERON:0002113
+name: kidney
+name: 肾
+
+[Term]
+id: cervical_carcinoma
+name: cervical carcinoma
+name: 宫颈癌
+is_a: DOID:4362
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
+
+[Typedef]
+id: BFO:0000050
+name: part of
+name: part_of
+is_transitive: true
+
+[Typedef]
+id: BFO:0000052
+name: inheres in at all times
+
+[Typedef]
+id: BFO:0000055
+name: realizes
+
+[Typedef]
+id: BFO:0000176
+name: part of continuant at some time
+
+[Typedef]
+id: BFO:0000186
+name: part of continuant at all times that whole exists
+is_transitive: true
+
+[Typedef]
+id: CLO:0000015
+name: derives from patient having disease
+
+[Typedef]
+id: CLO:0000167
+name: has disease
+
+[Typedef]
+id: CLO:0000174
+name: is in cell line repository
+
+[Typedef]
+id: CLO:0000179
+name: is disease model for
+
+[Typedef]
+id: CLO:0037208
+name: derived from anatomic part
+
+[Typedef]
+id: EFO:0000784
+name: has_disease_location
+
+[Typedef]
+id: OBI:0000293
+name: has_specified_input
+
+[Typedef]
+id: OBI:0000295
+name: is_specified_input_of
+
+[Typedef]
+id: OBI:0000299
+name: has_specified_output
+
+[Typedef]
+id: OBI:0000312
+name: is_specified_output_of
+
+[Typedef]
+id: RO:0000087
+name: has role
+
+[Typedef]
+id: RO:0001000
+name: derives from
+name: derives_from
+is_symmetric: true
+
+[Typedef]
+id: RO:0002488
+name: existence starts during
+
+[Typedef]
+id: editor_note
+name: editor note
+name: 编者注
+namespace: uberon
+def: "An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology." []
+def: "管理者注释用于其编辑器。它可能不包含在本体的出版版本中，所以它应该不包含最终用户了解本体所需的信息。" []
+xref: IAO:0000116
+property_value: http://purl.obolibrary.org/obo/hasDbXref IAO:0000116 xsd:string
+property_value: http://purl.obolibrary.org/obo/hasDbXref IAO:0000116 xsd:string
+property_value: http://purl.obolibrary.org/obo/hasOBONamespace "uberon" xsd:string
+property_value: http://purl.obolibrary.org/obo/hasOBONamespace "uberon" xsd:string
+property_value: http://purl.obolibrary.org/obo/id "editor_note" xsd:string
+property_value: http://purl.obolibrary.org/obo/id "editor_note" xsd:string
+property_value: http://purl.obolibrary.org/obo/id "编辑_注释" xsd:string
+property_value: http://purl.obolibrary.org/obo/is_metadata_tag "true" xsd:boolean
+property_value: http://purl.obolibrary.org/obo/shorthand "editor_note" xsd:string
+property_value: http://purl.obolibrary.org/obo/shorthand "editor_note" xsd:string
+property_value: http://purl.obolibrary.org/obo/shorthand "编辑_注释" xsd:string
+property_value: IAO:0000111 "editor note" xsd:string
+property_value: IAO:0000111 "编者注" xsd:string
+property_value: IAO:0000114 IAO:0000122
+property_value: IAO:0000117 "PERSON:Daniel Schober" xsd:string
+property_value: IAO:0000119 GROUP:OBI:<http://purl.obfoundry.org/obo/obi> xsd:string
+property_value: isDefinedBy http://purl.obolibrary.org/obo/iao.owl
+is_metadata_tag: 1
+

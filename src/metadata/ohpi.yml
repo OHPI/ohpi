@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/ohpi
+
+idspace: OHPI
+base_url: /obo/ohpi
+
+products:
+- ohpi.owl: https://raw.githubusercontent.com/OHPI/ohpi/master/ohpi.owl
+- ohpi.obo: https://raw.githubusercontent.com/OHPI/ohpi/master/ohpi.obo
+
+term_browser: ontobee
+example_terms:
+- ohpi_0000001
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/OHPI/ohpi/v
+
+- prefix: /tracker/
+  replacement: https://github.com/OHPI/ohpi/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/OHPI?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/OHPI/ohpi/master/

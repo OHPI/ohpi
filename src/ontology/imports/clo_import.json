@@ -1,0 +1,3633 @@
+{
+  "graphs" : [ {
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/DOID_3702",
+      "type" : "CLASS",
+      "lbl" : "子宫颈腺癌"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "type" : "PROPERTY",
+      "lbl" : "derives_from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000766",
+      "type" : "CLASS",
+      "lbl" : "骨髓白细胞"
+    }, {
+      "id" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "type" : "CLASS",
+      "lbl" : "细胞类型"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "type" : "PROPERTY",
+      "lbl" : "part_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000001",
+      "type" : "CLASS",
+      "lbl" : "primary cultured cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000763",
+      "type" : "CLASS",
+      "lbl" : "myeloid cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000220",
+      "meta" : {
+        "definition" : {
+          "val" : "源自肾的永生细胞系细胞。",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal kidney-derived cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "type" : "CLASS",
+      "lbl" : "小家鼠"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000068",
+      "type" : "CLASS",
+      "lbl" : "embryo stage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000116",
+      "meta" : {
+        "definition" : {
+          "val" : "An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "IAO:0000116"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/shorthand",
+          "val" : "editor_note"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/shorthand",
+          "val" : "editor_note"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/id",
+          "val" : "编辑_注释"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obfoundry.org/obo/obi>"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "editor_note"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/id",
+          "val" : "editor_note"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/shorthand",
+          "val" : "编辑_注释"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/is_metadata_tag",
+          "val" : "true"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "editor note"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hasDbXref",
+          "val" : "IAO:0000116"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hasDbXref",
+          "val" : "IAO:0000116"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/id",
+          "val" : "editor_note"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "编者注"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_metadata_tag",
+          "val" : "1"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hasOBONamespace",
+          "val" : "uberon"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "editor note"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000176",
+      "type" : "PROPERTY",
+      "lbl" : "part of continuant at some time"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000055",
+      "type" : "PROPERTY",
+      "lbl" : "realizes"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000117",
+      "meta" : {
+        "definition" : {
+          "val" : "输入文件中术语编辑者的名称。术语编辑者是有关术语的信息交汇点。术语编辑者可以是，但并不总是，定义的作者，这可能是由几个人完成",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "20110707，MC：术语编辑和定义进行相应的修改。见http://code.google.com/p/information-artifact-ontology/issues/detail?id=115。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "术语编辑者"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term editor"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition editor"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "20110707, MC: label update to term editor and definition modified accordingly. See http://code.google.com/p/information-artifact-ontology/issues/detail?id=115."
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "definition editor"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000114",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Melanie Courtot"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "OBI_0000281"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "有管理状态"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "has curation status"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Bill Bug"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "有管理状态"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000179",
+      "meta" : {
+        "definition" : {
+          "val" : "将本体中的实体关联到用于在代码中表示它的变量的名称，这些代码从lispy规范生成BFO OWL 文件。",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "Really of interest to developers only"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "只对开发人员感兴趣"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "BFO OWL specification label"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "BFO OWL规范标签"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "BFO OWL specification label"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "meta" : {
+        "definition" : {
+          "val" : "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "textual definition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2012-04-05: \nBarry Smith\n\nThe official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.\n\nCan you fix to something like:\n\nA statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.\n\nAlan Ruttenberg\n\nYour proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. \n\nOn the specifics of the proposed definition:\n\nWe don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. \n\nPersonally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. \n\nWe also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "textual definition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "定义"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "2012-04-05: \nBarry Smith\n\nOBI的官方定义解释了一个类或属性的含义：'应该是亚里士多德式的，形式化和规范化的。可以用口语定义'是糟糕的。\n\n您能解决这样的问题吗？\n\n解释关于类或属性的表达含义的必要和充分条件的陈述。\n\nAlan Ruttenberg\n\n您提出的定义是一个合理的备选，除非它很常见，没有给出必要和充分的条件。大多数情况下它们是必要的，偶尔是必要的，充分的或者仅仅仅充分的。它们通常使用不是自己定义的术语，因此它们实际上不能通过这些标准进行评估。\n\n关于拟议定义的具体内容：\n\n我们没有“含义”，或“表达”或“属性”的定义。对于在预期意义上的“参考”，我认为我们使用术语“指示”。对于'表达'，我认为我们和你的意思是符号，或标识符。对于“含义”，它不同于类和属性。对于类，我们希望文档能够让读者确定一个实体是否是该类的实例。对于属性，让我们的目标读者决定，给定一对潜在的关系，判断关系成立的断言正确与否。 “目标读者”部分表明我们也指定了我们期望的能够理解定义的人，并且概括了人类和计算机读者以包含文本和逻辑定义。\n\n就我个人而言，我更愿意削弱对文档的定义，并指出什么是可取的。\n\n我们还有一个悬而未决的问题，就是如何针对不同的受众定位不同的定义。临床读者阅读chebi需要来自受过化学训练的受众的不同类型的定义文档/定义，同样需要一个适合本体工作者的定义。 "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "definition"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000081",
+      "type" : "CLASS",
+      "lbl" : "blood cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000102",
+      "meta" : {
+        "definition" : {
+          "val" : "a immortal motile cell line that is derived from leukocyte",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal leukocyte cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal leukocyte cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永生的白细胞系"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal leukocyte cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000105",
+      "meta" : {
+        "definition" : {
+          "val" : "a immortal leukocyte cell line that is derived from myeloid leukocyte",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal myeloid leukocyte cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal myeloid leukocyte cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永生的髓样白血球细胞系"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal myeloid leukocyte cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000112",
+      "meta" : {
+        "definition" : {
+          "val" : "短语描述一个类的名字应该如何使用。也可包括其他类型有助于直接理解类的语义的例子，如广为人知的类的原型子类或实例。虽然高水平的术语必不可少，对于低级别术语的示例（例如，Affymetrix HU133阵列）不",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "例子"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "example of usage"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "example"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "用法示例"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "example of usage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000052",
+      "type" : "PROPERTY",
+      "lbl" : "inheres in at all times"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000107",
+      "meta" : {
+        "definition" : {
+          "val" : "a immortal leukocyte cell line that is derived from nongranular leukocyte",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal nongranular leukocyte cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永生的无颗粒白细胞细胞系"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal nongranular leukocyte cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal nongranular leukocyte cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000232",
+      "meta" : {
+        "definition" : {
+          "val" : "An administrative note of use for a curator but of no use for a user",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/shorthand",
+          "val" : "curator_notes"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/id",
+          "val" : "curator_notes"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "curator note"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/is_metadata_tag",
+          "val" : "true"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "管理者注释"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hasDbXref",
+          "val" : "IAO:0000232"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/id",
+          "val" : "curator_notes"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hasOBONamespace",
+          "val" : "uberon"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/id",
+          "val" : "管理者_注释"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/shorthand",
+          "val" : "curator_notes"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/shorthand",
+          "val" : "管理者_注释"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/hasDbXref",
+          "val" : "IAO:0000232"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "curator note"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000111",
+      "meta" : {
+        "definition" : {
+          "val" : "对于一类或属性的简洁的、有意义的、与人类友好的名称由本体开发商首选。 （美国英语）",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "editor preferred label"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "editor preferred label"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "编辑首选标签"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "编辑首选术语"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "editor preferred term"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "editor preferred term~editor preferred label"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "editor preferred term"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "编辑首选标签"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000078",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000106",
+      "meta" : {
+        "definition" : {
+          "val" : "源自单核细胞的永生髓系白细胞系",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal monocyte cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal monocyte cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永生的单核细胞系"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal monocyte cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0001155",
+      "type" : "CLASS",
+      "lbl" : "colon"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000636",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal uterine cervix-derived epithelial cell line cell that derives from human.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal human uterine cervix-derived epithelial cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0008080",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: mucoepidermoid pulmonary carcinoma"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "NCI-H292"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CRL-1848"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "疾病：黏液表皮样肺癌"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: mucoepidermoid pulmonary carcinoma"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "NCI-H292"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CRL-1848"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "NCI-H292 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000118",
+      "meta" : {
+        "definition" : {
+          "val" : "An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "替代术语"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "alternative term"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "替代术语"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000119",
+      "meta" : {
+        "definition" : {
+          "val" : "正式引用，例如在外部数据库中的标识符，用于表示/定义的属性源（S）。自由文本表示/为定义属性源（S）。实例：在2007年1月31日的作者姓名，URI，MeSH术语C04，PUBMEDID，维基uri",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "定义来源"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "论OBO-讨论邮件-列表，请参阅http://bit.ly/hgm99w"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "definition source"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Daniel Schober"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "定义来源"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10029",
+      "type" : "CLASS",
+      "lbl" : "灰仓鼠"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0007393",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: colorectal adenocarcinoma"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "LS 174T"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: colorectal adenocarcinoma"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CL-188"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CL-188"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "LS 174T"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "疾病：大肠腺癌"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "LS 174T cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000312",
+      "type" : "PROPERTY",
+      "lbl" : "is_specified_output_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000170",
+      "type" : "CLASS",
+      "lbl" : "肺对"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000255",
+      "type" : "CLASS",
+      "lbl" : "eukaryotic cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0001686",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "AGS"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0002109"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CRL-1739"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0139"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1893"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "AGS"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3308078"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0139"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3308078"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0002109"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1893"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CRL-1739"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "AGS 细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000125",
+      "type" : "INDIVIDUAL",
+      "lbl" : "待最后审批"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_234",
+      "type" : "CLASS",
+      "lbl" : "colon adenocarcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000236",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal cell line cell that derives from colon.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "永生的结肠衍生细胞系细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000511",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal cell line cell that derives from human.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal human cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0002113",
+      "type" : "CLASS",
+      "lbl" : "kidney"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0001601",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001086"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1601"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl207"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0023"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1601"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307651"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-185"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "A549"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001086"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-185"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0023"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307651"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl207"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "A549"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "A549 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000513",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal colon-derived cell line cell that derives from human.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "永生化的人结肠衍生细胞系细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000122",
+      "type" : "INDIVIDUAL",
+      "lbl" : "ready for release"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000988",
+      "type" : "CLASS",
+      "lbl" : "hematopoietic cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000066",
+      "type" : "CLASS",
+      "lbl" : "epithelial cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0037208",
+      "type" : "PROPERTY",
+      "lbl" : "derived from anatomic part"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000040",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "suspension with feeder cells cell line culturing"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000042",
+      "meta" : {
+        "definition" : {
+          "val" : "从老鼠组织中得到的一种永生细胞系。",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal mouse cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永生的小鼠细胞系"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal mouse cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000283",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal epithelial cell line cell that derives from uterine cervix.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal uterine cervix-derived epithelial cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000041",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "suspension-multicell aggregates cell line culturing"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9534",
+      "type" : "CLASS",
+      "lbl" : "Chlorocebus aethiops"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000043",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "a immortal cell line that is dervied from mouse macrophage."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal mouse macrophage cell line"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000563",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal epithelial cell line cell that derives from human.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal human epithelial cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000167",
+      "type" : "PROPERTY",
+      "lbl" : "has disease"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000166",
+      "meta" : {
+        "definition" : {
+          "val" : "a cell line that is derived from somatic cell",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal somatic cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000412",
+      "meta" : {
+        "definition" : {
+          "val" : "外部术语/类，术语引入的本体",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "GROUP:OBI:<http://purl.obolibrary.org/obo/obi>"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "imported from"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Melanie Courtot"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "引自"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "PERSON:Alan Ruttenberg"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "imported from"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002087",
+      "type" : "CLASS",
+      "lbl" : "nongranular leukocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000945",
+      "type" : "CLASS",
+      "lbl" : "stomach"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000219",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal cell line cell that derives from pair of lungs.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal lung-derived cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "type" : "PROPERTY",
+      "lbl" : "has_specified_input"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "type" : "PROPERTY",
+      "lbl" : "is_specified_input_of"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000299",
+      "type" : "PROPERTY",
+      "lbl" : "has_specified_output"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "type" : "PROPERTY",
+      "lbl" : "has role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0007005",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: TIB-67"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/efo/alternative_term",
+          "val" : "J 774A.1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "J774A.1"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: TIB-67"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl2928"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "J774A.1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl2928"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "J774A.1 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000180",
+      "meta" : {
+        "definition" : {
+          "val" : "将本体中的实体关联到用于在BFO2 CLIF规范中表示它的术语上。",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "Really of interest to developers only"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "BFO CLIF specification label"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "BFO CLIF规范标签"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000232",
+          "val" : "只对开发人员感兴趣"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "BFO CLIF specification label"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000174",
+      "type" : "PROPERTY",
+      "lbl" : "is in cell line repository"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0003684",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-2"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "RRID:CVCL_0030"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "WEB: http://www.atcc.org/products/all/CCL-2.aspx"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl1601"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl1601"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "WEB: http://en.wikipedia.org/wiki/HeLa"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "WEB: https://www.ncbi.nlm.nih.gov/pubmed/12001993"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "RRID:CVCL_0030"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "an immortal human uterine cervix-derived epithelial cell line that was derived from cervical adenocarcinoma cancer cells taken on February 8, 1951 from Henrietta Lacks, a patient who died of her cancer on October 4, 1951."
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "an immortal human uterine cervix-derived epithelial cell line that was derived from cervical adenocarcinoma cancer cells taken on February 8, 1951 from Henrietta Lacks, a patient who died of her cancer on October 4, 1951."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D006367"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3308376"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "1951年2月8日从一位于1951年10月4日因癌症死亡的病人Henrietta Lacks中获取的宫颈腺癌癌细胞衍生的永生人类子宫颈衍生上皮细胞系。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "WEB: http://www.atcc.org/products/all/CCL-2.aspx"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001185"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "WEB: https://www.ncbi.nlm.nih.gov/pubmed/12001993"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "WEB: http://en.wikipedia.org/wiki/HeLa"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001185"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "HeLa"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "HeLa"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1512"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3308376"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1512"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D006367"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "HeLa cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000173",
+      "type" : "INDIVIDUAL",
+      "lbl" : "RIKEN Cell Bank"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000235",
+      "type" : "CLASS",
+      "lbl" : "macrophage"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000178",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "表示细胞系的LINCS ID的注释属性。"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "Oliver He, Jiangan Xie"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "An annotation property that represents an LINCS ID of a cell line."
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "Oliver He, Jiangan Xie, Jie Zheng"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "Oliver He, Jiangan Xie"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "An annotation property that represents an ID used in the NIH LINCS project."
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "LINCS ID"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "label"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "label"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0002752",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: carcinoma (pharynx primary)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "https://www.atcc.org/products/all/CCL-138.aspx"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0002170"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Detroit 562"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_1171"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3308486"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ECACC: 87042205"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1226"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-138"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Detroit 562 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "type" : "PROPERTY",
+      "lbl" : "is disease model for"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0006953",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl2897"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "INT 407"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "INT 407 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0002371",
+      "type" : "CLASS",
+      "lbl" : "体细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_3717",
+      "type" : "CLASS",
+      "lbl" : "胃腺癌"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000186",
+      "type" : "PROPERTY",
+      "lbl" : "part of continuant at all times that whole exists"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000549",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal stomach-derived cell line cell that derives from human.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "永生的人胃衍生细胞系细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000019",
+      "type" : "CLASS",
+      "lbl" : "quality"
+    }, {
+      "id" : "http://www.ebi.ac.uk/efo/EFO_0000784",
+      "type" : "PROPERTY",
+      "lbl" : "has_disease_location"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000016",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "disposition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the cell wall is disposed to filter chemicals in endocitosis and exocitosis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Disposition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "倾向"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "disposition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type [89"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an atom of element X has the disposition to decay to an atom of element Y"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "如果b是一个可实现的实体，那么对于存在b的所有t时刻，b s-依赖_于t时刻的一个物质实体。 （BFO2公理标签参考：[063-002]）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "元素X的原子具有衰减到元素Y的原子的倾向"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Disposition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x t) (if (and (RealizableEntity x) (existsAt x t)) (exists (y) (and (MaterialEntity y) (specificallyDepends x y t))))) // axiom label in BFO2 CLIF: [063-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "细胞壁被设置为过滤内吞作用和胞吐作用中的化学物质"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ogg.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "children are innately disposed to categorize objects in certain ways."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "孩子天生就倾向于以特定的方式对物体进行分类。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "倾向"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "disposition"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "certain people have a predisposition to colon cancer"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "某些人有结肠癌的倾向"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "倾向"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "b是倾向方式：b是可实现的实体； b的持有人是一些物质实体； b是这样的，如果它不复存在，那么它的持有人发生了物理变化； b的实现发生在且因为这个持有者处于一些特殊的物理环境中；这种实现是由于持有者的物理构成而发生的。 （BFO2公理标签参考：[062-002]）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (Disposition x) (and (RealizableEntity x) (exists (y) (and (MaterialEntity y) (bearerOfAt x y t)))))) // axiom label in BFO2 CLIF: [062-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "If b is a realizable entity then for all t at which b exists, b s-depends_on some material entity at t. (axiom label in BFO2 Reference: [063-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2参考：倾向存在于强度连续体中。只有一小部分触发事件才能实现较弱的倾向形式。这些形式出现在相当数量的类似案例中。"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "倾向"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000017",
+      "meta" : {
+        "definition" : {
+          "val" : "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "这个边界角色描绘了犹他州和科罗拉多州的交汇点"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "realizable entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ogg.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "所有可实现依赖常体都有独立常体，这些独立常体不是空间区域作为承载。 （BFO2公理标签参考：[060-002]）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "要说b是一个可实现实体，就是说b是一个特定依赖性常体，它存在于某些依赖常体中，这个连续体不是一个空间区域，而是一个在相关类型的过程中实现的类型实例。 （BFO2公理标签参考：[058-002]）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "可实现实体"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "RealizableEntity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "可实现的"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the function of your reproductive organs"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "realizable"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "你的血液的凝结倾向"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the disposition of your blood to coagulate"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the disposition of this piece of metal to conduct electricity."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "realizable"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "RealizableEntity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "你的生殖器官的功能"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "可实现实体(RealizableEntity)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "这块金属的导电倾向。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "作为医生的角色"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the role of being a doctor"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the role of this boundary to delineate where Utah and Colorado meet"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "可实现实体"
+    }, {
+      "id" : "http://www.ebi.ac.uk/cellline#cervical_carcinoma",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "宫颈癌"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002488",
+      "type" : "PROPERTY",
+      "lbl" : "existence starts during"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000147",
+      "meta" : {
+        "definition" : {
+          "val" : "a immortal animal cell line that is derived from hematopoietic cell",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal hematopoietic cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal hematopoietic cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永生的造血细胞系"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "永生的造血细胞系细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_3908",
+      "type" : "CLASS",
+      "lbl" : "非小细胞肺癌"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000028",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "一种细胞培养生长模式：细胞需要粘附在细胞培养板上生长"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "a cell culture growth mode that indicates a cell needs to adhere to a cell culture plate to grow."
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "a cell culture growth mode that indicates a cell needs to adhere to a cell culture plate to grow."
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "YH"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "贴壁细胞培养生长模式"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_305",
+      "type" : "CLASS",
+      "lbl" : "癌"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000029",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "YH"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "YH"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "一种细胞培养生长模式：当细胞悬浮在细胞培养基中时，细胞可以生长"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "a cell culture growth mode that indicates a cell can grow when the cell is suspended in cell culture medium."
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "a cell culture growth mode that indicates a cell can grow when the cell is suspended in cell culture medium."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "suspension cell culture growth mode"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0003707",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-23"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "HEp-2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "HEp-2 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000004",
+      "type" : "CLASS",
+      "lbl" : "independent continuant"
+    }, {
+      "id" : "http://www.ebi.ac.uk/efo/EFO_0000834",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "WBbt:0005772"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "WBbt:0005772"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "intestines"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "gut"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "TAO:0001338"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "adult alimentary canal"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "intestines"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "FMAID:7199"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The fluid-feeding habit of adult mosquitoes is reflected in the structure and ultrastructure of the alimentary canal."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "成年蚊子的摄食习惯反映在消化道的结构和超微结构上。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "AAO:0000246"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "肠(intestines)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "EV:0100071"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "MA:0000328"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "MAT:0000043"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "TADS:0000165"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "MA:0000328"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "SAEL:55"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "XAO:0000129"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "adult alimentary canal"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "MFO:0003040"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "XAO:0000129"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "AAO:0000246"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "TAO:0001338"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "EV:0100071"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Bowel"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "FMAID:7199"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "肠(Bowel)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "James Malone"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "TGMA:0001819"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "TADS:0000165"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "gut"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "ZFA:0001338"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "MAT:0000043"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "MFO:0003040"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "从胃延伸到肛门的消化道的管状部分。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "BTO:0000648"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "SAEL:55"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The tubular part of the alimentary canal that extends from the stomach to the anus."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "TGMA:0001819"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "URI: http://www.ebi.ac.uk/cellline#intestine"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "ZFA:0001338"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Bowel"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "BTO:0000648"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The tubular part of the alimentary canal that extends from the stomach to the anus."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "James Malone"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "URI: http://www.ebi.ac.uk/cellline#intestine"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "肠道"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "成人消化道"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The fluid-feeding habit of adult mosquitoes is reflected in the structure and ultrastructure of the alimentary canal."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "EHDAA:518"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "EHDAA:518"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "intestine"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000006",
+      "type" : "CLASS",
+      "lbl" : "spatial region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_8864",
+      "type" : "CLASS",
+      "lbl" : "acute monocytic leukemia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000219",
+      "type" : "CLASS",
+      "lbl" : "motile cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000738",
+      "type" : "CLASS",
+      "lbl" : "白血球"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0009524",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Vero"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D014709"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl4644"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D014709"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-81"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-81"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl4644"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Vero"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Vero cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000150",
+      "meta" : {
+        "definition" : {
+          "val" : "a immortal hematopoietic cell line that is derived from myeloid cell",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal myeloid cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal myeloid cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永生的骨髓细胞系"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal myeloid cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0002172",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl618"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D018938"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307519"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001099"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Caco-2"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D018938"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: colorectal adenocarcinoma"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl618"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0025"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Caco-2"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: HTB-37"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001099"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: HTB-37"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "疾病：结肠直肠腺癌"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1170"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1170"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0025"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307519"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: colorectal adenocarcinoma"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Caco-2 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000031",
+      "type" : "CLASS",
+      "lbl" : "细胞系"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000030",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "a disposition that represents a mode of cell culture growth, i.e., the cell will grow at a specific cell culture mode. For example, an adherent cell culture growh mode means that the cell will grow when the cell is adhere to a cell culture plate."
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "YH"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "YH"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "a disposition that represents a mode of cell culture growth, i.e., the cell will grow at a specific cell culture mode. For example, an adherent cell culture growh mode means that the cell will grow when the cell is adhere to a cell culture plate."
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "一种代表细胞培养生长模式的配置，即细胞将以特定细胞培养模式生长。 例如，贴壁细胞培养生长模式意味着当细胞粘附于细胞培养板时细胞将生长。"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell culture growth mode"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000576",
+      "type" : "CLASS",
+      "lbl" : "monocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000033",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "mixed suspension"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000032",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "混合贴壁悬浮细胞培养"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000600",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "elucidation"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "Primitive terms in a highest-level ontology such as BFO are terms which are so basic to our understanding of reality that there is no way of defining them in a non-circular fashion. For these, therefore, we can provide only elucidations, supplemented by examples and by axioms"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "说明"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Barry Smith"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "在最高级别的本体中的原始术语如BFO是对我们理解现实最基本，以至于无法以非循环的方式来定义它们的术语。对于这些，因此，我们只能提供说明，通过例子和公理进行补充"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "说明"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000001",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Julius Caesar"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Verdi’s Requiem"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Entity doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example Werner Ceusters 'portions of reality' include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, 'How to track absolutely everything' at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "第二次世界大战"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/BFO"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "凯撒大帝"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ogg.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "实体"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "实体不具有闭合公理，因为子类不一定丧失所有可能性。例如，Werner Ceusters的“现实的部分”包括4类，实体（当BFO构造它们时）、普遍性、配置和关系。这是一个开放性的问题，即在BFO中所解释的实体是否会在某个时候也包含这些其他的现实部分。参见，例如“如何完全追踪所有事物”在http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the Second World War"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "一个实体是存在或已经存在或将存在的任何事物。 （BFO2公理标签参考：[001-001]）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2参考：在经验性总结分析的所有领域，我们遇到两种一般术语。首先是指共相或类型的一般术语：animaltuberculosissurgical proceduredisease其次，是用来指以下实例组的一般术语，这些实例组实例化一个给定共性但对应于该共相的任何子共相的扩展，因为没有实体的内在本质讨论因为他们-只有他们-被视为属于给定的群体。例子是：对斯德哥尔摩病人进行的周三手术过程中诊断出结核分枝杆菌而购买的动物，被确定为临床试验的候选人＃2056-555根据莱昂纳多·达·芬奇（Leonardo da Vinci）条款制定的656-PPV表格的签名人。这些术语代表所谓的“专业化'[81"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "实体"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "威尔第年代安魂曲"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "实体"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "your body mass index"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "你的身体质量指数"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "entity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000601",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "An axiom associated with a term expressed using natural language"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "has associated axiom(nl)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "具有相关联的公理（nl）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "与一个使用自然语言表达的术语相关的公理"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person:Alan Ruttenberg"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has associated axiom(nl)"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000034",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "clusters in suspension cell line culturing"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000002",
+      "meta" : {
+        "definition" : {
+          "val" : "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "一个常体是一个持续、持久或持续存在且同时保持其身份的实体。 （BFO2中的公理标签参考：[008-002]）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ogg.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "如果b是物质实体，则在b存在期间有一些时间间隔（以下称为一维时间区域）。 （BFO2公理标签：[011-002]）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "如果b是一个常体，并且如果对于某个t，c在t时刻具有_常体_部分b，则c是一个常体。 （BFO2公理标签参考：[126-001]）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "常体"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "continuant"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2参考：持续实体是可以被分割的实体，只能沿着空间维度分割成部分，例如产生您的桌子的部分，我们称之为它的腿、顶部、指甲。 “我的桌子从窗户延伸到门口。它有空间部分，可以在空间切成两半。不过，就时间而言，一个事物是连续的。“[60，p。 240"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "continuant"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "常体"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "常体"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "如果b是一个常体，并且如果，对于某个t，c是在t时刻的b的常体_部分，则c是一个常体。 （BFO2公理标签参考：[009-002]）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
+          "val" : "if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Continuant"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "常体不具有闭合公理，因为子类不一定丧失所有可能性。例如，在涉及引入一些Ceuster的实体的其他部分的扩展中，提出了普遍性是否是连续性的问题"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "continuant"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "Continuant"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] "
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "常体"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000009",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasDefinition",
+          "val" : "adherent on coated surface cell line culturing is an adherent cell line culturing method that the surface is coated with extracellular matrix component to increase adhesion properties and provide other signals needed for growth and differentiation."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "adherent on coated surface cell line culturing"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000602",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "An axiom expressed in first order logic using CLIF syntax"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "具有相关联的公理（fol）"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "使用CLIF语法在第一逻辑进行表达的公理"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person:Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "has associated axiom(fol)"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/iao.owl"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has associated axiom(fol)"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "type" : "PROPERTY",
+      "lbl" : "database_cross_reference"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000548",
+      "type" : "CLASS",
+      "lbl" : "animal cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0000245",
+      "type" : "CLASS",
+      "lbl" : "organization"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "type" : "CLASS",
+      "lbl" : "人类"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "type" : "PROPERTY",
+      "lbl" : "shorthand"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000000",
+      "meta" : {
+        "definition" : {
+          "val" : "维持细胞株存活和活跃培养的细胞培养过程。",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell line cell culturing"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0050025",
+      "meta" : {
+        "definition" : {
+          "val" : "A immortal human cell line cell that has the characteristics: Lung carcinoma, refer to ATCC CCL185",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "RCB0098"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Derived from tissue: lung in animal: human."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Originator: Giard, D. J."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "RIKEN Cell bank Team Yongqun He"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-185"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "A549"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Register: Abe, Shin-ichiro"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1601"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "RCB0098 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000002",
+      "meta" : {
+        "definition" : {
+          "val" : "suspension cell line culturing is a cell line culturing method where cells do not require a surface for growth and differentiation. This method is appropriate for cells that are adapted to suspension culture or cells that are non-adhesive (e.g. hematopoietic cells)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "suspension cell line culturing"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000002",
+      "type" : "CLASS",
+      "lbl" : "cervix"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000001",
+      "meta" : {
+        "definition" : {
+          "val" : "一个培养细胞，它是一个细胞株（一个稳定的，同质的细胞群，具有共同的生物学起源和增殖史）的一部分",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "cell line cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yongqun He, Matthew Brush, Sirarat Sarntivijai, Alexander Diehl, Jie Zheng, Yu Lin, Bjoern Peters"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "A 'cell line cell' is a part of a cell line established through the passaging/selection of a primary cultured cells or the experimental modification of an existing cell line. New types of cell line cells are established after sufficient passaging of a primary culture to establish a stable and homogenous population that qualifies as a line (typically 1-20 passages), or following some spontaneous or experimental modification that confers novel characteristics to an existing line. A cell line cell typically has mutations of five or more genes compared to the original cell that derives the cell line cell. Some gene mutations may turn on some oncogenes.  Cell line cells can be in active culture, stored in a quiescent state for future use (e.g. frozen in liquid nitrogen), or applied in experimental procedures.  "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "A 'cell line cell' is a part of a cell line established through the passaging/selection of a primary cultured cells or the experimental modification of an existing cell line. New types of cell line cells are established after sufficient passaging of a primary culture to establish a stable and homogenous population that qualifies as a line (typically 1-20 passages), or following some spontaneous or experimental modification that confers novel characteristics to an existing line. A cell line cell typically has mutations of five or more genes compared to the original cell that derives the cell line cell. Some gene mutations may turn on some oncogenes.  Cell line cells can be in active culture, stored in a quiescent state for future use (e.g. frozen in liquid nitrogen), or applied in experimental procedures.  "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "细胞系细胞"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "“细胞系细胞”是通过原代培养细胞的传代/选择或现有细胞系的实验性修饰而建立的细胞系的一部分。新类型的细胞系细胞的建立过程是原代培养物充分传代后以建立符合条件（典型地1-20代）的稳定且同质的群体，或者在某些自发或实验性修饰之后赋予现有细胞系新的特征。与产生细胞系细胞的原始细胞相比，细胞系细胞通常具有5个或更多个基因的突变。 一些基因突变可能会开启一些致癌基因。 细胞系细胞可处于活性培养物中，以静止状态储存以供将来使用（例如在液氮中冷冻），或者在实验程序使用。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yongqun He, Matthew Brush, Sirarat Sarntivijai, Alexander Diehl, Jie Zheng, Yu Lin, Bjoern Peters"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "cell line cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "细胞系细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000243",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal cell line cell that derives from female gonad.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal female gonad-derived cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0002421",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "CHO"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "中国仓鼠卵巢细胞"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D016466"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl721"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl721"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D016466"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Chinese Hamster Ovary cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "CHO"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Chinese Hamster Ovary cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "CHO cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000003",
+      "meta" : {
+        "definition" : {
+          "val" : "adherent cell line culturing is a cell line culturing method where cells require a surface for growth and differentiation.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "adherent cell line culturing"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000124",
+      "meta" : {
+        "definition" : {
+          "val" : "a immortal cell line cell that is derived from eukaryotic cell",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "永生的真核细胞系细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000005",
+      "meta" : {
+        "definition" : {
+          "val" : "一个细胞系资源组织中所起的作用",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "SS, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "SS, YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell line repository role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000129",
+      "meta" : {
+        "definition" : {
+          "val" : "源自上皮细胞的永生动物细胞系",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal epithelial cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000008",
+      "meta" : {
+        "definition" : {
+          "val" : "an organization that serves as a repository of cell lines.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "SS, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "SS, YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cell line repository"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000031",
+      "type" : "CLASS",
+      "lbl" : "generically dependent continuant"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000249",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal cell line cell that derives from stomach.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal stomach-derived cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000128",
+      "meta" : {
+        "definition" : {
+          "val" : "a immortal eukaryotic cell line that is derived from animal cell",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal animal cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永生的动物细胞系"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal animal cell line"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal animal cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000936",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal monocyte cell line cell that derives from human.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal human monocyte cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OBI_0001867",
+      "type" : "CLASS",
+      "lbl" : "establishing cell line"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000093",
+      "meta" : {
+        "definition" : {
+          "val" : "a cell line that is derived from motile cell",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永生的游动细胞系"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal motile cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "immortal motile cell line"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZX, YH"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal motile cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0009348",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001253"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/efo/alternative_term",
+          "val" : "THP1"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307574"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1072"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1072"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: TIB-202"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001253"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307574"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl4514"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "THP-1"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl4514"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "THP-1"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/efo/alternative_term",
+          "val" : "THP1"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0006"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0006"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: TIB-202"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "THP-1 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000493",
+      "meta" : {
+        "definition" : {
+          "val" : "An immortal lung-derived cell line cell that derives from human.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal human lung-derived cell line cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/UBERON_0000992",
+      "type" : "CLASS",
+      "lbl" : "female gonad"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000013",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "在饲养细胞上贴壁培养细胞系"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_299",
+      "type" : "CLASS",
+      "lbl" : "adenocarcinoma"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000023",
+      "type" : "CLASS",
+      "lbl" : "role"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000015",
+      "type" : "PROPERTY",
+      "lbl" : "derives from patient having disease"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000014",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "贴壁斑片状细胞培养"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000533",
+      "meta" : {
+        "definition" : {
+          "val" : "源自黑长尾猴的永生肾衍生细胞系细胞。",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yue Liu, Yongqun He"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "永生的黑长尾猴肾衍生细胞系细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000016",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "loosely adherent cell line culturing"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/BFO_0000020",
+      "meta" : {
+        "definition" : {
+          "val" : "一个在其他实体中存在或由其他实体承担的常体。 A的每个实例都需要一些特定的B实例，这些B实例必须始终相同。",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "of one-sided specifically dependent continuants: the mass of this tomato"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "捕食者角色和猎物角色的相互依赖由两个生物体在给定的相互作用中扮演"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the pink color of a medium rare piece of grilled filet mignon at its center"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "这个洞的形状。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "sdc"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the smell of this portion of mozzarella"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the function of this heart: to pump blood"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the shape of this hole."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "关系独立常体（对个载体）：约翰对玛丽的爱，约翰与这座雕像之间的所有关系，以及约翰与他的下属之间的权力关系。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "具体而言，相关常体不具有闭合公理，因为子类不一定丧失所有可能性。我们不确定在这里会发生什么，但是会有如什么是承诺，义务等等的问题。"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the role of being a doctor"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "这部分马苏里拉奶酪的气味"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "特定依赖性常体"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "作为医生的角色"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "在它中心的一块四分熟烤菲力牛排的粉色"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "质子供体和受体在化学反应中的相互依赖[79"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the disposition of this fish to decay"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "Specifically dependent continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. We're not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "这条鱼的腐烂倾向"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "这颗心的功能：抽血"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "specifically dependent continuant"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "交互特定依赖性常体：这个键的功能打开这个锁和这个锁的相互依赖的配置：被这个键打开"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the mutual dependence of proton donors and acceptors in chemical reactions [79"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "SpecificallyDependentContinuant"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "局部特定依赖性常体：这个番茄的性质"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ogg.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
+          "val" : "(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] "
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "SpecificallyDependentContinuant"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000179",
+          "val" : "sdc"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+          "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
+          "val" : "特定依赖性常体(SpecificallyDependentContinuant)"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "特定依赖性常体"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000019",
+      "meta" : {
+        "definition" : {
+          "val" : "预期能够进行无限次分裂的细胞系细胞，作为永生细胞系一部分，能够支持体外无限增殖。",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "permanent cell line cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "permanent cell line cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "immortal cell line cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yongqun He, Matthew Brush, Allen Xiang, Asiyah Yu Lin,  Sirarat Sarntivijai, James Malone, Jie Zheng, Tomasz Adamusiak"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "永久细胞系细胞"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "永生细胞系细胞"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "continuous cell line cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/obi.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "immortal cell line cell"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "连续细胞系细胞"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Yongqun He, Matthew Brush, Allen Xiang, Asiyah Yu Lin,  Sirarat Sarntivijai, James Malone, Jie Zheng, Tomasz Adamusiak"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "continuous cell line cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "immortal cell line cell"
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0002421",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000243"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000243",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0003707",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000147",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000128"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0003684",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0002172",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_234"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000016"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000129",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000128"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000105",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000102"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000147",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000166"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000055",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0009348",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0003707",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000563"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000125",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0007005",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000125",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000002",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000055",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000029"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000493",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000219"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000533",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000220"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000166",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000034",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000002"
+    }, {
+      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000834",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/UBERON_0004921"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0002752",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000150",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000763"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000220",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0009524",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000533"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0009348",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000081"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000020"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000128",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000548"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0007393",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000513"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0001686",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000549"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000283",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000129"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0007005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000043"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000128",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000124"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000513",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000236"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000219",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0003684",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000015",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_3702"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0600024"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0008080",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0008080",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000493"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0003684",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_3702"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000106",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000576"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000563",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000129"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000166",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0002371"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0009524",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0007005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000636",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000283"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0002172",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000105",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000766"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000093",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0009348",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000936"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000236",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000107",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0002087"
+    }, {
+      "sub" : "http://www.ebi.ac.uk/cellline#cervical_carcinoma",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_4362"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0009348",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_8864"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000122",
+      "pred" : "type",
+      "obj" : "http://www.w3.org/2002/07/owl#Thing"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000249",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000093",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000219"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000107",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000102"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0007393",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0002172",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000834"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0009348",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000015",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_8864"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000122",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000078"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0002172",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000513"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0006953",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000511"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0003684",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000636"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000936",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000106"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0001686",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0002752",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000563"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0003684",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "obj" : "http://www.ebi.ac.uk/cellline#cervical_carcinoma"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000032"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0001686",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_3717"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000124",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0050025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0001601"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000124",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000255"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0001686",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000015",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_3717"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0001601",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_3908"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000102",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000147"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000106",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000107"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0001601",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000015",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_3908"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0001601",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000493"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0001601",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000295",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000106",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000105"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000511",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000173",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0050025",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000015",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_3908"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000147",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000988"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000129",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000066"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000105",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000549",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000249"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000102",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000738"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000150",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000147"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0050025",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_3908"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0002172",
+      "pred" : "http://purl.obolibrary.org/obo/CLO_0000015",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_234"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000102",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000093"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
+    } ],
+    "id" : "http://purl.obolibrary.org/obo/ohpi/imports/clo_import.owl",
+    "meta" : {
+      "subsets" : [ ],
+      "xrefs" : [ ],
+      "basicPropertyValues" : [ ],
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/imports/clo_import.owl"
+    },
+    "equivalentNodesSets" : [ ],
+    "logicalDefinitionAxioms" : [ {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000563",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000129" ],
+      "restrictions" : [ null ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000636",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000283" ],
+      "restrictions" : [ null ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000549",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000249" ],
+      "restrictions" : [ null ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000533",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000220" ],
+      "restrictions" : [ null ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000042",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000019" ],
+      "restrictions" : [ null ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000936",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000106" ],
+      "restrictions" : [ null ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000493",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000219" ],
+      "restrictions" : [ null ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000043",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000042" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0001000",
+        "fillerId" : "http://purl.obolibrary.org/obo/CL_0000235"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000511",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000019" ],
+      "restrictions" : [ null ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000008",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/OBI_0000245" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/RO_0000087",
+        "fillerId" : "http://purl.obolibrary.org/obo/CLO_0000005"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/CLO_0000513",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/CLO_0000236" ],
+      "restrictions" : [ null ]
+    } ],
+    "domainRangeAxioms" : [ {
+      "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000176"
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/BFO_0000186"
+    } ],
+    "propertyChainAxioms" : [ ]
+  } ]
+}

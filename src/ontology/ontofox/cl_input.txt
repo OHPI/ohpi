@@ -1,0 +1,69 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohpi/imports/cl_import.owl
+
+[Source ontology]
+CL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000235 #macrophage
+http://purl.obolibrary.org/obo/CL_0000066 #epithelial cell
+http://purl.obolibrary.org/obo/CL_0000115 #endothelial cell
+http://purl.obolibrary.org/obo/CL_1001573 #nasopharyngeal epithelial cell
+http://purl.obolibrary.org/obo/CL_0000003 #native cell
+http://purl.obolibrary.org/obo/CL_0002355
+http://purl.obolibrary.org/obo/CL_0000542
+http://purl.obolibrary.org/obo/CL_0002328
+http://purl.obolibrary.org/obo/CL_0002563
+http://purl.obolibrary.org/obo/CL_2000008
+http://purl.obolibrary.org/obo/CL_0000000
+http://purl.obolibrary.org/obo/CL_0000010
+http://purl.obolibrary.org/obo/CL_0000576
+http://purl.obolibrary.org/obo/CL_0000081
+http://purl.obolibrary.org/obo/CL_0000219
+http://purl.obolibrary.org/obo/CL_0000255
+http://purl.obolibrary.org/obo/CL_0000548
+http://purl.obolibrary.org/obo/CL_0000738
+http://purl.obolibrary.org/obo/CL_0000763
+http://purl.obolibrary.org/obo/CL_0000766
+http://purl.obolibrary.org/obo/CL_0000988
+http://purl.obolibrary.org/obo/CL_0002087
+http://purl.obolibrary.org/obo/CL_0002371
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CL_0000066 #epithelial cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000003
+
+http://purl.obolibrary.org/obo/CL_0002355
+subClassOf http://purl.obolibrary.org/obo/CL_0000003
+
+http://purl.obolibrary.org/obo/CL_0000235 #macrophage
+subClassOf http://purl.obolibrary.org/obo/CL_0000003
+
+http://purl.obolibrary.org/obo/CL_0000115 #endothelial cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000003
+
+http://purl.obolibrary.org/obo/CL_1001573 #nasopharyngeal epithelial cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000066 #epithelial cell
+
+http://purl.obolibrary.org/obo/CL_0000003 #native cell
+subClassOf http://purl.obolibrary.org/obo/CL_0000000
+
+http://purl.obolibrary.org/obo/CL_0000542
+subClassOf http://purl.obolibrary.org/obo/CL_0000003
+
+http://purl.obolibrary.org/obo/CL_0002328
+subClassOf http://purl.obolibrary.org/obo/CL_0000066 #epithelial cell
+
+http://purl.obolibrary.org/obo/CL_0002563
+subClassOf http://purl.obolibrary.org/obo/CL_0000066 #epithelial cell
+
+http://purl.obolibrary.org/obo/CL_2000008
+subClassOf http://purl.obolibrary.org/obo/CL_0000115 #endothelial cell
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

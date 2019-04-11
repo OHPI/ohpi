@@ -1,0 +1,20 @@
+?cls	?pred	?val	?synType
+<http://purl.obolibrary.org/obo/OHPI_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"mouse-pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-M. tuberculosis interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-bacterial pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000018>	<http://www.w3.org/2000/01/rdf-schema#label>	"human-Brucella interaction in macrophage"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"human-Brucella interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000010>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-viral pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"mouse-M. tuberculosis interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"pig-pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000021>	<http://www.w3.org/2000/01/rdf-schema#label>	"M. tuberculosis interaction with mouse cell line cell"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000012>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-fungal pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000031>	<http://www.w3.org/2000/01/rdf-schema#label>	"honeycomb moth-pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000022>	<http://www.w3.org/2000/01/rdf-schema#label>	"M. tuberculosis interaction with J774.A1 RAW cell"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000024>	<http://www.w3.org/2000/01/rdf-schema#label>	"M. tuberculosis interaction with mouse macrophage cell line cell"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000013>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-parasitic pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000032>	<http://www.w3.org/2000/01/rdf-schema#label>	"rat-pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"M. tuberculosis ahpC mutant interaction with J774.A1 cell"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000014>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-Brucella interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"human-pathogen interaction"@en	

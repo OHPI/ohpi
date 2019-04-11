@@ -1,0 +1,804 @@
+format-version: 1.2
+data-version: ohpi/releases/2019-04-10/imports/pr_import.owl
+ontology: ohpi/imports/pr_import
+
+[Term]
+id: BFO:0000015
+name: process
+namespace: bfo
+
+[Term]
+id: BFO:0000019
+name: quality
+namespace: bfo
+
+[Term]
+id: BFO:0000024
+name: fiat object part
+namespace: bfo
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000030
+name: object
+namespace: bfo
+is_a: BFO:0000040 ! material entity
+
+[Term]
+id: BFO:0000040
+name: material entity
+namespace: bfo
+
+[Term]
+id: CHEBI:23367
+name: molecular entity
+namespace: chebi_ontology
+def: "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity." [fake:2]
+is_a: CHEBI:24431 ! chemical entity
+
+[Term]
+id: CHEBI:24431
+name: chemical entity
+namespace: chebi_ontology
+def: "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances." []
+is_a: BFO:0000030 ! object
+
+[Term]
+id: GO:0008150
+name: biological_process
+namespace: biological_process
+is_a: BFO:0000015 ! process
+
+[Term]
+id: NCBITaxon:10029
+name: Cricetulus griseus
+namespace: ncbi_taxonomy
+synonym: "Cgri-" RELATED PRO-short-label [PRO:DAN]
+synonym: "Chinese hamster" RELATED PRO-common-name []
+is_a: NCBITaxon:9989 ! Rodentia
+
+[Term]
+id: NCBITaxon:10090
+name: Mus musculus
+namespace: ncbi_taxonomy
+synonym: "m" RELATED PRO-short-label [PRO:DAN]
+synonym: "mouse" RELATED PRO-common-name []
+is_a: NCBITaxon:9989 ! Rodentia
+
+[Term]
+id: NCBITaxon:10239
+name: virus
+namespace: ncbi_taxonomy
+synonym: "viral-" RELATED PRO-short-label [PRO:DAN]
+synonym: "Viruses" EXACT []
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:10254
+name: Vaccinia virus WR
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:10239 ! virus
+
+[Term]
+id: NCBITaxon:10298
+name: Human herpesvirus 1
+namespace: ncbi_taxonomy
+synonym: "HSV1" BROAD PRO-common-name []
+is_a: NCBITaxon:10239 ! virus
+
+[Term]
+id: NCBITaxon:10299
+name: Herpes simplex virus type 1 strain 17
+namespace: ncbi_taxonomy
+synonym: "HSV1(17)" EXACT PRO-common-name [PRO:DAN]
+is_a: NCBITaxon:10298 ! Human herpesvirus 1
+
+[Term]
+id: NCBITaxon:10334
+name: Felid alphaherpesvirus 1
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:10239 ! virus
+
+[Term]
+id: NCBITaxon:11082
+name: West Nile virus
+namespace: ncbi_taxonomy
+synonym: "WNV-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:10239 ! virus
+
+[Term]
+id: NCBITaxon:11320
+name: Influenza A virus
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:197911 ! Influenzavirus A
+
+[Term]
+id: NCBITaxon:118882
+name: Brucellaceae
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:121791
+name: Nipah henipavirus
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:10239 ! virus
+
+[Term]
+id: NCBITaxon:122586
+name: Neisseria meningitidis MC58
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:1280
+name: Staphylococcus aureus
+namespace: ncbi_taxonomy
+synonym: "Staph-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:1351
+name: Enterococcus faecalis
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:1352
+name: Enterococcus faecium
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:1392
+name: Bacillus anthracis
+namespace: ncbi_taxonomy
+synonym: "anthrax-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:1502
+name: Clostridium perfringens
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:158878
+name: Staphylococcus aureus subsp. aureus Mu50
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1280 ! Staphylococcus aureus
+
+[Term]
+id: NCBITaxon:158879
+name: Staphylococcus aureus subsp. aureus N315
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1280 ! Staphylococcus aureus
+
+[Term]
+id: NCBITaxon:170187
+name: Streptococcus pneumoniae TIGR4
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:171101
+name: Streptococcus pneumoniae R6
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:1773
+name: Mycobacterium tuberculosis
+namespace: ncbi_taxonomy
+synonym: "Mtub-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:185431
+name: Trypanosoma brucei brucei TREU927
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:189518
+name: Leptospira interrogans serovar Lai str. 56601
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:192222
+name: Campylobacter jejuni subsp. jejuni NCTC 11168
+namespace: ncbi_taxonomy
+synonym: "Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819" EXACT []
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:196620
+name: Staphylococcus aureus subsp. aureus MW2
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1280 ! Staphylococcus aureus
+
+[Term]
+id: NCBITaxon:197911
+name: Influenzavirus A
+namespace: ncbi_taxonomy
+synonym: "FluA-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:10239 ! virus
+
+[Term]
+id: NCBITaxon:199310
+name: Escherichia coli CFT073
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:2
+name: Bacteria
+namespace: ncbi_taxonomy
+synonym: "bact-" RELATED PRO-short-label [PRO:DAN]
+synonym: "Bacteria <prokaryote>" EXACT []
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:204722
+name: Brucella suis 1330
+namespace: ncbi_taxonomy
+synonym: "Brucella suis biovar 1 (strain 1330)" EXACT [PRO:CNA]
+synonym: "Bsuis1330-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:234 ! Brucella
+
+[Term]
+id: NCBITaxon:208435
+name: Streptococcus agalactiae 2603V/R
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:208964
+name: Pseudomonas aeruginosa PAO1
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:211044
+name: Influenza A virus (A/Puerto Rico/8/1934(H1N1))
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:197911 ! Influenzavirus A
+
+[Term]
+id: NCBITaxon:212717
+name: Clostridium tetani E88
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:2157
+name: Archaea
+namespace: ncbi_taxonomy
+synonym: "arch-" RELATED PRO-short-label [PRO:DAN]
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:224326
+name: Borreliella burgdorferi B31
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:224914
+name: Brucella melitensis bv. 1 str. 16M
+namespace: ncbi_taxonomy
+synonym: "Bmel16M-" RELATED PRO-short-label [PRO:DAN]
+synonym: "Brucella melitensis biotype 1 (strain 16m / atcc 23456 / nctc 10094)" EXACT [PRO:CNA]
+is_a: NCBITaxon:234 ! Brucella
+
+[Term]
+id: NCBITaxon:226185
+name: Enterococcus faecalis V583
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:227377
+name: Coxiella burnetii RSA 493
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:234
+name: Brucella
+namespace: ncbi_taxonomy
+synonym: "Bru-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:118882 ! Brucellaceae
+
+[Term]
+id: NCBITaxon:237561
+name: Candida albicans SC5314
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:4751 ! Fungi
+
+[Term]
+id: NCBITaxon:243160
+name: Burkholderia mallei ATCC 23344
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:243277
+name: Vibrio cholerae O1 biovar El Tor str. N16961
+namespace: ncbi_taxonomy
+synonym: "Vchol-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:257313
+name: Bordetella pertussis Tohama I
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:272560
+name: Burkholderia pseudomallei K96243
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:272561
+name: Chlamydia trachomatis D/UW-3/CX
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:272563
+name: Clostridioides difficile 630
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:273036
+name: Staphylococcus aureus RF122
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1280 ! Staphylococcus aureus
+
+[Term]
+id: NCBITaxon:273123
+name: Yersinia pseudotuberculosis IP 32953
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:2759
+name: Eukaryota
+namespace: ncbi_taxonomy
+synonym: "euk-" RELATED PRO-short-label [PRO:DAN]
+is_a: OBI:0100026 ! organism
+
+[Term]
+id: NCBITaxon:282458
+name: Staphylococcus aureus subsp. aureus MRSA252
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1280 ! Staphylococcus aureus
+
+[Term]
+id: NCBITaxon:283643
+name: Cryptococcus neoformans var. neoformans B-3501A
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:4751 ! Fungi
+
+[Term]
+id: NCBITaxon:287
+name: Pseudomonas aeruginosa
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:300267
+name: Shigella dysenteriae Sd197
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:301447
+name: Streptococcus pyogenes serotype M1
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:330879
+name: Aspergillus fumigatus Af293
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:4751 ! Fungi
+
+[Term]
+id: NCBITaxon:33090
+name: Viridiplantae
+namespace: ncbi_taxonomy
+synonym: "plant-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33154
+name: Opisthokonta
+namespace: ncbi_taxonomy
+synonym: "Fungi/Metazoa group" RELATED []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:33208
+name: Metazoa
+namespace: ncbi_taxonomy
+synonym: "metazoan-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:353153
+name: Trypanosoma cruzi strain CL Brener
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:359391
+name: Brucella abortus 2308
+namespace: ncbi_taxonomy
+synonym: "BmelAbo2308-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:234 ! Brucella
+
+[Term]
+id: NCBITaxon:36329
+name: Plasmodium falciparum 3D7
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:5833 ! Plasmodium falciparum
+
+[Term]
+id: NCBITaxon:373153
+name: Streptococcus pneumoniae D39
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:3879
+name: Medicago sativa
+namespace: ncbi_taxonomy
+synonym: "alfalfa" RELATED PRO-common-name []
+synonym: "Medicago sativa subsp. sativa" RELATED []
+is_a: NCBITaxon:33090 ! Viridiplantae
+
+[Term]
+id: NCBITaxon:393305
+name: Yersinia enterocolitica subsp. enterocolitica 8081
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:40674
+name: Mammalia
+namespace: ncbi_taxonomy
+synonym: "mammal" EXACT PRO-common-name []
+synonym: "mammal-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: NCBITaxon:418127
+name: Staphylococcus aureus subsp. aureus Mu3
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1280 ! Staphylococcus aureus
+
+[Term]
+id: NCBITaxon:426430
+name: Staphylococcus aureus subsp. aureus str. Newman
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1280 ! Staphylococcus aureus
+
+[Term]
+id: NCBITaxon:441771
+name: Clostridium botulinum A str. Hall
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:44689
+name: Dictyostelium discoideum
+namespace: ncbi_taxonomy
+synonym: "slime mold" EXACT PRO-common-name []
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:4751
+name: Fungi
+namespace: ncbi_taxonomy
+synonym: "fungal-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:33154 ! Opisthokonta
+
+[Term]
+id: NCBITaxon:4932
+name: Saccharomyces cerevisiae
+namespace: ncbi_taxonomy
+synonym: "baker's yeast" EXACT []
+is_a: NCBITaxon:4751 ! Fungi
+
+[Term]
+id: NCBITaxon:559292
+name: Saccharomyces cerevisiae S288c
+namespace: ncbi_taxonomy
+synonym: "y" RELATED PRO-short-label [PRO:DAN]
+synonym: "yeast" RELATED PRO-common-name [PRO:DAN]
+is_a: NCBITaxon:4932 ! Saccharomyces cerevisiae
+
+[Term]
+id: NCBITaxon:562
+name: Escherichia coli
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:5664
+name: Leishmania major
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:568206
+name: Bacillus anthracis str. CDC 684
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1392 ! Bacillus anthracis
+
+[Term]
+id: NCBITaxon:5833
+name: Plasmodium falciparum
+namespace: ncbi_taxonomy
+synonym: "malaria parasite" RELATED PRO-common-name [PRO:DAN]
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:585056
+name: Escherichia coli UMN026
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:585057
+name: Escherichia coli IAI39
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:623
+name: Shigella flexneri
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:6239
+name: Caenorhabditis elegans
+namespace: ncbi_taxonomy
+synonym: "w" RELATED PRO-short-label [PRO:DAN]
+synonym: "worm" RELATED PRO-common-name [PRO:DAN]
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: NCBITaxon:630
+name: Yersinia enterocolitica
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:632
+name: Yersinia pestis
+namespace: ncbi_taxonomy
+synonym: "Ypes-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:71421
+name: Haemophilus influenzae Rd KW20
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:7227
+name: Drosophila melanogaster
+namespace: ncbi_taxonomy
+synonym: "fruit fly" EXACT PRO-common-name []
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: NCBITaxon:73239
+name: Plasmodium yoelii yoelii
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2759 ! Eukaryota
+
+[Term]
+id: NCBITaxon:7955
+name: Danio rerio
+namespace: ncbi_taxonomy
+synonym: "zebrafish" EXACT PRO-common-name []
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: NCBITaxon:83332
+name: Mycobacterium tuberculosis H37Rv
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1773 ! Mycobacterium tuberculosis
+
+[Term]
+id: NCBITaxon:83333
+name: Escherichia coli K-12
+namespace: ncbi_taxonomy
+synonym: "Ec-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:85962
+name: Helicobacter pylori 26695
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:85963
+name: Helicobacter pylori J99
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:9031
+name: Gallus gallus
+namespace: ncbi_taxonomy
+synonym: "chick-" RELATED PRO-short-label [PRO:DAN]
+synonym: "chicken" RELATED PRO-common-name []
+is_a: NCBITaxon:33208 ! Metazoa
+
+[Term]
+id: NCBITaxon:90370
+name: Salmonella enterica subsp. enterica serovar Typhi
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:90371
+name: Salmonella enterica subsp. enterica serovar Typhimurium
+namespace: ncbi_taxonomy
+synonym: "Styphi-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:2 ! Bacteria
+
+[Term]
+id: NCBITaxon:93061
+name: Staphylococcus aureus subsp. aureus NCTC 8325
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:1280 ! Staphylococcus aureus
+
+[Term]
+id: NCBITaxon:93838
+name: Influenza A virus (A/goose/Guangdong/1/1996(H5N1))
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:197911 ! Influenzavirus A
+
+[Term]
+id: NCBITaxon:9534
+name: Chlorocebus aethiops
+namespace: ncbi_taxonomy
+synonym: "green monkey" EXACT PRO-common-name []
+synonym: "GrMonkey-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+namespace: ncbi_taxonomy
+synonym: "h" RELATED PRO-short-label [PRO:DAN]
+synonym: "human" RELATED PRO-common-name [PRO:DAN]
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: NCBITaxon:9823
+name: Sus scrofa
+namespace: ncbi_taxonomy
+synonym: "pig" RELATED PRO-common-name []
+synonym: "pig-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: NCBITaxon:9913
+name: Bos taurus
+namespace: ncbi_taxonomy
+synonym: "cow" RELATED PRO-common-name []
+synonym: "cow-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: NCBITaxon:99287
+name: Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+namespace: ncbi_taxonomy
+synonym: "SaltyLT2-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:90371 ! Salmonella enterica subsp. enterica serovar Typhimurium
+
+[Term]
+id: NCBITaxon:9940
+name: Ovis aries
+namespace: ncbi_taxonomy
+synonym: "sheep" EXACT PRO-common-name []
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: NCBITaxon:9986
+name: Oryctolagus cuniculus
+namespace: ncbi_taxonomy
+synonym: "rabbit" EXACT PRO-common-name []
+synonym: "rabbit-" RELATED PRO-short-label [PRO:DAN]
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: NCBITaxon:9989
+name: Rodentia
+namespace: ncbi_taxonomy
+synonym: "rodent" EXACT PRO-common-name []
+is_a: NCBITaxon:40674 ! Mammalia
+
+[Term]
+id: OBI:0100026
+name: organism
+namespace: obi
+is_a: BFO:0000030 ! object
+
+[Typedef]
+id: derives_from
+name: derives_from
+namespace: protein
+xref: RO:0001000
+is_transitive: true
+
+[Typedef]
+id: has_component
+name: has_component
+namespace: protein
+xref: RO:0002180
+is_transitive: false
+
+[Typedef]
+id: has_part
+name: has_part
+namespace: protein
+xref: BFO:0000051
+is_transitive: true
+
+[Typedef]
+id: has_role
+name: has_role
+namespace: protein
+xref: RO:0000087
+is_transitive: false
+
+[Typedef]
+id: involved_in
+name: involved_in
+namespace: protein
+xref: RO:0002331
+is_transitive: false
+
+[Typedef]
+id: located_in
+name: located_in
+namespace: protein
+xref: RO:0001025
+is_transitive: true
+
+[Typedef]
+id: output_of
+name: output_of
+namespace: protein
+xref: RO:0002353
+is_transitive: false
+
+[Typedef]
+id: part_of
+name: part_of
+namespace: protein
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: participates_in
+name: participates_in
+namespace: protein
+xref: RO:0000056
+is_transitive: false
+

@@ -1,0 +1,31 @@
+c,p,x
+http://purl.obolibrary.org/obo/OHPI_0000005,http://purl.obolibrary.org/obo/IAO_0000115,"an object property that represents a relation between a gene and a cell where the gene comes from a pathogen, and the cell is a host organism cell, and the mutant of the gene for the pathogen is attenuated inside the cell. "
+http://purl.obolibrary.org/obo/OHPI_0000007,http://purl.obolibrary.org/obo/IAO_0000115,"an object property that represents a relation between a gene and a host where the gene comes from a pathogen, and the mutant of the gene for the pathogen is attenuated in the host. "
+http://purl.obolibrary.org/obo/OGG_3000905615,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:16952950]
+http://purl.obolibrary.org/obo/OGG_3003707652,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:11158360]
+http://purl.obolibrary.org/obo/OGG_3003707644,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:10992472]
+http://purl.obolibrary.org/obo/OGG_3002943185,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:1937815]
+http://purl.obolibrary.org/obo/OGG_3000905617,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:11790730]
+http://purl.obolibrary.org/obo/OGG_3001489741,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:15528651]
+http://purl.obolibrary.org/obo/OGG_3001254418,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:15528651]
+http://purl.obolibrary.org/obo/OGG_3002943186,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:8918459]
+http://purl.obolibrary.org/obo/OGG_3000905618,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:17215377]
+http://purl.obolibrary.org/obo/OGG_3001061100,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:14979322]
+http://purl.obolibrary.org/obo/OGG_3007062692,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:15664928]
+http://purl.obolibrary.org/obo/OGG_3008219270,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:12702298]
+http://purl.obolibrary.org/obo/OGG_3005332074,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:11952899]
+http://purl.obolibrary.org/obo/OHPI_0000002,http://purl.obolibrary.org/obo/IAO_0000115,"an object property that represents a relation between a gene and an organism where the gene comes from a pathogen, and the organism is a host organism, and the mutant of the gene for the pathogen is attenuated in the host organism. "
+http://purl.obolibrary.org/obo/OGG_3008480236,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:19151325]
+http://purl.obolibrary.org/obo/OGG_3004557754,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:12117951]
+http://purl.obolibrary.org/obo/OGG_3003707550,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:10992472]
+http://purl.obolibrary.org/obo/OGG_3003707601,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:11359563]
+http://purl.obolibrary.org/obo/OHPI_0000003,http://purl.obolibrary.org/obo/IAO_0000115,"a shortcut relation that shows a mutant is attenuated in an infected host (e.g., an organism, a cell) compared to its wild type. "
+http://purl.obolibrary.org/obo/OGG_3001255007,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:15731074]
+http://purl.obolibrary.org/obo/OGG_3001254399,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:2973985]
+http://purl.obolibrary.org/obo/OHPI_0000004,http://purl.obolibrary.org/obo/IAO_0000115,a disposition that displays an attenuated feature of a mutant compared its wild type organism when the mutant or its wild type organism infects a host organism. 
+http://purl.obolibrary.org/obo/OGG_3008475820,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:8675296]
+http://purl.obolibrary.org/obo/OGG_3000905613,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:10760131]
+http://purl.obolibrary.org/obo/OGG_3004848738,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:18215992]
+http://purl.obolibrary.org/obo/OGG_3000905614,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:16369036]
+http://purl.obolibrary.org/obo/OHPI_0000006,http://purl.obolibrary.org/obo/IAO_0000115,a disposition that displays an attenuated feature of a mutant compared its wild type organism when the mutant or its wild type organism infects a host cell. 
+http://purl.obolibrary.org/obo/OGG_3008485562,http://purl.obolibrary.org/obo/OHPI_0000008, manual add. [PMID:9389652]

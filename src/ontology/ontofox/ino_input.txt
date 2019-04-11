@@ -1,0 +1,22 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohpi/imports/ino_import.owl
+
+[Source ontology]
+INO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/INO_0000002 #interaction
+
+http://purl.obolibrary.org/obo/INO_0000015 #interactor role 
+includeAllChildren
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000015
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
