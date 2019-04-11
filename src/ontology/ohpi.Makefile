@@ -11,7 +11,7 @@ all_main: $(ONT)-merge.owl $(ONT)-merge.obo $(ONT)-merge.json
 #
 
 IMP=true # Global parameter to bypass import generation
-MIR=false # Global parameter to bypass mirror generation
+MIR=true # Global parameter to bypass mirror generation
 
 
 ## ONTOLOGY: doid
@@ -23,8 +23,8 @@ MIR=false # Global parameter to bypass mirror generation
 ##     NCBITaxon_131567
 ##     chebi
 mirror/doid.owl: mirror/doid.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/doid.owl \
-	remove --select imports -o $@.tmp.owl && \
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/doid.owl -o $@.tmp.owl && \
+	$(ROBOT) remove --select imports --input $@.tmp.owl \
 	remove --term NCITaxon_1 \
 	remove --term NCBITaxon_131567 \
 	remove --term chebi && \
