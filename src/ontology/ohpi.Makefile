@@ -90,19 +90,6 @@ imports/ogg-victors_import.json: imports/ogg-victors_import.owl
 # Export Formats
 # ----------------------------------------
 
-## Override main release artefact
-$(ONT).owl: $(SRC)
-	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) \
-		convert -o $@.tmp.owl && mv $@.tmp.owl $@
-
-$(ONT).obo: $(SRC)
-	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) \
-		convert --check false -f obo $(OBO_FORMAT_OPTIONS) -o $@.tmp.obo && grep -v ^owl-axioms $@.tmp.obo > $@ && rm $@.tmp.obo
-$(ONT).json: $(SRC)
-	$(ROBOT) annotate --input $< --ontology-iri $(URIBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY) \
-		convert --check false -f json -o $@.tmp.json && mv $@.tmp.json $@
-
-
 ## Merge: The merge artefacts with imports merged
 $(ONT)-merge.owl: $(SRC) $(OTHER_SRC)
 	$(ROBOT) merge --input $< \
