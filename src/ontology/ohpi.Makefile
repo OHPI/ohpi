@@ -5,6 +5,9 @@
 
 all_main: $(ONT)-merge.owl $(ONT)-merge.obo $(ONT)-merge.json
 
+all_imports: additional_imports ontofox_imports ogg-victors_import
+
+
 # ----------------------------------------
 # Additional ODK Mirror/Import
 # ----------------------------------------
@@ -12,6 +15,20 @@ all_main: $(ONT)-merge.owl $(ONT)-merge.obo $(ONT)-merge.json
 
 IMP=true # Global parameter to bypass import generation
 MIR=true # Global parameter to bypass mirror generation
+
+ADDITIONAL_IMPORTS = doid
+
+ADDITIONAL_IMPORT_ROOTS = $(patsubst %, imports/%_import, $(ADDITIONAL_IMPORTS))
+ADDITIONAL_IMPORT_FILES = $(foreach n,$(ADDITIONAL_IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
+ADDITIONAL_IMPORT_OWL_FILES = $(foreach n,$(ADDITIONAL_IMPORT_ROOTS), $(n).owl)
+
+additional_imports: $(ADDITIONAL_IMPORT_FILES)
+
+additional_imports_owl: $(foreach n,$(ADDITIONAL_IMPORT_ROOTS), $(n).owl)
+ 
+additional_imports_obo: $(foreach n,$(ADDITIONAL_IMPORT_ROOTS), $(n).obo)
+ 
+additional_imports_json: $(foreach n,$(ADDITIONAL_IMPORT_ROOTS), $(n).json)
 
 
 ## ONTOLOGY: doid
@@ -22,15 +39,20 @@ MIR=true # Global parameter to bypass mirror generation
 ##     NCBITaxon_1
 ##     NCBITaxon_131567
 ##     chebi
+mirror/doid.trigger: $(SRC)
+
 mirror/doid.owl: mirror/doid.trigger
-	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/doid.owl -o $@.tmp.owl && \
-	$(ROBOT) remove --select imports --input $@.tmp.owl \
-	remove --term NCITaxon_1 \
-	remove --term NCBITaxon_131567 \
-	remove --term chebi && \
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/doid.owl -o $@ && \
+	$(ROBOT) remove --select imports --input $@ --output $@.tmp.owl && \
+#	$(ROBOT) remove --select self --term NCITaxon_1 --input $@.tmp.owl --output $@.tmp.owl && \
+#	remove --term NCBITaxon_131567 \
+#	remove --term chebi  --output $@.tmp.owl && \
 	mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
+
+
+ASSETS += $(ADDITIONAL_IMPORT_FILES)
 
 # ----------------------------------------
 # Ontofox Import
@@ -44,8 +66,6 @@ ONTOFOX_IMPORTS = cl clo ino ido idobru ncbitaxon
 ONTOFOX_IMPORT_ROOTS = $(patsubst %, imports/%_import, $(ONTOFOX_IMPORTS))
 ONTOFOX_IMPORT_FILES = $(foreach n,$(ONTOFOX_IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
 ONTOFOX_IMPORT_OWL_FILES = $(foreach n,$(ONTOFOX_IMPORT_ROOTS), $(n).owl)
-
-all_imports: ontofox_imports ogg-victors_import
 
 ontofox_imports: $(ONTOFOX_IMPORT_FILES)
 
@@ -69,6 +89,9 @@ imports/clo_import.owl: ontofox/clo_input.txt
 	rename --mappings $@.tmp.csv --output $@.tmp.owl && mv $@.tmp.owl $@ && rm $@.tmp.csv; fi
 .PRECIOUS: imports/%_import.owl
 
+
+ASSETS += $(ONTOFOX_IMPORT_FILES)
+
 # ----------------------------------------
 # Special Import - ogg-victors
 # ----------------------------------------
@@ -86,6 +109,9 @@ imports/ogg-victors_import.obo: imports/ogg-victors_import.owl
 imports/ogg-victors_import.json: imports/ogg-victors_import.owl
 	@if [ $(IMP) = true ]; then $(ROBOT) convert --check false -i $< -f json -o $@.tmp.json && mv $@.tmp.json $@; fi
 
+
+ASSETS += imports/ogg-victors_import.owl imports/ogg-victors_import.obo imports/ogg-victors_import.json
+
 # ----------------------------------------
 # Export Formats
 # ----------------------------------------
@@ -102,11 +128,8 @@ $(ONT)-merge.json: $(ONT)-merge.owl
 	$(ROBOT) annotate --input $< --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		convert --check false -f json -o $@.tmp.json && mv $@.tmp.json $@
 
-# ----------------------------------------
-# Release Management
-# ----------------------------------------
 
-ASSETS += $(ONTOFOX_IMPORT_FILES) $(ONT)-merge.owl $(ONT)-merge.obo $(ONT)-merge.json
+ASSETS += $(ONT)-merge.owl $(ONT)-merge.obo $(ONT)-merge.json
 
 # ----------------------------------------
 # Clean
