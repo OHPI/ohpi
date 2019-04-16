@@ -57388,7 +57388,7 @@
         "pred" : "http://purl.org/dc/elements/1.1/title",
         "val" : "OHPI: Ontology of Host-Pathogen Interactions"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/ohpi-base.json"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-12/ohpi-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

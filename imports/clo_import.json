@@ -3368,13 +3368,13 @@
       "pred" : "type",
       "obj" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CLO_0000249",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0000093",
       "pred" : "http://purl.obolibrary.org/obo/RO_0001000",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000219"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000249",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000019"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0000019",
       "pred" : "is_a",
@@ -3569,7 +3569,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/imports/clo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-12/imports/clo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

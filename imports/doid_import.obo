@@ -1,6 +1,15 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-10/imports/doid_import.owl
+data-version: ohpi/releases/2019-04-12/imports/doid_import.owl
 ontology: ohpi/imports/doid_import
+
+[Term]
+id: DOID:0050155
+name: sensory system disease
+namespace: disease_ontology
+def: "A nervous system disease which is located in a part of the nervous system responsible for processing sensory information that consists of sensory receptors, neural pathways, and parts of the brain involved in sensory perception. Commonly recognized sensory systems are those for vision, hearing, somatic sensation (touch), taste and olfaction (smell)." [url:http\://en.wikipedia.org/wiki/Sensory_system]
+subset: DO_AGR_slim
+subset: DO_FlyBase_slim
+is_a: DOID:863 ! nervous system disease
 
 [Term]
 id: DOID:0050161
@@ -39,6 +48,146 @@ subset: DO_MGI_slim
 is_a: DOID:162 ! cancer
 created_by: snadendla
 creation_date: 2011-06-13T03:28:50Z
+
+[Term]
+id: DOID:0050688
+name: anal canal cancer
+namespace: disease_ontology
+def: "A large intestine cancer that is located_in the terminal part of the large intestine." [url:http\://en.wikipedia.org/wiki/Anal_canal]
+is_a: DOID:5672 ! large intestine cancer
+created_by: snadendla
+creation_date: 2011-06-14T01:34:36Z
+
+[Term]
+id: DOID:0050815
+name: eye adnexa disease
+namespace: disease_ontology
+def: "An eye and adnexa disease that is located_in the adnexa of the eye." [url:http\://en.wikipedia.org/wiki/Accessory_visual_structures]
+is_a: DOID:1492 ! eye and adnexa disease
+created_by: lschriml
+creation_date: 2013-12-05T12:55:42Z
+
+[Term]
+id: DOID:0050825
+name: endocardium disease
+namespace: disease_ontology
+def: "A heart disease that is located_in the innermost layer of tissue that lines the chambers of the heart." [url:http\://en.wikipedia.org/wiki/Endocardium, url:http\://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCkQFjAA&url=http%3A%2F%2Fpeople.upei.ca%2Flmiller%2F2009_CV_Endocardial_Pathology%2FENDOCARDIUM-2009.pdf&ei=SsP7UsjSH8Tx0gGbgYHQAw&usg=AFQjCNH2MScGQBlPP4MG_tL5dAiBiQY_YA&sig2=nbNfx77zxOxnTA9O875QeQ&bvm=bv.61190604\,d.dmQ&cad=rja]
+is_a: DOID:114 ! heart disease
+created_by: lschriml
+creation_date: 2014-02-12T01:53:42Z
+
+[Term]
+id: DOID:0050828
+name: artery disease
+namespace: disease_ontology
+def: "A vascular disease that is located_in an artery." [url:http\://en.wikipedia.org/wiki/Artery#Pathology]
+is_a: DOID:178 ! vascular disease
+created_by: lschriml
+creation_date: 2014-02-12T03:08:35Z
+
+[Term]
+id: DOID:0060100
+name: musculoskeletal system cancer
+namespace: disease_ontology
+alt_id: DOID:0060124
+def: "An organ system cancer located_in the muscular and skeletal organs and characterized by uncontrolled cellular proliferation of the musculoskeletal organs." [url:http\://en.wikipedia.org/wiki/Musculoskeletal_system#Diseases_and_disorders]
+synonym: "skeletal system cancer" EXACT []
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:17 ! musculoskeletal system disease
+created_by: lschriml
+creation_date: 2011-07-15T02:30:51Z
+
+[Term]
+id: DOID:0060102
+name: cartilage cancer
+namespace: disease_ontology
+def: "A connective tissue tumor that can be a benign chondroma or a maligannt chondrosarcoma." [url:https\://en.wikipedia.org/wiki/Cartilage_tumor]
+is_a: DOID:201 ! connective tissue cancer
+created_by: lschriml
+creation_date: 2011-07-20T01:40:49Z
+
+[Term]
+id: DOID:0060116
+name: sensory system cancer
+namespace: disease_ontology
+def: "A nervous system cancer that is located in the sensory system." [url:http\://en.wikipedia.org/wiki/Sensory_system]
+is_a: DOID:0050155 ! sensory system disease
+is_a: DOID:3093 ! nervous system cancer
+created_by: lschriml
+creation_date: 2011-07-25T01:51:56Z
+
+[Term]
+id: DOID:0060118
+name: thoracic disease
+namespace: disease_ontology
+def: "A disease of anatomical entity that is located_in the thoracic cavity." [url:http\://en.wikipedia.org/wiki/Thoracic_cavity]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+is_a: DOID:7 ! disease of anatomical entity
+created_by: lschriml
+creation_date: 2011-07-25T02:23:47Z
+
+[Term]
+id: DOID:0060119
+name: pharynx cancer
+namespace: disease_ontology
+def: "A gastrointestinal system cancer that is located_in the pharynx." [url:http\://en.wikipedia.org/wiki/Pharynx]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "pharyngeal cancer" RELATED []
+synonym: "pharyngeal neoplasm" EXACT []
+synonym: "pharynx neoplasm" EXACT []
+xref: MESH:D010610
+xref: NCI:C3325
+xref: SNOMEDCT_US_2018_03_01:95001001
+xref: UMLS_CUI:C0031347
+is_a: DOID:3119 ! gastrointestinal system cancer
+created_by: lschriml
+creation_date: 2011-07-27T01:26:34Z
+
+[Term]
+id: DOID:0060122
+name: integumentary system cancer
+namespace: disease_ontology
+def: "An organ system cancer that is located_in the skin, hair and nails." [url:http\://en.wikipedia.org/wiki/Integumentary_system]
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:16 ! integumentary system disease
+created_by: lschriml
+creation_date: 2011-07-27T02:31:34Z
+
+[Term]
+id: DOID:0080000
+name: muscular disease
+namespace: disease_ontology
+def: "A musculoskeletal system disease that affects the muscles." [url:http\://www.nlm.nih.gov/medlineplus/muscledisorders.html]
+is_a: DOID:17 ! musculoskeletal system disease
+
+[Term]
+id: DOID:0080001
+name: bone disease
+namespace: disease_ontology
+alt_id: DOID:1290
+def: "A connective tissue disease that affects the structure or development of bone or causes an impairment of normal bone function." [url:http\://en.wikipedia.org/wiki/Bone_disease]
+synonym: "skeletal disease" RELATED []
+xref: ICD10CM:M89.9
+xref: MESH:D001847
+xref: SNOMEDCT_US_2018_03_01:76069003
+xref: UMLS_CUI:C0005940
+is_a: DOID:65 ! connective tissue disease
+
+[Term]
+id: DOID:10124
+name: corneal disease
+namespace: disease_ontology
+alt_id: DOID:2284
+subset: NCIthesaurus
+xref: ICD10CM:H18.9
+xref: ICD9CM:371.9
+xref: MESH:D003316
+xref: NCI:C26731
+xref: SNOMEDCT_US_2018_03_01:15250008
+xref: UMLS_CUI:C0010034
+is_a: DOID:5614 ! eye disease
 
 [Term]
 id: DOID:10155
@@ -112,6 +261,242 @@ is_a: DOID:3119 ! gastrointestinal system cancer
 is_a: DOID:76 ! stomach disease
 
 [Term]
+id: DOID:110
+name: lens disease
+namespace: disease_ontology
+subset: NCIthesaurus
+xref: ICD10CM:H25-H28
+xref: ICD10CM:H27.9
+xref: MESH:D007905
+xref: NCI:C26812
+xref: SNOMEDCT_US_2018_03_01:10810001
+xref: UMLS_CUI:C0023308
+is_a: DOID:5614 ! eye disease
+
+[Term]
+id: DOID:1100
+name: ovarian disease
+namespace: disease_ontology
+def: "A female reproductive system disease that is located_in the ovary." [url:https\://medlineplus.gov/ovariandisorders.html]
+subset: NCIthesaurus
+xref: MESH:D010049
+xref: NCI:C26841
+xref: SNOMEDCT_US_2018_03_01:5552004
+xref: UMLS_CUI:C0029928
+is_a: DOID:2277 ! gonadal disease
+is_a: DOID:229 ! female reproductive system disease
+
+[Term]
+id: DOID:11054
+name: urinary bladder cancer
+namespace: disease_ontology
+alt_id: DOID:5428
+def: "An urinary system cancer that results_in malignant growth located_in the urinary bladder." [url:http\://en.wikipedia.org/wiki/Bladder_cancer]
+comment: OMIM mapping confirmed by DO. [SN].
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "bladder cancer" EXACT []
+synonym: "tumor of the bladder" EXACT [NCI2004_11_17:C2901]
+xref: GARD:12210
+xref: ICD10CM:C67
+xref: ICD10CM:C67.9
+xref: ICD9CM:188
+xref: ICD9CM:188.9
+xref: KEGG:05219
+xref: MESH:D001749
+xref: NCI2004_11_17:C2901
+xref: NCI:C2901
+xref: NCI:C9334
+xref: OMIM:109800
+xref: SNOMEDCT_US_2018_03_01:93689003
+xref: UMLS_CUI:C0005684
+xref: UMLS_CUI:C0005695
+is_a: DOID:365 ! bladder disease
+is_a: DOID:3996 ! urinary system cancer
+
+[Term]
+id: DOID:114
+name: heart disease
+namespace: disease_ontology
+def: "A cardiovascular system disease that involves the heart." [url:http\://en.wikipedia.org/wiki/Heart_disease]
+subset: DO_FlyBase_slim
+subset: NCIthesaurus
+xref: ICD10CM:I51.9
+xref: ICD9CM:429.9
+xref: MESH:D006331
+xref: NCI:C3079
+xref: SNOMEDCT_US_2018_03_01:56265001
+xref: UMLS_CUI:C0018799
+is_a: DOID:1287 ! cardiovascular system disease
+
+[Term]
+id: DOID:11424
+name: fallopian tube endometriosis
+namespace: disease_ontology
+def: "A female reproductive system disease characterized by the growth of endometrial tissue that is located_in the fallopian tube." [url:https\://en.wikipedia.org/wiki/Endometriosis]
+subset: NCIthesaurus
+synonym: "Endometriosis of fallopian tube" EXACT [ICD9CM_2006:617.2]
+xref: ICD10CM:N80.2
+xref: ICD9CM:617.2
+xref: ICD9CM_2006:617.2
+xref: NCI:C26763
+xref: SNOMEDCT_US_2018_03_01:22611009
+xref: UMLS_CUI:C0014177
+is_a: DOID:1962 ! fallopian tube disease
+is_a: DOID:289 ! endometriosis
+
+[Term]
+id: DOID:11428
+name: endometriosis of intestine
+namespace: disease_ontology
+def: "A female reproductive system disease characterized by the growth of endometrial tissue that is located_in the intestine." [url:https\://www.ncbi.nlm.nih.gov/pmc/articles/PMC2653346/]
+xref: ICD10CM:N80.5
+xref: ICD9CM:617.5
+xref: SNOMEDCT_US_2018_03_01:5562006
+xref: UMLS_CUI:C0156347
+is_a: DOID:289 ! endometriosis
+is_a: DOID:5295 ! intestinal disease
+
+[Term]
+id: DOID:11432
+name: endometriosis of ovary
+namespace: disease_ontology
+alt_id: DOID:11426
+def: "A female reproductive system disease characterized by the growth of endometrial tissue that is located_in the ovary." [url:https\://en.wikipedia.org/wiki/Endometriosis]
+subset: NCIthesaurus
+synonym: "ovarian endometriosis" EXACT []
+xref: ICD10CM:N80.1
+xref: ICD9CM:617.1
+xref: NCI:C27628
+xref: SNOMEDCT_US_2018_03_01:31007005
+xref: UMLS_CUI:C0156344
+is_a: DOID:1100 ! ovarian disease
+is_a: DOID:289 ! endometriosis
+
+[Term]
+id: DOID:117
+name: heart cancer
+namespace: disease_ontology
+alt_id: DOID:9918
+def: "A cardiovascular cancer located_in the heart." [url:http\://en.wikipedia.org/wiki/Heart_cancer]
+subset: NCIthesaurus
+synonym: "Cardiac tumor" EXACT [NCI2004_11_17:C3081]
+synonym: "malignant Cardiac tumor" EXACT [NCI2004_11_17:C3548]
+synonym: "malignant neoplasm of heart" EXACT []
+synonym: "Tumour of heart" EXACT []
+xref: GARD:2619
+xref: ICD10CM:C38.0
+xref: ICD9CM:164.1
+xref: MESH:D006338
+xref: NCI2004_11_17:C3081
+xref: NCI2004_11_17:C3548
+xref: NCI:C3081
+xref: NCI:C3548
+xref: SNOMEDCT_US_2018_03_01:93825008
+xref: UMLS_CUI:C0018809
+xref: UMLS_CUI:C0153500
+is_a: DOID:114 ! heart disease
+is_a: DOID:176 ! cardiovascular cancer
+
+[Term]
+id: DOID:11809
+name: bladder neck cancer
+namespace: disease_ontology
+synonym: "malignant neoplasm of urinary bladder neck" EXACT [SNOMEDCT_2005_07_31:94124002]
+synonym: "malignant tumor of bladder neck" EXACT []
+xref: ICD10CM:C67.5
+xref: ICD9CM:188.5
+xref: SNOMEDCT_US_2018_03_01:94124002
+xref: UMLS_CUI:C0153613
+is_a: DOID:11054 ! urinary bladder cancer
+
+[Term]
+id: DOID:11819
+name: ureter cancer
+namespace: disease_ontology
+def: "A urinary system cancer that is located_in the ureter." [url:http\://en.wikipedia.org/wiki/Ureter_cancer]
+comment: OMIM mapping confirmed by DO. [SN].
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "malignant tumour of ureter" EXACT []
+synonym: "malignant ureteral tumor" EXACT [NCI2004_11_17:C7543]
+xref: ICD10CM:C66
+xref: ICD9CM:189.2
+xref: MESH:D014516
+xref: NCI2004_11_17:C7543
+xref: NCI:C7543
+xref: OMIM:191600
+xref: SNOMEDCT_US_2018_03_01:94121005
+xref: UMLS_CUI:C0153619
+is_a: DOID:1426 ! ureteral disease
+is_a: DOID:3996 ! urinary system cancer
+
+[Term]
+id: DOID:119
+name: vaginal cancer
+namespace: disease_ontology
+alt_id: DOID:1902
+def: "A female reproductive system cancer that is located_in the vagina." [url:http\://www.cancer.gov/dictionary?CdrID=523460]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "malignant neoplasm of vagina" EXACT [ICD9CM_2006:184.0]
+synonym: "malignant tumor of vagina" EXACT []
+synonym: "malignant vaginal tumor" EXACT [NCI2004_11_17:C7410]
+synonym: "neoplasm of vagina" EXACT []
+synonym: "vagina neoplasm" EXACT [CSP2005:2016-2004]
+synonym: "vaginal tumor" EXACT [NCI2004_11_17:C3437]
+xref: CSP2005:2016-2004
+xref: GARD:9348
+xref: ICD10CM:C52
+xref: ICD9CM:184.0
+xref: ICD9CM_2006:184.0
+xref: MESH:D014625
+xref: NCI2004_11_17:C3437
+xref: NCI2004_11_17:C7410
+xref: NCI:C3437
+xref: NCI:C7410
+xref: UMLS_CUI:C0042237
+xref: UMLS_CUI:C0042258
+is_a: DOID:120 ! female reproductive organ cancer
+is_a: DOID:121 ! vaginal disease
+
+[Term]
+id: DOID:11920
+name: tracheal cancer
+namespace: disease_ontology
+def: "A respiratory system cancer that is located_in the trachea." [url:http\://en.wikipedia.org/wiki/Lung_cancer]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+xref: ICD10CM:C33
+xref: ICD9CM:162.0
+xref: MTH:NOCODE
+xref: NCI2004_11_17:C9346
+xref: NCI:C9346
+xref: UMLS_CUI:C0153489
+is_a: DOID:0050615 ! respiratory system cancer
+is_a: DOID:3225 ! tracheal disease
+
+[Term]
+id: DOID:11934
+name: head and neck cancer
+namespace: disease_ontology
+def: "An organ system cancer that arises in the head or neck region. This region includes the nasal cavity, sinuses, lips, mouth, salivary glands, throat, or larynx." [url:http\://apps.who.int/bookorders/anglais/detart1.jsp?sesslan=1&codlan=1&codcol=70&codcch=9, url:http\://en.wikipedia.org/wiki/Head_and_neck_cancer, url:http\://www.cancer.gov/cancertopics/factsheet/Sites-Types/head-and-neck, url:http\://www.cancer.gov/dictionary?CdrID=257519, url:http\://www.iarc.fr/en/publications/pdfs-online/pat-gen/bb9/index.php]
+subset: DO_MGI_slim
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "head and neck neoplasm" EXACT [MTH:NOCODE]
+synonym: "head and neck tumours" EXACT []
+synonym: "head/neck neoplasm" EXACT [CSP2005:2005-4325]
+synonym: "tumor of head and neck" EXACT []
+xref: CSP2005:2005-4325
+xref: GARD:12425
+xref: MESH:D006258
+xref: MTH:NOCODE
+xref: NCI:C3077
+xref: UMLS_CUI:C0018671
+is_a: DOID:0050686 ! organ system cancer
+
+[Term]
 id: DOID:120
 name: female reproductive organ cancer
 namespace: disease_ontology
@@ -135,6 +520,31 @@ is_a: DOID:193 ! reproductive organ cancer
 is_a: DOID:229 ! female reproductive system disease
 
 [Term]
+id: DOID:121
+name: vaginal disease
+namespace: disease_ontology
+def: "A female reproductive system disease that is located_in the vagina." [url:https\://en.wikipedia.org/wiki/Vaginal_disease]
+subset: NCIthesaurus
+xref: MESH:D014623
+xref: NCI:C26910
+xref: SNOMEDCT_US_2018_03_01:25658005
+xref: UMLS_CUI:C0042251
+is_a: DOID:229 ! female reproductive system disease
+
+[Term]
+id: DOID:12192
+name: sigmoid colon cancer
+namespace: disease_ontology
+synonym: "Ca sigmoid colon" EXACT []
+synonym: "malignant tumor of sigmoid colon" EXACT []
+xref: ICD10CM:C18.7
+xref: ICD9CM:153.3
+xref: MESH:D012811
+xref: SNOMEDCT_US_2018_03_01:94006002
+xref: UMLS_CUI:C0153436
+is_a: DOID:219 ! colon cancer
+
+[Term]
 id: DOID:1240
 name: leukemia
 namespace: disease_ontology
@@ -153,6 +563,149 @@ xref: SNOMEDCT_US_2018_03_01:87163000
 xref: SNOMEDCT_US_2018_03_01:93143009
 xref: UMLS_CUI:C0023418
 is_a: DOID:2531 ! hematologic cancer
+
+[Term]
+id: DOID:1242
+name: globe disease
+namespace: disease_ontology
+xref: ICD10CM:H44.39
+xref: ICD9CM:360.29
+xref: UMLS_CUI:C0154780
+is_a: DOID:5614 ! eye disease
+
+[Term]
+id: DOID:1271
+name: capillary disease
+namespace: disease_ontology
+def: "A vascular disease that is located_in the capillaries." [url:http\://en.wikipedia.org/wiki/Capillary#Pathophysiology]
+synonym: "disease of capillaries" EXACT []
+xref: ICD10CM:I78
+xref: ICD10CM:I78.9
+xref: ICD9CM:448
+xref: SNOMEDCT_US_2018_03_01:57223003
+xref: SNOMEDCT_US_2018_03_01:58729003
+xref: UMLS_CUI:C0155765
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: DOID:12759
+name: choroid cancer
+namespace: disease_ontology
+alt_id: DOID:12760
+subset: NCIthesaurus
+synonym: "choroid neoplasm" EXACT []
+synonym: "Choroidal tumor" EXACT [NCI2004_11_17:C2949]
+synonym: "malignant tumor of choroid" EXACT []
+synonym: "malignant tumor of the Choroid" EXACT [NCI2004_11_17:C3566]
+synonym: "neoplasm of choroid" EXACT []
+xref: ICD10CM:C69.3
+xref: ICD9CM:190.6
+xref: MESH:D002830
+xref: NCI2004_11_17:C2949
+xref: NCI2004_11_17:C3566
+xref: NCI:C2949
+xref: NCI:C3566
+xref: SNOMEDCT_US_2018_03_01:93755007
+xref: UMLS_CUI:C0008523
+xref: UMLS_CUI:C0153630
+is_a: DOID:1417 ! choroid disease
+is_a: DOID:3479 ! uveal cancer
+
+[Term]
+id: DOID:1285
+name: rectal disease
+namespace: disease_ontology
+xref: MESH:D012002
+xref: SNOMEDCT_US_2018_03_01:5964004
+xref: UMLS_CUI:C0034882
+is_a: DOID:5295 ! intestinal disease
+
+[Term]
+id: DOID:1287
+name: cardiovascular system disease
+namespace: disease_ontology
+alt_id: DOID:73
+def: "A disease of anatomical entity which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis." [url:http\://en.wikipedia.org/wiki/Circulatory_system]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+subset: NCIthesaurus
+synonym: "disease of subdivision of hemolymphoid system" EXACT []
+xref: ICD9CM:429.2
+xref: MESH:D002318
+xref: NCI:C2931
+xref: SNOMEDCT_US_2018_03_01:49601007
+xref: UMLS_CUI:C0007222
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
+id: DOID:12969
+name: central nervous system leukemia
+namespace: disease_ontology
+def: "A hematologic cancer located_in the central nervous system." [url:http\://www.springerlink.com/content/gl61tx644217n938/]
+subset: NCIthesaurus
+synonym: "Leukemia of the CNS" EXACT [NCI2004_11_17:C5440]
+xref: NCI2004_11_17:C5440
+xref: NCI:C5440
+xref: UMLS_CUI:C1332884
+is_a: DOID:1240 ! leukemia
+is_a: DOID:5772 ! central nervous system hematologic cancer
+
+[Term]
+id: DOID:1319
+name: brain cancer
+namespace: disease_ontology
+alt_id: DOID:2125
+alt_id: DOID:2126
+alt_id: DOID:3543
+alt_id: DOID:6649
+alt_id: DOID:911
+def: "A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain." [url:http\://www.cancer.gov/dictionary?CdrID=387264]
+subset: DO_cancer_slim
+subset: DO_FlyBase_slim
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "adult brain tumor" EXACT []
+synonym: "adult malignant brain neoplasm" EXACT []
+synonym: "brain neoplasm" EXACT [CSP2005:2006-2736]
+synonym: "brain neoplasm, adult" EXACT [NCI2004_11_17:C7710]
+synonym: "BT - Brain tumour" EXACT []
+synonym: "malignant brain tumour" EXACT []
+synonym: "malignant primary brain neoplasm" EXACT [NCI2004_11_17:C4954]
+synonym: "malignant primary brain tumor" EXACT []
+synonym: "malignant tumor of adult brain" EXACT [NCI2004_11_17:C5115]
+synonym: "malignant tumor of Brain" EXACT [NCI2004_11_17:C3568]
+synonym: "neoplasm of brain" EXACT []
+synonym: "primary brain neoplasm" EXACT [NCI2004_11_17:C4952]
+synonym: "primary brain tumor" EXACT []
+synonym: "primary malignant neoplasm of brain" EXACT [SNOMEDCT_2005_07_31:93727008]
+synonym: "tumor of the Brain" EXACT [NCI2004_11_17:C2907]
+xref: CSP2005:2006-2736
+xref: ICD10CM:C71
+xref: ICD10CM:C71.9
+xref: ICD9CM:191
+xref: ICD9CM:191.9
+xref: ICD9CM:239.6
+xref: MESH:D001932
+xref: NCI2004_11_17:C2907
+xref: NCI2004_11_17:C3568
+xref: NCI2004_11_17:C4952
+xref: NCI2004_11_17:C4954
+xref: NCI2004_11_17:C5115
+xref: NCI2004_11_17:C7710
+xref: NCI:C2907
+xref: NCI:C3568
+xref: NCI:C4952
+xref: NCI:C4954
+xref: NCI:C5115
+xref: NCI:C7710
+xref: SNOMEDCT_US_2018_03_01:93727008
+xref: UMLS_CUI:C0006118
+xref: UMLS_CUI:C0153633
+xref: UMLS_CUI:C0220624
+xref: UMLS_CUI:C0750974
+xref: UMLS_CUI:C0750979
+xref: UMLS_CUI:C1334557
+is_a: DOID:3620 ! central nervous system cancer
 
 [Term]
 id: DOID:1324
@@ -184,6 +737,82 @@ is_a: DOID:0050615 ! respiratory system cancer
 is_a: DOID:850 ! lung disease
 
 [Term]
+id: DOID:1380
+name: endometrial cancer
+namespace: disease_ontology
+alt_id: DOID:5654
+def: "A uterine cancer that is located_in tissues lining the uterus." [url:http\://www.cancer.gov/dictionary?CdrID=444987]
+subset: DO_cancer_slim
+subset: NCIthesaurus
+synonym: "endometrial Ca" EXACT []
+synonym: "endometrial neoplasm" EXACT []
+synonym: "malignant endometrial neoplasm" EXACT [NCI2004_11_17:C27815]
+synonym: "malignant neoplasm of endometrium" EXACT []
+synonym: "neoplasm of endometrium" EXACT []
+synonym: "primary malignant neoplasm of endometrium" EXACT [SNOMEDCT_2005_07_31:93781006]
+synonym: "tumor of Endometrium" EXACT [NCI2004_11_17:C3012]
+xref: EFO:0004230
+xref: GARD:11981
+xref: ICD10CM:C54.1
+xref: KEGG:05213
+xref: MESH:D016889
+xref: NCI2004_11_17:C27815
+xref: NCI2004_11_17:C3012
+xref: NCI:C27815
+xref: NCI:C3012
+xref: OMIM:608089
+xref: UMLS_CUI:C0007103
+xref: UMLS_CUI:C0014170
+is_a: DOID:289 ! endometriosis
+is_a: DOID:363 ! uterine cancer
+
+[Term]
+id: DOID:14110
+name: anus cancer
+namespace: disease_ontology
+alt_id: DOID:12240
+def: "A large intestine cancer that is located_in the anus." [url:http\://en.wikipedia.org/wiki/Anus]
+subset: NCIthesaurus
+synonym: "anal cancer" EXACT []
+synonym: "malignant anal tumor" EXACT [NCI2004_11_17:C7379]
+xref: GARD:9300
+xref: ICD10CM:C21.0
+xref: ICD10CM:C21.1
+xref: ICD9CM:154.2
+xref: ICD9CM:154.3
+xref: NCI2004_11_17:C7379
+xref: NCI:C7379
+xref: SNOMEDCT_US_2018_03_01:93669004
+xref: SNOMEDCT_US_2018_03_01:93676009
+xref: UMLS_CUI:C0153445
+xref: UMLS_CUI:C0153446
+is_a: DOID:3128 ! anus disease
+is_a: DOID:5672 ! large intestine cancer
+
+[Term]
+id: DOID:1417
+name: choroid disease
+namespace: disease_ontology
+subset: NCIthesaurus
+xref: ICD10CM:H31.9
+xref: ICD9CM:363.9
+xref: MESH:D015862
+xref: NCI:C34468
+xref: UMLS_CUI:C0008521
+is_a: DOID:3480 ! uveal disease
+
+[Term]
+id: DOID:1426
+name: ureteral disease
+namespace: disease_ontology
+def: "A urinary system disease that is located_in the ureter." [url:http\://www.nlm.nih.gov/medlineplus/ureteraldisorders.html]
+subset: NCIthesaurus
+xref: MESH:D014515
+xref: NCI:C27148
+xref: UMLS_CUI:C0041954
+is_a: DOID:18 ! urinary system disease
+
+[Term]
 id: DOID:14566
 name: disease of cellular proliferation
 namespace: disease_ontology
@@ -193,6 +822,18 @@ subset: DO_FlyBase_slim
 synonym: "cell process disease" EXACT []
 synonym: "neoplasm" EXACT []
 is_a: DOID:4 ! disease
+
+[Term]
+id: DOID:1492
+name: eye and adnexa disease
+namespace: disease_ontology
+def: "A sensory system disease that is located_in the eye or the adnexa of the eye." [url:http\://en.wikipedia.org/wiki/Category\:Diseases_of_the_eye_and_adnexa]
+xref: ICD10CM:H35.00
+xref: ICD9CM:362.10
+xref: SNOMEDCT_US_2018_03_01:31411005
+xref: SNOMEDCT_US_2018_03_01:42873008
+xref: UMLS_CUI:C0004608
+is_a: DOID:0050155 ! sensory system disease
 
 [Term]
 id: DOID:15
@@ -239,6 +880,15 @@ xref: UMLS_CUI:C0029582
 is_a: DOID:7 ! disease of anatomical entity
 
 [Term]
+id: DOID:16
+name: integumentary system disease
+namespace: disease_ontology
+def: "A disease of anatomical entity that is located_in the integumentary system comprising the skin and its appendages." [url:http\://en.wikipedia.org/wiki/Integumentary_system]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
 id: DOID:162
 name: cancer
 namespace: disease_ontology
@@ -261,6 +911,212 @@ xref: UMLS_CUI:C0006826
 is_a: DOID:14566 ! disease of cellular proliferation
 
 [Term]
+id: DOID:17
+name: musculoskeletal system disease
+namespace: disease_ontology
+def: "A disease of anatomical entity that occurs in the muscular and/or skeletal system." [url:http\://en.wikipedia.org/wiki/Human_musculoskeletal_system#Diseases_and_disorders]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+subset: NCIthesaurus
+xref: MESH:D009140
+xref: NCI:C107377
+xref: SNOMEDCT_US_2018_03_01:928000
+xref: UMLS_CUI:C0026857
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
+id: DOID:170
+name: endocrine gland cancer
+namespace: disease_ontology
+alt_id: DOID:10009
+def: "An organ system cancer located_in endocrine system that is characterized by uncontrolled cellular proliferation of the hormone producing glands of the endocrine system." [url:http\://en.wikipedia.org/wiki/Endocrine_system]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "endocrine neoplasm" EXACT [CSP2005:2009-5861]
+synonym: "Endocrine tumor" EXACT [NCI2004_11_17:C3010]
+synonym: "malignant Endocrine tumor" EXACT [NCI2004_11_17:C3575]
+synonym: "malignant neoplasm of endocrine gland" EXACT []
+synonym: "malignant tumour of endocrine gland" EXACT [SNOMEDCT_2005_07_31:93780007]
+synonym: "neoplasm of endocrine gland" EXACT []
+synonym: "neoplasm of endocrine system" EXACT []
+xref: CSP2005:2009-5861
+xref: ICD10CM:C75.9
+xref: ICD9CM:194.9
+xref: MESH:D004701
+xref: NCI2004_11_17:C3010
+xref: NCI2004_11_17:C3575
+xref: NCI:C3010
+xref: NCI:C3575
+xref: SNOMEDCT_US_2018_03_01:93780007
+xref: UMLS_CUI:C0014132
+xref: UMLS_CUI:C0153658
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:28 ! endocrine system disease
+
+[Term]
+id: DOID:175
+name: vascular cancer
+namespace: disease_ontology
+alt_id: DOID:3339
+alt_id: DOID:5454
+alt_id: DOID:5548
+alt_id: DOID:7019
+alt_id: DOID:7020
+alt_id: DOID:7392
+def: "A cardiovascular cancer that is located_in blood vessels." [url:http\://en.wikipedia.org/wiki/Vascular]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "Blood Vessel neoplasm" EXACT [NCI2004_11_17:C7387]
+synonym: "blood vessel neoplasm" EXACT [CSP2005:2007-0683]
+synonym: "Blood vessel tumor" EXACT []
+synonym: "Blood vessel tumors" EXACT []
+synonym: "Blood vessel tumour disorder" EXACT []
+synonym: "Haemangiomatous tumour" EXACT []
+synonym: "leiomyosarcoma of the renal Vein" EXACT [NCI2004_11_17:C5388]
+synonym: "malignant great vessel tumor" EXACT []
+synonym: "malignant tumor of pulmonary artery" EXACT [NCI2004_11_17:C5380]
+synonym: "malignant tumor of pulmonary Vein" EXACT [NCI2004_11_17:C5383]
+synonym: "malignant vascular neoplasm" EXACT []
+synonym: "malignant vascular tumor" EXACT [NCI2004_11_17:C7390]
+synonym: "neoplasm of great vessel" EXACT []
+synonym: "pulmonary artery malignant neoplasm" EXACT []
+synonym: "pulmonary vein malignant neoplasm" EXACT []
+synonym: "renal vein leiomyosarcoma" EXACT []
+synonym: "vascular tissue neoplasm" EXACT []
+synonym: "vascular tumors" EXACT [NCI2004_11_17:C7388]
+xref: CSP2005:2007-0683
+xref: MESH:D019043
+xref: NCI2004_11_17:C5380
+xref: NCI2004_11_17:C5383
+xref: NCI2004_11_17:C5388
+xref: NCI2004_11_17:C7387
+xref: NCI2004_11_17:C7388
+xref: NCI2004_11_17:C7390
+xref: NCI:C5348
+xref: NCI:C5380
+xref: NCI:C5383
+xref: NCI:C5388
+xref: NCI:C7388
+xref: NCI:C7390
+xref: SNOMEDCT_US_2018_03_01:93817006
+xref: UMLS_CUI:C0282607
+xref: UMLS_CUI:C0346845
+xref: UMLS_CUI:C1290407
+xref: UMLS_CUI:C1334616
+xref: UMLS_CUI:C1334617
+xref: UMLS_CUI:C1334630
+xref: UMLS_CUI:C1335753
+is_a: DOID:176 ! cardiovascular cancer
+is_a: DOID:178 ! vascular disease
+
+[Term]
+id: DOID:176
+name: cardiovascular cancer
+namespace: disease_ontology
+def: "An organ system cancer that located_in the heart and blood vessels." [url:http\://www.cancer.gov/dictionary?CdrID=44005, url:http\://www.healthcentral.com/heart-disease/h/cardiovascular-cancer.html]
+subset: NCIthesaurus
+synonym: "cardiovascular neoplasm" EXACT [CSP2005:2007-0683]
+synonym: "Cardiovascular tumors" EXACT [NCI2004_11_17:C4784]
+xref: CSP2005:2007-0683
+xref: NCI2004_11_17:C4784
+xref: NCI:C4784
+xref: UMLS_CUI:C0497243
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:1287 ! cardiovascular system disease
+
+[Term]
+id: DOID:178
+name: vascular disease
+namespace: disease_ontology
+alt_id: DOID:0000405
+alt_id: DOID:2403
+alt_id: DOID:2869
+alt_id: DOID:324
+alt_id: DOID:325
+alt_id: DOID:45
+def: "A cardiovascular system disease that primarily affects the blood vessels which includes the arteries, veins and capillaries that carry blood to and from the heart." [url:http\://en.wikipedia.org/wiki/Vascular_disease]
+subset: NCIthesaurus
+synonym: "vascular tissue disease" EXACT []
+xref: ICD10CM:I72.9
+xref: ICD9CM:442.9
+xref: MESH:D000783
+xref: MESH:D014652
+xref: MESH:D020758
+xref: MESH:D020760
+xref: NCI:C26693
+xref: NCI:C35117
+xref: SNOMEDCT_US_2018_03_01:27550009
+xref: SNOMEDCT_US_2018_03_01:85659009
+xref: UMLS_CUI:C0002940
+xref: UMLS_CUI:C0042373
+xref: UMLS_CUI:C0752127
+xref: UMLS_CUI:C0752130
+is_a: DOID:1287 ! cardiovascular system disease
+
+[Term]
+id: DOID:18
+name: urinary system disease
+namespace: disease_ontology
+alt_id: DOID:579
+def: "A disease of anatomical entity that is located_in kidney, ureter, bladder and urethra." [url:http\://en.wikipedia.org/wiki/Urinary_system]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+subset: NCIthesaurus
+synonym: "Non-neoplastic urinary tract disease" EXACT [NCI2004_11_17:C27599]
+synonym: "urinary tract disease" EXACT []
+xref: NCI2004_11_17:C27599
+xref: NCI:C27599
+xref: UMLS_CUI:C1335051
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
+id: DOID:184
+name: bone cancer
+namespace: disease_ontology
+alt_id: DOID:3348
+def: "A connective tissue cancer that is located_in bone and is characterized by uncontrolled cellular proliferation that destroys normal bone tissue." [url:http\://www.cancer.gov/cancertopics/factsheet/Sites-Types/bone, url:http\://www.cancer.gov/cancertopics/types/bone, url:http\://www.wrongdiagnosis.com/b/bone_cancer/intro.htm]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "bone neoplasm" EXACT [CSP2005:2019-1041]
+synonym: "bone tumour" EXACT []
+synonym: "CA - bone cancer" EXACT []
+synonym: "malignant bone neoplasm" EXACT []
+synonym: "malignant bone tumour" EXACT []
+synonym: "malignant neoplasm of bone" EXACT [SNOMEDCT_2005_07_31:93725000]
+synonym: "malignant osseous tumor" EXACT [NCI2004_11_17:C4016]
+synonym: "neoplasm of bone" EXACT []
+synonym: "osseous tumor" EXACT [NCI2004_11_17:C9343]
+xref: CSP2005:2019-1041
+xref: MESH:D001859
+xref: NCI2004_11_17:C4016
+xref: NCI2004_11_17:C9343
+xref: NCI:C9343
+xref: UMLS_CUI:C0005967
+is_a: DOID:0080001 ! bone disease
+is_a: DOID:201 ! connective tissue cancer
+
+[Term]
+id: DOID:1862
+name: jaw cancer
+namespace: disease_ontology
+def: "A bone cancer and jaw disease that is located in the jaw and results in a swollen jaw, results in numbness or a tingling sensation in jaw, and results in an abnormal growth of the jaw bone." [url:http\://www.buzzle.com/articles/jaw-cancer-symptoms.html]
+synonym: "jaw neoplasm" RELATED []
+synonym: "neoplasm of jaw" EXACT []
+xref: MESH:D007573
+xref: UMLS_CUI:C0022364
+is_a: DOID:184 ! bone cancer
+
+[Term]
+id: DOID:1863
+name: skull cancer
+namespace: disease_ontology
+subset: NCIthesaurus
+xref: MESH:D012888
+xref: NCI:C3375
+xref: UMLS_CUI:C0037305
+is_a: DOID:184 ! bone cancer
+
+[Term]
 id: DOID:193
 name: reproductive organ cancer
 namespace: disease_ontology
@@ -275,6 +1131,113 @@ xref: NCI:C3674
 xref: UMLS_CUI:C0178830
 is_a: DOID:0050686 ! organ system cancer
 is_a: DOID:15 ! reproductive system disease
+
+[Term]
+id: DOID:1962
+name: fallopian tube disease
+namespace: disease_ontology
+def: "A female reproductive system disease that is located_in the fallopian tube." [url:https\://www.ncbi.nlm.nih.gov/pubmed/21415195]
+subset: NCIthesaurus
+xref: MESH:D005184
+xref: NCI:C26771
+xref: UMLS_CUI:C0015556
+is_a: DOID:229 ! female reproductive system disease
+
+[Term]
+id: DOID:1964
+name: fallopian tube cancer
+namespace: disease_ontology
+alt_id: DOID:1961
+def: "A female reproductive organ cancer that is located_in fallopian tube." [url:http\://en.wikipedia.org/wiki/Fallopian_tube_cancer]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "fallopian tube neoplasm" EXACT []
+synonym: "malignant neoplasm of uterine tube" EXACT [MTHICD9_2006:183.2]
+synonym: "malignant tumor of fallopian tube" EXACT []
+synonym: "malignant tumour of fallopian tube" EXACT [SNOMEDCT_2005_07_31:93794008]
+synonym: "neoplasm of fallopian tube" EXACT []
+synonym: "tumor of the fallopian tube" EXACT [NCI2004_11_17:C3032]
+synonym: "tumor, fallopian tube, malignant" EXACT [NCI2004_11_17:C7480]
+xref: GARD:9162
+xref: ICD10CM:C57.0
+xref: ICD9CM:183.2
+xref: MESH:D005185
+xref: MTHICD9_2006:183.2
+xref: NCI2004_11_17:C3032
+xref: NCI2004_11_17:C7480
+xref: NCI:C3032
+xref: NCI:C7480
+xref: SNOMEDCT_US_2018_03_01:93794008
+xref: UMLS_CUI:C0015558
+xref: UMLS_CUI:C0153579
+is_a: DOID:120 ! female reproductive organ cancer
+is_a: DOID:1962 ! fallopian tube disease
+
+[Term]
+id: DOID:1993
+name: rectum cancer
+namespace: disease_ontology
+alt_id: DOID:1989
+def: "A colorectal cancer that is located_in the rectum." [url:http\://www.cancer.gov/dictionary?CdrID=529764]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "cancer of rectum" RELATED []
+synonym: "carcinoma of rectum" EXACT []
+synonym: "carcinoma of the rectum" EXACT [NCI2004_11_17:C9382]
+synonym: "malignant neoplasm of rectum" EXACT []
+synonym: "malignant Rectal tumor" EXACT [NCI2004_11_17:C7418]
+synonym: "malignant rectum tumor" EXACT []
+synonym: "malignant tumor of rectum" EXACT []
+synonym: "rectal cancer" EXACT []
+xref: ICD10CM:C20
+xref: ICD9CM:154.1
+xref: MESH:D012004
+xref: NCI2004_11_17:C7418
+xref: NCI2004_11_17:C9382
+xref: NCI:C7418
+xref: NCI:C9382
+xref: SNOMEDCT_US_2018_03_01:93984006
+xref: UMLS_CUI:C0007113
+xref: UMLS_CUI:C0949022
+is_a: DOID:9256 ! colorectal cancer
+
+[Term]
+id: DOID:201
+name: connective tissue cancer
+namespace: disease_ontology
+def: "A musculoskeletal system cancer that is located_in connective tissue." [url:http\://en.wikipedia.org/wiki/Connective_tissue]
+subset: TopNodes_DOcancerslim
+synonym: "connective tissue neoplasm" EXACT [CSP2005:2008-3809]
+synonym: "neoplasm of connective tissues" EXACT []
+synonym: "Tumour of connective tissue" EXACT []
+xref: CSP2005:2008-3809
+xref: MESH:D009372
+xref: UMLS_CUI:C0027656
+is_a: DOID:0060100 ! musculoskeletal system cancer
+is_a: DOID:65 ! connective tissue disease
+
+[Term]
+id: DOID:2174
+name: ocular cancer
+namespace: disease_ontology
+alt_id: DOID:9985
+def: "A sensory system cancer located_in the eye that is characterized by uncontrolled cellular proliferation in the eye." [url:http\://en.wikipedia.org/wiki/Eye, url:http\://en.wikipedia.org/wiki/Eye_neoplasm]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "eye neoplasm" EXACT [CSP2005:2018-3273]
+synonym: "malignant eye neoplasm" EXACT []
+synonym: "neoplasm of eye" EXACT []
+synonym: "neoplasm of eye proper" EXACT []
+synonym: "Ocular tumor" EXACT [NCI2004_11_17:C3030]
+xref: CSP2005:2018-3273
+xref: ICD9CM:190.8
+xref: MESH:D005134
+xref: NCI2004_11_17:C3030
+xref: NCI:C3030
+xref: UMLS_CUI:C0015414
+xref: UMLS_CUI:C0153632
+is_a: DOID:0060116 ! sensory system cancer
+is_a: DOID:5614 ! eye disease
 
 [Term]
 id: DOID:219
@@ -308,6 +1271,17 @@ xref: UMLS_CUI:C0007867
 is_a: DOID:345 ! uterine disease
 
 [Term]
+id: DOID:2277
+name: gonadal disease
+namespace: disease_ontology
+def: "An endocrine system disease that is located_in the gonads." [url:http\://semmelweis.hu/belgyogyaszat3/files/2011/05/drigazp-gonaddiseasesenglishiii-publicversion.pdf]
+subset: NCIthesaurus
+xref: MESH:D006058
+xref: NCI:C26786
+xref: UMLS_CUI:C0018050
+is_a: DOID:28 ! endocrine system disease
+
+[Term]
 id: DOID:229
 name: female reproductive system disease
 namespace: disease_ontology
@@ -335,6 +1309,84 @@ is_a: DOID:1520 ! colon carcinoma
 is_a: DOID:299 ! adenocarcinoma
 
 [Term]
+id: DOID:2388
+name: renal artery disease
+namespace: disease_ontology
+subset: NCIthesaurus
+synonym: "renal vascular disease" EXACT []
+synonym: "vascular disorder of kidney" EXACT [ICD9CM_2006:593.81]
+xref: ICD9CM:593.81
+xref: ICD9CM_2006:593.81
+xref: NCI:C35338
+xref: SNOMEDCT_US_2018_03_01:16934004
+xref: UMLS_CUI:C0268790
+is_a: DOID:0050828 ! artery disease
+
+[Term]
+id: DOID:2394
+name: ovarian cancer
+namespace: disease_ontology
+alt_id: DOID:0060070
+alt_id: DOID:2144
+alt_id: DOID:9595
+def: "A female reproductive organ cancer that is located_in the ovary." [url:http\://www.cancer.gov/dictionary?CdrID=445074]
+comment: Xref MGI.\nOMIM mapping confirmed by DO. [SN].
+subset: DO_FlyBase_slim
+subset: DO_rare_slim
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "malignant Ovarian tumor" EXACT [NCI2004_11_17:C7431]
+synonym: "malignant tumour of ovary" EXACT []
+synonym: "ovarian neoplasm" EXACT [MTH:NOCODE]
+synonym: "ovary neoplasm" EXACT [CSP2005:2016-1387]
+synonym: "primary ovarian cancer" EXACT []
+synonym: "tumor of the Ovary" EXACT [NCI2004_11_17:C4984]
+xref: CSP2005:2016-1387
+xref: GARD:7295
+xref: ICD10CM:C56
+xref: ICD9CM:183.0
+xref: MESH:D010051
+xref: MTH:NOCODE
+xref: NCI2004_11_17:C4984
+xref: NCI2004_11_17:C7431
+xref: NCI:C4984
+xref: NCI:C7431
+xref: OMIM:167000
+xref: OMIM:607893
+xref: ORDO:213517
+xref: SNOMEDCT_US_2018_03_01:93934004
+xref: UMLS_CUI:C0919267
+xref: UMLS_CUI:C1140680
+xref: UMLS_CUI:C1299247
+is_a: DOID:1100 ! ovarian disease
+is_a: DOID:120 ! female reproductive organ cancer
+is_a: DOID:170 ! endocrine gland cancer
+
+[Term]
+id: DOID:240
+name: iris disease
+namespace: disease_ontology
+subset: NCIthesaurus
+xref: MESH:D007499
+xref: NCI:C34737
+xref: SNOMEDCT_US_2018_03_01:85478004
+xref: UMLS_CUI:C0022078
+is_a: DOID:3480 ! uveal disease
+
+[Term]
+id: DOID:2462
+name: retinal vascular disease
+namespace: disease_ontology
+subset: NCIthesaurus
+synonym: "retina circulation disorder" EXACT [CSP2005:1114-7471]
+xref: CSP2005:1114-7471
+xref: NCI:C35170
+xref: SNOMEDCT_US_2018_03_01:57534004
+xref: UMLS_CUI:C0154833
+is_a: DOID:178 ! vascular disease
+is_a: DOID:5679 ! retinal disease
+
+[Term]
 id: DOID:2531
 name: hematologic cancer
 namespace: disease_ontology
@@ -360,6 +1412,75 @@ xref: NCI:C27134
 xref: UMLS_CUI:C0376544
 is_a: DOID:0050686 ! organ system cancer
 is_a: DOID:74 ! hematopoietic system disease
+
+[Term]
+id: DOID:263
+name: kidney cancer
+namespace: disease_ontology
+alt_id: DOID:11834
+alt_id: DOID:3676
+def: "A urinary system cancer that is located_in the kidney." [url:http\://en.wikipedia.org/wiki/Kidney_cancer]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "malignant neoplasm of kidney except pelvis" EXACT []
+synonym: "malignant tumour of kidney" EXACT []
+synonym: "renal cancer" EXACT []
+xref: ICD10CM:C64
+xref: ICD9CM:189.0
+xref: MESH:D007680
+xref: NCI:C120456
+xref: NCI:C3150
+xref: NCI:C7548
+xref: SNOMEDCT_US_2018_03_01:93849006
+xref: UMLS_CUI:C0022665
+xref: UMLS_CUI:C0494158
+xref: UMLS_CUI:C0740457
+is_a: DOID:3996 ! urinary system cancer
+is_a: DOID:557 ! kidney disease
+
+[Term]
+id: DOID:2706
+name: synovium cancer
+namespace: disease_ontology
+subset: NCIthesaurus
+synonym: "malignant tumor of Synovium" EXACT [NCI2004_11_17:C6531]
+xref: NCI2004_11_17:C6531
+xref: NCI:C6531
+xref: UMLS_CUI:C1334624
+is_a: DOID:201 ! connective tissue cancer
+
+[Term]
+id: DOID:28
+name: endocrine system disease
+namespace: disease_ontology
+def: "A disease of anatomical entity that is located_in endocrine glands which secretes a type of hormone directly into the bloodstream to regulate the body." [url:http\://en.wikipedia.org/wiki/Endocrine_system]
+subset: DO_AGR_slim
+subset: DO_MGI_slim
+subset: NCIthesaurus
+xref: ICD10CM:E34.9
+xref: ICD9CM:259.9
+xref: MESH:D004700
+xref: NCI:C3009
+xref: SNOMEDCT_US_2018_03_01:67432001
+xref: UMLS_CUI:C0014130
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
+id: DOID:289
+name: endometriosis
+namespace: disease_ontology
+def: "A female reproductive system disease characterized by the growth of endometrial tissue outside the uterine body." [url:https\://en.wikipedia.org/?title=Endometriosis, url:https\://www.ncbi.nlm.nih.gov/pubmed/20574791]
+subset: NCIthesaurus
+xref: EFO:0001065
+xref: ICD10CM:N80
+xref: ICD10CM:N80.9
+xref: ICD9CM:617
+xref: ICD9CM:617.9
+xref: MESH:D004715
+xref: NCI:C3014
+xref: SNOMEDCT_US_2018_03_01:11871002
+xref: UMLS_CUI:C0014175
+is_a: DOID:229 ! female reproductive system disease
 
 [Term]
 id: DOID:2893
@@ -396,6 +1517,32 @@ xref: UMLS_CUI:C0001418
 is_a: DOID:305 ! carcinoma
 
 [Term]
+id: DOID:3030
+name: mucinous adenocarcinoma
+namespace: disease_ontology
+alt_id: DOID:4532
+def: "An adenocarcinoma that derives_from epithelial cells originating in glandular tissue, which produce mucin." [url:http\://coloncancer.about.com/od/typesofcancer/a/Mucinous_Tumor.htm, url:http\://medical-dictionary.thefreedictionary.com/mucinous+carcinoma]
+subset: NCIthesaurus
+synonym: "Mucin-producing adenocarcinoma" EXACT [SNOMEDCT_2005_07_31:900006]
+synonym: "mucin-producing adenocarcinoma" EXACT []
+synonym: "Mucin-Secreting adenocarcinoma" EXACT [NCI2004_11_17:C27379]
+synonym: "Mucin-Secreting carcinoma" EXACT [NCI2004_11_17:C27825]
+synonym: "Mucous carcinoma" EXACT [NCI2004_11_17:C26712]
+synonym: "Pseudomyxoma peritonei with unknown primary site" EXACT [SNOMEDCT_2005_07_31:72495009]
+xref: MESH:D002288
+xref: NCI2004_11_17:C26712
+xref: NCI2004_11_17:C27379
+xref: NCI2004_11_17:C27825
+xref: NCI:C26712
+xref: NCI:C27379
+xref: NCI:C27825
+xref: SNOMEDCT_US_2018_03_01:72495009
+xref: SNOMEDCT_US_2018_03_01:900006
+xref: UMLS_CUI:C0007130
+xref: UMLS_CUI:C0334368
+is_a: DOID:299 ! adenocarcinoma
+
+[Term]
 id: DOID:305
 name: carcinoma
 namespace: disease_ontology
@@ -419,6 +1566,34 @@ xref: UMLS_CUI:C0007097
 xref: UMLS_CUI:C0553707
 xref: UMLS_CUI:C1368683
 is_a: DOID:0050687 ! cell type cancer
+
+[Term]
+id: DOID:3093
+name: nervous system cancer
+namespace: disease_ontology
+alt_id: DOID:1193
+alt_id: DOID:3195
+alt_id: DOID:4695
+def: "An organ system cancer located_in the nervous system that affects the central or peripheral nervous system." [url:http\://emedicine.medscape.com/oncology, url:http\://en.wikipedia.org/wiki/Nervous_system_disease]
+subset: NCIthesaurus
+synonym: "malignant neoplasm of nervous system" EXACT []
+synonym: "neoplasm of nervous system" EXACT []
+synonym: "nervous system neoplasm" EXACT [CSP2005:2012-5157]
+synonym: "neural neoplasm" EXACT []
+synonym: "neural tumor" EXACT [NCI2004_11_17:C35562]
+synonym: "tumor of the nervous system" EXACT [NCI2004_11_17:C3268]
+xref: CSP2005:2012-5157
+xref: ICD9CM:192
+xref: ICD9CM:192.9
+xref: MESH:D009380
+xref: NCI2004_11_17:C3268
+xref: NCI2004_11_17:C35562
+xref: NCI:C35562
+xref: UMLS_CUI:C0027665
+xref: UMLS_CUI:C0153643
+xref: UMLS_CUI:C1334956
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:863 ! nervous system disease
 
 [Term]
 id: DOID:3119
@@ -449,6 +1624,81 @@ is_a: DOID:0050686 ! organ system cancer
 is_a: DOID:77 ! gastrointestinal system disease
 
 [Term]
+id: DOID:3128
+name: anus disease
+namespace: disease_ontology
+alt_id: DOID:11479
+alt_id: DOID:11993
+subset: NCIthesaurus
+synonym: "anal disease" EXACT []
+synonym: "anal fissure" EXACT []
+synonym: "anal fissure and fistula" EXACT []
+synonym: "anal ulcer" EXACT []
+synonym: "fissure in ano" EXACT []
+synonym: "Nontraumatic tear of anus" EXACT [MTHICD9_2006:565.0]
+synonym: "Solitary anal ulcer" EXACT []
+synonym: "Ulcer of anus" EXACT [SNOMEDCT_2005_07_31:20928004]
+xref: MESH:D001004
+xref: MTHICD9_2006:565.0
+xref: NCI:C26695
+xref: SNOMEDCT_US_2018_03_01:32110003
+xref: UMLS_CUI:C0003462
+is_a: DOID:1285 ! rectal disease
+
+[Term]
+id: DOID:319
+name: spinal cord disease
+namespace: disease_ontology
+subset: NCIthesaurus
+synonym: "myelopathy" RELATED []
+xref: ICD10CM:G95.9
+xref: ICD9CM:336.9
+xref: MESH:D013118
+xref: NCI:C97110
+xref: SNOMEDCT_US_2018_03_01:48522003
+xref: SNOMEDCT_US_2018_03_01:95648003
+xref: UMLS_CUI:C0037928
+is_a: DOID:331 ! central nervous system disease
+
+[Term]
+id: DOID:3225
+name: tracheal disease
+namespace: disease_ontology
+subset: NCIthesaurus
+xref: ICD10CM:S12.8
+xref: MESH:D014133
+xref: NCI:C35079
+xref: SNOMEDCT_US_2018_03_01:47125007
+xref: UMLS_CUI:C0040580
+is_a: DOID:974 ! upper respiratory tract disease
+
+[Term]
+id: DOID:331
+name: central nervous system disease
+namespace: disease_ontology
+def: "A nervous system disease that affects either the spinal cord (myelopathy) or brain (encephalopathy) of the central nervous system." [url:http\://en.wikipedia.org/wiki/Central_nervous_system_disease]
+subset: DO_AGR_slim
+subset: NCIthesaurus
+xref: ICD10CM:G96.9
+xref: MESH:D002493
+xref: NCI:C2934
+xref: SNOMEDCT_US_2018_03_01:23853001
+xref: UMLS_CUI:C0007682
+is_a: DOID:863 ! nervous system disease
+
+[Term]
+id: DOID:3407
+name: carotid artery disease
+namespace: disease_ontology
+subset: NCIthesaurus
+synonym: "disorder of carotid artery" EXACT []
+xref: MESH:D002340
+xref: NCI:C84476
+xref: UMLS_CUI:C0007273
+is_a: DOID:0050828 ! artery disease
+is_a: DOID:6713 ! cerebrovascular disease
+
+[Term]
 id: DOID:345
 name: uterine disease
 namespace: disease_ontology
@@ -461,6 +1711,102 @@ xref: NCI:C26907
 xref: SNOMEDCT_US_2018_03_01:12337004
 xref: UMLS_CUI:C0042131
 is_a: DOID:229 ! female reproductive system disease
+
+[Term]
+id: DOID:3478
+name: iris cancer
+namespace: disease_ontology
+alt_id: DOID:6353
+subset: NCIthesaurus
+synonym: "malignant neoplasm of the Iris" EXACT [NCI2004_11_17:C4554]
+synonym: "malignant tumor of iris" EXACT []
+synonym: "tumor of the Iris" EXACT [NCI2004_11_17:C3142]
+xref: MESH:D015811
+xref: NCI2004_11_17:C3142
+xref: NCI2004_11_17:C4554
+xref: NCI:C3142
+xref: NCI:C4554
+xref: UMLS_CUI:C0022079
+xref: UMLS_CUI:C0346372
+is_a: DOID:240 ! iris disease
+is_a: DOID:3479 ! uveal cancer
+
+[Term]
+id: DOID:3479
+name: uveal cancer
+namespace: disease_ontology
+alt_id: DOID:12754
+subset: NCIthesaurus
+synonym: "malignant uvea neoplasm" EXACT []
+synonym: "malignant Uveal tumor" EXACT [NCI2004_11_17:C6105]
+synonym: "Uveal tumor" EXACT [NCI2004_11_17:C3436]
+xref: MESH:D014604
+xref: NCI2004_11_17:C3436
+xref: NCI2004_11_17:C6105
+xref: NCI:C3436
+xref: NCI:C6105
+xref: UMLS_CUI:C0042162
+xref: UMLS_CUI:C1334629
+is_a: DOID:2174 ! ocular cancer
+is_a: DOID:3480 ! uveal disease
+
+[Term]
+id: DOID:3480
+name: uveal disease
+namespace: disease_ontology
+subset: NCIthesaurus
+xref: GARD:8192
+xref: MESH:D014603
+xref: NCI:C26908
+xref: SNOMEDCT_US_2018_03_01:95678007
+xref: UMLS_CUI:C0042161
+is_a: DOID:5614 ! eye disease
+
+[Term]
+id: DOID:3488
+name: cellulitis
+namespace: disease_ontology
+alt_id: DOID:2472
+def: "A skin disease where there is a diffuse infection of connective tissue with severe inflammation of dermal and subcutaneous layers of the skin. Cellulitis can be caused by normal skin flora or by exogenous bacteria, and often occurs where the skin has previously been broken: cracks in the skin, cuts, blisters, burns, insect bites, surgical wounds, or sites of intravenous catheter insertion." [url:http\://en.wikipedia.org/wiki/Cellulitis]
+subset: NCIthesaurus
+xref: ICD10CM:L03.90
+xref: MESH:D002481
+xref: NCI:C26715
+xref: NCI:C34454
+xref: SNOMEDCT_US_2018_03_01:62837005
+xref: SNOMEDCT_US_2018_03_01:74276003
+xref: UMLS_CUI:C0007642
+xref: UMLS_CUI:C0007646
+is_a: DOID:37 ! skin disease
+is_a: DOID:65 ! connective tissue disease
+
+[Term]
+id: DOID:3620
+name: central nervous system cancer
+namespace: disease_ontology
+alt_id: DOID:0060093
+alt_id: DOID:1318
+def: "A nervous system cancer that is located_in the central nervous system." [url:http\://en.wikipedia.org/wiki/Central_nervous_system]
+subset: NCIthesaurus
+synonym: "central nervous system tumor" EXACT []
+synonym: "central nervous system tumors" EXACT [NCI2004_11_17:C9293]
+synonym: "CNS neoplasm" EXACT [CSP2005:2012-5421]
+synonym: "malignant neoplasm of central nervous system" EXACT [SNOMEDCT_2005_07_31:93744007]
+synonym: "malignant tumor of CNS" EXACT [NCI2004_11_17:C4627]
+synonym: "neoplasm of central nervous system" EXACT []
+xref: CSP2005:2012-5421
+xref: EFO:0000326
+xref: ICD10CM:C72.9
+xref: MESH:D016543
+xref: NCI2004_11_17:C4627
+xref: NCI2004_11_17:C9293
+xref: NCI:C4627
+xref: NCI:C9293
+xref: SNOMEDCT_US_2018_03_01:93744007
+xref: UMLS_CUI:C0085136
+xref: UMLS_CUI:C0348374
+is_a: DOID:3093 ! nervous system cancer
+is_a: DOID:331 ! central nervous system disease
 
 [Term]
 id: DOID:363
@@ -491,6 +1837,47 @@ xref: UMLS_CUI:C0042138
 xref: UMLS_CUI:C0153567
 is_a: DOID:120 ! female reproductive organ cancer
 is_a: DOID:345 ! uterine disease
+
+[Term]
+id: DOID:365
+name: bladder disease
+namespace: disease_ontology
+def: "A urinary system disease that is located_in the bladder." [url:http\://www.nlm.nih.gov/medlineplus/bladderdiseases.html]
+subset: NCIthesaurus
+synonym: "Urinary Bladder Disease" EXACT []
+xref: ICD10CM:N32.9
+xref: ICD9CM:596.9
+xref: MESH:D001745
+xref: NCI:C2900
+xref: SNOMEDCT_US_2018_03_01:42643001
+xref: UMLS_CUI:C0005686
+is_a: DOID:18 ! urinary system disease
+
+[Term]
+id: DOID:37
+name: skin disease
+namespace: disease_ontology
+alt_id: DOID:1576
+alt_id: DOID:1698
+alt_id: DOID:187
+alt_id: DOID:6486
+alt_id: DOID:8948
+def: "An integumentary system disease that is located_in skin." [url:http\://en.wikipedia.org/wiki/Skin_disease]
+subset: NCIthesaurus
+synonym: "Genodermatosis" EXACT []
+synonym: "skin and subcutaneous tissue disease" EXACT []
+xref: ICD9CM:702
+xref: MESH:D012871
+xref: MESH:D012873
+xref: NCI:C27554
+xref: NCI:C3371
+xref: SNOMEDCT_US_2018_03_01:5613003
+xref: SNOMEDCT_US_2018_03_01:80659006
+xref: SNOMEDCT_US_2018_03_01:95320005
+xref: UMLS_CUI:C0029574
+xref: UMLS_CUI:C0037274
+xref: UMLS_CUI:C0037277
+is_a: DOID:16 ! integumentary system disease
 
 [Term]
 id: DOID:3702
@@ -557,6 +1944,17 @@ xref: UMLS_CUI:C0007131
 is_a: DOID:3905 ! lung carcinoma
 
 [Term]
+id: DOID:3996
+name: urinary system cancer
+namespace: disease_ontology
+def: "An organ system cancer that is located_in the kidneys, ureteres, bladder or urethra." [url:http\://en.wikipedia.org/wiki/Urinary_system]
+xref: ICD10CM:C68.9
+xref: ICD9CM:189.9
+xref: UMLS_CUI:C0348371
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:18 ! urinary system disease
+
+[Term]
 id: DOID:4
 name: disease
 namespace: disease_ontology
@@ -566,6 +1964,153 @@ xref: MESH:D004194
 xref: NCI:C2991
 xref: SNOMEDCT_US_2018_03_01:64572001
 xref: UMLS_CUI:C0012634
+
+[Term]
+id: DOID:403
+name: mouth disease
+namespace: disease_ontology
+def: "A gastrointestinal system disease that is located_in the mouth." [url:http\://en.wikipedia.org/wiki/Oral_and_maxillofacial_pathology]
+subset: NCIthesaurus
+xref: MESH:D009059
+xref: NCI:C27641
+xref: NCI:C3240
+xref: UMLS_CUI:C0026636
+is_a: DOID:77 ! gastrointestinal system disease
+
+[Term]
+id: DOID:4043
+name: skeletal muscle cancer
+namespace: disease_ontology
+subset: NCIthesaurus
+synonym: "malignant tumor of Skeletal Muscle" EXACT [NCI2004_11_17:C6516]
+xref: NCI2004_11_17:C6516
+xref: NCI:C6516
+xref: UMLS_CUI:C1334619
+is_a: DOID:4045 ! muscle cancer
+
+[Term]
+id: DOID:4045
+name: muscle cancer
+namespace: disease_ontology
+alt_id: DOID:4046
+def: "A musculoskeletal system cancer that is located_in muscle." [url:http\://en.wikipedia.org/wiki/Muscle]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "malignant neoplasm of muscle" EXACT [SNOMEDCT_2005_07_31:93913006]
+synonym: "malignant tumor of muscle" EXACT []
+synonym: "malignant tumor of the Muscle" EXACT [NCI2004_11_17:C4883]
+synonym: "myosarcoma" EXACT []
+xref: ICD10CM:C49
+xref: MESH:D009217
+xref: MESH:D019042
+xref: NCI2004_11_17:C4883
+xref: NCI:C4883
+xref: SNOMEDCT_US_2018_03_01:20667008
+xref: SNOMEDCT_US_2018_03_01:93913006
+xref: UMLS_CUI:C0027095
+xref: UMLS_CUI:C0684743
+is_a: DOID:0060100 ! musculoskeletal system cancer
+is_a: DOID:0080000 ! muscular disease
+
+[Term]
+id: DOID:4159
+name: skin cancer
+namespace: disease_ontology
+def: "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells." [url:http\://www.ncbi.nlm.nih.gov/pubmedhealth/PMH0002414/]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "CA - skin cancer" EXACT []
+synonym: "cancer of skin" RELATED []
+synonym: "malignant neoplasm of skin" EXACT [MTH:NOCODE]
+synonym: "melanoma and Non-melanoma skin cancer" EXACT [NCI2004_11_17:C2920]
+xref: GARD:10421
+xref: MESH:D012878
+xref: MTH:NOCODE
+xref: NCI2004_11_17:C2920
+xref: NCI:C2920
+xref: SNOMEDCT_US_2018_03_01:94047004
+xref: UMLS_CUI:C0007114
+is_a: DOID:0060122 ! integumentary system cancer
+is_a: DOID:37 ! skin disease
+
+[Term]
+id: DOID:4203
+name: brain stem cancer
+namespace: disease_ontology
+alt_id: DOID:13974
+alt_id: DOID:4204
+alt_id: DOID:4208
+subset: NCIthesaurus
+synonym: "malignant neoplasm of brain stem" EXACT []
+synonym: "malignant neoplasm of brainstem" EXACT []
+synonym: "malignant tumor of Brainstem" EXACT [NCI2004_11_17:C3570]
+synonym: "neoplasm of adult brain stem" EXACT []
+synonym: "neoplasm of brain stem" EXACT []
+synonym: "primary brain stem neoplasm" EXACT []
+synonym: "primary brain Stem tumor" EXACT [NCI2004_11_17:C4975]
+synonym: "tumor of adult Brainstem" EXACT [NCI2004_11_17:C5967]
+synonym: "tumor of the Brainstem" EXACT [NCI2004_11_17:C4869]
+xref: GARD:8244
+xref: ICD10CM:C71.7
+xref: ICD9CM:191.7
+xref: MESH:D020295
+xref: NCI2004_11_17:C3570
+xref: NCI2004_11_17:C4869
+xref: NCI2004_11_17:C4975
+xref: NCI2004_11_17:C5967
+xref: NCI:C3570
+xref: NCI:C4869
+xref: NCI:C4975
+xref: NCI:C5967
+xref: SNOMEDCT_US_2018_03_01:93726004
+xref: UMLS_CUI:C0153641
+xref: UMLS_CUI:C0677866
+xref: UMLS_CUI:C0751886
+xref: UMLS_CUI:C1332192
+is_a: DOID:4706 ! infratentorial cancer
+
+[Term]
+id: DOID:4230
+name: smooth muscle cancer
+namespace: disease_ontology
+subset: NCIthesaurus
+synonym: "malignant tumor of Smooth Muscle" EXACT [NCI2004_11_17:C6511]
+xref: NCI2004_11_17:C6511
+xref: NCI:C6511
+xref: UMLS_CUI:C1334620
+is_a: DOID:4045 ! muscle cancer
+
+[Term]
+id: DOID:4352
+name: ciliary body cancer
+namespace: disease_ontology
+alt_id: DOID:6352
+subset: NCIthesaurus
+synonym: "malignant neoplasm of ciliary body" EXACT []
+synonym: "malignant tumor of ciliary body" EXACT []
+synonym: "malignant tumor of the Ciliary body" EXACT [NCI2004_11_17:C4766]
+synonym: "neoplasm of ciliary body" EXACT []
+synonym: "tumor of the Ciliary body" EXACT [NCI2004_11_17:C4364]
+xref: ICD10CM:C69.4
+xref: NCI2004_11_17:C4364
+xref: NCI2004_11_17:C4766
+xref: NCI:C4364
+xref: NCI:C4766
+xref: SNOMEDCT_US_2018_03_01:93756008
+xref: UMLS_CUI:C0339349
+xref: UMLS_CUI:C0496833
+is_a: DOID:3478 ! iris cancer
+is_a: DOID:4353 ! ciliary body disease
+
+[Term]
+id: DOID:4353
+name: ciliary body disease
+namespace: disease_ontology
+subset: NCIthesaurus
+xref: NCI:C35775
+xref: SNOMEDCT_US_2018_03_01:68575007
+xref: UMLS_CUI:C0271100
+is_a: DOID:240 ! iris disease
 
 [Term]
 id: DOID:4362
@@ -597,6 +2142,122 @@ xref: UMLS_CUI:C0007847
 xref: UMLS_CUI:C0007873
 is_a: DOID:2253 ! cervix disease
 is_a: DOID:363 ! uterine cancer
+
+[Term]
+id: DOID:4645
+name: retinal cancer
+namespace: disease_ontology
+alt_id: DOID:770
+subset: NCIthesaurus
+synonym: "malignant neoplasm of retina" EXACT []
+synonym: "malignant Retinal neoplasm" EXACT [NCI2004_11_17:C3216]
+synonym: "malignant tumor of retina" EXACT []
+synonym: "neoplasm of retina" EXACT []
+synonym: "Retinal tumor" EXACT [NCI2004_11_17:C4800]
+xref: ICD10CM:C69.2
+xref: ICD9CM:190.5
+xref: MESH:D019572
+xref: NCI2004_11_17:C3216
+xref: NCI2004_11_17:C4800
+xref: NCI:C3216
+xref: NCI:C4800
+xref: SNOMEDCT_US_2018_03_01:93987004
+xref: UMLS_CUI:C0024622
+xref: UMLS_CUI:C0524801
+is_a: DOID:2174 ! ocular cancer
+is_a: DOID:5679 ! retinal disease
+
+[Term]
+id: DOID:4706
+name: infratentorial cancer
+namespace: disease_ontology
+alt_id: DOID:4789
+def: "A brain cancer that is located_in the infratentorial region." [url:http\://en.wikipedia.org/wiki/Tentorium_cerebelli, url:http\://www.ncbi.nlm.nih.gov/mesh/68015192]
+subset: NCIthesaurus
+synonym: "brain neoplasm, Infratentorial" EXACT [NCI2004_11_17:C3139]
+synonym: "malignant Infratentorial tumors" EXACT [NCI2004_11_17:C4966]
+xref: ICD10CM:C71.7
+xref: MESH:D015192
+xref: NCI2004_11_17:C3139
+xref: NCI2004_11_17:C4966
+xref: NCI:C3139
+xref: NCI:C4966
+xref: UMLS_CUI:C0021432
+xref: UMLS_CUI:C0751593
+is_a: DOID:1319 ! brain cancer
+
+[Term]
+id: DOID:4919
+name: renal pelvis carcinoma
+namespace: disease_ontology
+alt_id: DOID:12343
+subset: NCIthesaurus
+synonym: "carcinoma of kidney Pelvis" EXACT [NCI2004_11_17:C6142]
+synonym: "malignant neoplasm of renal pelvis" EXACT []
+synonym: "malignant renal Pelvis neoplasm" EXACT [NCI2004_11_17:C7525]
+synonym: "malignant tumor of renal pelvis" EXACT []
+synonym: "renal pelvis cancer" EXACT []
+xref: ICD10CM:C65
+xref: ICD9CM:189.1
+xref: NCI2004_11_17:C6142
+xref: NCI2004_11_17:C7525
+xref: NCI:C6142
+xref: NCI:C7525
+xref: SNOMEDCT_US_2018_03_01:93985007
+xref: UMLS_CUI:C0153618
+xref: UMLS_CUI:C1335749
+is_a: DOID:263 ! kidney cancer
+is_a: DOID:305 ! carcinoma
+
+[Term]
+id: DOID:5093
+name: thoracic cancer
+namespace: disease_ontology
+alt_id: DOID:3937
+def: "An organ system cancer located_in the thoracic cavity that develops in the different types of cells within the lungs, as well as less common cancers of the esophagus, the trachea, or the chest wall." [url:http\://www.advocatehealth.com/cmc/body.cfm?id=203]
+subset: NCIthesaurus
+synonym: "Thoracic tumor" EXACT [NCI2004_11_17:C3406]
+synonym: "thorax cancer" EXACT []
+synonym: "thorax neoplasm" EXACT [CSP2005:2005-5041]
+synonym: "tumor of thorax" EXACT []
+xref: CSP2005:2005-5041
+xref: ICD10CM:C76.1
+xref: ICD9CM:195.1
+xref: MESH:D013899
+xref: NCI2004_11_17:C3406
+xref: NCI:C3406
+xref: NCI:C3576
+xref: UMLS_CUI:C0039981
+xref: UMLS_CUI:C0153661
+is_a: DOID:0050686 ! organ system cancer
+is_a: DOID:0060118 ! thoracic disease
+
+[Term]
+id: DOID:520
+name: aortic disease
+namespace: disease_ontology
+def: "An artery disease that is characterized by degeneration of the cells composing the aortic wall." [url:http\://www.hopkinsmedicine.org/heart_vascular_institute/conditions_treatments/conditions/aorta.html, url:https\://www.cedars-sinai.edu/Patients/Programs-and-Services/Heart-Institute/Conditions/Aortic-Disease.aspx#3]
+subset: NCIthesaurus
+synonym: "aortic disorder" EXACT [CSP2005:0571-0627]
+synonym: "disorder of the aorta" EXACT [SNOMEDCT_2005_07_31:47040006]
+xref: CSP2005:0571-0627
+xref: MESH:D001018
+xref: NCI:C101253
+xref: SNOMEDCT_US_2018_03_01:47040006
+xref: UMLS_CUI:C0003493
+is_a: DOID:0050828 ! artery disease
+
+[Term]
+id: DOID:5274
+name: malignant dermis tumor
+namespace: disease_ontology
+subset: NCIthesaurus
+synonym: "malignant neoplasm of Dermis" EXACT [NCI2004_11_17:C4574]
+synonym: "malignant tumor of dermis" EXACT []
+xref: NCI2004_11_17:C4574
+xref: NCI:C4574
+xref: UMLS_CUI:C0346811
+is_a: DOID:4159 ! skin cancer
 
 [Term]
 id: DOID:5295
@@ -646,6 +2307,74 @@ is_a: DOID:10534 ! stomach cancer
 is_a: DOID:305 ! carcinoma
 
 [Term]
+id: DOID:557
+name: kidney disease
+namespace: disease_ontology
+def: "A urinary system disease that is located_in the kidney." [url:http\://www.nlm.nih.gov/medlineplus/kidneydiseases.html]
+subset: DO_FlyBase_slim
+subset: NCIthesaurus
+synonym: "nephropathy" EXACT []
+xref: EFO:0003086
+xref: ICD10CM:N08
+xref: ICD10CM:N28.9
+xref: MESH:D007674
+xref: NCI:C3149
+xref: NCI:C34843
+xref: SNOMEDCT_US_2018_03_01:90708001
+xref: UMLS_CUI:C0022658
+is_a: DOID:18 ! urinary system disease
+
+[Term]
+id: DOID:5612
+name: spinal cancer
+namespace: disease_ontology
+alt_id: DOID:3638
+alt_id: DOID:7225
+def: "A central nervous system cancer that is located_in the spinal cord. It is mostly formed from metastases from primary cancers elsewhere (commonly breast, prostate, and lung cancer)." [url:http\://en.wikipedia.org/wiki/Spinal_tumor]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "Intraspinal tumor" EXACT [NCI2004_11_17:C3382]
+synonym: "malignant tumor of the Spinal Cord" EXACT [NCI2004_11_17:C3572]
+synonym: "spinal cord cancer" EXACT []
+synonym: "spinal cord neoplasm" EXACT []
+synonym: "spinal neoplasm" RELATED []
+synonym: "tumor of the Spinal Cord" EXACT [NCI2004_11_17:C3381]
+xref: ICD10CM:C72.0
+xref: ICD9CM:192.2
+xref: MESH:D013120
+xref: MESH:D013125
+xref: NCI2004_11_17:C3381
+xref: NCI2004_11_17:C3382
+xref: NCI2004_11_17:C3572
+xref: NCI:C3381
+xref: NCI:C3572
+xref: SNOMEDCT_US_2018_03_01:94068003
+xref: UMLS_CUI:C0037930
+xref: UMLS_CUI:C0037939
+xref: UMLS_CUI:C0153646
+is_a: DOID:319 ! spinal cord disease
+is_a: DOID:3620 ! central nervous system cancer
+
+[Term]
+id: DOID:5614
+name: eye disease
+namespace: disease_ontology
+alt_id: DOID:2933
+def: "An eye and adnexa disease that is located_in the eye." [url:http\://en.wikipedia.org/wiki/Eye_disease]
+subset: DO_FlyBase_slim
+subset: NCIthesaurus
+xref: ICD10CM:H44
+xref: ICD10CM:H44.9
+xref: ICD9CM:360
+xref: ICD9CM:360.9
+xref: ICD9CM:379.90
+xref: MESH:D005128
+xref: NCI:C26767
+xref: SNOMEDCT_US_2018_03_01:79517001
+xref: UMLS_CUI:C0015397
+is_a: DOID:1492 ! eye and adnexa disease
+
+[Term]
 id: DOID:5672
 name: large intestine cancer
 namespace: disease_ontology
@@ -666,6 +2395,155 @@ xref: UMLS_CUI:C1319315
 is_a: DOID:10155 ! intestinal cancer
 
 [Term]
+id: DOID:5679
+name: retinal disease
+namespace: disease_ontology
+def: "An eye disease that is located_in the retina." [url:http\://en.wikipedia.org/wiki/Retina#Diseases_and_disorders]
+subset: NCIthesaurus
+xref: ICD10CM:H35.9
+xref: ICD9CM:362.9
+xref: MESH:D012164
+xref: NCI:C26875
+xref: NCI:C62601
+xref: SNOMEDCT_US_2018_03_01:29555009
+xref: SNOMEDCT_US_2018_03_01:35426003
+xref: UMLS_CUI:C0035309
+is_a: DOID:5614 ! eye disease
+
+[Term]
+id: DOID:574
+name: peripheral nervous system disease
+namespace: disease_ontology
+alt_id: DOID:13069
+def: "A nervous system disease that affects the peripheral nervous system." [url:http\://en.wikipedia.org/w/index.php?title=Peripheral_neuropathy&redirect=no]
+subset: DO_AGR_slim
+subset: NCIthesaurus
+synonym: "peripheral nerve disease" RELATED [MTH:516]
+synonym: "peripheral neuropathy" RELATED [CSP2005:2042-6617]
+xref: CSP2005:2042-6617
+xref: ICD10CM:G64
+xref: ICD9CM:350-359.99
+xref: MESH:D010523
+xref: MTH:516
+xref: NCI:C119734
+xref: NCI:C27580
+xref: NCI:C27587
+xref: SNOMEDCT_US_2018_03_01:42658009
+xref: UMLS_CUI:C0031117
+xref: UMLS_CUI:C1335029
+is_a: DOID:863 ! nervous system disease
+
+[Term]
+id: DOID:5772
+name: central nervous system hematologic cancer
+namespace: disease_ontology
+def: "A hematologic cancer and central nervous system neoplasm that is located_in the central nervous system." [url:http\://www.oncologystat.com/journals/ew/YSONC/Central_Nervous_System_Disease_in_Hematologic_Malignancies_Historical_Perspective_and_Practical_Applications.html]
+subset: NCIthesaurus
+synonym: "CNS hematopoietic tumor" EXACT [NCI2004_11_17:C5503]
+synonym: "hematopoietic neoplasm of central nervous system" RELATED []
+xref: NCI2004_11_17:C5503
+xref: NCI:C5503
+xref: UMLS_CUI:C1332882
+is_a: DOID:2531 ! hematologic cancer
+is_a: DOID:3620 ! central nervous system cancer
+
+[Term]
+id: DOID:5877
+name: endocardium cancer
+namespace: disease_ontology
+alt_id: DOID:14538
+subset: NCIthesaurus
+synonym: "malignant Endocardial tumor" EXACT [NCI2004_11_17:C4570]
+synonym: "malignant neoplasm of endocardium" EXACT []
+synonym: "malignant tumor of endocardium" EXACT []
+xref: NCI2004_11_17:C4570
+xref: NCI:C4570
+xref: NCI:C5346
+xref: SNOMEDCT_US_2018_03_01:93778001
+xref: UMLS_CUI:C0346612
+xref: UMLS_CUI:C1290401
+is_a: DOID:0050825 ! endocardium disease
+is_a: DOID:117 ! heart cancer
+
+[Term]
+id: DOID:60001
+name: pulmonary artery disease
+namespace: disease_ontology
+def: "A disease that is located in the lungs." []
+is_a: DOID:0050828 ! artery disease
+is_a: DOID:850 ! lung disease
+
+[Term]
+id: DOID:6199
+name: cornea cancer
+namespace: disease_ontology
+alt_id: DOID:12757
+subset: NCIthesaurus
+synonym: "Corneal tumor" EXACT [NCI2004_11_17:C4361]
+synonym: "malignant Corneal tumor" EXACT [NCI2004_11_17:C3565]
+synonym: "malignant neoplasm of cornea" EXACT [SNOMEDCT_2005_07_31:93766000]
+synonym: "malignant tumor of cornea" EXACT []
+synonym: "neoplasm of cornea" EXACT []
+xref: ICD10CM:C69.1
+xref: ICD9CM:190.4
+xref: NCI2004_11_17:C3565
+xref: NCI2004_11_17:C4361
+xref: NCI:C3565
+xref: NCI:C4361
+xref: SNOMEDCT_US_2018_03_01:93766000
+xref: UMLS_CUI:C0153629
+xref: UMLS_CUI:C0339304
+is_a: DOID:10124 ! corneal disease
+is_a: DOID:2174 ! ocular cancer
+
+[Term]
+id: DOID:65
+name: connective tissue disease
+namespace: disease_ontology
+def: "A musculoskeletal system disease that affects tissues such as skin, tendons, and cartilage." [url:http\://www.niams.nih.gov/Health_Info/Scleroderma/default.asp]
+subset: NCIthesaurus
+synonym: "connective tissue disorder" EXACT [CSP2005:0729-7208]
+synonym: "disorder of connective tissue" EXACT []
+xref: CSP2005:0729-7208
+xref: MESH:D003240
+xref: NCI:C26729
+xref: UMLS_CUI:C0009782
+is_a: DOID:17 ! musculoskeletal system disease
+
+[Term]
+id: DOID:6713
+name: cerebrovascular disease
+namespace: disease_ontology
+alt_id: DOID:12214
+alt_id: DOID:3455
+alt_id: DOID:8231
+def: "An vascular disease that is characterized by dysfunction of the blood vessels supplying the brain." [url:http\://en.wikipedia.org/wiki/Cerebrovascular_disease, url:http\://www.ncbi.nlm.nih.gov/books/NBK378/]
+comment: OMIM mapping confirmed by DO. [SN].
+subset: NCIthesaurus
+synonym: "Cerebrovascular accident" EXACT []
+synonym: "cerebrovascular accident" EXACT []
+synonym: "cerebrovascular disorder" EXACT []
+synonym: "CVA" EXACT [CSP2005:0617-5539]
+synonym: "stroke" EXACT []
+xref: CSP2005:0617-5539
+xref: EFO:0000712
+xref: ICD10CM:I60-I69
+xref: ICD10CM:I63.9
+xref: ICD10CM:I67.9
+xref: ICD9CM:430-438.99
+xref: ICD9CM:437.9
+xref: MESH:D002561
+xref: MESH:D020521
+xref: NCI:C2938
+xref: NCI:C3390
+xref: OMIM:601367
+xref: SNOMEDCT_US_2018_03_01:62914000
+xref: SNOMEDCT_US_2018_03_01:82797006
+xref: UMLS_CUI:C0007820
+xref: UMLS_CUI:C0038454
+is_a: DOID:178 ! vascular disease
+
+[Term]
 id: DOID:7
 name: disease of anatomical entity
 namespace: disease_ontology
@@ -677,6 +2555,45 @@ alt_id: DOID:72
 alt_id: DOID:8
 def: "A disease that manifests in a defined anatomical structure." [DO:wk\,ls, URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anatomic]
 is_a: DOID:4 ! disease
+
+[Term]
+id: DOID:732
+name: urethral disease
+namespace: disease_ontology
+def: "A urinary system disease that is located_in the urethra." [url:http\://www.nlm.nih.gov/medlineplus/urethraldisorders.html]
+subset: NCIthesaurus
+synonym: "urethra disease" EXACT [NCI2004_11_17:C26903]
+xref: ICD10CM:N36.9
+xref: MESH:D014522
+xref: NCI2004_11_17:C26903
+xref: NCI:C26903
+xref: SNOMEDCT_US_2018_03_01:4985009
+xref: UMLS_CUI:C0041969
+is_a: DOID:18 ! urinary system disease
+
+[Term]
+id: DOID:734
+name: urethra cancer
+namespace: disease_ontology
+alt_id: DOID:737
+def: "An urinary tract cancer that derives_from the tissues of the urethra." [url:http\://www.cancer.gov/cancertopics/pdq/treatment/urethral/Patient]
+subset: NCIthesaurus
+synonym: "cancer of urethra" RELATED []
+synonym: "malignant tumour of urethra" EXACT []
+synonym: "malignant urethral neoplasm" EXACT [NCI2004_11_17:C7507]
+synonym: "urethral Ca" EXACT []
+xref: GARD:9390
+xref: ICD10CM:C68.0
+xref: ICD9CM:189.3
+xref: MESH:D014523
+xref: NCI2004_11_17:C7507
+xref: NCI:C7507
+xref: NCI:C9106
+xref: SNOMEDCT_US_2018_03_01:94123008
+xref: UMLS_CUI:C0153620
+xref: UMLS_CUI:C0700101
+is_a: DOID:3996 ! urinary system cancer
+is_a: DOID:732 ! urethral disease
 
 [Term]
 id: DOID:74
@@ -780,6 +2697,123 @@ xref: UMLS_CUI:C0153903
 is_a: DOID:8692 ! myeloid leukemia
 
 [Term]
+id: DOID:8564
+name: lip cancer
+namespace: disease_ontology
+alt_id: DOID:8563
+alt_id: DOID:8605
+alt_id: DOID:8975
+alt_id: DOID:9031
+alt_id: DOID:9135
+subset: NCIthesaurus
+synonym: "malignant neoplasm of commissure of lip" EXACT []
+synonym: "malignant neoplasm of external Lip, not specified as upper or lower" EXACT [MTHICD9_2006:140.9]
+synonym: "malignant neoplasm of labial commissure of lip" EXACT [MTHICD9_2006:140.6]
+synonym: "malignant neoplasm of lip" EXACT []
+synonym: "malignant neoplasm of lip, external" EXACT []
+synonym: "malignant neoplasm of lip, inner aspect" EXACT []
+synonym: "malignant neoplasm of lip, vermilion border" EXACT []
+synonym: "malignant neoplasm of lower lip, buccal aspect" EXACT []
+synonym: "malignant neoplasm of lower lip, inner aspect" EXACT []
+synonym: "malignant neoplasm of lower lip, mucosa" EXACT []
+synonym: "malignant neoplasm of lower lip, oral aspect" EXACT [MTHICD9_2006:140.4]
+synonym: "malignant neoplasm of oral aspect of lip, not specified whether upper or lower" EXACT [MTHICD9_2006:140.5]
+synonym: "malignant neoplasm of other sites of lip" EXACT []
+synonym: "malignant neoplasm of vermilion border of lip" EXACT [SNOMEDCT_2005_07_31:94135007]
+synonym: "malignant tumor of commissure of lip" EXACT []
+synonym: "malignant tumor of labial mucosa" EXACT []
+synonym: "malignant tumor of lip" EXACT []
+synonym: "malignant tumor of lower labial mucosa" EXACT []
+synonym: "malignant tumor of the Lip" EXACT [NCI2004_11_17:C7485]
+synonym: "malignant tumour of labial commissure" EXACT [SNOMEDCT_2005_07_31:93762003]
+synonym: "malignant tumour of lip" EXACT [SNOMEDCT_2005_07_31:93869001]
+xref: ICD10CM:C00
+xref: ICD10CM:C00.9
+xref: ICD9CM:140
+xref: ICD9CM:140.6
+xref: ICD9CM:140.8
+xref: MESH:D008048
+xref: MTHICD9_2006:140.4
+xref: MTHICD9_2006:140.5
+xref: MTHICD9_2006:140.6
+xref: MTHICD9_2006:140.9
+xref: NCI2004_11_17:C7485
+xref: NCI:C7485
+xref: SNOMEDCT_US_2018_03_01:93762003
+xref: SNOMEDCT_US_2018_03_01:93869001
+xref: UMLS_CUI:C0153340
+xref: UMLS_CUI:C0153346
+xref: UMLS_CUI:C0153347
+is_a: DOID:8618 ! oral cavity cancer
+is_a: DOID:9297 ! lip disease
+
+[Term]
+id: DOID:8618
+name: oral cavity cancer
+namespace: disease_ontology
+alt_id: DOID:0050627
+alt_id: DOID:8617
+alt_id: DOID:9049
+alt_id: DOID:9055
+def: "A gastrointestinal system cancer that is located_in the oral cavity." [url:http\://en.wikipedia.org/wiki/Oral_cancer]
+subset: NCIthesaurus
+subset: TopNodes_DOcancerslim
+synonym: "malignant neoplasm of anterior portion of floor of mouth" EXACT []
+synonym: "malignant neoplasm of floor of mouth" EXACT [MTH:NOCODE]
+synonym: "malignant neoplasm of lateral floor of mouth" EXACT [MTH:U001372]
+synonym: "malignant neoplasm of lateral portion of floor of mouth" EXACT []
+synonym: "malignant tumor of anterior floor of mouth" EXACT []
+synonym: "malignant tumor of lateral floor of mouth" EXACT []
+synonym: "malignant tumor of the Floor of the Mouth" EXACT [NCI2004_11_17:C9318]
+xref: GARD:9360
+xref: ICD10CM:C04
+xref: ICD10CM:C04.0
+xref: ICD10CM:C04.1
+xref: ICD10CM:C04.9
+xref: ICD9CM:144
+xref: ICD9CM:144.0
+xref: ICD9CM:144.1
+xref: ICD9CM:144.9
+xref: MTH:NOCODE
+xref: MTH:U001372
+xref: NCI2004_11_17:C9318
+xref: NCI:C9318
+xref: SNOMEDCT_US_2018_03_01:93672006
+xref: SNOMEDCT_US_2018_03_01:93802007
+xref: SNOMEDCT_US_2018_03_01:93860002
+xref: UMLS_CUI:C0153368
+xref: UMLS_CUI:C0153369
+xref: UMLS_CUI:C0496758
+is_a: DOID:3119 ! gastrointestinal system cancer
+is_a: DOID:403 ! mouth disease
+
+[Term]
+id: DOID:863
+name: nervous system disease
+namespace: disease_ontology
+def: "A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system." [url:http\://en.wikipedia.org/wiki/Nervous_system]
+subset: DO_MGI_slim
+subset: NCIthesaurus
+xref: ICD10CM:G00-G99
+xref: ICD10CM:G98
+xref: ICD10CM:G98.8
+xref: ICD9CM:349.9
+xref: MESH:D009422
+xref: NCI:C26835
+xref: UMLS_CUI:C0027765
+is_a: DOID:7 ! disease of anatomical entity
+
+[Term]
+id: DOID:866
+name: vein disease
+namespace: disease_ontology
+def: "A vascular disease that is located_in a vein." [url:http\://en.wikipedia.org/wiki/Vein#Venous_diseases]
+xref: ICD10CM:I82
+xref: ICD9CM:453
+xref: UMLS_CUI:C0155774
+is_a: DOID:178 ! vascular disease
+
+[Term]
 id: DOID:8692
 name: myeloid leukemia
 namespace: disease_ontology
@@ -830,7 +2864,113 @@ xref: SNOMEDCT_US_2018_03_01:91859000
 xref: UMLS_CUI:C0023465
 is_a: DOID:8527 ! monocytic leukemia
 
+[Term]
+id: DOID:8883
+name: lower lip cancer
+namespace: disease_ontology
+xref: ICD10CM:C00.1
+xref: ICD9CM:140.1
+xref: SNOMEDCT_US_2018_03_01:94136008
+xref: UMLS_CUI:C0432520
+is_a: DOID:8564 ! lip cancer
+
+[Term]
+id: DOID:9256
+name: colorectal cancer
+namespace: disease_ontology
+def: "A large intestine cancer that is located_in the colon and/or located_in the rectum." [url:http\://www.cancer.gov/dictionary?CdrID=444983]
+comment: Xref MGI.\nOMIM mapping confirmed by DO. [SN].
+subset: DO_FlyBase_slim
+xref: KEGG:05210
+xref: MESH:D015179
+xref: OMIM:114500
+xref: OMIM:611469
+xref: OMIM:612230
+xref: OMIM:612231
+xref: OMIM:612232
+xref: OMIM:612589
+xref: OMIM:612590
+xref: OMIM:612592
+xref: UMLS_CUI:C1527249
+is_a: DOID:5672 ! large intestine cancer
+
+[Term]
+id: DOID:9297
+name: lip disease
+namespace: disease_ontology
+subset: NCIthesaurus
+synonym: "disease of lips" EXACT [ICD9CM_2006:528.5]
+xref: ICD10CM:K13.0
+xref: ICD9CM:528.5
+xref: ICD9CM_2006:528.5
+xref: MESH:D008047
+xref: NCI:C26818
+xref: SNOMEDCT_US_2018_03_01:90678009
+xref: UMLS_CUI:C0023760
+is_a: DOID:403 ! mouth disease
+
+[Term]
+id: DOID:9299
+name: myocardium cancer
+namespace: disease_ontology
+alt_id: DOID:14536
+subset: NCIthesaurus
+synonym: "malignant Myocardial tumor" EXACT [NCI2004_11_17:C4569]
+synonym: "malignant neoplasm of myocardium" EXACT []
+synonym: "tumor of Myocardium" EXACT [NCI2004_11_17:C5349]
+xref: NCI2004_11_17:C4569
+xref: NCI2004_11_17:C5349
+xref: NCI:C4569
+xref: NCI:C5349
+xref: SNOMEDCT_US_2018_03_01:93914000
+xref: UMLS_CUI:C0346611
+xref: UMLS_CUI:C1290402
+is_a: DOID:117 ! heart cancer
+
+[Term]
+id: DOID:930
+name: orbital disease
+namespace: disease_ontology
+def: "An adnexa disease that is located_in the eye socket." [url:http\://www.hopkinsmedicine.org/wilmer/services/oculofacial_plastic_surgery/reconstructive/orbital_disease.html]
+xref: ICD10CM:H05
+xref: ICD10CM:H05.9
+xref: ICD9CM:376
+xref: ICD9CM:376.9
+xref: MESH:D009916
+xref: SNOMEDCT_US_2018_03_01:11270005
+xref: UMLS_CUI:C0029182
+is_a: DOID:0050815 ! eye adnexa disease
+
+[Term]
+id: DOID:9500
+name: leukocyte disease
+namespace: disease_ontology
+def: "A hematopoietic system disease that is located_in white blood cells." [url:https\://rarediseases.org/rare-diseases/leukocyte-adhesion-deficiency-syndromes/]
+xref: ICD10CM:D72.9
+xref: ICD9CM:288
+xref: ICD9CM:288.9
+xref: MESH:D007960
+xref: SNOMEDCT_US_2018_03_01:54097007
+xref: UMLS_CUI:C0023510
+is_a: DOID:74 ! hematopoietic system disease
+
+[Term]
+id: DOID:974
+name: upper respiratory tract disease
+namespace: disease_ontology
+def: "A respiratory system disease which involves the upper respiratory tract." [url:http\://en.wikipedia.org/wiki/Category\:Upper_respiratory_tract_diseases, url:http\://www.who.int/topics/respiratory_tract_diseases/en/]
+xref: ICD9CM:478.1
+xref: ICD9CM:478.19
+xref: UMLS_CUI:C0029581
+is_a: DOID:1579 ! respiratory system disease
+
 [Typedef]
 id: IDO:0000664
 name: has material basis in
+
+[Typedef]
+id: derives_from
+name: derives_from
+namespace: disease_ontology
+def: "Type of tissue or cell/the source of the material." [DO:lh]
 

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-10/ohpi-base.obo
+data-version: ohpi/releases/2019-04-12/ohpi-base.obo
 ontology: ohpi/ohpi-base.obo
 property_value: http://purl.org/dc/elements/1.1/contributor "Bin Zhao" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Asiyah Yu Lin" xsd:string

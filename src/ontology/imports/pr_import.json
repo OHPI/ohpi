@@ -1891,25 +1891,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_4751"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_121791",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_562",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_121791",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_170187",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_204722",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_234"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_211044",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_197911"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_204722",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_234"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1502",
       "pred" : "is_a",
@@ -2096,7 +2096,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/imports/pr_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-15/imports/pr_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

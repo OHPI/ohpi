@@ -2753,7 +2753,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/imports/ogms_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-15/imports/ogms_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

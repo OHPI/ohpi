@@ -761,13 +761,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000255"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_0000219",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_0000738",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000219"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000219",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_0000010",
       "pred" : "is_a",
@@ -790,7 +790,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/imports/cl_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-12/imports/cl_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

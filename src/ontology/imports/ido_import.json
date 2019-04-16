@@ -1221,11 +1221,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
           "val" : "http://purl.obolibrary.org/obo/ido.owl"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
+          "val" : "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "certain people have a predisposition to colon cancer"
@@ -2480,13 +2480,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IDO_0000468",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IDO_0000467"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IDO_0000404",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IDO_0000405"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IDO_0000468",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IDO_0000467"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000017",
       "pred" : "is_a",
@@ -2504,13 +2504,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IDO_0000450"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IDO_0000567",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IDO_0000504"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IDO_0000628",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IDO_0000586"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IDO_0000567",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IDO_0000504"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000019",
       "pred" : "is_a",
@@ -2596,20 +2596,20 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IDO_0000633",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IDO_0000586"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000016",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IDO_0000633",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IDO_0000586"
     } ],
     "id" : "http://purl.obolibrary.org/obo/ohpi/imports/ido_import.owl",
     "meta" : {
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/imports/ido_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-12/imports/ido_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

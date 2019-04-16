@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:cellline="http://www.ebi.ac.uk/cellline/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohpi/ohpi-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-04-10/ohpi-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-04-12/ohpi-base.owl"/>
         <dc:contributor xml:lang="en">Bin Zhao</dc:contributor>
         <dc:creator xml:lang="en">Asiyah Yu Lin</dc:creator>
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
