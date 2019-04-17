@@ -303,22 +303,8 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000003 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000003">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000115>a shortcut relation that shows a mutant is attenuated in an infected host (e.g., an organism, a cell) compared to its wild type.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">organism attenuated in host</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHPI_0000004 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000004">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000003"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000115>a disposition that displays an attenuated feature of a mutant compared its wild type organism when the mutant or its wild type organism infects a host organism.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">organism attenuated in host organism</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <rdfs:label xml:lang="en">gene mutant in pathogen</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -332,18 +318,6 @@
         <obo:IAO_0000115>an object property that represents a relation between a gene and a cell where the gene comes from a pathogen, and the cell is a host organism cell, and the mutant of the gene for the pathogen is attenuated inside the cell.</obo:IAO_0000115>
         <obo:IAO_0000117>YL, YH</obo:IAO_0000117>
         <rdfs:label xml:lang="en">gene mutant attenuated in host cell</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OHPI_0000006 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000006">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000003"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
-        <obo:IAO_0000115>a disposition that displays an attenuated feature of a mutant compared its wild type organism when the mutant or its wild type organism infects a host cell.</obo:IAO_0000115>
-        <obo:IAO_0000117>YH, YL</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">organism attenuated in host cell</rdfs:label>
     </owl:ObjectProperty>
     
 
