@@ -135,7 +135,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000008">
         <obo:IAO_0000115 xml:lang="en">The annotation of the gene as a virulence factor stored in the victor database (http://www.phidias.us/victors/).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">victor_annotation</rdfs:label>
+        <rdfs:label xml:lang="en">has victor annotation</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -144,7 +144,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000009">
         <obo:IAO_0000115 xml:lang="en">The idenfier of the entity stored in the victor database (http://www.phidias.us/victors/).</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">victor_id</rdfs:label>
+        <rdfs:label xml:lang="en">has victor id</rdfs:label>
     </owl:AnnotationProperty>
     
 
