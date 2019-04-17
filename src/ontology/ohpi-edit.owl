@@ -42,6 +42,9 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohpi/imports/ro_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohpi/imports/trans_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohpi/imports/uberon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohpi/modules/victors-annotation.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohpi/modules/victors-host.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohpi/modules/victors-pathogen.owl"/>
         <dc:contributor xml:lang="en">Bin Zhao</dc:contributor>
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
         <dc:creator xml:lang="en">Yongqun He (Oliver)</dc:creator>
