@@ -643,6 +643,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11598"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_117565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_117565"/>
@@ -946,13 +952,10 @@
     </owl:Class>
     
 
-    
-
 
     <!-- http://purl.obolibrary.org/obo/OHPI_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000013">
-        <rdfs:label>host B. anthracis pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -975,6 +978,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1392"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host B. anthracis pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -982,7 +986,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000014">
-        <rdfs:label>host Brucella spp. pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1005,6 +1008,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_234"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Brucella spp. pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1012,7 +1016,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000015">
-        <rdfs:label>host Y. pestis pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1035,6 +1038,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_632"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Y. pestis pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1042,7 +1046,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000016">
-        <rdfs:label>host F. tularensis pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1065,6 +1068,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_263"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host F. tularensis pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1072,7 +1076,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000017">
-        <rdfs:label>host C. botulinum pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1095,6 +1098,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1491"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host C. botulinum pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1102,7 +1106,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000018">
-        <rdfs:label>host C. jejuni pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1125,6 +1128,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_197"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host C. jejuni pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1132,7 +1136,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000019">
-        <rdfs:label>host E. coli pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1155,6 +1158,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83334"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host E. coli pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1162,7 +1166,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000020">
-        <rdfs:label>host M. tuberculosis pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1185,6 +1188,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1773"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host M. tuberculosis pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1192,7 +1196,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000021">
-        <rdfs:label>host H. influenzae pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1215,6 +1218,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_727"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host H. influenzae pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1222,7 +1226,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000022">
-        <rdfs:label>host C. burnetii pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1245,6 +1248,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_777"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host C. burnetii pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1252,7 +1256,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000023">
-        <rdfs:label>host C. tetani pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1275,6 +1278,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1485"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host C. tetani pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1282,7 +1286,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000024">
-        <rdfs:label>host Salmonella spp. pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1305,6 +1308,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_590"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Salmonella spp. pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1312,7 +1316,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000027">
-        <rdfs:label>host Shigella pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1335,6 +1338,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_620"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Shigella pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1342,7 +1346,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000028">
-        <rdfs:label>host N. meningitidis pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1365,6 +1368,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_487"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host N. meningitidis pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1372,7 +1376,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000030">
-        <rdfs:label>host S. pneumoniae pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1395,6 +1398,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1313"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host S. pneumoniae pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1402,7 +1406,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000031">
-        <rdfs:label>host C. diphtheriae pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1425,6 +1428,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1717"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host C. diphtheriae pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1432,7 +1436,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000032">
-        <rdfs:label>host A. salmonicida pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1455,6 +1458,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_645"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host A. salmonicida pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1462,7 +1466,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000034">
-        <rdfs:label>host S. equi pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1485,6 +1488,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1336"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host S. equi pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1492,7 +1496,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000037">
-        <rdfs:label>host M. gallisepticum pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1515,6 +1518,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2096"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host M. gallisepticum pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1522,7 +1526,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000038">
-        <rdfs:label>host B. avium pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1545,6 +1548,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_521"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host B. avium pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1552,7 +1556,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000039">
-        <rdfs:label>host A. pleuropneumoniae pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1575,6 +1578,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_715"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host A. pleuropneumoniae pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1582,7 +1586,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000040">
-        <rdfs:label>host V. cholerae pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1605,6 +1608,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_666"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host V. cholerae pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1612,7 +1616,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000041">
-        <rdfs:label>host Rickettsia spp. pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1635,6 +1638,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_780"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Rickettsia spp. pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1642,7 +1646,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000042">
-        <rdfs:label>host B. pertussis pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1665,6 +1668,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_520"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host B. pertussis pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1672,7 +1676,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000043">
-        <rdfs:label>host Y. pseudotuberculosis pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1695,6 +1698,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_633"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Y. pseudotuberculosis pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1702,7 +1706,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000044">
-        <rdfs:label>host C. pneumoniae pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1725,6 +1728,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_83558"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host C. pneumoniae pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1732,7 +1736,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000045">
-        <rdfs:label>host M. avium pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1755,6 +1758,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1764"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host M. avium pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1762,7 +1766,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000046">
-        <rdfs:label>host B. pseudomallei pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1785,6 +1788,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_28450"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host B. pseudomallei pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1792,7 +1796,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000047">
-        <rdfs:label>host Y. enterocolitica pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1815,6 +1818,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_393305"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Y. enterocolitica pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1822,7 +1826,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000048">
-        <rdfs:label>host H. pylori pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1845,6 +1848,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_210"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host H. pylori pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1852,7 +1856,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000049">
-        <rdfs:label>host B. burgdorferi pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1875,6 +1878,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_139"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host B. burgdorferi pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1882,7 +1886,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000050">
-        <rdfs:label>host L. monocytogenes pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1905,6 +1908,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1639"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host L. monocytogenes pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1912,7 +1916,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000051">
-        <rdfs:label>host P. aeruginosa pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1935,6 +1938,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_287"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host P. aeruginosa pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1942,7 +1946,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000052">
-        <rdfs:label>host S. aureus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1965,6 +1968,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1280"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host S. aureus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1972,7 +1976,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000053">
-        <rdfs:label>host S. agalactiae pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1995,6 +1998,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1311"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host S. agalactiae pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2002,7 +2006,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000054">
-        <rdfs:label>host S. pyogenes pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2025,6 +2028,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host S. pyogenes pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2032,7 +2036,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000055">
-        <rdfs:label>host P. multocida pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2055,6 +2058,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host P. multocida pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2062,7 +2066,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000056">
-        <rdfs:label>host B. bronchiseptica pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2085,6 +2088,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_518"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host B. bronchiseptica pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2092,7 +2096,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000057">
-        <rdfs:label>host Leptospira spp. pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2115,6 +2118,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_171"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Leptospira spp. pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2122,7 +2126,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000058">
-        <rdfs:label>host C. perfringens pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2145,6 +2148,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1502"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host C. perfringens pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2152,7 +2156,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000059">
-        <rdfs:label>host B. mallei pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2175,6 +2178,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_13373"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host B. mallei pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2182,7 +2186,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000060">
-        <rdfs:label>host C. trachomatis pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2205,6 +2208,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_813"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host C. trachomatis pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2212,7 +2216,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000061">
-        <rdfs:label>host L. pneumophila pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2235,6 +2238,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_446"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host L. pneumophila pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2242,7 +2246,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000062">
-        <rdfs:label>host Bartonella spp. pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2265,6 +2268,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_773"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Bartonella spp. pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2272,7 +2276,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000063">
-        <rdfs:label>host Enterococcus spp. pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2295,6 +2298,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1350"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Enterococcus spp. pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2302,7 +2306,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000064">
-        <rdfs:label>host A. hydrophila pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2325,6 +2328,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_644"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host A. hydrophila pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2332,7 +2336,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000065">
-        <rdfs:label>host E. tarda pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2355,6 +2358,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_636"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host E. tarda pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2362,7 +2366,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000066">
-        <rdfs:label>host Ebola virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2385,6 +2388,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_205488"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Ebola virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2392,7 +2396,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000067">
-        <rdfs:label>host Human immunodeficiency virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2415,6 +2418,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12721"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Human immunodeficiency virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2422,7 +2426,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000068">
-        <rdfs:label>host Hantavirus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2445,6 +2448,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11598"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Hantavirus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2452,7 +2456,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000069">
-        <rdfs:label>host Influenza virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2475,6 +2478,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11309"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Influenza virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2482,7 +2486,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000070">
-        <rdfs:label>host Measles virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2505,6 +2508,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11234"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Measles virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2512,7 +2516,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000071">
-        <rdfs:label>host Rabies virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2535,6 +2538,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11292"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Rabies virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2542,7 +2546,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000072 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000072">
-        <rdfs:label>host Rotavirus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2565,6 +2568,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10912"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Rotavirus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2572,7 +2576,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000073">
-        <rdfs:label>host Pseudorabies virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2595,6 +2598,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10345"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Pseudorabies virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2602,7 +2606,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000074">
-        <rdfs:label>host Classical swine fever virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2625,6 +2628,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11096"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Classical swine fever virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2632,7 +2636,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000075">
-        <rdfs:label>host Bovine herpesvirus 1 pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2655,6 +2658,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10320"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Bovine herpesvirus 1 pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2662,7 +2666,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000076">
-        <rdfs:label>host Infectious hematopoietic necrosis virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2685,6 +2688,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11290"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Infectious hematopoietic necrosis virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2692,7 +2696,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000077">
-        <rdfs:label>host Herpes simplex virus type 1 pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2715,6 +2718,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10298"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Herpes simplex virus type 1 pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2722,7 +2726,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000078">
-        <rdfs:label>host Rift valley fever virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2745,6 +2748,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11588"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Rift valley fever virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2752,7 +2756,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000079">
-        <rdfs:label>host SARS-related coronavirus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2775,6 +2778,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host SARS-related coronavirus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2782,7 +2786,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000080 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000080">
-        <rdfs:label>host Bovine respiratory syncytial virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2805,6 +2808,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11246"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Bovine respiratory syncytial virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2812,7 +2816,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000081">
-        <rdfs:label>host Feline immunodeficiency virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2835,6 +2838,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11673"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Feline immunodeficiency virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2842,7 +2846,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000082">
-        <rdfs:label>host Feline herpesvirus 1 pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2865,6 +2868,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10334"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Feline herpesvirus 1 pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2872,7 +2876,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000083">
-        <rdfs:label>host Gallid herpesvirus 1 pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2895,6 +2898,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10386"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Gallid herpesvirus 1 pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2902,7 +2906,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000084">
-        <rdfs:label>host Feline infectious peritonitis virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2925,6 +2928,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11135"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Feline infectious peritonitis virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2932,7 +2936,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000085">
-        <rdfs:label>host Vaccinia virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2955,6 +2958,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10245"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Vaccinia virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2962,7 +2966,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000086">
-        <rdfs:label>host Simian immunodeficiency virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -2985,6 +2988,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_11723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Simian immunodeficiency virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -2992,7 +2996,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000087">
-        <rdfs:label>host Myxoma virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -3015,6 +3018,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10273"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Myxoma virus pathogen interaction</rdfs:label>
     </owl:Class>
     
 
@@ -3022,7 +3026,6 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000088">
-        <rdfs:label>host Ectromelia virus pathogen interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -3045,7 +3048,820 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_12643"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:label>host Ectromelia virus pathogen interaction</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000100">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">human host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000101">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000100"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">human cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000102">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000101"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000101"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">human cell line cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000103">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">mouse host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000104">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000103"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000103"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">mouse cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000105">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000104"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000104"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">mouse cell line cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000106">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">rabbit host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000107">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000106"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000106"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">rabbit cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000108">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000107"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000107"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">rabbit cell line cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000109">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">hamster host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000110">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000109"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">hamster cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000111">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000110"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000110"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">hamster cell line cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000112">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">chicken host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000113">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000112"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000112"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">chicken cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000114">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000113"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000113"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">chicken cell line cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000115">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9479"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9479"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">monkey host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000116">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000115"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000115"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">monkey cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000117">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000116"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000116"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">monkey cell line cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000118">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9913"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">cattle host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000119">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000118"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000118"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">cattle cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000120">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000119"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000119"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">cattle cell line cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000121">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9925"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">goat host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000122">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000121"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000121"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">goat cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000123">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">goat cell line cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000124">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6239"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_6239"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">C. elegans host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000125">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000124"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000124"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">C. elegans cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000126">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OHPI_0000125"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000029"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000528"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000125"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000036"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">C. elegans cell line cell host pathogen interaction</rdfs:label>
+    </owl:Class>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/TRANS_0000000 -->
 
