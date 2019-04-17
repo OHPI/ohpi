@@ -43,9 +43,9 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohpi/imports/trans_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ohpi/imports/uberon_import.owl"/>
         <dc:contributor xml:lang="en">Bin Zhao</dc:contributor>
-        <dc:creator xml:lang="en">Asiyah Yu Lin</dc:creator>
         <dc:creator xml:lang="en">Edison Ong</dc:creator>
-        <dc:creator xml:lang="en">Yongqun &quot;Oliver&quot; He (YH)</dc:creator>
+        <dc:creator xml:lang="en">Yongqun He (Oliver)</dc:creator>
+        <dc:creator xml:lang="en">Yu Lin (Asiyah)</dc:creator>
         <dc:description xml:lang="en">OHPI is a biomedical ontology in the area of host-pathogen interactions. OHPI is developed by following the OBO Foundry Principles (e.g., openness and collaboration).</dc:description>
         <dc:format xml:lang="en">OWL-DL</dc:format>
         <dc:subject xml:lang="en">A biomedical ontology in the area of host-pathogen interactions.</dc:subject>
@@ -135,6 +135,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000008">
         <obo:IAO_0000115 xml:lang="en">The annotation of the gene as a virulence factor stored in the victor database (http://www.phidias.us/victors/).</obo:IAO_0000115>
+        <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has victor annotation</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -144,6 +145,7 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000009">
         <obo:IAO_0000115 xml:lang="en">The idenfier of the entity stored in the victor database (http://www.phidias.us/victors/).</obo:IAO_0000115>
+        <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has victor id</rdfs:label>
     </owl:AnnotationProperty>
     
@@ -294,7 +296,7 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000115>An object property that represents a relation between a gene and an organism, where the gene comes from a pathogen and the organism is a host, and the mutant of the gene for the pathogen is attenuated in the host organism.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL, YH, EO</obo:IAO_0000117>
+        <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
         <rdfs:label xml:lang="en">gene mutant attenuated in host organism</rdfs:label>
     </owl:ObjectProperty>
     
@@ -304,7 +306,9 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000003">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <rdfs:label xml:lang="en">gene mutant in pathogen</rdfs:label>
+        <obo:IAO_0000115>An object property that represents a relation between a gene and an organism, where the gene is a virulence factor and the organism is a pathogen, and the mutant of the gene for the pathogen is attenuated in the host.</obo:IAO_0000115>
+        <obo:IAO_0000117>Edison Ong; Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">gene as virulence factor in pathogen</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -316,7 +320,7 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
         <obo:IAO_0000115>An object property that represents a relation between a gene and a cell line cell, where the gene comes from a pathogen and the cell line cell comes from a host, and the mutant of the gene for the pathogen is attenuated inside the cell line cell.</obo:IAO_0000115>
-        <obo:IAO_0000117>EO</obo:IAO_0000117>
+        <obo:IAO_0000117>Edison Ong; Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">gene mutant attenuated in host cell line cell</rdfs:label>
     </owl:ObjectProperty>
     
@@ -329,7 +333,7 @@
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <obo:IAO_0000115>An object property that represents a relation between a gene and a cell, where the gene comes from a pathogen and the cell comes from a host, and the mutant of the gene for the pathogen is attenuated inside the cell.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL, YH, EO</obo:IAO_0000117>
+        <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
         <rdfs:label xml:lang="en">gene mutant attenuated in host cell</rdfs:label>
     </owl:ObjectProperty>
     
@@ -340,7 +344,7 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000007">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
         <obo:IAO_0000115>An object property that represents a relation between a gene and a host, where the gene comes from a pathogen, and the mutant of the gene for the pathogen is attenuated in the host.</obo:IAO_0000115>
-        <obo:IAO_0000117>YL, YH, EO</obo:IAO_0000117>
+        <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
         <rdfs:label xml:lang="en">gene mutant attenuated in host</rdfs:label>
     </owl:ObjectProperty>
     
@@ -349,6 +353,7 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000025 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000025">
+        <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has microbe mutated gene</rdfs:label>
     </owl:ObjectProperty>
     
@@ -359,7 +364,7 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000026">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <obo:IAO_0000115>An object property that represents a relation between a host-pathogen interaction process and an organism (or tissue or cell as part of the organism, or cell line cell derived from organism) which serves as the host that participates in the process.</obo:IAO_0000115>
-        <cellline:definition_editor>Oliver He, Edison Ong</cellline:definition_editor>
+        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has host</rdfs:label>
     </owl:ObjectProperty>
     
@@ -370,7 +375,7 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000029">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <obo:IAO_0000115>An object property that represents a relation between a host-pathogen interaction process and an organism (or virus) which serves as the pathgen that participates in the process.</obo:IAO_0000115>
-        <cellline:definition_editor>Oliver He, Edison Ong</cellline:definition_editor>
+        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has pathogen</rdfs:label>
     </owl:ObjectProperty>
     
@@ -380,6 +385,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000033">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has host organism</rdfs:label>
     </owl:ObjectProperty>
     
@@ -389,6 +395,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000035">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has host cell</rdfs:label>
     </owl:ObjectProperty>
     
@@ -397,7 +404,8 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000036 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000036">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
+        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">has host cell line cell</rdfs:label>
     </owl:ObjectProperty>
     
