@@ -931,7 +931,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 1187	OGG_3001248101	mouse	10090	http://purl.obolibrary.org/obo/CL_0000235	macrophage			MUTATION: spiC mutant cannot survive within macrophages and is attenuated in mice [PMID:10406797].
 1188	OGG_3001248507	chicken	9031					MUTATION: fliC mutants were attenuated in orally inoculated chicks [PMID:11731137].
 1189	OGG_3001248939	human	9606					MUTATION: ssaV and aroC double mutants are attenuated in humans [PMID:19745519].
-1200	OGG_3001249329	calves	9913					MUTATION: invH mutants are attenuated in calves [PMID:9529064].
+1200	OGG_3001249329	cattle	9913					MUTATION: invH mutants are attenuated in calves [PMID:9529064].
 1203	OGG_3001195796	human	9606					MUTATION: A study with miniTn5 mutants of B. suis constitutively expressing gfp indicates that B. suis lysA gene is required for intracellular multiplication in human macrophage THP-1 cells [PMID:12438693].
 1203	OGG_3001195796	human	9606	http://purl.obolibrary.org/obo/CL_0000235	macrophage			MUTATION: A study with miniTn5 mutants of B. suis constitutively expressing gfp indicates that B. suis lysA gene is required for intracellular multiplication in human macrophage THP-1 cells [PMID:12438693].
 1233	OGG_3001196256	mouse	10090					MUTATION: Brucella abortus pnc mutant via mini-Tn5Km2 transposon mutagenesis has intracellular growth defect inside HeLa cells [PMID:15135535]. Nicotinamidasepyrazinamidase mutant (pncA mutant) of Brucella abortus failed to replicate in HeLa cells, and showed a lower rate of intracellular replication than that of wild-type strain in macrophages [PMID:15135535]. The pncA mutant was not co-localizing with either late endosomes or lysosomes. The pncA mutant showed a 1.5-log reduction of the number of bacteria isolated from mouse spleens after 10 weeks [PMID:15135535]. It indicates that the mutant has reduced virulence in mice.
@@ -966,9 +966,9 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 1336	OGG_3001197805	mouse	10090					MUTATION: Mutants with polar and nonpolar mutations introduced in  irB10 showed different behaviors in mice and in the HeLa cell infection assay, suggesting that virB10 per se is necessary for the correct function of this type IV secretion apparatus [PMID:11401996].   A B. abortus virB10 mutant showed a decrease of intracellular live bacteria comparable to that of the wild-type strain until 4 h after infection, indicating that a functional VirB system is not required for the short-term survival of Brucella inside macrophages. At later time points, the number of live virB10 mutants  progressively decreased. Hence, the Brucella  virB10  strain did not replicate, but rather was killed. Although the  virB10 mutants are capable of short-term survival, they can not evade long-term degradation through fusion with lysosomes [PMID:11401996].  B abortus virB1 and virB10 mutants are unable to persist in mouse spleens after i.p. inoculation, suggest that attenuation in the animal model is due to an inability of these strains to grow intracellularly [PMID:11401996].  A B abortus virB10 mutant lost the ability to multiply in HeLa cells and was not recovered from the spleens of infected BALBc mice [PMID:11401996].  The non polar virB10 mutant was able to block the acquisition of cathepsin D, but was not able to translocate to the replication compartment [PMID:11401996].  The virB10  non-polar mutants were capable of avoiding interactions with the endocytic pathway but , diverging to wild-type Brucella, were unable to reach the endoplasmic reticulum to establish their intracellular replication niche and seemed to be recycled to the cell surface [PMID:11401996].
 1336	OGG_3001197805	mouse	10090	http://purl.obolibrary.org/obo/CL_0000235	macrophage			MUTATION: Mutants with polar and nonpolar mutations introduced in  irB10 showed different behaviors in mice and in the HeLa cell infection assay, suggesting that virB10 per se is necessary for the correct function of this type IV secretion apparatus [PMID:11401996].   A B. abortus virB10 mutant showed a decrease of intracellular live bacteria comparable to that of the wild-type strain until 4 h after infection, indicating that a functional VirB system is not required for the short-term survival of Brucella inside macrophages. At later time points, the number of live virB10 mutants  progressively decreased. Hence, the Brucella  virB10  strain did not replicate, but rather was killed. Although the  virB10 mutants are capable of short-term survival, they can not evade long-term degradation through fusion with lysosomes [PMID:11401996].  B abortus virB1 and virB10 mutants are unable to persist in mouse spleens after i.p. inoculation, suggest that attenuation in the animal model is due to an inability of these strains to grow intracellularly [PMID:11401996].  A B abortus virB10 mutant lost the ability to multiply in HeLa cells and was not recovered from the spleens of infected BALBc mice [PMID:11401996].  The non polar virB10 mutant was able to block the acquisition of cathepsin D, but was not able to translocate to the replication compartment [PMID:11401996].  The virB10  non-polar mutants were capable of avoiding interactions with the endocytic pathway but , diverging to wild-type Brucella, were unable to reach the endoplasmic reticulum to establish their intracellular replication niche and seemed to be recycled to the cell surface [PMID:11401996].
 1336	OGG_3001197805	mouse	10090			http://purl.obolibrary.org/obo/CLO_0003684	HeLa cell	MUTATION: Mutants with polar and nonpolar mutations introduced in  irB10 showed different behaviors in mice and in the HeLa cell infection assay, suggesting that virB10 per se is necessary for the correct function of this type IV secretion apparatus [PMID:11401996].   A B. abortus virB10 mutant showed a decrease of intracellular live bacteria comparable to that of the wild-type strain until 4 h after infection, indicating that a functional VirB system is not required for the short-term survival of Brucella inside macrophages. At later time points, the number of live virB10 mutants  progressively decreased. Hence, the Brucella  virB10  strain did not replicate, but rather was killed. Although the  virB10 mutants are capable of short-term survival, they can not evade long-term degradation through fusion with lysosomes [PMID:11401996].  B abortus virB1 and virB10 mutants are unable to persist in mouse spleens after i.p. inoculation, suggest that attenuation in the animal model is due to an inability of these strains to grow intracellularly [PMID:11401996].  A B abortus virB10 mutant lost the ability to multiply in HeLa cells and was not recovered from the spleens of infected BALBc mice [PMID:11401996].  The non polar virB10 mutant was able to block the acquisition of cathepsin D, but was not able to translocate to the replication compartment [PMID:11401996].  The virB10  non-polar mutants were capable of avoiding interactions with the endocytic pathway but , diverging to wild-type Brucella, were unable to reach the endoplasmic reticulum to establish their intracellular replication niche and seemed to be recycled to the cell surface [PMID:11401996].
-1350	OGG_3001197929	calves	9913					MUTATION: FtcR is required in B melitensis 16M for the transcription of the fliF gene during vegetative and intracellular growth, and for the production of the two structural flagellar components FlgE and FliC during vegetative growth. A ftcR mutant has the same virulence phenotype as previously found with structural flagellar mutants. In HeLa cells and bovine macrophages, no attenuation of the ftcR mutant was observed compared to the WT parental strain. In BALB/c mice, the ftcR mutant was not attenuated after 1 week of infection but was attenuated after 4 weeks of infection. FtcR acts as a flagellar master regulator in B melitensis and perhaps in other related alpha-proteobacteria [PMID:17056750].
-1350	OGG_3001197929	calves	9913	http://purl.obolibrary.org/obo/CL_0000235	macrophage			MUTATION: FtcR is required in B melitensis 16M for the transcription of the fliF gene during vegetative and intracellular growth, and for the production of the two structural flagellar components FlgE and FliC during vegetative growth. A ftcR mutant has the same virulence phenotype as previously found with structural flagellar mutants. In HeLa cells and bovine macrophages, no attenuation of the ftcR mutant was observed compared to the WT parental strain. In BALB/c mice, the ftcR mutant was not attenuated after 1 week of infection but was attenuated after 4 weeks of infection. FtcR acts as a flagellar master regulator in B melitensis and perhaps in other related alpha-proteobacteria [PMID:17056750].
-1350	OGG_3001197929	calves	9913			http://purl.obolibrary.org/obo/CLO_0003684	HeLa cell	MUTATION: FtcR is required in B melitensis 16M for the transcription of the fliF gene during vegetative and intracellular growth, and for the production of the two structural flagellar components FlgE and FliC during vegetative growth. A ftcR mutant has the same virulence phenotype as previously found with structural flagellar mutants. In HeLa cells and bovine macrophages, no attenuation of the ftcR mutant was observed compared to the WT parental strain. In BALB/c mice, the ftcR mutant was not attenuated after 1 week of infection but was attenuated after 4 weeks of infection. FtcR acts as a flagellar master regulator in B melitensis and perhaps in other related alpha-proteobacteria [PMID:17056750].
+1350	OGG_3001197929	cattle	9913					MUTATION: FtcR is required in B melitensis 16M for the transcription of the fliF gene during vegetative and intracellular growth, and for the production of the two structural flagellar components FlgE and FliC during vegetative growth. A ftcR mutant has the same virulence phenotype as previously found with structural flagellar mutants. In HeLa cells and bovine macrophages, no attenuation of the ftcR mutant was observed compared to the WT parental strain. In BALB/c mice, the ftcR mutant was not attenuated after 1 week of infection but was attenuated after 4 weeks of infection. FtcR acts as a flagellar master regulator in B melitensis and perhaps in other related alpha-proteobacteria [PMID:17056750].
+1350	OGG_3001197929	cattle	9913	http://purl.obolibrary.org/obo/CL_0000235	macrophage			MUTATION: FtcR is required in B melitensis 16M for the transcription of the fliF gene during vegetative and intracellular growth, and for the production of the two structural flagellar components FlgE and FliC during vegetative growth. A ftcR mutant has the same virulence phenotype as previously found with structural flagellar mutants. In HeLa cells and bovine macrophages, no attenuation of the ftcR mutant was observed compared to the WT parental strain. In BALB/c mice, the ftcR mutant was not attenuated after 1 week of infection but was attenuated after 4 weeks of infection. FtcR acts as a flagellar master regulator in B melitensis and perhaps in other related alpha-proteobacteria [PMID:17056750].
+1350	OGG_3001197929	cattle	9913			http://purl.obolibrary.org/obo/CLO_0003684	HeLa cell	MUTATION: FtcR is required in B melitensis 16M for the transcription of the fliF gene during vegetative and intracellular growth, and for the production of the two structural flagellar components FlgE and FliC during vegetative growth. A ftcR mutant has the same virulence phenotype as previously found with structural flagellar mutants. In HeLa cells and bovine macrophages, no attenuation of the ftcR mutant was observed compared to the WT parental strain. In BALB/c mice, the ftcR mutant was not attenuated after 1 week of infection but was attenuated after 4 weeks of infection. FtcR acts as a flagellar master regulator in B melitensis and perhaps in other related alpha-proteobacteria [PMID:17056750].
 1350	OGG_3001197929	mouse	10090					MUTATION: FtcR is required in B melitensis 16M for the transcription of the fliF gene during vegetative and intracellular growth, and for the production of the two structural flagellar components FlgE and FliC during vegetative growth. A ftcR mutant has the same virulence phenotype as previously found with structural flagellar mutants. In HeLa cells and bovine macrophages, no attenuation of the ftcR mutant was observed compared to the WT parental strain. In BALB/c mice, the ftcR mutant was not attenuated after 1 week of infection but was attenuated after 4 weeks of infection. FtcR acts as a flagellar master regulator in B melitensis and perhaps in other related alpha-proteobacteria [PMID:17056750].
 1350	OGG_3001197929	mouse	10090	http://purl.obolibrary.org/obo/CL_0000235	macrophage			MUTATION: FtcR is required in B melitensis 16M for the transcription of the fliF gene during vegetative and intracellular growth, and for the production of the two structural flagellar components FlgE and FliC during vegetative growth. A ftcR mutant has the same virulence phenotype as previously found with structural flagellar mutants. In HeLa cells and bovine macrophages, no attenuation of the ftcR mutant was observed compared to the WT parental strain. In BALB/c mice, the ftcR mutant was not attenuated after 1 week of infection but was attenuated after 4 weeks of infection. FtcR acts as a flagellar master regulator in B melitensis and perhaps in other related alpha-proteobacteria [PMID:17056750].
 1350	OGG_3001197929	mouse	10090			http://purl.obolibrary.org/obo/CLO_0003684	HeLa cell	MUTATION: FtcR is required in B melitensis 16M for the transcription of the fliF gene during vegetative and intracellular growth, and for the production of the two structural flagellar components FlgE and FliC during vegetative growth. A ftcR mutant has the same virulence phenotype as previously found with structural flagellar mutants. In HeLa cells and bovine macrophages, no attenuation of the ftcR mutant was observed compared to the WT parental strain. In BALB/c mice, the ftcR mutant was not attenuated after 1 week of infection but was attenuated after 4 weeks of infection. FtcR acts as a flagellar master regulator in B melitensis and perhaps in other related alpha-proteobacteria [PMID:17056750].
@@ -1405,7 +1405,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2031	OGG_3001238617	human	9606					MUTATION: bfpT (perA) disruption mutant of EPEC was less virulent in humans than the wild-type EPEC [PMID:9641917].
 2032	OGG_3005586647	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
 2033	OGG_3005586739	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
-2034	OGG_3005586916	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+2034	OGG_3005586916	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 2036	OGG_3005589412	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 2036	OGG_3005589412	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
 2039	OGG_3005591791	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
@@ -1429,7 +1429,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2059	OGG_3004494206	chicken	9031					MUTATION: kpsS mutant is attenuated in chickens [PMID:15845486].
 2060	OGG_3004494493	chicken	9031					MUTATION: wcaE mutant is attenuated in chickens [PMID:15845486].
 2061	OGG_3004494532	chicken	9031					MUTATION: yqi mutant is attenuated in chickens [PMID:19907658].
-2062	OGG_3004494642	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+2062	OGG_3004494642	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 2063	OGG_3004494948	chicken	9031					MUTATION: yjjQ mutant is attenuated in chickens [PMID:18375801].
 2065	OGG_3004495170	chicken	9031					MUTATION: tktA mutant is attenuated in chickens [PMID:15845486].
 2066	OGG_3004495352	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
@@ -1447,7 +1447,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2081	OGG_3003992235	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 2081	OGG_3003992235	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
 2082	OGG_3003992253	human	9606					MUTATION: deletion mutant was significantly less invasive in human brain microvascular endothelial cells (BMECs) than the parent strain (E. coli K1) [PMID:11237832].
-2085	OGG_3003993212	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+2085	OGG_3003993212	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 2086	OGG_3003993833	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
 2088	OGG_3001034931	mouse	10090					MUTATION: iroA gene cluster mutants were unable to resist Lcn2 in mouse serum [PMID:17060628].
 2089	OGG_3001034933	chicken	9031					MUTATION: attenuated in chicks [PMID:18541653].
@@ -1457,7 +1457,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2093	OGG_3001035566	chicken	9031					MUTATION: ycjM mutant is attenuated in chickens [PMID:15845486].
 2094	OGG_3001035846	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
 2095	OGG_3001036493	mouse	10090					MUTATION: wecE mutant is attenuated in mice [PMID:12180926].
-2098	OGG_3001036977	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+2098	OGG_3001036977	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 2100	OGG_3001037233	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 2100	OGG_3001037233	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
 2101	OGG_3001037237	mouse	10090					MUTATION: fimF mutant is attenuated in mice [PMID:12180926].
@@ -1478,116 +1478,116 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2120	OGG_3001039998	mouse	10090					MUTATION: pyrD mutant is attenuated in mice [PMID:12180926].
 2122	OGG_3001040241	mouse	10090					MUTATION: phoU mutant is attenuated in mice [PMID:12180926].
 2123	OGG_3000915134	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
-2125	OGG_3000956892	calves	9913					MUTATION: map mutant is attenuated in calves [PMID:15528651].
-2126	OGG_3000956966	calves	9913					MUTATION: Z3341 mutant is attenuated in calves [PMID:15528651].
-2128	OGG_3000957027	calves	9913					MUTATION: Z0275 mutant is attenuated in calves [PMID:15528651].
-2129	OGG_3000957084	calves	9913					MUTATION: sanA mutant is attenuated in calves [PMID:15528651].
-2130	OGG_3000957113	calves	9913					MUTATION: mglA mutant is attenuated in calves [PMID:15731074].
-2131	OGG_3000957204	calves	9913					MUTATION: Z0390 mutant is attenuated in calves [PMID:15528651].
-2132	OGG_3000957222	calves	9913					MUTATION: Z3496 mutant is attenuated in calves [PMID:15528651].
-2133	OGG_3000957315	calves	9913					MUTATION: Z0469 mutant is attenuated in calves [PMID:15528651].
-2134	OGG_3000957342	calves	9913					MUTATION: rdgC mutant is attenuated in calves [PMID:15528651].
-2135	OGG_3000957466	calves	9913					MUTATION: Z0609 mutant is attenuated in calves [PMID:15528651].
-2136	OGG_3000957555	calves	9913					MUTATION: evgS mutant is attenuated in calves [PMID:15731074].
-2137	OGG_3000957907	calves	9913					MUTATION: yfhH mutant is attenuated in calves [PMID:15528651].
-2138	OGG_3000957981	calves	9913					MUTATION: trxC mutant is attenuated in calves [PMID:15528651].
-2139	OGG_3000957986	calves	9913					MUTATION: Z0990 mutant is attenuated in calves [PMID:15528651].
-2140	OGG_3000958085	calves	9913					MUTATION: Z3950 mutant is attenuated in calves [PMID:15528651].
-2141	OGG_3000958288	calves	9913					MUTATION: recD mutant is attenuated in calves [PMID:15731074].
-2142	OGG_3000958313	calves	9913					MUTATION: kduI mutant is attenuated in calves [PMID:15528651].
-2143	OGG_3000958343	calves	9913					MUTATION: z4200 (pkgA) mutant is attenuated in calves [PMID:15731074].
-2144	OGG_3000958378	calves	9913					MUTATION: z3635 (yfdV) mutant is attenuated in calves [PMID:15731074].
-2145	OGG_3000958414	calves	9913					MUTATION: z4282 mutant is attenuated in calves [PMID:15731074].
-2146	OGG_3000958416	calves	9913					MUTATION: speA mutant is attenuated in calves [PMID:15731074].
-2147	OGG_3000958457	calves	9913					MUTATION: Z4318 mutant is attenuated in calves [PMID:15528651].
-2148	OGG_3000958466	calves	9913					MUTATION: pitB mutant is attenuated in calves [PMID:15731074].
-2149	OGG_3000958522	calves	9913					MUTATION: Z1126 mutant is attenuated in calves [PMID:15528651].
-2150	OGG_3000958525	calves	9913					MUTATION: z1129 mutant is attenuated in calves [PMID:15731074].
-2151	OGG_3000958549	calves	9913					MUTATION: tdcE mutant is attenuated in calves [PMID:15731074].
-2152	OGG_3000958755	calves	9913					MUTATION: Z1182 mutant is attenuated in calves [PMID:15528651].
-2153	OGG_3000958789	calves	9913					MUTATION: Z1202 mutant is attenuated in calves [PMID:15528651].
-2154	OGG_3000958846	calves	9913					MUTATION: trxB mutant is attenuated in calves [PMID:15731074].
-2156	OGG_3000958973	calves	9913					MUTATION: Z1328 mutant is attenuated in calves [PMID:15528651].
-2157	OGG_3000958999	calves	9913					MUTATION: ygeJ mutant is attenuated in calves [PMID:15528651].
-2158	OGG_3000959050	calves	9913					MUTATION: ymcC mutant is attenuated in calves [PMID:15528651].
-2160	OGG_3000959162	calves	9913					MUTATION: ycdS mutant is attenuated in calves [PMID:15528651].
-2161	OGG_3000959220	calves	9913					MUTATION: agaB mutant is attenuated in calves [PMID:15528651].
-2162	OGG_3000959379	calves	9913					MUTATION: mdoC (ymdD) mutant is attenuated in calves [PMID:15731074].
-2163	OGG_3000959506	calves	9913					MUTATION: ypjA mutant is attenuated in calves [PMID:15528651].
-2164	OGG_3000959584	calves	9913					MUTATION: serA mutant is attenuated in calves [PMID:15731074].
-2165	OGG_3000959588	calves	9913					MUTATION: z1829 mutant is attenuated in calves [PMID:15731074].
-2166	OGG_3000959707	calves	9913					MUTATION: Z5946 mutant is attenuated in calves [PMID:15528651].
+2125	OGG_3000956892	cattle	9913					MUTATION: map mutant is attenuated in calves [PMID:15528651].
+2126	OGG_3000956966	cattle	9913					MUTATION: Z3341 mutant is attenuated in calves [PMID:15528651].
+2128	OGG_3000957027	cattle	9913					MUTATION: Z0275 mutant is attenuated in calves [PMID:15528651].
+2129	OGG_3000957084	cattle	9913					MUTATION: sanA mutant is attenuated in calves [PMID:15528651].
+2130	OGG_3000957113	cattle	9913					MUTATION: mglA mutant is attenuated in calves [PMID:15731074].
+2131	OGG_3000957204	cattle	9913					MUTATION: Z0390 mutant is attenuated in calves [PMID:15528651].
+2132	OGG_3000957222	cattle	9913					MUTATION: Z3496 mutant is attenuated in calves [PMID:15528651].
+2133	OGG_3000957315	cattle	9913					MUTATION: Z0469 mutant is attenuated in calves [PMID:15528651].
+2134	OGG_3000957342	cattle	9913					MUTATION: rdgC mutant is attenuated in calves [PMID:15528651].
+2135	OGG_3000957466	cattle	9913					MUTATION: Z0609 mutant is attenuated in calves [PMID:15528651].
+2136	OGG_3000957555	cattle	9913					MUTATION: evgS mutant is attenuated in calves [PMID:15731074].
+2137	OGG_3000957907	cattle	9913					MUTATION: yfhH mutant is attenuated in calves [PMID:15528651].
+2138	OGG_3000957981	cattle	9913					MUTATION: trxC mutant is attenuated in calves [PMID:15528651].
+2139	OGG_3000957986	cattle	9913					MUTATION: Z0990 mutant is attenuated in calves [PMID:15528651].
+2140	OGG_3000958085	cattle	9913					MUTATION: Z3950 mutant is attenuated in calves [PMID:15528651].
+2141	OGG_3000958288	cattle	9913					MUTATION: recD mutant is attenuated in calves [PMID:15731074].
+2142	OGG_3000958313	cattle	9913					MUTATION: kduI mutant is attenuated in calves [PMID:15528651].
+2143	OGG_3000958343	cattle	9913					MUTATION: z4200 (pkgA) mutant is attenuated in calves [PMID:15731074].
+2144	OGG_3000958378	cattle	9913					MUTATION: z3635 (yfdV) mutant is attenuated in calves [PMID:15731074].
+2145	OGG_3000958414	cattle	9913					MUTATION: z4282 mutant is attenuated in calves [PMID:15731074].
+2146	OGG_3000958416	cattle	9913					MUTATION: speA mutant is attenuated in calves [PMID:15731074].
+2147	OGG_3000958457	cattle	9913					MUTATION: Z4318 mutant is attenuated in calves [PMID:15528651].
+2148	OGG_3000958466	cattle	9913					MUTATION: pitB mutant is attenuated in calves [PMID:15731074].
+2149	OGG_3000958522	cattle	9913					MUTATION: Z1126 mutant is attenuated in calves [PMID:15528651].
+2150	OGG_3000958525	cattle	9913					MUTATION: z1129 mutant is attenuated in calves [PMID:15731074].
+2151	OGG_3000958549	cattle	9913					MUTATION: tdcE mutant is attenuated in calves [PMID:15731074].
+2152	OGG_3000958755	cattle	9913					MUTATION: Z1182 mutant is attenuated in calves [PMID:15528651].
+2153	OGG_3000958789	cattle	9913					MUTATION: Z1202 mutant is attenuated in calves [PMID:15528651].
+2154	OGG_3000958846	cattle	9913					MUTATION: trxB mutant is attenuated in calves [PMID:15731074].
+2156	OGG_3000958973	cattle	9913					MUTATION: Z1328 mutant is attenuated in calves [PMID:15528651].
+2157	OGG_3000958999	cattle	9913					MUTATION: ygeJ mutant is attenuated in calves [PMID:15528651].
+2158	OGG_3000959050	cattle	9913					MUTATION: ymcC mutant is attenuated in calves [PMID:15528651].
+2160	OGG_3000959162	cattle	9913					MUTATION: ycdS mutant is attenuated in calves [PMID:15528651].
+2161	OGG_3000959220	cattle	9913					MUTATION: agaB mutant is attenuated in calves [PMID:15528651].
+2162	OGG_3000959379	cattle	9913					MUTATION: mdoC (ymdD) mutant is attenuated in calves [PMID:15731074].
+2163	OGG_3000959506	cattle	9913					MUTATION: ypjA mutant is attenuated in calves [PMID:15528651].
+2164	OGG_3000959584	cattle	9913					MUTATION: serA mutant is attenuated in calves [PMID:15731074].
+2165	OGG_3000959588	cattle	9913					MUTATION: z1829 mutant is attenuated in calves [PMID:15731074].
+2166	OGG_3000959707	cattle	9913					MUTATION: Z5946 mutant is attenuated in calves [PMID:15528651].
 2167	OGG_3000959733	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 2167	OGG_3000959733	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
-2168	OGG_3000959740	calves	9913					MUTATION: fimE mutant is attenuated in calves [PMID:15731074].
-2169	OGG_3000959744	calves	9913					MUTATION: yjhS mutant is attenuated in calves [PMID:15528651].
-2170	OGG_3000959763	calves	9913					MUTATION: Z5886 mutant is attenuated in calves [PMID:15528651].
-2171	OGG_3000959802	calves	9913					MUTATION: nrdD mutant is attenuated in calves [PMID:15731074].
-2172	OGG_3000959880	calves	9913					MUTATION: Z1930 mutant is attenuated in calves [PMID:15528651].
-2173	OGG_3000959978	calves	9913					MUTATION: yjeJ mutant is attenuated in calves [PMID:15528651].
-2174	OGG_3000960058	calves	9913					MUTATION: yjcF mutant is attenuated in calves [PMID:15528651].
-2175	OGG_3000960113	calves	9913					MUTATION: arp mutant is attenuated in calves [PMID:15528651].
-2176	OGG_3000960248	calves	9913					MUTATION: Z5444 mutant is attenuated in calves [PMID:15528651].
+2168	OGG_3000959740	cattle	9913					MUTATION: fimE mutant is attenuated in calves [PMID:15731074].
+2169	OGG_3000959744	cattle	9913					MUTATION: yjhS mutant is attenuated in calves [PMID:15528651].
+2170	OGG_3000959763	cattle	9913					MUTATION: Z5886 mutant is attenuated in calves [PMID:15528651].
+2171	OGG_3000959802	cattle	9913					MUTATION: nrdD mutant is attenuated in calves [PMID:15731074].
+2172	OGG_3000959880	cattle	9913					MUTATION: Z1930 mutant is attenuated in calves [PMID:15528651].
+2173	OGG_3000959978	cattle	9913					MUTATION: yjeJ mutant is attenuated in calves [PMID:15528651].
+2174	OGG_3000960058	cattle	9913					MUTATION: yjcF mutant is attenuated in calves [PMID:15528651].
+2175	OGG_3000960113	cattle	9913					MUTATION: arp mutant is attenuated in calves [PMID:15528651].
+2176	OGG_3000960248	cattle	9913					MUTATION: Z5444 mutant is attenuated in calves [PMID:15528651].
 2178	OGG_3000960318	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
-2179	OGG_3000960401	calves	9913					MUTATION: ilvG mutant is attenuated in calves [PMID:15528651].
-2180	OGG_3000960477	calves	9913					MUTATION: narG mutant is attenuated in calves [PMID:15731074].
+2179	OGG_3000960401	cattle	9913					MUTATION: ilvG mutant is attenuated in calves [PMID:15528651].
+2180	OGG_3000960477	cattle	9913					MUTATION: narG mutant is attenuated in calves [PMID:15731074].
 2181	OGG_3000960504	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
-2182	OGG_3000960527	calves	9913					MUTATION: z2056 mutant is attenuated in calves [PMID:15731074].
-2183	OGG_3000960608	calves	9913					MUTATION: z2142 mutant is attenuated in calves [PMID:15731074].
-2184	OGG_3000960610	calves	9913					MUTATION: Z2144 mutant is attenuated in calves [PMID:15528651].
-2185	OGG_3000960615	calves	9913					MUTATION: Z2149 mutant is attenuated in calves [PMID:15528651].
-2186	OGG_3000960638	calves	9913					MUTATION: z2176 mutant is attenuated in calves [PMID:15731074].
-2187	OGG_3000960656	calves	9913					MUTATION: ydeK mutant is attenuated in calves [PMID:15731074].
-2188	OGG_3000960662	calves	9913					MUTATION: Z2203 mutation is attenuated in calves [PMID:15528651].
-2189	OGG_3000960664	calves	9913					MUTATION: z2205 mutant is attenuated in calves [PMID:15731074].
-2190	OGG_3000960666	calves	9913					MUTATION: z2207 mutant is attenuated in calves [PMID:15731074].
-2191	OGG_3000960672	calves	9913					MUTATION: yddA mutant is attenuated in calves [PMID:15731074].
-2192	OGG_3000960719	calves	9913					MUTATION: Z5214 mutant is attenuated in calves [PMID:15528651].
-2193	OGG_3000960725	calves	9913					MUTATION: Z5212 mutant is attenuated in calves [PMID:15528651].
-2194	OGG_3000960841	calves	9913					MUTATION: Z5131 mutant is attenuated in calves [PMID:15528651].
-2195	OGG_3000960846	calves	9913					MUTATION: escC mutant is attenuated in calves [PMID:15528651].
-2196	OGG_3000960851	calves	9913					MUTATION: z5121(st22) mutant is attenuated in calves [PMID:15731074].
-2197	OGG_3000960852	calves	9913					MUTATION: escV mutant is attenuated in calves [PMID:15528651].
+2182	OGG_3000960527	cattle	9913					MUTATION: z2056 mutant is attenuated in calves [PMID:15731074].
+2183	OGG_3000960608	cattle	9913					MUTATION: z2142 mutant is attenuated in calves [PMID:15731074].
+2184	OGG_3000960610	cattle	9913					MUTATION: Z2144 mutant is attenuated in calves [PMID:15528651].
+2185	OGG_3000960615	cattle	9913					MUTATION: Z2149 mutant is attenuated in calves [PMID:15528651].
+2186	OGG_3000960638	cattle	9913					MUTATION: z2176 mutant is attenuated in calves [PMID:15731074].
+2187	OGG_3000960656	cattle	9913					MUTATION: ydeK mutant is attenuated in calves [PMID:15731074].
+2188	OGG_3000960662	cattle	9913					MUTATION: Z2203 mutation is attenuated in calves [PMID:15528651].
+2189	OGG_3000960664	cattle	9913					MUTATION: z2205 mutant is attenuated in calves [PMID:15731074].
+2190	OGG_3000960666	cattle	9913					MUTATION: z2207 mutant is attenuated in calves [PMID:15731074].
+2191	OGG_3000960672	cattle	9913					MUTATION: yddA mutant is attenuated in calves [PMID:15731074].
+2192	OGG_3000960719	cattle	9913					MUTATION: Z5214 mutant is attenuated in calves [PMID:15528651].
+2193	OGG_3000960725	cattle	9913					MUTATION: Z5212 mutant is attenuated in calves [PMID:15528651].
+2194	OGG_3000960841	cattle	9913					MUTATION: Z5131 mutant is attenuated in calves [PMID:15528651].
+2195	OGG_3000960846	cattle	9913					MUTATION: escC mutant is attenuated in calves [PMID:15528651].
+2196	OGG_3000960851	cattle	9913					MUTATION: z5121(st22) mutant is attenuated in calves [PMID:15731074].
+2197	OGG_3000960852	cattle	9913					MUTATION: escV mutant is attenuated in calves [PMID:15528651].
 2198	OGG_3000960853	rabbit	9986					MUTATION: deletion of escN abolished pathogenicity in infant rabbits compared to wild-type EHEC [PMID:15731044].
-2199	OGG_3000960856	calves	9913					MUTATION: sepQ mutant is attenuated in calves [PMID:15528651].
-2200	OGG_3000960858	calves	9913					MUTATION: Z5114 (cesF) mutant is attenuated in calves [PMID:15528651].
+2199	OGG_3000960856	cattle	9913					MUTATION: sepQ mutant is attenuated in calves [PMID:15528651].
+2200	OGG_3000960858	cattle	9913					MUTATION: Z5114 (cesF) mutant is attenuated in calves [PMID:15528651].
 2202	OGG_3000960862	human	9606					MUTATION: attenuated in humans [PMID:8376594].
 2205	OGG_3000960867	human	9606					MUTATION: deletion mutant attenuated in humans compared to wild-type EPEC  [PMID:10816529].
-2207	OGG_3000960931	calves	9913					MUTATION: yibD mutant is attenuated in calves [PMID:15528651].
-2208	OGG_3000960959	calves	9913					MUTATION: rhsA mutant is attenuated in calves [PMID:15731074].
-2209	OGG_3000961000	calves	9913					MUTATION: hrpA mutant is attenuated in calves [PMID:15528651].
-2210	OGG_3000961004	calves	9913					MUTATION: Z2318 mutant is attenuated in calves [PMID:15528651].
+2207	OGG_3000960931	cattle	9913					MUTATION: yibD mutant is attenuated in calves [PMID:15528651].
+2208	OGG_3000960959	cattle	9913					MUTATION: rhsA mutant is attenuated in calves [PMID:15731074].
+2209	OGG_3000961000	cattle	9913					MUTATION: hrpA mutant is attenuated in calves [PMID:15528651].
+2210	OGG_3000961004	cattle	9913					MUTATION: Z2318 mutant is attenuated in calves [PMID:15528651].
 2211	OGG_3000961074	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
-2212	OGG_3000961092	calves	9913					MUTATION: dctA mutant is attenuated in calves [PMID:15528651].
-2213	OGG_3000961108	calves	9913					MUTATION: Z2368 mutant is attenuated in calves [PMID:15528651].
-2215	OGG_3000961212	calves	9913					MUTATION: yhiJ mutant is attenuated in calves [PMID:15528651].
-2216	OGG_3000961230	calves	9913					MUTATION: Z3620 mutant is attenuated in calves [PMID:15528651].
-2217	OGG_3000961311	calves	9913					MUTATION: ycjV mutant is attenuated in calves [PMID:15731074].
-2218	OGG_3000961382	calves	9913					MUTATION: acnA mutant is attenuated in calves [PMID:15731074].
-2219	OGG_3000961399	calves	9913					MUTATION: trpB mutant is attenuated in calves [PMID:15731074].
-2220	OGG_3000961413	calves	9913					MUTATION: Z6010 mutant is attenuated in calves [PMID:15528651].
-2221	OGG_3000961474	calves	9913					MUTATION: trkA mutant is attenuated in calves [PMID:15731074].
-2222	OGG_3000961645	calves	9913					MUTATION: Z2702 mutant is attenuated in calves [PMID:15528651].
-2223	OGG_3000961691	calves	9913					MUTATION: z2749 mutant is attenuated in calves [PMID:15731074].
-2224	OGG_3000961692	calves	9913					MUTATION: z2751 mutant is attenuated in calves [PMID:15731074].
-2225	OGG_3000961704	calves	9913					MUTATION: celF mutant is attenuated in calves [PMID:15528651].
-2226	OGG_3000961796	calves	9913					MUTATION: cspC mutant is attenuated in calves [PMID:15528651].
-2227	OGG_3000961896	calves	9913					MUTATION: Z2984 mutant is attenuated in calves [PMID:15528651].
-2228	OGG_3000961914	calves	9913					MUTATION: sidA mutant is attenuated in calves [PMID:15528651].
-2229	OGG_3000961921	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
-2231	OGG_3000961932	calves	9913					MUTATION: Z3023 mutant is attenuated in calves [PMID:15528651].
-2232	OGG_3000961934	calves	9913					MUTATION: Z3026 mutant is attenuated in calves [PMID:15528651].
-2233	OGG_3000961974	calves	9913					MUTATION: z3062 mutant is attenuated in calves [PMID:15731074].
-2234	OGG_3000962089	calves	9913					MUTATION: manB mutant is attenuated in calves [PMID:15528651].
-2235	OGG_3000962090	calves	9913					MUTATION: manC mutant is attenuated in calves [PMID:15528651].
-2236	OGG_3000962092	calves	9913					MUTATION: fcl mutant is attenuated in calves [PMID:15528651].
-2237	OGG_3000962094	calves	9913					MUTATION: wbdP mutant is attenuated in calves [PMID:15528651].
-2238	OGG_3000962095	calves	9913					MUTATION: per mutant is attenuated in calves [PMID:15528651].
+2212	OGG_3000961092	cattle	9913					MUTATION: dctA mutant is attenuated in calves [PMID:15528651].
+2213	OGG_3000961108	cattle	9913					MUTATION: Z2368 mutant is attenuated in calves [PMID:15528651].
+2215	OGG_3000961212	cattle	9913					MUTATION: yhiJ mutant is attenuated in calves [PMID:15528651].
+2216	OGG_3000961230	cattle	9913					MUTATION: Z3620 mutant is attenuated in calves [PMID:15528651].
+2217	OGG_3000961311	cattle	9913					MUTATION: ycjV mutant is attenuated in calves [PMID:15731074].
+2218	OGG_3000961382	cattle	9913					MUTATION: acnA mutant is attenuated in calves [PMID:15731074].
+2219	OGG_3000961399	cattle	9913					MUTATION: trpB mutant is attenuated in calves [PMID:15731074].
+2220	OGG_3000961413	cattle	9913					MUTATION: Z6010 mutant is attenuated in calves [PMID:15528651].
+2221	OGG_3000961474	cattle	9913					MUTATION: trkA mutant is attenuated in calves [PMID:15731074].
+2222	OGG_3000961645	cattle	9913					MUTATION: Z2702 mutant is attenuated in calves [PMID:15528651].
+2223	OGG_3000961691	cattle	9913					MUTATION: z2749 mutant is attenuated in calves [PMID:15731074].
+2224	OGG_3000961692	cattle	9913					MUTATION: z2751 mutant is attenuated in calves [PMID:15731074].
+2225	OGG_3000961704	cattle	9913					MUTATION: celF mutant is attenuated in calves [PMID:15528651].
+2226	OGG_3000961796	cattle	9913					MUTATION: cspC mutant is attenuated in calves [PMID:15528651].
+2227	OGG_3000961896	cattle	9913					MUTATION: Z2984 mutant is attenuated in calves [PMID:15528651].
+2228	OGG_3000961914	cattle	9913					MUTATION: sidA mutant is attenuated in calves [PMID:15528651].
+2229	OGG_3000961921	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+2231	OGG_3000961932	cattle	9913					MUTATION: Z3023 mutant is attenuated in calves [PMID:15528651].
+2232	OGG_3000961934	cattle	9913					MUTATION: Z3026 mutant is attenuated in calves [PMID:15528651].
+2233	OGG_3000961974	cattle	9913					MUTATION: z3062 mutant is attenuated in calves [PMID:15731074].
+2234	OGG_3000962089	cattle	9913					MUTATION: manB mutant is attenuated in calves [PMID:15528651].
+2235	OGG_3000962090	cattle	9913					MUTATION: manC mutant is attenuated in calves [PMID:15528651].
+2236	OGG_3000962092	cattle	9913					MUTATION: fcl mutant is attenuated in calves [PMID:15528651].
+2237	OGG_3000962094	cattle	9913					MUTATION: wbdP mutant is attenuated in calves [PMID:15528651].
+2238	OGG_3000962095	cattle	9913					MUTATION: per mutant is attenuated in calves [PMID:15528651].
 2239	OGG_3006143094	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
 2240	OGG_3006143458	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
 2241	OGG_3006144084	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 2243	OGG_3006144283	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
-2244	OGG_3006144795	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+2244	OGG_3006144795	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 2245	OGG_3006145010	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
 2246	OGG_3006145117	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 2247	OGG_3006145732	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
@@ -1600,11 +1600,11 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2262	OGG_3000948327	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
 2265	OGG_3000948847	human	9606					MUTATION: attenuated in humans and mice [PMID:18482721].
 2265	OGG_3000948847	mouse	10090					MUTATION: attenuated in humans and mice [PMID:18482721].
-2267	OGG_3000949101	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+2267	OGG_3000949101	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 2269	OGG_3006058282	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
 2270	OGG_3006058698	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
 2271	OGG_3006058984	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
-2277	OGG_3001789732	calves	9913					MUTATION: espP  mutant is attenuated in calves [PMID:17451446].
+2277	OGG_3001789732	cattle	9913					MUTATION: espP  mutant is attenuated in calves [PMID:17451446].
 2280	OGG_3005616581	chicken	9031					MUTATION: tsh mutant is attenuated in chickens [PMID:18589815].
 2281	OGG_3005616645	mouse	10090					MUTATION: iroA gene cluster mutants were unable to resist Lcn2 in mouse serum [PMID:17060628].
 2282	OGG_3005616647	chicken	9031					MUTATION: attenuated in chicks [PMID:18541653].
@@ -1615,12 +1615,12 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2287	OGG_3005616678	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 2288	OGG_3005616680	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 2289	OGG_3005585855	rabbit	9986					MUTATION: interruption of the eatA gene retarded fluid accumulation in the rabbit ileal loop model, suggesting that this autotransporter contributes to the virulence of ETEC [PMID:14977988].
-2292	OGG_3003683719	calves	9913					MUTATION: espP mutant is attenuated in calves [PMID:17451446].
-2294	OGG_3003683747	calves	9913					MUTATION: hlyA mutant is attenuated in calves [PMID:15731074].
+2292	OGG_3003683719	cattle	9913					MUTATION: espP mutant is attenuated in calves [PMID:17451446].
+2294	OGG_3003683747	cattle	9913					MUTATION: hlyA mutant is attenuated in calves [PMID:15731074].
 2303	OGG_3001068432	mouse	10090					MUTATION: tdcA mutant is less invasive of cultured epithelial cells and attenuated in mice [PMID:19812899].
 2303	OGG_3001068432	mouse	10090	http://purl.obolibrary.org/obo/CL_0000066	epithelial cell			MUTATION: tdcA mutant is less invasive of cultured epithelial cells and attenuated in mice [PMID:19812899].
 2304	OGG_3001068841	human	9606					MUTATION: invE mutants were unable to penetrate Henle-407 human intestinal cells and Madin-Darby canine kidney cells [PMID:1631083].
-2305	OGG_3001068847	calves	9913					MUTATION: invH mutants are attenuated in calves [PMID:9529064].
+2305	OGG_3001068847	cattle	9913					MUTATION: invH mutants are attenuated in calves [PMID:9529064].
 2318	OGG_3001069221	mouse	10090					MUTATION: waaP mutant is avirulent in mice [PMID:10899846].
 2320	OGG_3001070204	chicken	9031					MUTATION: fliC mutants were attenuated in orally inoculated chicks [PMID:11731137].
 2321	OGG_3001070679	mouse	10090					MUTATION: spiC mutant cannot survive within macrophages and is attenuated in mice [PMID:10406797].
@@ -1851,8 +1851,8 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2574	OGG_3003178557	mouse	10090					MUTATION: sodC mutant is attenuated in mice [PMID:19577637].
 2575	OGG_3003178700	mouse	10090					MUTATION: sopE mutant is attenuated in mice [PMID:19577637].
 2576	OGG_3003178773	human	9606					MUTATION: ssaV and aroC double mutants are attenuated in humans [PMID:19745519].
-2577	OGG_3007692994	calves	9913					MUTATION: sopA mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
-2578	OGG_3003259856	calves	9913					MUTATION: sopB mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
+2577	OGG_3007692994	cattle	9913					MUTATION: sopA mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
+2578	OGG_3003259856	cattle	9913					MUTATION: sopB mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
 2580	OGG_3001256164	mouse	10090					MUTATION: PSLT072 mutant is attenuated in mice [PMID:16518469].
 2581	OGG_3001256197	mouse	10090					MUTATION: spvR mutant is attenuated in mice [PMID:7618105].
 2582	OGG_3001256199	mouse	10090					MUTATION: spvB mutants are attenuated in mice [PMID:11260464].    TOXIN: spvB encodes an ADP-ribosylating enzyme that uses actin as a substrate and depolymerizes actin filaments when expressed in CHO cells [PMID:11260464].
@@ -1882,7 +1882,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2630	OGG_3001252520	mouse	10090					MUTATION: STM1002 mutant is attenuated in mice [PMID:16518469].
 2631	OGG_3001252569	mouse	10090					MUTATION: sseI mutant is attenuated in mice [PMID:16518469].
 2633	OGG_3001252587	mouse	10090					MUTATION: ycbG mutant is attenuated in mice [PMID:16518469].
-2636	OGG_3001252609	calves	9913					MUTATION: sopB mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
+2636	OGG_3001252609	cattle	9913					MUTATION: sopB mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
 2637	OGG_3001252612	mouse	10090					MUTATION: pipD mutant is attenuated in mice [PMID:16518469].
 2638	OGG_3001252613	mouse	10090					MUTATION: copS mutant is attenuated in mice [PMID:16518469].
 2639	OGG_3001252658	mouse	10090					MUTATION: csgF mutant is attenuated in mice [PMID:16518469].
@@ -1930,7 +1930,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2699	OGG_3001253468	mouse	10090	http://purl.obolibrary.org/obo/CL_0000235	macrophage			MUTATION: sirA mutant is defective for intracellular replication, invasion of epithelial cells and defective in murine macrophages [PMID:16113260].
 2700	OGG_3001253480	chicken	9031					MUTATION: fliC mutants were attenuated in orally inoculated chicks [PMID:11731137].
 2701	OGG_3001253501	mouse	10090					MUTATION: fliQ mutant is attenuated in mice [PMID:7618105].
-2703	OGG_3001253587	calves	9913					MUTATION: sopA mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
+2703	OGG_3001253587	cattle	9913					MUTATION: sopA mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
 2704	OGG_3001253601	mouse	10090					MUTATION: udg mutant is attenuated in mice [PMID:16518469].
 2705	OGG_3001253603	mouse	10090					MUTATION: rfbP mutant is attenuated in mice [PMID:16518469].
 2707	OGG_3001253605	mouse	10090					MUTATION: rfbM mutant is attenuated in mice [PMID:7618105].
@@ -1962,14 +1962,14 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 2763	OGG_3001254417	chicken	9031					MUTATION: invC mutants are attenuated in chicks infected orally but not intraperitoneally  [PMID:9087319].
 2765	OGG_3001254419	chicken	9031					MUTATION: invA mutants are attenuated in chicks infected orally but not intraperitoneally [PMID:9087319].
 2766	OGG_3001254420	human	9606					MUTATION: invE mutants were unable to penetrate Henle-407 human intestinal cells and Madin-Darby canine kidney cells [PMID:1631083].
-2769	OGG_3001254423	calves	9913					MUTATION: invH mutants are attenuated in calves [PMID:9529064].
-2770	OGG_3001254468	calves	9913					MUTATION: sopD mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
+2769	OGG_3001254423	cattle	9913					MUTATION: invH mutants are attenuated in calves [PMID:9529064].
+2770	OGG_3001254468	cattle	9913					MUTATION: sopD mutants induce significantly less fluid accumulation in bovine ligated ileal loops than the wild-type [PMID:12065528].
 2773	OGG_3001254559	mouse	10090					MUTATION: STM3036 mutant is attenuated in mice [PMID:16518469].
 2774	OGG_3001254651	mouse	10090					MUTATION: STM3128 mutant is attenuated in mice [PMID:16518469].
 2775	OGG_3001254715	mouse	10090					MUTATION: STM3192 mutant is attenuated in mice [PMID:16518469].
 2776	OGG_3001254768	mouse	10090					MUTATION: tdcA mutant is less invasive of cultured epithelial cells and attenuated in mice [PMID:19812899].
 2776	OGG_3001254768	mouse	10090	http://purl.obolibrary.org/obo/CL_0000066	epithelial cell			MUTATION: tdcA mutant is less invasive of cultured epithelial cells and attenuated in mice [PMID:19812899].
-2777	OGG_3001254865	calves	9913					MUTATION: sspA mutants are not able to cause lethal infection in calves, however these mutants are still able to cause diarrhea in calves [PMID:10816458].
+2777	OGG_3001254865	cattle	9913					MUTATION: sspA mutants are not able to cause lethal infection in calves, however these mutants are still able to cause diarrhea in calves [PMID:10816458].
 2780	OGG_3001254989	mouse	10090					MUTATION: crp deletion mutants are attenuated in mice [PMID:3291452].
 2782	OGG_3001255024	mouse	10090					MUTATION: envZ mutant is attenuated in mice [PMID:7618105].
 2784	OGG_3001255197	mouse	10090					MUTATION: yiaO mutant is attenuated in mice [PMID:16518469].
@@ -2473,7 +2473,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 3477	OGG_3007324526	mouse	10090					MUTATION: iroA gene cluster mutants were unable to resist Lcn2 in mouse serum [PMID:17060628].
 3481	OGG_3007061491	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
 3482	OGG_3007061758	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
-3484	OGG_3007061913	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3484	OGG_3007061913	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3485	OGG_3007062125	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 3485	OGG_3007062125	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
 3486	OGG_3007062686	rabbit	9986					MUTATION: deletion of escN abolished pathogenicity in infant rabbits compared to wild-type EHEC [PMID:15731044].
@@ -2495,7 +2495,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 3520	OGG_3007151167	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
 3521	OGG_3007151334	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 3521	OGG_3007151334	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
-3522	OGG_3007151372	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3522	OGG_3007151372	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3524	OGG_3007151862	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 3525	OGG_3007151863	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 3526	OGG_3007151864	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
@@ -2516,7 +2516,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 3549	OGG_3007140515	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
 3551	OGG_3007141515	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
 3552	OGG_3007141983	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
-3553	OGG_3007142129	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3553	OGG_3007142129	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3554	OGG_3007142472	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 3555	OGG_3007142473	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 3556	OGG_3007142474	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
@@ -2536,12 +2536,12 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 3575	OGG_3007130233	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
 3578	OGG_3007131265	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
 3579	OGG_3007131480	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
-3581	OGG_3007132788	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3581	OGG_3007132788	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3583	OGG_3007133342	human	9606					MUTATION: tia deletion strains were noninvasive and lacked the ability to adhere to human ileocecal cells [PMID:8675335].
 3584	OGG_3007133471	human	9606					MUTATION: attenuated to human neutrophils in vitro [PMID:7960108].
 3586	OGG_3007125629	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
 3587	OGG_3007126217	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
-3589	OGG_3007126825	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3589	OGG_3007126825	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3590	OGG_3007127116	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 3590	OGG_3007127116	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
 3591	OGG_3007127821	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
@@ -2629,10 +2629,10 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 3685	OGG_3008178231	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 3685	OGG_3008178231	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
 3686	OGG_3008178456	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
-3695	OGG_3008216050	calves	9913					MUTATION: espK mutant attenuated in calves [PMID:16958848].
+3695	OGG_3008216050	cattle	9913					MUTATION: espK mutant attenuated in calves [PMID:16958848].
 3696	OGG_3008216210	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
 3697	OGG_3008216268	mouse	10090					MUTATION: nelA deletion mutant attenuated in mice [PMID:14982621].
-3698	OGG_3008217094	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3698	OGG_3008217094	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3701	OGG_3008219101	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
 3703	OGG_3008219235	human	9606					MUTATION: deletion mutant attenuated in humans compared to wild-type EPEC [PMID:10816529].
 3706	OGG_3008219240	human	9606					MUTATION: attenuated in humans [PMID:8376594].
@@ -2649,7 +2649,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 3725	OGG_3008486421	human	9606					MUTATION: attenuated in humans [PMID:8376594].
 3728	OGG_3008486516	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 3728	OGG_3008486516	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
-3729	OGG_3008486550	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3729	OGG_3008486550	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3730	OGG_3008487016	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 3731	OGG_3008487017	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 3732	OGG_3008487018	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
@@ -2663,7 +2663,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 3749	OGG_3008480971	human	9606					MUTATION: deletion mutant attenuated in humans compared to wild-type EPEC [PMID:10816529].
 3751	OGG_3008481056	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 3751	OGG_3008481056	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
-3752	OGG_3008481090	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3752	OGG_3008481090	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3753	OGG_3008481558	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 3754	OGG_3008481559	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
 3755	OGG_3008481560	mouse	10090					MUTATION: attenuated in mice [PMID:2973985].
@@ -2678,16 +2678,16 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 3773	OGG_3008475178	human	9606					MUTATION: attenuated in humans [PMID:8376594].
 3776	OGG_3008475277	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 3776	OGG_3008475277	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
-3777	OGG_3008475311	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3777	OGG_3008475311	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3780	OGG_3008477018	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
 3782	OGG_3008477474	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
-3791	OGG_3008206968	calves	9913					MUTATION: espP mutant is attenuated in calves [PMID:17451446].
+3791	OGG_3008206968	cattle	9913					MUTATION: espP mutant is attenuated in calves [PMID:17451446].
 3795	OGG_3007953267	mouse	10090					MUTATION: dppA mutant was attenuated 10- to 50-fold compared to the wild type for colonization of the bladders and kidneys of mice [PMID:17074858].
 3796	OGG_3007953491	mouse	10090					MUTATION: attenuated in mice [PMID:12117951].
 3797	OGG_3007954265	human	9606					MUTATION: attenuated in mice and humans [PMID:18482721].
 3797	OGG_3007954265	mouse	10090					MUTATION: attenuated in mice and humans [PMID:18482721].
 3798	OGG_3007954839	mouse	10090					MUTATION: attenuated in mice [PMID:11553558].
-3799	OGG_3007955988	calves	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
+3799	OGG_3007955988	cattle	9913					MUTATION: fliC deletion mutants had reduced adherence in bovine tissue compared to the wild type EHEC and EPEC strains [PMID:17693516].
 3804	OGG_3008208349	human	9606					MUTATION: knockout strain reduced adherence to human gastric epithelial cells [PMID:10454640].
 3804	OGG_3008208349	human	9606	http://purl.obolibrary.org/obo/CL_0000066	epithelial cell			MUTATION: knockout strain reduced adherence to human gastric epithelial cells [PMID:10454640].
 3807	OGG_3008208956	mouse	10090					MUTATION: knockout strain showed reduced adhesion and colonization in mice [PMID:17492999].
@@ -3291,7 +3291,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 4890	OGG_3001195778	mouse	10090					MUTATION: BMEI0066 deletion mutant fails to replicated in murine macrophages and is rapidly cleared from the spleens of experimentally infected BALB/c mice [PMID:19742243].
 4890	OGG_3001195778	mouse	10090	http://purl.obolibrary.org/obo/CL_0000235	macrophage			MUTATION: BMEI0066 deletion mutant fails to replicated in murine macrophages and is rapidly cleared from the spleens of experimentally infected BALB/c mice [PMID:19742243].
 4892	OGG_3002659145	mouse	10090					MUTATION: Inactivation of the aroA gene highly attenuates B. bronchiseptica, severely impairing its ability to colonize and survive in the respiratory tract of mice [PMID:12009288].
-4893	OGG_3001487407	calves	9913					MUTATION: Strain A of the virus has a mutation in the glycoprotein E gene, and is avirulent in calves [PMID:8023552]. MUTATION: the Za strain of BHV1 is attenuated by a deletion of the gE gene and is used as a live attenuated vaccine [PMID:8023552].
+4893	OGG_3001487407	cattle	9913					MUTATION: Strain A of the virus has a mutation in the glycoprotein E gene, and is avirulent in calves [PMID:8023552]. MUTATION: the Za strain of BHV1 is attenuated by a deletion of the gE gene and is used as a live attenuated vaccine [PMID:8023552].
 4898	OGG_3001089767	chicken	9031					MUTATION: An lpd mutant is highly attenuated in chickens [PMID:18342996].
 4904	OGG_3000985015	mouse	10090					MUTATION: mogR deletion mutant has a 250-fold decrease in virulence in mice and has reduced capacity for cell-to-cell spread [PMID:15302931].
 4911	OGG_3003951701	mouse	10090					MUTATION: A guaA mutant is highly attenuated in mice [PMID:19368784].
@@ -3316,8 +3316,8 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 4946	OGG_3002662485	mouse	10090					MUTATION: A double mutant strain of Bordetella Bronchiseptica lacking adenylate cyclase(cyaA gene) and type III secretion(bscN gene) is attenuated in mice [PMID:17452472].
 4947	OGG_3002661688	mouse	10090					MUTATION: A double mutant strain of Bordetella Bronchiseptica lacking adenylate cyclase(cyaA gene) and type III secretion(bscN gene) is attenuated in mice [PMID:17452472].
 4949	OGG_3008515760	mouse	10090					MUTATION: A trpE mutant, in combination with an aroA mutation, is attenuated in mice [PMID:12694904].
-4953	OGG_3001487380	calves	9913					MUTATION: A thymidine kinase-deficient mutant (B8-D53) showed no detectable thymidine kinase-inducing activity and was attenuated in calves [PMID:2994602].
-4954	OGG_3001489813	calves	9913					MUTATION: A glycoprotein G deletion in bovine respiratory syncytial virus(rBRSV) and recombinant rBRSV was attenuated in calves [PMID:12414977].
+4953	OGG_3001487380	cattle	9913					MUTATION: A thymidine kinase-deficient mutant (B8-D53) showed no detectable thymidine kinase-inducing activity and was attenuated in calves [PMID:2994602].
+4954	OGG_3001489813	cattle	9913					MUTATION: A glycoprotein G deletion in bovine respiratory syncytial virus(rBRSV) and recombinant rBRSV was attenuated in calves [PMID:12414977].
 4957	OGG_3003788792	mouse	10090					MUTATION: a manAB double mutant is attenuated in mice [PMID:16790778].
 4958	OGG_3003788256	mouse	10090					MUTATION: A pgk mutant is attenuated in mice [PMID:20194591].
 4970	OGG_3005522867	mouse	10090					MUTATION: A sodC mutant in Francisella tularensis subspecies holarctica was attenuated in mice [PMID:19684141].
@@ -3331,7 +3331,7 @@ victor_id	ogg_iri	victor_host_name	victor_host_taxon	victor_host_cell_ontology_i
 4978	OGG_3002703374	mouse	10090					MUTATION: A thymidine kinase-deficient (UL23) mutant was found to be attenuated in mice [PMID:212476].
 4984	OGG_3000956528	mouse	10090					MUTATION: Mutant influenza virus that lacks the transmembrane and cytoplasmic tail domains of M2 (M2 knockout [M2KO]) from Influenza A virus (A/Puerto Rico/8/34(H1N1)) is attenuated in both cell culture and mice [PMID:19321619].
 4985	OGG_3002717869	goat	9925					MUTATION: A M. avium relA mutant is attenuated in calves and goats [PMID:21565243].
-4985	OGG_3002717869	calves	9913					MUTATION: A M. avium relA mutant is attenuated in calves and goats [PMID:21565243].
+4985	OGG_3002717869	cattle	9913					MUTATION: A M. avium relA mutant is attenuated in calves and goats [PMID:21565243].
 4987	OGG_3003885996	mouse	10090					MUTATION: A genetically attenuated parasite (GAP) with a mutation in the FabB/FabF gene is attenuated in mice by arresting in the late liver stage [PMID:21669394].
 4988	OGG_3003424772	mouse	10090					MUTATION: P36p-deficient Plasmodium berghei is attenuated in mice [PMID:17604034].
 4991	OGG_3003830198	mouse	10090					MUTATION: Deletion of UIS3 in Plasmodium yoelii provided attenuation and full protection in mice [PMID:17624848].
