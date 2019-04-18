@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-15/imports/pr_import.owl
+data-version: ohpi/releases/2019-04-17/imports/pr_import.owl
 ontology: ohpi/imports/pr_import
 
 [Term]
@@ -55,6 +55,13 @@ name: Cricetulus griseus
 namespace: ncbi_taxonomy
 synonym: "Cgri-" RELATED PRO-short-label [PRO:DAN]
 synonym: "Chinese hamster" RELATED PRO-common-name []
+is_a: NCBITaxon:9989 ! Rodentia
+
+[Term]
+id: NCBITaxon:10036
+name: Mesocricetus auratus
+namespace: ncbi_taxonomy
+synonym: "golden hamster" EXACT PRO-common-name []
 is_a: NCBITaxon:9989 ! Rodentia
 
 [Term]
@@ -310,6 +317,12 @@ name: Brucella
 namespace: ncbi_taxonomy
 synonym: "Bru-" RELATED PRO-short-label [PRO:DAN]
 is_a: NCBITaxon:118882 ! Brucellaceae
+
+[Term]
+id: NCBITaxon:235443
+name: Cryptococcus neoformans var. grubii H99
+namespace: ncbi_taxonomy
+is_a: NCBITaxon:4751 ! Fungi
 
 [Term]
 id: NCBITaxon:237561
