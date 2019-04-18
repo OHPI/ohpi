@@ -33,8 +33,8 @@ edit existing classes with term IDs defined in column C
 [Terms used to define anntoations, equivalent classes and superclasses]
 # Note: One line per term
 AnnotationProperty: 
-'has victor id': <http://purl.obolibrary.org/obo/OHPI_0000008>
-'has victor annotation': <http://purl.obolibrary.org/obo/OHPI_0000009>
+'has victor id': <http://purl.obolibrary.org/obo/OHPI_0000009>
+'has victor annotation': <http://purl.obolibrary.org/obo/OHPI_0000008>
 Class:
 ObjectProperty:
 DataProperty:

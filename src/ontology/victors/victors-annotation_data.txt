@@ -4324,11 +4324,11 @@ victor_id	ncbi_gene_id	ogg_iri	reference_annotation
 5267	23889694	OGG_3023889694	MUTATION: Δarg1 mutants had impaired thermotolerance, compromised cell walls, reduced capsule production and melanization, defective cell separation, and the inability to form mating filaments and attenuated homeostasis and virulence in the Galleria mellonella infection model [PMID:23381992].
 5268	23886056	OGG_3023886056	MUTATION: Needed for Cryptococcus neoformans melanin biosynthesis [PMID:16102007].
 5269	23888844	OGG_3023888844	MUTATION: URE2 gene product is involved in the utilization of urea by the organism. The mutant had reduced virulence in mouse infection models [PMID:17159224].
-5270	23884066	OGG_3023884066	MUTATION: The avc1? had reduced growth on a selection of carbon sources, capsule inhibition, and poor melanization at 37? [PMID:23550133].
-5271	23888137	OGG_3023888137	MUTATION: bck1△ had defects in cell wall integrity and high temperature endurance [PMID:16194228].
+5270	23884066	OGG_3023884066	MUTATION: The avc1? had reduced growth on a selection of carbon sources, capsule inhibition, and poor melanization at 37 degree celsius [PMID:23550133].
+5271	23888137	OGG_3023888137	MUTATION: bck1 mutant had defects in cell wall integrity and high temperature endurance [PMID:16194228].
 5272	23888137	OGG_3023888137	MUTATION: BLP1 gene knock promoted the phagocytosis of Cryptococcus by macrophages in vitro [PMID:21402362].
 5277	23888486	OGG_3023888486	MUTATION: Can2 is the main carbonic anhydrase and suggest a physiological role for bicarbonate during C. neoformans growth [PMID:16400172]. 
-5278	23888371	OGG_3023888371	MUTATION: CAT1 encode putative spore-specific catalases, however cat1△ is absent of phenotype of virulence changes in mouse infection models [PMID:16963629].
+5278	23888371	OGG_3023888371	MUTATION: CAT1 encode putative spore-specific catalases, however cat1 mutant is absent of phenotype of virulence changes in mouse infection models [PMID:16963629].
 5279	23887056	OGG_3023887056	MUTATION: One of the five components of the homologous RAM-signaling pathway in C. neoformans, deletion of CBK1 gene leading to morphological change of this fungi [PMID:16775005]. 
 5280	23889467	OGG_3023889467	MUTATION: This gene belongs to the polycomb system that assembles repressive subtelomeric domains of H3K27 methylation (H3K27me) in the yeast Cryptococcus neoformans[PMID:25533783].
 5281	23884881	OGG_3023884881	MUTATION: Ccp1 is a mitochondrial antioxidant that catalyzes the degradation of hydrogen peroxide. The mutant showed attenuated resistance to  exogenous oxidative stress in vitro but does not diminish the virulence of C.neofromans in a murine model [PMID:15588993].
