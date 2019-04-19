@@ -138,9 +138,9 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000008 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000008">
-        <obo:IAO_0000115 xml:lang="en">The annotation of the gene as a virulence factor stored in the victor database (http://www.phidias.us/victors/).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The annotation of the gene as a virulence factor stored in the Victors database (http://www.phidias.us/victors/).</obo:IAO_0000115>
         <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has victor annotation</rdfs:label>
+        <rdfs:label xml:lang="en">has victors annotation</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -148,9 +148,9 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000009 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000009">
-        <obo:IAO_0000115 xml:lang="en">The idenfier of the entity stored in the victor database (http://www.phidias.us/victors/).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The idenfier of the entity stored in the Victors database (http://www.phidias.us/victors/).</obo:IAO_0000115>
         <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has victor id</rdfs:label>
+        <rdfs:label xml:lang="en">has victors id</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -3087,6 +3087,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000117>Edison Ong</obo:IAO_0000117>
         <rdfs:label xml:lang="en">virulence factor role</rdfs:label>
     </owl:Class>
     
