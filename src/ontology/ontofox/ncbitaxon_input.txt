@@ -158,3 +158,4 @@ http://purl.obolibrary.org/obo/NCBITaxon_602
 http://purl.obolibrary.org/obo/NCBITaxon_634178
 http://purl.obolibrary.org/obo/NCBITaxon_9479
 http://purl.obolibrary.org/obo/NCBITaxon_9925
+http://purl.obolibrary.org/obo/NCBITaxon_150052
