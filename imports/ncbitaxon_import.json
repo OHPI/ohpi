@@ -644,6 +644,25 @@
       "type" : "CLASS",
       "lbl" : "pseudomallei group"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9963",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_subfamily"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Caprinae"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2096",
       "meta" : {
         "xrefs" : [ {
@@ -815,6 +834,43 @@
       },
       "type" : "CLASS",
       "lbl" : "Mycobacterium avium"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_5206",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Filobasidiella",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Cryptococcus",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "NCBITaxon:107441"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_genus"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "NCBITaxon:5415"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "NCBITaxon:192653"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Cryptococcus <basidiomycete yeast>"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_5207",
       "meta" : {
@@ -1089,6 +1145,53 @@
       },
       "type" : "CLASS",
       "lbl" : "Brucella"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9925",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "South African angora goat",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "goats",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "goat",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Carpa hircus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Capra aegagrus hircus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "domestic goat",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "NCBITaxon:57076"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Capra hircus"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_590",
       "meta" : {
@@ -1544,6 +1647,41 @@
       },
       "type" : "CLASS",
       "lbl" : "Flavivirus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_367775",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Cryptococcus bacillisporus VGI WM276",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Cryptococcus neoformans WM276",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Cryptococcus bacillisporus WM276",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "NCBITaxon:381766"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "NCBITaxon:548158"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Cryptococcus gattii WM276"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
       "type" : "PROPERTY",
@@ -3199,6 +3337,30 @@
       "type" : "CLASS",
       "lbl" : "Medicago sativa"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_314293",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Anthropoidea",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_infraorder"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Simiiformes"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
       "meta" : {
         "xrefs" : [ {
@@ -3887,6 +4049,27 @@
       },
       "type" : "CLASS",
       "lbl" : "Cricetinae"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_150052",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:11"
+        }, {
+          "val" : "PMID:11043982"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_subspecies"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Yersinia enterocolitica subsp. enterocolitica"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_629",
       "meta" : {
@@ -5898,6 +6081,38 @@
       "type" : "CLASS",
       "lbl" : "Coxiella burnetii"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9479",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "monkey",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "monkeys",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "New World monkeys",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_parvorder"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Platyrrhini"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_5794",
       "meta" : {
         "xrefs" : [ {
@@ -7298,6 +7513,10 @@
       "lbl" : "Bacteria"
     } ],
     "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9479",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_314293"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
@@ -7313,10 +7532,6 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_76804",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_35278"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9526",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_314146"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1496",
       "pred" : "is_a",
@@ -7430,6 +7645,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33183"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9940",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9963"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11084",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_11051"
@@ -7441,6 +7660,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11050",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_35278"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_393305",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_150052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11135",
       "pred" : "is_a",
@@ -7458,10 +7681,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_337687"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_393305",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_629"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5302",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_451864"
@@ -7477,6 +7696,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11234",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_11157"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_367775",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_5206"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5693",
       "pred" : "is_a",
@@ -7514,13 +7737,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_11051"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_91561",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_314145"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1311",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1301"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_91561",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_314145"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
       "pred" : "is_a",
@@ -7557,6 +7780,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_4892",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_716545"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_150052",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_629"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_28344",
       "pred" : "is_a",
@@ -7634,6 +7861,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_213849"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9526",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_314293"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11309",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_35301"
@@ -7706,10 +7937,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5207",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_5302"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_439488",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
@@ -7742,6 +7969,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_35237"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9925",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9963"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5794",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
@@ -7757,6 +7988,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5665",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_38568"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9963",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9895"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_504568",
       "pred" : "is_a",
@@ -7858,6 +8093,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_810"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_314293",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_314146"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_337687",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9989"
@@ -7942,6 +8181,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_117571"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5207",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_5206"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1385",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_91061"
@@ -7958,6 +8201,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_38568"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5206",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_5302"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_197",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_213849"
@@ -7969,10 +8216,6 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5759",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_554915"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9940",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9895"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10298",
       "pred" : "is_a",
@@ -8131,7 +8374,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-12/imports/ncbitaxon_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/imports/ncbitaxon_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

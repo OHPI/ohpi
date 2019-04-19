@@ -579,9 +579,9 @@
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
         "xrefs" : [ {
-          "val" : "UMLS_CUI:C0042131"
-        }, {
           "val" : "MESH:D014591"
+        }, {
+          "val" : "UMLS_CUI:C0042131"
         }, {
           "val" : "ICD9CM:621.9"
         }, {
@@ -2461,6 +2461,54 @@
       "type" : "CLASS",
       "lbl" : "eye disease"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_936",
+      "meta" : {
+        "definition" : {
+          "val" : "A central nervous system disease that is located_in the brain.",
+          "xrefs" : [ "url:https://medlineplus.gov/braindiseases.html" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "SNOMEDCT_US_2018_03_01:76011009"
+        }, {
+          "val" : "UMLS_CUI:C0006111"
+        }, {
+          "val" : "ICD9CM:348.3"
+        }, {
+          "val" : "ICD9CM:348.9"
+        }, {
+          "val" : "SNOMEDCT_US_2018_03_01:81308009"
+        }, {
+          "val" : "ICD10CM:G93.40"
+        }, {
+          "val" : "ICD10CM:G93.9"
+        }, {
+          "val" : "NCI:C96413"
+        }, {
+          "val" : "UMLS_CUI:C0085584"
+        }, {
+          "val" : "ICD9CM:348.30"
+        }, {
+          "val" : "MESH:D001927"
+        }, {
+          "val" : "NCI:C26920"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "encephalopathy",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:8510"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "brain disease"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/DOID_4645",
       "meta" : {
         "subsets" : [ "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
@@ -2864,25 +2912,11 @@
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim" ],
         "xrefs" : [ {
-          "val" : "OMIM:612230"
-        }, {
-          "val" : "OMIM:612231"
-        }, {
-          "val" : "OMIM:612232"
-        }, {
           "val" : "MESH:D015179"
-        }, {
-          "val" : "OMIM:612589"
-        }, {
-          "val" : "OMIM:612592"
         }, {
           "val" : "UMLS_CUI:C1527249"
         }, {
-          "val" : "OMIM:612590"
-        }, {
           "val" : "OMIM:114500"
-        }, {
-          "val" : "OMIM:611469"
         }, {
           "val" : "KEGG:05210"
         } ],
@@ -5301,7 +5335,7 @@
       "id" : "http://purl.obolibrary.org/obo/DOID_219",
       "meta" : {
         "definition" : {
-          "val" : "A large intestine cancer that is located_in the colon.",
+          "val" : "A colorectal cancer that is located_in the colon.",
           "xrefs" : [ "url:http://www.cancer.gov/dictionary?CdrID=44237" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
@@ -6835,6 +6869,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_65"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_219",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_9256"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_3119",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_77"
@@ -7023,6 +7061,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_2531"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_936",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_331"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_734",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_3996"
@@ -7050,6 +7092,10 @@
       "sub" : "http://purl.obolibrary.org/obo/DOID_0050688",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_5672"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_1319",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_936"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_77",
       "pred" : "is_a",
@@ -7339,6 +7385,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_178"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_6713",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_936"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_5877",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_117"
@@ -7347,13 +7397,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_4045"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/DOID_363",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/DOID_345"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_74",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_7"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_363",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_345"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_1100",
       "pred" : "is_a",
@@ -7367,13 +7417,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_3119"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/DOID_176",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/DOID_0050686"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_8864",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_8527"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_176",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_0050686"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_2531",
       "pred" : "is_a",
@@ -7402,10 +7452,6 @@
       "sub" : "http://purl.obolibrary.org/obo/DOID_12969",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_1240"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/DOID_219",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/DOID_5672"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_234",
       "pred" : "is_a",
@@ -7579,10 +7625,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_850"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/DOID_175",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/DOID_178"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_11428",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_5295"
@@ -7622,10 +7664,6 @@
       "sub" : "http://purl.obolibrary.org/obo/DOID_3407",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_0050828"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/DOID_176",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/DOID_1287"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_11054",
       "pred" : "is_a",
@@ -7700,7 +7738,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-17/imports/doid_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/imports/doid_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-17/ohpi-base.obo
+data-version: ohpi/releases/2019-04-19/ohpi-base.obo
 ontology: ohpi/ohpi-base.obo
 property_value: http://purl.org/dc/elements/1.1/contributor "Bin Zhao" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Edison Ong" xsd:string
@@ -389,6 +389,11 @@ name: host Ectromelia virus pathogen interaction
 is_a: OHPI:0000010 ! host viral pathogen interaction
 
 [Term]
+id: OHPI:0000089
+name: virulence factor role
+property_value: IAO:0000117 "Edison Ong" xsd:string
+
+[Term]
 id: OHPI:0000100
 name: human host pathogen interaction
 is_a: OHPI:0000001 ! host pathogen interaction
@@ -590,4 +595,9 @@ id: OHPI:0000036
 name: has host cell line cell
 property_value: IAO:0000117 "Edison Ong, Yongqun He" xsd:string
 is_a: OHPI:0000035 ! has host cell
+
+[Typedef]
+id: OHPI:0000090
+name: gene encoding antigen
+property_value: IAO:0000117 "Edison Ong" xsd:string
 

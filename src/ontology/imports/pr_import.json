@@ -1613,6 +1613,25 @@
       "type" : "CLASS",
       "lbl" : "Medicago sativa"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002215",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002215"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "capable_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "capable_of"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
       "meta" : {
         "synonyms" : [ {
@@ -1736,11 +1755,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9940",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9940",
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
     }, {
@@ -1784,13 +1803,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_287",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_185431",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2759"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_287",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_227377",
       "pred" : "is_a",
@@ -1920,25 +1939,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_4751"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_121791",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_562",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_121791",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_10239"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_170187",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_204722",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_234"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_211044",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_197911"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_204722",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_234"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1502",
       "pred" : "is_a",
@@ -2129,7 +2148,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-17/imports/pr_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/imports/pr_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

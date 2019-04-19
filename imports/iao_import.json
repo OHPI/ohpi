@@ -1251,6 +1251,26 @@
       "type" : "PROPERTY",
       "lbl" : "has_specified_output"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000085",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between an independent continuant (the bearer) and a function, in which the function specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "A bearer can have many functions, and its functions can exist for different periods of time, but none of its functions can exist when the bearer does not exist. A function need not be realized at all the times that the function exists."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this enzyme has function this catalysis function (more colloquially: this enzyme has this catalysis function)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "has_function"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "has function"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0000087",
       "meta" : {
         "definition" : {
@@ -1306,6 +1326,29 @@
       },
       "type" : "CLASS",
       "lbl" : "history"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0000079",
+      "meta" : {
+        "definition" : {
+          "val" : "a relation between a function and an independent continuant (the bearer), in which the function specifically depends on the bearer for its existence",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "is function of"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
+          "val" : "A function inheres in its bearer at all times for which the function exists, however the function need not be realized at all the times that the function exists."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "this catalysis function is a function of this enzyme"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "function_of"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "function of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000066",
       "meta" : {
@@ -2066,10 +2109,10 @@
           "val" : "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] "
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
+          "val" : "a molecule"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
+          "val" : "an organism"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] "
@@ -3976,13 +4019,17 @@
       "pred" : "type",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000225"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000064",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000104"
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000079",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000309",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000308"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000104"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000027",
       "pred" : "is_a",
@@ -3992,13 +4039,13 @@
       "pred" : "inverseOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000030",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000031"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/UO_0000001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/RO_0001000",
       "pred" : "inverseOf",
@@ -4087,6 +4134,10 @@
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000033",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000085",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000053"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000299",
       "pred" : "subPropertyOf",
@@ -4272,6 +4323,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000019"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/RO_0000079",
+      "pred" : "inverseOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000085"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000031",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000002"
@@ -4385,7 +4440,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-17/imports/iao_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/imports/iao_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
@@ -4410,6 +4465,10 @@
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/OBI_0000299",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/OBI_0000011" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0000085",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000004" ],
+      "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000034" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0002002",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000040" ],
@@ -4436,6 +4495,9 @@
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0000058",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000031" ],
       "rangeClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000020" ]
+    }, {
+      "predicateId" : "http://purl.obolibrary.org/obo/RO_0000079",
+      "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000034" ]
     }, {
       "predicateId" : "http://purl.obolibrary.org/obo/RO_0000057",
       "domainClassIds" : [ "http://purl.obolibrary.org/obo/BFO_0000003" ],

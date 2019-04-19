@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-17/imports/pr_import.owl
+data-version: ohpi/releases/2019-04-19/imports/pr_import.owl
 ontology: ohpi/imports/pr_import
 
 [Term]
@@ -751,6 +751,13 @@ id: OBI:0100026
 name: organism
 namespace: obi
 is_a: BFO:0000030 ! object
+
+[Typedef]
+id: capable_of
+name: capable_of
+namespace: protein
+xref: RO:0002215
+is_transitive: false
 
 [Typedef]
 id: derives_from

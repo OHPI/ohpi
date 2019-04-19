@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-17/imports/trans_import.owl
+data-version: ohpi/releases/2019-04-19/imports/trans_import.owl
 ontology: ohpi/imports/trans_import
 
 [Term]

@@ -161,7 +161,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-17/imports/chebi_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/imports/chebi_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

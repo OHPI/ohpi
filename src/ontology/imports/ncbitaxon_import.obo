@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-18/imports/ncbitaxon_import.owl
+data-version: ohpi/releases/2019-04-19/imports/ncbitaxon_import.owl
 ontology: ohpi/imports/ncbitaxon_import
 
 [Term]
@@ -913,6 +913,16 @@ property_value: has_rank NCBITaxon:species
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
 
 [Term]
+id: NCBITaxon:150052
+name: Yersinia enterocolitica subsp. enterocolitica
+namespace: ncbi_taxonomy
+xref: GC_ID:11
+xref: PMID:11043982
+is_a: NCBITaxon:629 ! Yersinia <bacteria>
+property_value: has_rank NCBITaxon:subspecies
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
+
+[Term]
 id: NCBITaxon:1502
 name: Clostridium perfringens
 namespace: ncbi_taxonomy
@@ -1601,7 +1611,7 @@ namespace: ncbi_taxonomy
 synonym: "Yersinia enterocolitica subsp. enterocolitica str. 8081" EXACT []
 synonym: "Yersinia enterocolitica subsp. enterocolitica strain 8081" EXACT []
 xref: GC_ID:11
-is_a: NCBITaxon:629 ! Yersinia <bacteria>
+is_a: NCBITaxon:150052 ! Yersinia enterocolitica subsp. enterocolitica
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncbitaxon.owl
 
 [Term]

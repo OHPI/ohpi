@@ -4050,6 +4050,27 @@
       "type" : "CLASS",
       "lbl" : "Cricetinae"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_150052",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:11"
+        }, {
+          "val" : "PMID:11043982"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_subspecies"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/ncbitaxon.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Yersinia enterocolitica subsp. enterocolitica"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_629",
       "meta" : {
         "xrefs" : [ {
@@ -7640,6 +7661,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_35278"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_393305",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_150052"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11135",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_693995"
@@ -7655,10 +7680,6 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10066",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_337687"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_393305",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_629"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_5302",
       "pred" : "is_a",
@@ -7759,6 +7780,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_4892",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_716545"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_150052",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_629"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_28344",
       "pred" : "is_a",
@@ -8349,7 +8374,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-18/imports/ncbitaxon_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/imports/ncbitaxon_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
