@@ -155,6 +155,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000091 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000091">
+        <obo:IAO_0000115>The idenfier of the entity stored in the Victors database (http://www.violinet.org/protegen/).</obo:IAO_0000115>
+        <obo:IAO_0000117>Edison Ong</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has protegen id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000092 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000092">
+        <obo:IAO_0000115>The annotation of the gene as a protective antigen stored in the Protegen database (http://www.violinet.org/protegen/).</obo:IAO_0000115>
+        <obo:IAO_0000117>Edison Ong</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has protegen annotation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
