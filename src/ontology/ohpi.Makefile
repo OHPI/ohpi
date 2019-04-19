@@ -132,6 +132,15 @@ $(ONT)-merge.json: $(ONT)-merge.owl
 ASSETS += $(ONT)-merge.owl $(ONT)-merge.obo $(ONT)-merge.json
 
 # ----------------------------------------
+# Release
+# ----------------------------------------
+# This should be executed by the release manager whenever time comes to make a release.
+# It will ensure that all assets/files are fresh, and will copy to release folder from staging area (this directory) to top-level
+release: $(ASSETS) $(PATTERN_RELEASE_FILES)
+	rsync -R $(ASSETS) $(RELEASEDIR) && \
+	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
+
+# ----------------------------------------
 # Clean
 # ----------------------------------------
 
