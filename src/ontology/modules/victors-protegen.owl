@@ -1,0 +1,1378 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ohpi/modules/victors-protegen.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ohpi/modules/victors-protegen.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohpi/modules/victors-protegen.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000091 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000091"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000092 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000092"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000090 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000156110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000156110">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011261"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>707</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Study compared the handling of overlapping 24-mer peptides from HIV Nef either mixed or covalently linked in tandem in one protein.  With adjuvant, overlapping peptides were capable of protecting Balb/c mice against lethal viral challenge with 3 Ã— 108 plaque forming units of vv-nef, whereas the intact protein was less protective [PMID:19193636].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000876502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000876502">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010992"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>288</obo:OHPI_0000091>
+        <obo:OHPI_0000092>S. flexneri M90T is a colonisation-defective mutant with a transposon in fnr, which encodes a regulator of anaerobic metabolism. To establish whether FNR-mediated repression of spa32 and spa33 contributes to increased Shigella entry into cells in an anaerobic cabinet, recombinant M90T strains were constructed which contain spa32 and spa33 under the control of either their native promoters (M90Tp32/33) or promoters with disrupted FNR boxes (M90Tp#32/#33).The presence in M90T of spa32 and spa33 alleles that are not repressed by FNR led to IpaB secretion during anaerobic growth, and loss of the increased entry of Shigella into cells in an anaerobic cabinet [PMID:20436458].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000885072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000885072">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0012372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>A selection of previously identified protective Mycobacterium tuberculosis DNA vaccines were re-formulated as proteins and administered with a Th1-inducing adjuvant to help stimulate the relevant immune responses necessary for protection. One candidate (Rv1806-1807) induced protection in the guinea pig aerosol infection model 30 days post-challenge on the basis of reducing the bacterial burden of M. tuberculosis in the lungs [PMID:16520093].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>820</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000885638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000885638">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0012369"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>DNA vaccines encoding  KatG antigen fused to TPA signal sequences evoked  a significant protective response in mice aerogenically challenged with low doses of Mycobacterium tuberculosis Erdman 17 to 21 days after the final immunization [PMID:10456931].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>817</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000886132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000886132">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010952"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Researchers have developed DNA vaccines expressing M. tuberculosis antigen 85A (Ag85A, fbpA) and cytokine granulocyte macrophage colony stimulating factor (GM-CSF).  The immune strategy of BCG-prime and DNA vaccine boost induced mice to generate efficient immune protection against M. tuberculosis challenge [PMID:19450898].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>122</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000886194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000886194">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010951"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>The 10-kDa culture filtrate protein (CFP-10, esxB) and 6-kDa early secretory antigen of T cells (ESAT-6) are secreted in abundance by Mycobacterium tuberculosis.  Study demonstrated that protective immunity is induced by CFP-10 DNA vaccination in C3H mice as measured by a CFU reduction in the lung and spleen 4 and 8 weeks after challenge with M. tuberculosis [PMID:18332205].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>121</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000886209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000886209">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010919"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0012368"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>104</obo:OHPI_0000091>
+        <obo:OHPI_0000092>In a prophylactic vaccine model, immunization with the Mycobacterium tuberculosis protein ESAT-6 with LANAC adjuvant elicited significant protective immunity against aerosol challenge with virulent M. tuberculosis [PMID:16751377].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>816</obo:OHPI_0000091>
+        <obo:OHPI_0000092>The heterologous prime-boost strategy of live Salmonella vaccine expressing Mycobacterium tuberculosis fusion antigen Age5B-ESAT6 (esxA) from the chromosome followed by a systemic boost of antigen and adjuvant reduced the levels of M. tuberculosis bacteria in the lungs and spleen to the same extent as BCG. Additionally, this vaccination regimen was observed to be statistically equivalent in terms of protection to immunisation with BCG [PMID:16751377].    In a prophylactic vaccine model, immunization with the Mycobacterium tuberculosis protein ESAT-6 with LANAC adjuvant elicited significant protective immunity against aerosol challenge with virulent M. tuberculosis [PMID:16751377].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000903370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000903370">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>601</obo:OHPI_0000091>
+        <obo:OHPI_0000092>A total of 11 meningococcal proteins that are necessary for establishing systemic infection were expressed as recombinant antigens and assessed for their ability to protect mice against live bacterial challenge against N. meningitidis; ExbB, which is required for iron acquisition, elicited protective immunity [PMID:15964482].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000911827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000911827">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010864"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>16</obo:OHPI_0000091>
+        <obo:OHPI_0000092>VP35 expressed from alphavirus replicons induced a protective immune response in C57BL/6 mice when challenged with Ebola virus Zaire [PMID:11485406].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000948847 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000948847">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010987"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Antibodies directed at the putative binding region of FimH (anti- s-FimH1-25) significantly reduced E. coli bladder infections in the experimental mouse model of urinary tract infections [PMID:9276729].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>281</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000956528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000956528">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>524</obo:OHPI_0000091>
+        <obo:OHPI_0000092>A targeted fusion protein based on the CTA1-DD adjuvant and containing tandem repeats of the matrix protein 2 (M2e) ectodomain epitope derived from Influenza A virus (A/Puerto Rico/8/34(H1N1)), CTA1-3M2e-DD, confers strong protective immunity against a potentially lethal challenge infection with influenza virus in mice. The formulation was highly effective for mucosal immunizations and promoted high M2e-specific serum IgG and mucosal IgA antibody titers and an hitherto unknown anti-M2e CD4 T cell immunity [PMID:18243429].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000960860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000960860">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010940"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>199</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Mice immunized intranasally with recombinant Tir protein had a survival rate of 92.9% after challenge with EHEC 0157:H7  [PMID:26020530].  Immunization of calves with recombinant EHEC O157 EspA, intimin and Tir resulted in the generation of antibodies capable of cross-reacting with antigens from non-O157 EHEC serotypes, suggesting that immunization with these antigens may provide a degree of cross-protection against other EHEC serotypes [PMID:26020530]</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000960862 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000960862">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010944"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>93</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Systemic immunization of calves with a combination of EspA, intimin-531, and H7 flagellin resulted in a significant reduction in shedding of EHEC O157 to levels predicted to significantly impact on EHEC O157 cattle-to-cattle transmission [PMID:26020530]</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3000987033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3000987033">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0012388"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>842</obo:OHPI_0000091>
+        <obo:OHPI_0000092>In an attempt to generate a subunit vaccine in this experimental disease model, eukaryotic plasmid DNA expression vectors containing genes encoding either the wild-type or modified forms of recombinant listeriolysin O (hly) were generated and used for genetic vaccination of naive mice. Results of these studies indicate that the intramuscular immunization of mice with specifically designed plasmid DNA constructs encoding recombinant forms of listeriolysin O (hly) stimulates peptide-specific CD8+ immune T cells that exhibit in vitro cytotoxic activity. More importantly, such immunization can provide protective immunity against a subsequent challenge with viable L. monocytogenes [PMID:10384131].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001039578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001039578">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Immunization with IutA protects against urinary tract colinization by E.coli CFT073 in the bladders of CBA/J mice [PMID:26729174].  We demonstrated for IutA, antigen-specific serum IgG represents a strong correlate of protection in vaccinated mice [PMID:26729174].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>280</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001147351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001147351">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>351</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Study tested the efficacy of 2 proteins, Psn and a portion of LcrV in protecting mice against virulent Yersinia pestis challenge.  Results show that the truncated LcrV protein delivered by RASV is sufficient to afford a full protective immune response in a mouse model of bubonic plague and the Psn protein afforded partial protection in a non-optimized system [PMID:17966435].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001149129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001149129">
+        <obo:OHPI_0000092>Immunizing mice with a single peptide, YopE(69-77), suffices to confer significant protection from lethal pulmonary challenge [PMID:21653834].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>1074</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001149310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001149310">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010875"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>An LcrV variant lacking amino acid residues 271 to 300 (rV10) elicited immune responses that protected mice against a lethal challenge with Y. pestis [PMID:16041032].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>45</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001149313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001149313">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Modified yopD antigens were able to partially protect immunized mice at various levels against lethal challenge with Y. pestis KIM 1001 strain [PMID:18291562].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>339</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001172643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001172643">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010877"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>48</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment. Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to pla [PMID:10085037].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001172673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001172673">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010878"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>49</obo:OHPI_0000091>
+        <obo:OHPI_0000092>The type III secretion apparatus encoded on the low-calcium response (LCR) virulence plasmid, pCD1 in strain KIM5, of Y. pestis is a conserved virulence mechanism that is absolutely required for virulence of Y. pestis. YscF is a surface localized protein required both to secrete Yops and to translocate toxins into eukaryotic cells. YscF polymerization is possibly required for a YscF needle to puncture eukaryotic cell membranes. It is also likely that YscF and its homologs function to provide a base that a translocon complex is built upon, or that YscF builds a conduit from the bacterium to the eukaryotic membrane - this suggestion seems more likely given that other proteins such as YopB, YopD, and LcrV are also required for translocation into eukaryotic cells. YscF is thought to be a surface-expressed protein in Y. pestis and is required for virulence. YscF has been found to function as a protective antigen against experimental plague infection [PMID:15978133].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001172676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001172676">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>MAb BA5 protected animals against plague, neutralized the Y. pestis type III secretion pathway and promoted opsonophagocytic clearance of bacteria in blood. LcrV residues 196-225 were necessary and sufficient for MAb BA5 binding.  These results identify LcrV residues 196-225 as a linear epitope that is recognized by the murine immune system to confer plague protection [PMID:20005318].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>44</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001172712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001172712">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0012359"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>51</obo:OHPI_0000091>
+        <obo:OHPI_0000091>352</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment.  Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to yopH [PMID:10085037].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001196780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001196780">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010969"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>protective antigen [PMID:17239499]</obo:OHPI_0000092>
+        <obo:OHPI_0000091>256</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001196960 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001196960">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010966"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Brucella Omp25 is a protective antigen [PMID:17049676].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>253</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001238054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001238054">
+        <obo:OHPI_0000092>The invasive ability of Shigella spp. is correlated with the expression of several plasmid-encoded proteins, including invasion plasmid antigen C (IpaC).  Animals asymptomatic for shigellosis after challenge with S. flexneri recognized peptide epitopes within all three epitopic regions of IpaC, whereas symptomatic animals recognized peptides in only one or two of the epitopic regions.  Antibody from monkeys challenged with S. sonnei recognized IpaC peptide epitopes which fell within and outside the three S. flexneri epitopic regions [PMID:7558301].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>310</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001449458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001449458">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011321"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Mice actively immunized using a recombinant V antigen (rVagHis, encoded by lcrV gene) of Y. enterocolitica were completely protected against challenge with both, Y. enterocolitica 0:8 and Y. pseudotuberculosis serotype III [PMID:10089162].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>790</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001489803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001489803">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011170"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Lewis rats were immunized with recombinant vaccinia virus (VV) expressing various proteins of measles virus (MV). VVM (Matrix Protein) -immunized rats were partially protected from MV challenge [PMID:1833505].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>581</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001489805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001489805">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011169"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Lewis rats were immunized with recombinant vaccinia virus (VV) expressing various proteins of measles virus (MV). VVP (Phosphoprotein) -immunized rats were partially protected from MV challenge [PMID:1833505].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>580</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3001489853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001489853">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011232"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>648</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Mice vaccinated intraperitoneally (i.p.) with 10^7 p.f.u. of a vaccinia virus recombinant expressing either the glycoprotein (rVac-G) or nucleoprotein (rVac-N) of rabies virus 3 weeks before challenge were protected against peripheral lethal infection [PMID:8207400].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3002614504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3002614504">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011272"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Antibodies generated against TcpF are protective against experimental V. cholerae infection in the infant mouse cholera model [PMID:16040956].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>733</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3002664290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3002664290">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Researchers constructed isogenic mutants of B. pertussis Tohama expressing the alleles ptxA1 or ptxA2 and prn1 or prn2 and compared the efficacies of an acellular pertussis vaccine against the mutants in a mouse model. While the vaccine was effective against all of the B. pertussis strains regardless of the allele expression pattern, the strain expressing ptxA1 and prn2 displayed a survival advantage over the other strains [PMID:20357056].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>378</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3002665068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3002665068">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>BALB/c mice were immunized with PTx vaccine on day 6 of life and then challenged with B. pertussis using the aerosol challenge model.  These primed mice were significantly better protected against leukocytosis, weight loss, and proliferation of B. pertussis in the lungs following aerosol challenge than the nonprimed group. This protection correlated with levels of anti-PT antibody in serum present on the day of aerosol challenge [PMID:12117973].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>379</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3002667056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3002667056">
+        <obo:OHPI_0000091>380</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Researchers examined the ability of B. pertussis mutants, defective in their ability to regulate the expression of the bvg-activated and/or the bvg-repressed genes, to cause disease in the mouse aerosol challenge model. Results indicate that the bvgR-mediated regulation of gene expression contributes to respiratory infection of mice [PMID:9712789].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3002667059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3002667059">
+        <obo:OHPI_0000091>381</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Alterations to the promoter regions of bvg-activated genes can alter the kinetic pattern of expression of these genes without changing steady-state transcription levels. In addition, B. pertussis strains containing these promoter alterations that express either ptx at an early time or fha at a late time demonstrate a significant reduction in their ability to colonize respiratory tracts in an intranasal mouse model of infection [PMID:11254549].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3002703406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3002703406">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>501</obo:OHPI_0000091>
+        <obo:OHPI_0000092>BALB/c mice receiving a glycoprotein D1 (gD1, US5) DNA vaccine alone were 80% protected against a subsequent HSV-1 challenge.  Results also indicate that the administration of NLX as an adjuvant improved protective immunity against HSV-1 [PMID:19174474].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3002703448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3002703448">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011104"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Protection against a lethal intraperitoneal challenge of HSV-1 (5 x 10(4) pfu) with gC or gE (US8) plasmid vaccination could be demonstrated if the inoculating dose of DNA was 250 microg. All mice immunized with vaccinia recombinants expressing either gC or gE survived HSV-1 challenge [PMID:9728527].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>507</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3002952540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3002952540">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011242"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>658</obo:OHPI_0000091>
+        <obo:OHPI_0000092>To examine the response by IE180 more closely, a vaccine trial in mice with a vector DNA construct that contains the gene encoding for IE180, designated pcDNAIE180 was conducted.  Seven months after immunization with pcDNAIE180, an overall 25% of BALB/c, C3H/HeJ, and C57BL/6 mice receiving a lethal PrV challenge were protected [PMID:9586695].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3003191591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003191591">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>470</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Mice immunized with rLm/iglC were protected against lethal challenge with F. tularensis LVS administered by the intranasal route, a route chosen to mimic airborne infection, and, most importantly, against aerosol challenge with the highly virulent Type A F. tularensis SchuS4 strain [PMID:19126421].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3003191792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003191792">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Anti-lpnA MAbs conferred significant, although not complete, protection of naÃ¯ve C3H/HeN mice from lethal challenge with F. tularensis LVS when administered therapeutically [PMID:19176692].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>477</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3003429565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003429565">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Rabbit antibody prepared against P2 from one strain was cross-reactive with P2 isolated from the other two heterologous strains by Western blot. This antibody passively protected infant rats against type b Haemophilus infection caused by the homologous organism, but not against challenge by a strain with the heterologous 36,500 mol wt P2 protein [PMID:6603479].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>485</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3003707557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003707557">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010935"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>62</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Mice were immunized with recombinant H3L protein to examine H3L-specific antibody responses in greater detail. H3L-immunized mice developed high-titer vaccinia virus-neutralizing antibodies (mean PRNT50 = 1:3,760). Importantly, H3L-immunized mice were subsequently protected against lethal intranasal challenges with 1 or 5 50% lethal doses (LD50) of pathogenic vaccinia virus strain WR, demonstrating the in vivo value of an anti-H3L response. To formally demonstrate that neutralizing anti-H3L antibodies are protective in vivo, we performed anti-H3L serum passive-transfer experiments. Mice receiving H3L-neutralizing antiserum were protected from a lethal challenge with 3 LD50 of vaccinia virus strain WR (5/10 versus 0/10; P &lt; 0.02) [PMID:16140750].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3003788831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003788831">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010972"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>259</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Brucella Omp19 is a protective antigen [PMID:18981242].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3003827840 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003827840">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010856"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>3</obo:OHPI_0000091>
+        <obo:OHPI_0000092>IMMUNOGENICITY: Induces antigen-specific Th1 immune response, as indicated by the specific induction of serum IgG2a, but not IgG1, antibodies and by the secretion of IFN-Î³, but not IL-4, by the Cu/Zn SOD-stimulated splenocytes. Has been used for vaccine development [PMID:15845493][PMID:15845493][PMID:15845493].      MUTATION: An isogenic sodC mutant constructed from B abortus 2308 by gene replacement exhibited much greater susceptibility to killing by exogenous O(2)(-) than the parental 2308 strain, supporting a role for SodC in protecting this bacterium from O(2)(-) stress. The B abortus sodC mutant was much more sensitive to killing by cultured resident peritoneal macrophages from C57BL6J mice than 2308, and its attenuation in cultured murine macrophages was enhanced when these phagocytes were treated with gamma interferon. The attenuation of the B abortus sodC mutant in both resting and IFN-gamma-activated macrophages was alleviated in the presence of the NADPH oxidase inhibitor apocynin. Consistently, the B abortus sodC mutant also displayed significant attenuation in infected C57BL6J mice compared to the parental strain. These findings suggest that SodC protects B abortus 2308 from the respiratory burst of host macrophages [PMID:15845493].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3003992235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003992235">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010945"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>263</obo:OHPI_0000091>
+        <obo:OHPI_0000092>FimH is a protective antigen [PMID:9110982]  Of the vaccine preparations, Fusion, Fusion + CT, and FimH admixed with FliC and CT showed the best protection against UPEC (Asadi et al., 2016).</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3004441159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3004441159">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011203"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Mice were actively immunized with a fragment of choline binding protein A (CbpA; also known as PspC, Hic, and SpsA). CbpA was able to protect mice from intraperitoneal challenge with medium to very high doses of a highly virulent capsular type 2 pneumococcal strain, D39 [PMID:11553536].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>619</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3004441373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3004441373">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011204"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Groups of BALB/c mice immunized with choline binding protein PspA were challenged with either D39 or WCH16. PspA elicited protection by using moderate challenge doses of S. pneumoniae [PMID:17088353].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>620</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3004441476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3004441476">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011193"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>The protective effects of ATP-dependent caseinolytic protease (ClpP) was evaluated. Vaccinated mice were intraperitoneally and/or intranasally challenged with different pneumococcal strains. In intraperitoneal challenge models with pneumococcal strain D39 (serotype 2), clpP elicited some protection in mice [PMID:20038538].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>608</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3004441611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3004441611">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011192"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>607</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Immunization with the pneumococcal proteins pneumolysin (Ply), choline binding protein A (CbpA), or pneumococcal surface protein A (PspA) elicits protective responses against invasive pneumococcal disease in animal models.[PMID:26245351]</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3004442999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3004442999">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>615</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Intraperitoneal immunization with recombinant SrtA was found to have  conferred to mice protection against S. pneumoniae intraperitoneal challenge and the passive transfer of immune serum before intraperitoneal challenge was also protective. Moreover, by using the intranasal challenge model,  significant reduction of bacteremia when mice were intraperitoneally immunized with SrtA was observed, while a moderate decrease of lung infection was achieved by intranasal immunization, even though no influence on nasopharynx colonization was seen [PMID:19433540].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3005211814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3005211814">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0012373"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Purified preparations of HBHA were emulsified in a dimethyldioctadecylammonium bromide-monophosphoryl lipid A adjuvant and tested for the ability to reduce M. tuberculosis infection in the mouse aerosol challenge model for tuberculosis. The HBHA-containing vaccine gave a approximately 0.7-log reduction in CFU in both mouse lungs and spleens compared to adjuvant controls 28 days following challenge [PMID:15557600].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>821</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3005398487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3005398487">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010903"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>448</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Mice and rabbits were immunized with recombinant HCR/A1 (rHCR/A1) from the classical type A-Hall strain (ATCC 3502) (BoNT/A1) and rHCR/E from BoNT serotype E Beluga (BoNT/E(B)).  The protection elicited by rHCR/A1 to BoNT/A1 and BoNT/A2 and by rHCR/E(B) to BoNT/E(A) indicate that immunization with receptor binding domains elicit protection within sub-serotypes of BoNT [PMID:16177380].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3005522688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3005522688">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>472</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Immunization with WbtI(G191V) protected mice against a relatively low-dose intraperitoneal challenge with LVS (F. tularensis subspecies holarctica live vaccine strain), but was less protective against a high-dose challenge [PMID:17768257].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3006030102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3006030102">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010904"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>The DNA replicon vaccine (pSCARSBHc) encoding the Hc domain of BoNT/B (BHc) induced better responses and protection against BoNT/B mouse challenge than conventional DNA vaccine.  Recombinant SFV particle VRP-BHc protected mice from high-dose BoNT/B challenge [PMID:28869522]. The production of ciBoNT/B1 HP, ciBoNT/C1 HP, ciBoNT/E1 HP and ciBoNT/F1 HP suggest the ciBoNT HP vaccines exhibit superior potency after single vaccinations.[PMID:28869522]</obo:OHPI_0000092>
+        <obo:OHPI_0000091>449</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3007329552 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3007329552">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011197"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Mice immunized with recombinant (r)PsrP(BR) had significantly less bacteria in their blood and improved survival versus controls following intranasal challenge [PMID:19627498].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>613</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3007379404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3007379404">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010988"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000092>Active immunization of BALB/c mice with IroN antigen in Freund&apos;s adjuvant protects mice from lethal challenge with ExPEC strain S26 [PMID:17145948].</obo:OHPI_0000092>
+        <obo:OHPI_0000091>282</obo:OHPI_0000091>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3007900172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3007900172">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>326</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Oral immunization of mice with ZJ111/pcDNA3-SAG1 elicited specific humoral responses and stimulated proliferation of splenocytes (P&lt;0.05). Mice immunized with ZJ111/pcDNA3-SAG1 displayed significant protection against an intraperitoneally challenge with 500 tachyzoite forms of T. gondii RH strain. Vaccination at 10(7) and 10(8)CFU per mice provided a 20% and 10% survival rate comparing 100% mortality of the non-immunized mice, exhibiting longer living time and better survival rate [PMID:18590785].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGG_3007901253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3007901253">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011174"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OHPI_0000091>587</obo:OHPI_0000091>
+        <obo:OHPI_0000092>Protective experiments of DNA vaccine pcDNA3-MIC3 (pMIC3i) in Kumming mice showed that the vaccine could significantly prolong the survival time of the mice challenged by virulent RH strains of T. gondii [PMID:19800170].</obo:OHPI_0000092>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010856"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010864"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010874"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010875"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010877"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010878 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010878"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010903"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010904 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010904"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010919 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010919"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010935"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010940"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010944"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010945"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010951"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010952"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010966"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010969 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010969"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010972"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010986"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010987"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010988"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0010992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010992"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011014"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011033"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011034"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011072"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011074"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011079"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011084"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011098"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011104"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011169"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011170"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011174"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011186"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011192"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011193"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011197"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011199"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011203"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011204"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011242"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011261"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011272"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0011321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011321"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0012359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012359"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0012368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012368"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0012369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012369"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0012372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012372"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0012373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012373"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0012388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012388"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.1.2018) http://owlapi.sourceforge.net -->
+
