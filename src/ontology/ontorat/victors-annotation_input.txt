@@ -28,6 +28,7 @@ edit existing classes with term IDs defined in column C
 
 [Superclasses]
 # Note: Use comma to separate classes 
+'has role' some <http://purl.obolibrary.org/obo/OHPI_0000089>
 
 
 [Terms used to define anntoations, equivalent classes and superclasses]
@@ -37,6 +38,7 @@ AnnotationProperty:
 'has victor annotation': <http://purl.obolibrary.org/obo/OHPI_0000008>
 Class:
 ObjectProperty:
+'has role': <http://purl.obolibrary.org/obo/RO_0000087>
 DataProperty:
 
 [Term URIs start with]
