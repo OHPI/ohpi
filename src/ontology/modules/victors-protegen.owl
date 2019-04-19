@@ -530,36 +530,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGG_3001196780 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001196780">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010969"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:OHPI_0000092>protective antigen [PMID:17239499]</obo:OHPI_0000092>
-        <obo:OHPI_0000091>256</obo:OHPI_0000091>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_3001196960 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001196960">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010966"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:OHPI_0000092>Brucella Omp25 is a protective antigen [PMID:17049676].</obo:OHPI_0000092>
-        <obo:OHPI_0000091>253</obo:OHPI_0000091>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OGG_3001238054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3001238054">
@@ -782,51 +752,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGG_3003707557 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003707557">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010935"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:OHPI_0000091>62</obo:OHPI_0000091>
-        <obo:OHPI_0000092>Mice were immunized with recombinant H3L protein to examine H3L-specific antibody responses in greater detail. H3L-immunized mice developed high-titer vaccinia virus-neutralizing antibodies (mean PRNT50 = 1:3,760). Importantly, H3L-immunized mice were subsequently protected against lethal intranasal challenges with 1 or 5 50% lethal doses (LD50) of pathogenic vaccinia virus strain WR, demonstrating the in vivo value of an anti-H3L response. To formally demonstrate that neutralizing anti-H3L antibodies are protective in vivo, we performed anti-H3L serum passive-transfer experiments. Mice receiving H3L-neutralizing antiserum were protected from a lethal challenge with 3 LD50 of vaccinia virus strain WR (5/10 versus 0/10; P &lt; 0.02) [PMID:16140750].</obo:OHPI_0000092>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_3003788831 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003788831">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010972"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:OHPI_0000091>259</obo:OHPI_0000091>
-        <obo:OHPI_0000092>Brucella Omp19 is a protective antigen [PMID:18981242].</obo:OHPI_0000092>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OGG_3003827840 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003827840">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0010856"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:OHPI_0000091>3</obo:OHPI_0000091>
-        <obo:OHPI_0000092>IMMUNOGENICITY: Induces antigen-specific Th1 immune response, as indicated by the specific induction of serum IgG2a, but not IgG1, antibodies and by the secretion of IFN-Î³, but not IL-4, by the Cu/Zn SOD-stimulated splenocytes. Has been used for vaccine development [PMID:15845493][PMID:15845493][PMID:15845493].      MUTATION: An isogenic sodC mutant constructed from B abortus 2308 by gene replacement exhibited much greater susceptibility to killing by exogenous O(2)(-) than the parental 2308 strain, supporting a role for SodC in protecting this bacterium from O(2)(-) stress. The B abortus sodC mutant was much more sensitive to killing by cultured resident peritoneal macrophages from C57BL6J mice than 2308, and its attenuation in cultured murine macrophages was enhanced when these phagocytes were treated with gamma interferon. The attenuation of the B abortus sodC mutant in both resting and IFN-gamma-activated macrophages was alleviated in the presence of the NADPH oxidase inhibitor apocynin. Consistently, the B abortus sodC mutant also displayed significant attenuation in infected C57BL6J mice compared to the parental strain. These findings suggest that SodC protects B abortus 2308 from the respiratory burst of host macrophages [PMID:15845493].</obo:OHPI_0000092>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OGG_3003992235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3003992235">
@@ -1022,27 +947,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OGG_3007901253 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGG_3007901253">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000090"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/VO_0011174"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:OHPI_0000091>587</obo:OHPI_0000091>
-        <obo:OHPI_0000092>Protective experiments of DNA vaccine pcDNA3-MIC3 (pMIC3i) in Kumming mice showed that the vaccine could significantly prolong the survival time of the mice challenged by virulent RH strains of T. gondii [PMID:19800170].</obo:OHPI_0000092>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010856 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010856"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0010864 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010864"/>
@@ -1091,12 +995,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/VO_0010935 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010935"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/VO_0010940 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010940"/>
@@ -1124,24 +1022,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0010952 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010952"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010966 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010966"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010969 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010969"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0010972 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0010972"/>
     
 
 
@@ -1256,12 +1136,6 @@
     <!-- http://purl.obolibrary.org/obo/VO_0011170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011170"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0011174 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0011174"/>
     
 
 
