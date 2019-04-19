@@ -415,6 +415,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000090 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000090">
+        <obo:IAO_0000117>Edison Ong</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">gene encoding antigen</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
