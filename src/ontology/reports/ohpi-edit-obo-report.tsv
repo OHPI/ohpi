@@ -184,12 +184,11 @@ WARN	missing_definition	OHPI:0000087	IAO:0000115
 WARN	missing_definition	OHPI:0000087	IAO:0000600		
 WARN	missing_definition	OHPI:0000088	IAO:0000115		
 WARN	missing_definition	OHPI:0000088	IAO:0000600		
-WARN	missing_definition	OHPI:0000089	IAO:0000115		
 WARN	missing_definition	OHPI:0000089	IAO:0000600		
 WARN	missing_definition	OHPI:0000090	IAO:0000115		
 WARN	missing_definition	OHPI:0000090	IAO:0000600		
-WARN	missing_definition	OHPI:0000091	IAO:0000600		
-WARN	missing_definition	OHPI:0000092	IAO:0000600		
+WARN	missing_definition	OHPI:0000093	IAO:0000600		
+WARN	missing_definition	OHPI:0000094	IAO:0000600		
 WARN	missing_definition	OHPI:0000100	IAO:0000115		
 WARN	missing_definition	OHPI:0000100	IAO:0000600		
 WARN	missing_definition	OHPI:0000101	IAO:0000115		

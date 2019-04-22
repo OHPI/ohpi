@@ -790,7 +790,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/imports/cl_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/cl_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

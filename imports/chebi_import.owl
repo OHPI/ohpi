@@ -11,7 +11,7 @@
      xmlns:chebi1="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohpi/imports/chebi_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/imports/chebi_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/chebi_import.owl"/>
     </owl:Ontology>
     
 

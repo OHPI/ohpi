@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-19/ohpi-base.obo
+data-version: ohpi/releases/2019-04-22/ohpi-base.obo
 ontology: ohpi/ohpi-base.obo
 property_value: http://purl.org/dc/elements/1.1/contributor "Bin Zhao" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Edison Ong" xsd:string
@@ -390,8 +390,24 @@ is_a: OHPI:0000010 ! host viral pathogen interaction
 
 [Term]
 id: OHPI:0000089
+name: virulence factor gene role
+def: "A virulence factor role that is inherited in a gene that can encode for a protein, and either the gene or the protein will play the role of a virulence factor." []
+is_a: OHPI:0000093 ! virulence factor role
+property_value: IAO:0000117 "Edison Ong, Oliver He" xsd:string
+
+[Term]
+id: OHPI:0000093
 name: virulence factor role
-property_value: IAO:0000117 "Edison Ong" xsd:string
+def: "A role that is inherited in a pathogen molecule that makes the pathogen virulence in terms of colonization, immunoevasion, immunosuppression, entry into or exit out of host cell, and obtaining nutrient from the host." []
+property_value: definition:editor "Oliver He, Edison Ong" xsd:string
+property_value: IAO:0000119 https://en.wikipedia.org/wiki/Virulence_factor xsd:string
+
+[Term]
+id: OHPI:0000094
+name: virulence factor protein role
+def: "A virulence factor role that is inherited in a protein" []
+is_a: OHPI:0000093 ! virulence factor role
+property_value: definition:editor "Oliver He, Edison Ong" xsd:string
 
 [Term]
 id: OHPI:0000100
@@ -568,33 +584,33 @@ property_value: IAO:0000117 "Edison Ong; Yongqun He; Yu Lin" xsd:string
 
 [Typedef]
 id: OHPI:0000026
-name: has host
+name: has HPI host
 def: "An object property that represents a relation between a host-pathogen interaction process and an organism (or tissue or cell as part of the organism, or cell line cell derived from organism) which serves as the host that participates in the process." []
-property_value: IAO:0000117 "Edison Ong, Yongqun He" xsd:string
+property_value: IAO:0000117 "Edison Ong; Yongqun He" xsd:string
 
 [Typedef]
 id: OHPI:0000029
-name: has pathogen
+name: has HPI pathogen
 def: "An object property that represents a relation between a host-pathogen interaction process and an organism (or virus) which serves as the pathgen that participates in the process." []
-property_value: IAO:0000117 "Edison Ong, Yongqun He" xsd:string
+property_value: IAO:0000117 "Edison Ong; Yongqun He" xsd:string
 
 [Typedef]
 id: OHPI:0000033
-name: has host organism
-property_value: IAO:0000117 "Edison Ong, Yongqun He" xsd:string
-is_a: OHPI:0000026 ! has host
+name: has HPI host organism
+property_value: IAO:0000117 "Edison Ong; Yongqun He" xsd:string
+is_a: OHPI:0000026 ! has HPI host
 
 [Typedef]
 id: OHPI:0000035
-name: has host cell
-property_value: IAO:0000117 "Edison Ong, Yongqun He" xsd:string
-is_a: OHPI:0000026 ! has host
+name: has HPI host cell
+property_value: IAO:0000117 "Edison Ong; Yongqun He" xsd:string
+is_a: OHPI:0000026 ! has HPI host
 
 [Typedef]
 id: OHPI:0000036
-name: has host cell line cell
-property_value: IAO:0000117 "Edison Ong, Yongqun He" xsd:string
-is_a: OHPI:0000035 ! has host cell
+name: has HPI host cell line cell
+property_value: IAO:0000117 "Edison Ong; Yongqun He" xsd:string
+is_a: OHPI:0000035 ! has HPI host cell
 
 [Typedef]
 id: OHPI:0000090

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-19/imports/chebi_import.owl
+data-version: ohpi/releases/2019-04-22/imports/chebi_import.owl
 ontology: ohpi/imports/chebi_import
 
 [Term]

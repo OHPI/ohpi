@@ -2596,20 +2596,20 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/BFO_0000016",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IDO_0000633",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IDO_0000586"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
     } ],
     "id" : "http://purl.obolibrary.org/obo/ohpi/imports/ido_import.owl",
     "meta" : {
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/imports/ido_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/ido_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

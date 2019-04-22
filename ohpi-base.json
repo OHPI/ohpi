@@ -85,11 +85,11 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Edison Ong, Yongqun He"
+          "val" : "Edison Ong; Yongqun He"
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "has host organism"
+      "lbl" : "has HPI host organism"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000034",
       "type" : "CLASS",
@@ -99,21 +99,21 @@
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Edison Ong, Yongqun He"
+          "val" : "Edison Ong; Yongqun He"
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "has host cell"
+      "lbl" : "has HPI host cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000036",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Edison Ong, Yongqun He"
+          "val" : "Edison Ong; Yongqun He"
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "has host cell line cell"
+      "lbl" : "has HPI host cell line cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000037",
       "type" : "CLASS",
@@ -135,11 +135,11 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Edison Ong, Yongqun He"
+          "val" : "Edison Ong; Yongqun He"
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "has pathogen"
+      "lbl" : "has HPI pathogen"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000020",
       "type" : "CLASS",
@@ -179,11 +179,11 @@
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Edison Ong, Yongqun He"
+          "val" : "Edison Ong; Yongqun He"
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "has host"
+      "lbl" : "has HPI host"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000090",
       "meta" : {
@@ -195,33 +195,36 @@
       "type" : "PROPERTY",
       "lbl" : "gene encoding antigen"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/OHPI_0000091",
+      "id" : "http://purl.obolibrary.org/obo/OHPI_0000093",
       "meta" : {
         "definition" : {
-          "val" : "The idenfier of the entity stored in the Victors database (http://www.violinet.org/protegen/).",
+          "val" : "A role that is inherited in a pathogen molecule that makes the pathogen virulence in terms of colonization, immunoevasion, immunosuppression, entry into or exit out of host cell, and obtaining nutrient from the host.",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Edison Ong"
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "Oliver He, Edison Ong"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "https://en.wikipedia.org/wiki/Virulence_factor"
         } ]
       },
-      "type" : "PROPERTY",
-      "lbl" : "has protegen id"
+      "type" : "CLASS",
+      "lbl" : "virulence factor role"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/OHPI_0000092",
+      "id" : "http://purl.obolibrary.org/obo/OHPI_0000094",
       "meta" : {
         "definition" : {
-          "val" : "The annotation of the gene as a protective antigen stored in the Protegen database (http://www.violinet.org/protegen/).",
+          "val" : "A virulence factor role that is inherited in a protein",
           "xrefs" : [ ]
         },
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Edison Ong"
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "Oliver He, Edison Ong"
         } ]
       },
-      "type" : "PROPERTY",
-      "lbl" : "has protegen annotation"
+      "type" : "CLASS",
+      "lbl" : "virulence factor protein role"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000016",
       "type" : "CLASS",
@@ -335,7 +338,7 @@
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "has victors annotation"
+      "lbl" : "has Victors annotation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000009",
       "meta" : {
@@ -349,7 +352,7 @@
         } ]
       },
       "type" : "PROPERTY",
-      "lbl" : "has victors id"
+      "lbl" : "has Victors id"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000085",
       "type" : "CLASS",
@@ -401,13 +404,17 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000089",
       "meta" : {
+        "definition" : {
+          "val" : "A virulence factor role that is inherited in a gene that can encode for a protein, and either the gene or the protein will play the role of a virulence factor.",
+          "xrefs" : [ ]
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
-          "val" : "Edison Ong"
+          "val" : "Edison Ong, Oliver He"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "virulence factor role"
+      "lbl" : "virulence factor gene role"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000123",
       "type" : "CLASS",
@@ -756,13 +763,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000110",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000109"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000055",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000110",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000109"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000074",
       "pred" : "is_a",
@@ -828,17 +835,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000010"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000094",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000093"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000058",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000011",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000058",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000048",
       "pred" : "is_a",
@@ -864,13 +875,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000078",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000024",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000078",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000038",
       "pred" : "is_a",
@@ -924,13 +935,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000007"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000012",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000049",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000036",
       "pred" : "subPropertyOf",
@@ -940,17 +951,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000113",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000112",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000112"
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000102",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000101"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000112",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000113",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000112"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000100",
       "pred" : "is_a",
@@ -964,11 +975,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000122"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000016",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000039",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000039",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000016",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
@@ -988,13 +999,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000113"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000124",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000125",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000124"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000124",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000060",
       "pred" : "is_a",
@@ -1047,6 +1058,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000033",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000089",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000093"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000107",
       "pred" : "is_a",
@@ -1125,7 +1140,7 @@
         "pred" : "http://purl.org/dc/elements/1.1/title",
         "val" : "OHPI: Ontology of Host-Pathogen Interactions"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-19/ohpi-base.json"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/ohpi-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -53,6 +53,7 @@
 <http://purl.obolibrary.org/obo/OHPI_0000126>		
 <http://purl.obolibrary.org/obo/NCBITaxon_9940>		
 <http://purl.obolibrary.org/obo/OHPI_0000114>		
+<http://purl.obolibrary.org/obo/OHPI_0000093>	"A role that is inherited in a pathogen molecule that makes the pathogen virulence in terms of colonization, immunoevasion, immunosuppression, entry into or exit out of host cell, and obtaining nutrient from the host."	
 <http://purl.obolibrary.org/obo/CLO_0006953>		
 <http://purl.obolibrary.org/obo/OHPI_0000050>		
 <http://purl.obolibrary.org/obo/OHPI_0000074>		
@@ -100,6 +101,7 @@
 <http://purl.obolibrary.org/obo/CL_0000235>		
 <http://purl.obolibrary.org/obo/NCBITaxon_8015>		
 <http://purl.obolibrary.org/obo/CL_0002563>		
+<http://purl.obolibrary.org/obo/OHPI_0000094>	"A virulence factor role that is inherited in a protein"	
 <http://purl.obolibrary.org/obo/NCBITaxon_10239>		
 <http://purl.obolibrary.org/obo/OHPI_0000028>		
 <http://purl.obolibrary.org/obo/NCBITaxon_10150>		
@@ -150,6 +152,7 @@
 <http://purl.obolibrary.org/obo/NCBITaxon_10047>		
 <http://purl.obolibrary.org/obo/NCBITaxon_80614>		
 <http://purl.obolibrary.org/obo/NCBITaxon_7955>		
+<http://purl.obolibrary.org/obo/OHPI_0000089>	"A virulence factor role that is inherited in a gene that can encode for a protein, and either the gene or the protein will play the role of a virulence factor."	
 <http://purl.obolibrary.org/obo/NCBITaxon_6239>		
 <http://purl.obolibrary.org/obo/OHPI_0000119>		
 <http://purl.obolibrary.org/obo/OHPI_0000107>		
