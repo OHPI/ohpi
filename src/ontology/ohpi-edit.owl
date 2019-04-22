@@ -370,8 +370,8 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000026">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <obo:IAO_0000115>An object property that represents a relation between a host-pathogen interaction process and an organism (or tissue or cell as part of the organism, or cell line cell derived from organism) which serves as the host that participates in the process.</obo:IAO_0000115>
-        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has host</rdfs:label>
+        <obo:IAO_0000117>Edison Ong; Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has HPI host</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -381,8 +381,8 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000029">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
         <obo:IAO_0000115>An object property that represents a relation between a host-pathogen interaction process and an organism (or virus) which serves as the pathgen that participates in the process.</obo:IAO_0000115>
-        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has pathogen</rdfs:label>
+        <obo:IAO_0000117>Edison Ong; Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has HPI pathogen</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -391,8 +391,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000033">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
-        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has host organism</rdfs:label>
+        <obo:IAO_0000117>Edison Ong; Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has HPI host organism</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -401,8 +401,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000035">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000026"/>
-        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has host cell</rdfs:label>
+        <obo:IAO_0000117>Edison Ong; Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has HPI host cell</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -411,8 +411,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000036">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000035"/>
-        <obo:IAO_0000117>Edison Ong, Yongqun He</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has host cell line cell</rdfs:label>
+        <obo:IAO_0000117>Edison Ong; Yongqun He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has HPI host cell line cell</rdfs:label>
     </owl:ObjectProperty>
     
 
