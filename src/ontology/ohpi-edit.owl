@@ -142,7 +142,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000008">
         <obo:IAO_0000115 xml:lang="en">The annotation of the gene as a virulence factor stored in the Victors database (http://www.phidias.us/victors/).</obo:IAO_0000115>
         <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has victors annotation</rdfs:label>
+        <rdfs:label xml:lang="en">has Victors annotation</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -152,7 +152,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OHPI_0000009">
         <obo:IAO_0000115 xml:lang="en">The idenfier of the entity stored in the Victors database (http://www.phidias.us/victors/).</obo:IAO_0000115>
         <obo:IAO_0000117>Edison Ong; Yongqun He; Yu Lin</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">has victors id</rdfs:label>
+        <rdfs:label xml:lang="en">has Victors id</rdfs:label>
     </owl:AnnotationProperty>
     
 
