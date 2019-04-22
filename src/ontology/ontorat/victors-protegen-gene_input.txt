@@ -26,7 +26,7 @@ edit existing classes with term IDs defined in column B
 
 [Superclasses]
 # Note: Use comma to separate classes 
-'gene encoding antigen' some <{$columnE}>
+'gene encoding antigen' some <http://purl.obolibrary.org/obo/{$columnE}>
 
 
 [Terms used to define anntoations, equivalent classes and superclasses]
