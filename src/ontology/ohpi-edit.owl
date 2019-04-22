@@ -3090,9 +3090,33 @@
     <!-- http://purl.obolibrary.org/obo/OHPI_0000089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000093"/>
+        <obo:IAO_0000115>A virulence factor role that is inherited in a gene that can encode for a protein, and either the gene or the protein will play the role of a virulence factor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Edison Ong, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">virulence factor gene role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000117>Edison Ong</obo:IAO_0000117>
+        <obo:IAO_0000115>A role that is inherited in a pathogen molecule that makes the pathogen virulence in terms of colonization, immunoevasion, immunosuppression, entry into or exit out of host cell, and obtaining nutrient from the host.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Virulence_factor</obo:IAO_0000119>
+        <cellline:definition_editor>Oliver He, Edison Ong</cellline:definition_editor>
         <rdfs:label xml:lang="en">virulence factor role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000093"/>
+        <obo:IAO_0000115>A virulence factor role that is inherited in a protein</obo:IAO_0000115>
+        <cellline:definition_editor>Oliver He, Edison Ong</cellline:definition_editor>
+        <rdfs:label xml:lang="en">virulence factor protein role</rdfs:label>
     </owl:Class>
     
 
