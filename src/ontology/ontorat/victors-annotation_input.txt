@@ -19,8 +19,8 @@ edit existing classes with term IDs defined in column C
   
 [Annotations]
 # Note: Use comma to separate annotations
-'has victors id' "{$columnA}",
-'has victors annotation' "{$columnD}"
+'has Victors id' "{$columnA}",
+'has Victors annotation' "{$columnD}"
 
 [Equivalent classes]
 # Note: Use comma to separate classes 
@@ -34,8 +34,8 @@ edit existing classes with term IDs defined in column C
 [Terms used to define anntoations, equivalent classes and superclasses]
 # Note: One line per term
 AnnotationProperty: 
-'has victors id': <http://purl.obolibrary.org/obo/OHPI_0000009>
-'has victors annotation': <http://purl.obolibrary.org/obo/OHPI_0000008>
+'has Victors id': <http://purl.obolibrary.org/obo/OHPI_0000009>
+'has Victors annotation': <http://purl.obolibrary.org/obo/OHPI_0000008>
 Class:
 ObjectProperty:
 'has role': <http://purl.obolibrary.org/obo/RO_0000087>

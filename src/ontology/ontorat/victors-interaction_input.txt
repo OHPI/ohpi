@@ -28,10 +28,10 @@ edit existing classes with term IDs defined in column A
 [Superclasses]
 # Note: Use comma to separate classes 
 'has microbe mutated gene' some <http://purl.obolibrary.org/obo/{$columnD}>,
-'has pathogen' some <http://purl.obolibrary.org/obo/NCBITaxon_{$columnG}>,
-'has host' some <http://purl.obolibrary.org/obo/NCBITaxon_{$columnI}>,
-'has host cell' some <{$columnJ}>,
-'has host cell line cell' some <{$columnL}>,
+'has HPI pathogen' some <http://purl.obolibrary.org/obo/NCBITaxon_{$columnG}>,
+'has HPI host' some <http://purl.obolibrary.org/obo/NCBITaxon_{$columnI}>,
+'has HPI host cell' some <{$columnJ}>,
+'has HPI host cell line cell' some <{$columnL}>,
 <http://purl.obolibrary.org/obo/OHPI_0000001>
 
 [Terms used to define anntoations, equivalent classes and superclasses]
@@ -39,10 +39,10 @@ edit existing classes with term IDs defined in column A
 AnnotationProperty: 
 Class:
 ObjectProperty:
-'has pathogen': <http://purl.obolibrary.org/obo/OHPI_0000029>
-'has host': <http://purl.obolibrary.org/obo/OHPI_0000026>
-'has host cell': <http://purl.obolibrary.org/obo/OHPI_0000035>
-'has host cell line cell': <http://purl.obolibrary.org/obo/OHPI_0000036>
+'has HPI pathogen': <http://purl.obolibrary.org/obo/OHPI_0000029>
+'has HPI host': <http://purl.obolibrary.org/obo/OHPI_0000026>
+'has HPI host cell': <http://purl.obolibrary.org/obo/OHPI_0000035>
+'has HPI host cell line cell': <http://purl.obolibrary.org/obo/OHPI_0000036>
 'has microbe mutated gene': <http://purl.obolibrary.org/obo/OHPI_0000025>
 DataProperty:
 
