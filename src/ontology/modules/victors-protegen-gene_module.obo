@@ -1,0 +1,198 @@
+format-version: 1.2
+data-version: ohpi/releases/2019-04-22/modules/victors-protegen-gene_module.owl
+ontology: ohpi/modules/victors-protegen-gene_module
+
+[Term]
+id: OGG:3000156110
+relationship: OHPI:0000090 VO:0011261
+
+[Term]
+id: OGG:3000876502
+relationship: OHPI:0000090 VO:0010992
+
+[Term]
+id: OGG:3000885072
+relationship: OHPI:0000090 VO:0012372
+
+[Term]
+id: OGG:3000885638
+relationship: OHPI:0000090 VO:0012369
+
+[Term]
+id: OGG:3000886132
+relationship: OHPI:0000090 VO:0010952
+
+[Term]
+id: OGG:3000886194
+relationship: OHPI:0000090 VO:0010951
+
+[Term]
+id: OGG:3000886209
+relationship: OHPI:0000090 VO:0010919
+relationship: OHPI:0000090 VO:0012368
+
+[Term]
+id: OGG:3000903370
+relationship: OHPI:0000090 VO:0011186
+
+[Term]
+id: OGG:3000911827
+relationship: OHPI:0000090 VO:0010864
+
+[Term]
+id: OGG:3000948847
+relationship: OHPI:0000090 VO:0010987
+
+[Term]
+id: OGG:3000956528
+relationship: OHPI:0000090 VO:0011119
+
+[Term]
+id: OGG:3000960860
+relationship: OHPI:0000090 VO:0010940
+
+[Term]
+id: OGG:3000960862
+relationship: OHPI:0000090 VO:0010944
+
+[Term]
+id: OGG:3000987033
+relationship: OHPI:0000090 VO:0012388
+
+[Term]
+id: OGG:3001039578
+relationship: OHPI:0000090 VO:0010986
+
+[Term]
+id: OGG:3001147351
+relationship: OHPI:0000090 VO:0011014
+
+[Term]
+id: OGG:3001149310
+relationship: OHPI:0000090 VO:0010875
+
+[Term]
+id: OGG:3001149313
+relationship: OHPI:0000090 VO:0011002
+
+[Term]
+id: OGG:3001172643
+relationship: OHPI:0000090 VO:0010877
+
+[Term]
+id: OGG:3001172673
+relationship: OHPI:0000090 VO:0010878
+
+[Term]
+id: OGG:3001172676
+relationship: OHPI:0000090 VO:0010874
+
+[Term]
+id: OGG:3001172712
+relationship: OHPI:0000090 VO:0011015
+relationship: OHPI:0000090 VO:0012359
+
+[Term]
+id: OGG:3001449458
+relationship: OHPI:0000090 VO:0011321
+
+[Term]
+id: OGG:3001489803
+relationship: OHPI:0000090 VO:0011170
+
+[Term]
+id: OGG:3001489805
+relationship: OHPI:0000090 VO:0011169
+
+[Term]
+id: OGG:3001489853
+relationship: OHPI:0000090 VO:0011232
+
+[Term]
+id: OGG:3002614504
+relationship: OHPI:0000090 VO:0011272
+
+[Term]
+id: OGG:3002664290
+relationship: OHPI:0000090 VO:0011033
+
+[Term]
+id: OGG:3002665068
+relationship: OHPI:0000090 VO:0011034
+
+[Term]
+id: OGG:3002703406
+relationship: OHPI:0000090 VO:0011098
+
+[Term]
+id: OGG:3002703448
+relationship: OHPI:0000090 VO:0011104
+
+[Term]
+id: OGG:3002952540
+relationship: OHPI:0000090 VO:0011242
+
+[Term]
+id: OGG:3003191591
+relationship: OHPI:0000090 VO:0011072
+
+[Term]
+id: OGG:3003191792
+relationship: OHPI:0000090 VO:0011079
+
+[Term]
+id: OGG:3003429565
+relationship: OHPI:0000090 VO:0011084
+
+[Term]
+id: OGG:3003992235
+relationship: OHPI:0000090 VO:0010945
+
+[Term]
+id: OGG:3004441159
+relationship: OHPI:0000090 VO:0011203
+
+[Term]
+id: OGG:3004441373
+relationship: OHPI:0000090 VO:0011204
+
+[Term]
+id: OGG:3004441476
+relationship: OHPI:0000090 VO:0011193
+
+[Term]
+id: OGG:3004441611
+relationship: OHPI:0000090 VO:0011192
+
+[Term]
+id: OGG:3004442999
+relationship: OHPI:0000090 VO:0011199
+
+[Term]
+id: OGG:3005211814
+relationship: OHPI:0000090 VO:0012373
+
+[Term]
+id: OGG:3005398487
+relationship: OHPI:0000090 VO:0010903
+
+[Term]
+id: OGG:3005522688
+relationship: OHPI:0000090 VO:0011074
+
+[Term]
+id: OGG:3006030102
+relationship: OHPI:0000090 VO:0010904
+
+[Term]
+id: OGG:3007329552
+relationship: OHPI:0000090 VO:0011197
+
+[Term]
+id: OGG:3007379404
+relationship: OHPI:0000090 VO:0010988
+
+[Term]
+id: OGG:3007900172
+relationship: OHPI:0000090 VO:0011000
+

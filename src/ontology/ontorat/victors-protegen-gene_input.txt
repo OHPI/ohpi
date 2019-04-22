@@ -19,8 +19,6 @@ edit existing classes with term IDs defined in column B
   
 [Annotations]
 # Note: Use comma to separate annotations
-'has protegen id' "{$columnD}",
-'has protegen annotation' "{$columnC}"
 
 [Equivalent classes]
 # Note: Use comma to separate classes 
@@ -34,8 +32,6 @@ edit existing classes with term IDs defined in column B
 [Terms used to define anntoations, equivalent classes and superclasses]
 # Note: One line per term
 AnnotationProperty: 
-'has protegen id': <http://purl.obolibrary.org/obo/OHPI_0000091>
-'has protegen annotation': <http://purl.obolibrary.org/obo/OHPI_0000092>
 Class:
 ObjectProperty:
 'gene encoding antigen': <http://purl.obolibrary.org/obo/OHPI_0000090>
