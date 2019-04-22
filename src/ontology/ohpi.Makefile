@@ -118,7 +118,7 @@ ASSETS += imports/ogg-victors_import.owl imports/ogg-victors_import.obo imports/
 # Modules
 # ----------------------------------------
 
-MODULES = victors-annotation victors-pathogen victors-host victors-interaction victors-protegen-gene
+MODULES = victors-annotation victors-pathogen victors-host victors-interaction victors-protegen-gene victors-protegen-protein
 
 MODULES_ROOTS = $(patsubst %, modules/%_module, $(MODULES))
 MODULES_FILES = $(foreach n,$(MODULES_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
