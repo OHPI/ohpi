@@ -302,15 +302,3 @@ relationship: RO:0000087 OHPI:0000094
 property_value: VO:0003557 "842" xsd:string
 property_value: VO:0003558 "In an attempt to generate a subunit vaccine in this experimental disease model, eukaryotic plasmid DNA expression vectors containing genes encoding either the wild-type or modified forms of recombinant listeriolysin O (hly) were generated and used for genetic vaccination of naive mice. Results of these studies indicate that the intramuscular immunization of mice with specifically designed plasmid DNA constructs encoding recombinant forms of listeriolysin O (hly) stimulates peptide-specific CD8+ immune T cells that exhibit in vitro cytotoxic activity. More importantly, such immunization can provide protective immunity against a subsequent challenge with viable L. monocytogenes [PMID:10384131]." xsd:string
 
-[Term]
-id: http://purl.obolibrary.org/obo/
-relationship: RO:0000087 OHPI:0000094
-property_value: VO:0003557 "1074" xsd:string
-property_value: VO:0003557 "310" xsd:string
-property_value: VO:0003557 "380" xsd:string
-property_value: VO:0003557 "381" xsd:string
-property_value: VO:0003558 "Alterations to the promoter regions of bvg-activated genes can alter the kinetic pattern of expression of these genes without changing steady-state transcription levels. In addition, B. pertussis strains containing these promoter alterations that express either ptx at an early time or fha at a late time demonstrate a significant reduction in their ability to colonize respiratory tracts in an intranasal mouse model of infection [PMID:11254549]." xsd:string
-property_value: VO:0003558 "Immunizing mice with a single peptide, YopE(69-77), suffices to confer significant protection from lethal pulmonary challenge [PMID:21653834]." xsd:string
-property_value: VO:0003558 "Researchers examined the ability of B. pertussis mutants, defective in their ability to regulate the expression of the bvg-activated and/or the bvg-repressed genes, to cause disease in the mouse aerosol challenge model. Results indicate that the bvgR-mediated regulation of gene expression contributes to respiratory infection of mice [PMID:9712789]." xsd:string
-property_value: VO:0003558 "The invasive ability of Shigella spp. is correlated with the expression of several plasmid-encoded proteins, including invasion plasmid antigen C (IpaC).  Animals asymptomatic for shigellosis after challenge with S. flexneri recognized peptide epitopes within all three epitopic regions of IpaC, whereas symptomatic animals recognized peptides in only one or two of the epitopic regions.  Antibody from monkeys challenged with S. sonnei recognized IpaC peptide epitopes which fell within and outside the three S. flexneri epitopic regions [PMID:7558301]." xsd:string
-

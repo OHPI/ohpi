@@ -1,12 +1,15 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ontorat_0000001.owl#"
-     xml:base="http://purl.obolibrary.org/obo/ontorat_0000001.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ohpi/modules/victors-protegen-protein_module.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ohpi/modules/victors-protegen-protein_module.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ontorat_0000001.owl"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohpi/modules/victors-protegen-protein_module.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/modules/victors-protegen-protein_module.owl"/>
+    </owl:Ontology>
     
 
 
@@ -176,27 +179,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:VO_0003558>Immunizing mice with a single peptide, YopE(69-77), suffices to confer significant protection from lethal pulmonary challenge [PMID:21653834].</obo:VO_0003558>
-        <obo:VO_0003557>1074</obo:VO_0003557>
-        <obo:VO_0003558>Researchers examined the ability of B. pertussis mutants, defective in their ability to regulate the expression of the bvg-activated and/or the bvg-repressed genes, to cause disease in the mouse aerosol challenge model. Results indicate that the bvgR-mediated regulation of gene expression contributes to respiratory infection of mice [PMID:9712789].</obo:VO_0003558>
-        <obo:VO_0003557>380</obo:VO_0003557>
-        <obo:VO_0003557>381</obo:VO_0003557>
-        <obo:VO_0003558>Alterations to the promoter regions of bvg-activated genes can alter the kinetic pattern of expression of these genes without changing steady-state transcription levels. In addition, B. pertussis strains containing these promoter alterations that express either ptx at an early time or fha at a late time demonstrate a significant reduction in their ability to colonize respiratory tracts in an intranasal mouse model of infection [PMID:11254549].</obo:VO_0003558>
-        <obo:VO_0003557>310</obo:VO_0003557>
-        <obo:VO_0003558>The invasive ability of Shigella spp. is correlated with the expression of several plasmid-encoded proteins, including invasion plasmid antigen C (IpaC).  Animals asymptomatic for shigellosis after challenge with S. flexneri recognized peptide epitopes within all three epitopic regions of IpaC, whereas symptomatic animals recognized peptides in only one or two of the epitopic regions.  Antibody from monkeys challenged with S. sonnei recognized IpaC peptide epitopes which fell within and outside the three S. flexneri epitopic regions [PMID:7558301].</obo:VO_0003558>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OHPI_0000094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000094"/>
@@ -212,8 +194,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>VP35 expressed from alphavirus replicons induced a protective immune response in C57BL/6 mice when challenged with Ebola virus Zaire [PMID:11485406].</obo:VO_0003558>
         <obo:VO_0003557>16</obo:VO_0003557>
+        <obo:VO_0003558>VP35 expressed from alphavirus replicons induced a protective immune response in C57BL/6 mice when challenged with Ebola virus Zaire [PMID:11485406].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -272,8 +254,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>The type III secretion apparatus encoded on the low-calcium response (LCR) virulence plasmid, pCD1 in strain KIM5, of Y. pestis is a conserved virulence mechanism that is absolutely required for virulence of Y. pestis. YscF is a surface localized protein required both to secrete Yops and to translocate toxins into eukaryotic cells. YscF polymerization is possibly required for a YscF needle to puncture eukaryotic cell membranes. It is also likely that YscF and its homologs function to provide a base that a translocon complex is built upon, or that YscF builds a conduit from the bacterium to the eukaryotic membrane - this suggestion seems more likely given that other proteins such as YopB, YopD, and LcrV are also required for translocation into eukaryotic cells. YscF is thought to be a surface-expressed protein in Y. pestis and is required for virulence. YscF has been found to function as a protective antigen against experimental plague infection [PMID:15978133].</obo:VO_0003558>
         <obo:VO_0003557>49</obo:VO_0003557>
+        <obo:VO_0003558>The type III secretion apparatus encoded on the low-calcium response (LCR) virulence plasmid, pCD1 in strain KIM5, of Y. pestis is a conserved virulence mechanism that is absolutely required for virulence of Y. pestis. YscF is a surface localized protein required both to secrete Yops and to translocate toxins into eukaryotic cells. YscF polymerization is possibly required for a YscF needle to puncture eukaryotic cell membranes. It is also likely that YscF and its homologs function to provide a base that a translocon complex is built upon, or that YscF builds a conduit from the bacterium to the eukaryotic membrane - this suggestion seems more likely given that other proteins such as YopB, YopD, and LcrV are also required for translocation into eukaryotic cells. YscF is thought to be a surface-expressed protein in Y. pestis and is required for virulence. YscF has been found to function as a protective antigen against experimental plague infection [PMID:15978133].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -287,8 +269,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Mice and rabbits were immunized with recombinant HCR/A1 (rHCR/A1) from the classical type A-Hall strain (ATCC 3502) (BoNT/A1) and rHCR/E from BoNT serotype E Beluga (BoNT/E(B)).  The protection elicited by rHCR/A1 to BoNT/A1 and BoNT/A2 and by rHCR/E(B) to BoNT/E(A) indicate that immunization with receptor binding domains elicit protection within sub-serotypes of BoNT [PMID:16177380].</obo:VO_0003558>
         <obo:VO_0003557>448</obo:VO_0003557>
+        <obo:VO_0003558>Mice and rabbits were immunized with recombinant HCR/A1 (rHCR/A1) from the classical type A-Hall strain (ATCC 3502) (BoNT/A1) and rHCR/E from BoNT serotype E Beluga (BoNT/E(B)).  The protection elicited by rHCR/A1 to BoNT/A1 and BoNT/A2 and by rHCR/E(B) to BoNT/E(A) indicate that immunization with receptor binding domains elicit protection within sub-serotypes of BoNT [PMID:16177380].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -302,8 +284,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>The DNA replicon vaccine (pSCARSBHc) encoding the Hc domain of BoNT/B (BHc) induced better responses and protection against BoNT/B mouse challenge than conventional DNA vaccine.  Recombinant SFV particle VRP-BHc protected mice from high-dose BoNT/B challenge [PMID:28869522]. The production of ciBoNT/B1 HP, ciBoNT/C1 HP, ciBoNT/E1 HP and ciBoNT/F1 HP suggest the ciBoNT HP vaccines exhibit superior potency after single vaccinations.[PMID:28869522]</obo:VO_0003558>
         <obo:VO_0003557>449</obo:VO_0003557>
+        <obo:VO_0003558>The DNA replicon vaccine (pSCARSBHc) encoding the Hc domain of BoNT/B (BHc) induced better responses and protection against BoNT/B mouse challenge than conventional DNA vaccine.  Recombinant SFV particle VRP-BHc protected mice from high-dose BoNT/B challenge [PMID:28869522]. The production of ciBoNT/B1 HP, ciBoNT/C1 HP, ciBoNT/E1 HP and ciBoNT/F1 HP suggest the ciBoNT HP vaccines exhibit superior potency after single vaccinations.[PMID:28869522]</obo:VO_0003558>
     </owl:Class>
     
 
@@ -317,8 +299,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>The heterologous prime-boost strategy of live Salmonella vaccine expressing Mycobacterium tuberculosis fusion antigen Age5B-ESAT6 (esxA) from the chromosome followed by a systemic boost of antigen and adjuvant reduced the levels of M. tuberculosis bacteria in the lungs and spleen to the same extent as BCG. Additionally, this vaccination regimen was observed to be statistically equivalent in terms of protection to immunisation with BCG [PMID:16751377].    In a prophylactic vaccine model, immunization with the Mycobacterium tuberculosis protein ESAT-6 with LANAC adjuvant elicited significant protective immunity against aerosol challenge with virulent M. tuberculosis [PMID:16751377].</obo:VO_0003558>
         <obo:VO_0003557>104</obo:VO_0003557>
+        <obo:VO_0003558>The heterologous prime-boost strategy of live Salmonella vaccine expressing Mycobacterium tuberculosis fusion antigen Age5B-ESAT6 (esxA) from the chromosome followed by a systemic boost of antigen and adjuvant reduced the levels of M. tuberculosis bacteria in the lungs and spleen to the same extent as BCG. Additionally, this vaccination regimen was observed to be statistically equivalent in terms of protection to immunisation with BCG [PMID:16751377].    In a prophylactic vaccine model, immunization with the Mycobacterium tuberculosis protein ESAT-6 with LANAC adjuvant elicited significant protective immunity against aerosol challenge with virulent M. tuberculosis [PMID:16751377].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -347,8 +329,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Systemic immunization of calves with a combination of EspA, intimin-531, and H7 flagellin resulted in a significant reduction in shedding of EHEC O157 to levels predicted to significantly impact on EHEC O157 cattle-to-cattle transmission [PMID:26020530]</obo:VO_0003558>
         <obo:VO_0003557>93</obo:VO_0003557>
+        <obo:VO_0003558>Systemic immunization of calves with a combination of EspA, intimin-531, and H7 flagellin resulted in a significant reduction in shedding of EHEC O157 to levels predicted to significantly impact on EHEC O157 cattle-to-cattle transmission [PMID:26020530]</obo:VO_0003558>
     </owl:Class>
     
 
@@ -362,8 +344,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>FimH is a protective antigen [PMID:9110982]  Of the vaccine preparations, Fusion, Fusion + CT, and FimH admixed with FliC and CT showed the best protection against UPEC (Asadi et al., 2016).</obo:VO_0003558>
         <obo:VO_0003557>263</obo:VO_0003557>
+        <obo:VO_0003558>FimH is a protective antigen [PMID:9110982]  Of the vaccine preparations, Fusion, Fusion + CT, and FimH admixed with FliC and CT showed the best protection against UPEC (Asadi et al., 2016).</obo:VO_0003558>
     </owl:Class>
     
 
@@ -437,8 +419,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Active immunization of BALB/c mice with IroN antigen in Freund&apos;s adjuvant protects mice from lethal challenge with ExPEC strain S26 [PMID:17145948].</obo:VO_0003558>
         <obo:VO_0003557>282</obo:VO_0003557>
+        <obo:VO_0003558>Active immunization of BALB/c mice with IroN antigen in Freund&apos;s adjuvant protects mice from lethal challenge with ExPEC strain S26 [PMID:17145948].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -497,8 +479,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Study tested the efficacy of 2 proteins, Psn and a portion of LcrV in protecting mice against virulent Yersinia pestis challenge.  Results show that the truncated LcrV protein delivered by RASV is sufficient to afford a full protective immune response in a mouse model of bubonic plague and the Psn protein afforded partial protection in a non-optimized system [PMID:17966435].</obo:VO_0003558>
         <obo:VO_0003557>351</obo:VO_0003557>
+        <obo:VO_0003558>Study tested the efficacy of 2 proteins, Psn and a portion of LcrV in protecting mice against virulent Yersinia pestis challenge.  Results show that the truncated LcrV protein delivered by RASV is sufficient to afford a full protective immune response in a mouse model of bubonic plague and the Psn protein afforded partial protection in a non-optimized system [PMID:17966435].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -527,8 +509,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Researchers constructed isogenic mutants of B. pertussis Tohama expressing the alleles ptxA1 or ptxA2 and prn1 or prn2 and compared the efficacies of an acellular pertussis vaccine against the mutants in a mouse model. While the vaccine was effective against all of the B. pertussis strains regardless of the allele expression pattern, the strain expressing ptxA1 and prn2 displayed a survival advantage over the other strains [PMID:20357056].</obo:VO_0003558>
         <obo:VO_0003557>378</obo:VO_0003557>
+        <obo:VO_0003558>Researchers constructed isogenic mutants of B. pertussis Tohama expressing the alleles ptxA1 or ptxA2 and prn1 or prn2 and compared the efficacies of an acellular pertussis vaccine against the mutants in a mouse model. While the vaccine was effective against all of the B. pertussis strains regardless of the allele expression pattern, the strain expressing ptxA1 and prn2 displayed a survival advantage over the other strains [PMID:20357056].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -557,8 +539,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Mice immunized with rLm/iglC were protected against lethal challenge with F. tularensis LVS administered by the intranasal route, a route chosen to mimic airborne infection, and, most importantly, against aerosol challenge with the highly virulent Type A F. tularensis SchuS4 strain [PMID:19126421].</obo:VO_0003558>
         <obo:VO_0003557>470</obo:VO_0003557>
+        <obo:VO_0003558>Mice immunized with rLm/iglC were protected against lethal challenge with F. tularensis LVS administered by the intranasal route, a route chosen to mimic airborne infection, and, most importantly, against aerosol challenge with the highly virulent Type A F. tularensis SchuS4 strain [PMID:19126421].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -602,8 +584,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Rabbit antibody prepared against P2 from one strain was cross-reactive with P2 isolated from the other two heterologous strains by Western blot. This antibody passively protected infant rats against type b Haemophilus infection caused by the homologous organism, but not against challenge by a strain with the heterologous 36,500 mol wt P2 protein [PMID:6603479].</obo:VO_0003558>
         <obo:VO_0003557>485</obo:VO_0003557>
+        <obo:VO_0003558>Rabbit antibody prepared against P2 from one strain was cross-reactive with P2 isolated from the other two heterologous strains by Western blot. This antibody passively protected infant rats against type b Haemophilus infection caused by the homologous organism, but not against challenge by a strain with the heterologous 36,500 mol wt P2 protein [PMID:6603479].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -632,8 +614,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Protection against a lethal intraperitoneal challenge of HSV-1 (5 x 10(4) pfu) with gC or gE (US8) plasmid vaccination could be demonstrated if the inoculating dose of DNA was 250 microg. All mice immunized with vaccinia recombinants expressing either gC or gE survived HSV-1 challenge [PMID:9728527].</obo:VO_0003558>
         <obo:VO_0003557>507</obo:VO_0003557>
+        <obo:VO_0003558>Protection against a lethal intraperitoneal challenge of HSV-1 (5 x 10(4) pfu) with gC or gE (US8) plasmid vaccination could be demonstrated if the inoculating dose of DNA was 250 microg. All mice immunized with vaccinia recombinants expressing either gC or gE survived HSV-1 challenge [PMID:9728527].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -692,8 +674,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>A total of 11 meningococcal proteins that are necessary for establishing systemic infection were expressed as recombinant antigens and assessed for their ability to protect mice against live bacterial challenge against N. meningitidis; ExbB, which is required for iron acquisition, elicited protective immunity [PMID:15964482].</obo:VO_0003558>
         <obo:VO_0003557>601</obo:VO_0003557>
+        <obo:VO_0003558>A total of 11 meningococcal proteins that are necessary for establishing systemic infection were expressed as recombinant antigens and assessed for their ability to protect mice against live bacterial challenge against N. meningitidis; ExbB, which is required for iron acquisition, elicited protective immunity [PMID:15964482].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -707,8 +689,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Immunization with the pneumococcal proteins pneumolysin (Ply), choline binding protein A (CbpA), or pneumococcal surface protein A (PspA) elicits protective responses against invasive pneumococcal disease in animal models.[PMID:26245351]</obo:VO_0003558>
         <obo:VO_0003557>607</obo:VO_0003557>
+        <obo:VO_0003558>Immunization with the pneumococcal proteins pneumolysin (Ply), choline binding protein A (CbpA), or pneumococcal surface protein A (PspA) elicits protective responses against invasive pneumococcal disease in animal models.[PMID:26245351]</obo:VO_0003558>
     </owl:Class>
     
 
@@ -737,8 +719,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Mice immunized with recombinant (r)PsrP(BR) had significantly less bacteria in their blood and improved survival versus controls following intranasal challenge [PMID:19627498].</obo:VO_0003558>
         <obo:VO_0003557>613</obo:VO_0003557>
+        <obo:VO_0003558>Mice immunized with recombinant (r)PsrP(BR) had significantly less bacteria in their blood and improved survival versus controls following intranasal challenge [PMID:19627498].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -752,8 +734,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Intraperitoneal immunization with recombinant SrtA was found to have  conferred to mice protection against S. pneumoniae intraperitoneal challenge and the passive transfer of immune serum before intraperitoneal challenge was also protective. Moreover, by using the intranasal challenge model,  significant reduction of bacteremia when mice were intraperitoneally immunized with SrtA was observed, while a moderate decrease of lung infection was achieved by intranasal immunization, even though no influence on nasopharynx colonization was seen [PMID:19433540].</obo:VO_0003558>
         <obo:VO_0003557>615</obo:VO_0003557>
+        <obo:VO_0003558>Intraperitoneal immunization with recombinant SrtA was found to have  conferred to mice protection against S. pneumoniae intraperitoneal challenge and the passive transfer of immune serum before intraperitoneal challenge was also protective. Moreover, by using the intranasal challenge model,  significant reduction of bacteremia when mice were intraperitoneally immunized with SrtA was observed, while a moderate decrease of lung infection was achieved by intranasal immunization, even though no influence on nasopharynx colonization was seen [PMID:19433540].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -767,8 +749,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Mice were actively immunized with a fragment of choline binding protein A (CbpA; also known as PspC, Hic, and SpsA). CbpA was able to protect mice from intraperitoneal challenge with medium to very high doses of a highly virulent capsular type 2 pneumococcal strain, D39 [PMID:11553536].</obo:VO_0003558>
         <obo:VO_0003557>619</obo:VO_0003557>
+        <obo:VO_0003558>Mice were actively immunized with a fragment of choline binding protein A (CbpA; also known as PspC, Hic, and SpsA). CbpA was able to protect mice from intraperitoneal challenge with medium to very high doses of a highly virulent capsular type 2 pneumococcal strain, D39 [PMID:11553536].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -827,8 +809,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Study compared the handling of overlapping 24-mer peptides from HIV Nef either mixed or covalently linked in tandem in one protein.  With adjuvant, overlapping peptides were capable of protecting Balb/c mice against lethal viral challenge with 3 Ã— 108 plaque forming units of vv-nef, whereas the intact protein was less protective [PMID:19193636].</obo:VO_0003558>
         <obo:VO_0003557>707</obo:VO_0003557>
+        <obo:VO_0003558>Study compared the handling of overlapping 24-mer peptides from HIV Nef either mixed or covalently linked in tandem in one protein.  With adjuvant, overlapping peptides were capable of protecting Balb/c mice against lethal viral challenge with 3 Ã— 108 plaque forming units of vv-nef, whereas the intact protein was less protective [PMID:19193636].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -857,8 +839,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Mice actively immunized using a recombinant V antigen (rVagHis, encoded by lcrV gene) of Y. enterocolitica were completely protected against challenge with both, Y. enterocolitica 0:8 and Y. pseudotuberculosis serotype III [PMID:10089162].</obo:VO_0003558>
         <obo:VO_0003557>790</obo:VO_0003557>
+        <obo:VO_0003558>Mice actively immunized using a recombinant V antigen (rVagHis, encoded by lcrV gene) of Y. enterocolitica were completely protected against challenge with both, Y. enterocolitica 0:8 and Y. pseudotuberculosis serotype III [PMID:10089162].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -872,8 +854,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment.  Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to yopH [PMID:10085037].</obo:VO_0003558>
         <obo:VO_0003557>51</obo:VO_0003557>
+        <obo:VO_0003558>Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment.  Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to yopH [PMID:10085037].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -917,8 +899,8 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:VO_0003558>A selection of previously identified protective Mycobacterium tuberculosis DNA vaccines were re-formulated as proteins and administered with a Th1-inducing adjuvant to help stimulate the relevant immune responses necessary for protection. One candidate (Rv1806-1807) induced protection in the guinea pig aerosol infection model 30 days post-challenge on the basis of reducing the bacterial burden of M. tuberculosis in the lungs [PMID:16520093].</obo:VO_0003558>
         <obo:VO_0003557>820</obo:VO_0003557>
+        <obo:VO_0003558>A selection of previously identified protective Mycobacterium tuberculosis DNA vaccines were re-formulated as proteins and administered with a Th1-inducing adjuvant to help stimulate the relevant immune responses necessary for protection. One candidate (Rv1806-1807) induced protection in the guinea pig aerosol infection model 30 days post-challenge on the basis of reducing the bacterial burden of M. tuberculosis in the lungs [PMID:16520093].</obo:VO_0003558>
     </owl:Class>
     
 
@@ -954,5 +936,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.4.1.2018) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
 

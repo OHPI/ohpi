@@ -1,617 +1,19 @@
 {
   "graphs" : [ {
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011170",
+      "id" : "http://purl.obolibrary.org/obo/VO_0011186",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Lewis rats were immunized with recombinant vaccinia virus (VV) expressing various proteins of measles virus (MV). VVM (Matrix Protein) -immunized rats were partially protected from MV challenge [PMID:1833505]."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "581"
+          "val" : "601"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "A total of 11 meningococcal proteins that are necessary for establishing systemic infection were expressed as recombinant antigens and assessed for their ability to protect mice against live bacterial challenge against N. meningitidis; ExbB, which is required for iron acquisition, elicited protective immunity [PMID:15964482]."
         } ]
       },
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011014",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Study tested the efficacy of 2 proteins, Psn and a portion of LcrV in protecting mice against virulent Yersinia pestis challenge.  Results show that the truncated LcrV protein delivered by RASV is sufficient to afford a full protective immune response in a mouse model of bubonic plague and the Psn protein afforded partial protection in a non-optimized system [PMID:17966435]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "351"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012388",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "842"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "In an attempt to generate a subunit vaccine in this experimental disease model, eukaryotic plasmid DNA expression vectors containing genes encoding either the wild-type or modified forms of recombinant listeriolysin O (hly) were generated and used for genetic vaccination of naive mice. Results of these studies indicate that the intramuscular immunization of mice with specifically designed plasmid DNA constructs encoding recombinant forms of listeriolysin O (hly) stimulates peptide-specific CD8+ immune T cells that exhibit in vitro cytotoxic activity. More importantly, such immunization can provide protective immunity against a subsequent challenge with viable L. monocytogenes [PMID:10384131]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011015",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "352"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment.  Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to yopH [PMID:10085037]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011098",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "501"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "BALB/c mice receiving a glycoprotein D1 (gD1, US5) DNA vaccine alone were 80% protected against a subsequent HSV-1 challenge.  Results also indicate that the administration of NLX as an adjuvant improved protective immunity against HSV-1 [PMID:19174474]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010878",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "The type III secretion apparatus encoded on the low-calcium response (LCR) virulence plasmid, pCD1 in strain KIM5, of Y. pestis is a conserved virulence mechanism that is absolutely required for virulence of Y. pestis. YscF is a surface localized protein required both to secrete Yops and to translocate toxins into eukaryotic cells. YscF polymerization is possibly required for a YscF needle to puncture eukaryotic cell membranes. It is also likely that YscF and its homologs function to provide a base that a translocon complex is built upon, or that YscF builds a conduit from the bacterium to the eukaryotic membrane - this suggestion seems more likely given that other proteins such as YopB, YopD, and LcrV are also required for translocation into eukaryotic cells. YscF is thought to be a surface-expressed protein in Y. pestis and is required for virulence. YscF has been found to function as a protective antigen against experimental plague infection [PMID:15978133]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "49"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010952",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "122"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Researchers have developed DNA vaccines expressing M. tuberculosis antigen 85A (Ag85A, fbpA) and cytokine granulocyte macrophage colony stimulating factor (GM-CSF).  The immune strategy of BCG-prime and DNA vaccine boost induced mice to generate efficient immune protection against M. tuberculosis challenge [PMID:19450898]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010874",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "MAb BA5 protected animals against plague, neutralized the Y. pestis type III secretion pathway and promoted opsonophagocytic clearance of bacteria in blood. LcrV residues 196-225 were necessary and sufficient for MAb BA5 binding.  These results identify LcrV residues 196-225 as a linear epitope that is recognized by the murine immune system to confer plague protection [PMID:20005318]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "44"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010875",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "An LcrV variant lacking amino acid residues 271 to 300 (rV10) elicited immune responses that protected mice against a lethal challenge with Y. pestis [PMID:16041032]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "45"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010951",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "The 10-kDa culture filtrate protein (CFP-10, esxB) and 6-kDa early secretory antigen of T cells (ESAT-6) are secreted in abundance by Mycobacterium tuberculosis.  Study demonstrated that protective immunity is induced by CFP-10 DNA vaccination in C3H mice as measured by a CFU reduction in the lung and spleen 4 and 8 weeks after challenge with M. tuberculosis [PMID:18332205]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "121"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011204",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "620"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Groups of BALB/c mice immunized with choline binding protein PspA were challenged with either D39 or WCH16. PspA elicited protection by using moderate challenge doses of S. pneumoniae [PMID:17088353]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010877",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment. Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to pla [PMID:10085037]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "48"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010919",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "The heterologous prime-boost strategy of live Salmonella vaccine expressing Mycobacterium tuberculosis fusion antigen Age5B-ESAT6 (esxA) from the chromosome followed by a systemic boost of antigen and adjuvant reduced the levels of M. tuberculosis bacteria in the lungs and spleen to the same extent as BCG. Additionally, this vaccination regimen was observed to be statistically equivalent in terms of protection to immunisation with BCG [PMID:16751377].    In a prophylactic vaccine model, immunization with the Mycobacterium tuberculosis protein ESAT-6 with LANAC adjuvant elicited significant protective immunity against aerosol challenge with virulent M. tuberculosis [PMID:16751377]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "104"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012372",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "A selection of previously identified protective Mycobacterium tuberculosis DNA vaccines were re-formulated as proteins and administered with a Th1-inducing adjuvant to help stimulate the relevant immune responses necessary for protection. One candidate (Rv1806-1807) induced protection in the guinea pig aerosol infection model 30 days post-challenge on the basis of reducing the bacterial burden of M. tuberculosis in the lungs [PMID:16520093]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "820"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011084",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "485"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Rabbit antibody prepared against P2 from one strain was cross-reactive with P2 isolated from the other two heterologous strains by Western blot. This antibody passively protected infant rats against type b Haemophilus infection caused by the homologous organism, but not against challenge by a strain with the heterologous 36,500 mol wt P2 protein [PMID:6603479]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010992",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "S. flexneri M90T is a colonisation-defective mutant with a transposon in fnr, which encodes a regulator of anaerobic metabolism. To establish whether FNR-mediated repression of spa32 and spa33 contributes to increased Shigella entry into cells in an anaerobic cabinet, recombinant M90T strains were constructed which contain spa32 and spa33 under the control of either their native promoters (M90Tp32/33) or promoters with disrupted FNR boxes (M90Tp#32/#33).The presence in M90T of spa32 and spa33 alleles that are not repressed by FNR led to IpaB secretion during anaerobic growth, and loss of the increased entry of Shigella into cells in an anaerobic cabinet [PMID:20436458]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "288"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011002",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Modified yopD antigens were able to partially protect immunized mice at various levels against lethal challenge with Y. pestis KIM 1001 strain [PMID:18291562]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "339"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011321",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Mice actively immunized using a recombinant V antigen (rVagHis, encoded by lcrV gene) of Y. enterocolitica were completely protected against challenge with both, Y. enterocolitica 0:8 and Y. pseudotuberculosis serotype III [PMID:10089162]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "790"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011203",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "619"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Mice were actively immunized with a fragment of choline binding protein A (CbpA; also known as PspC, Hic, and SpsA). CbpA was able to protect mice from intraperitoneal challenge with medium to very high doses of a highly virulent capsular type 2 pneumococcal strain, D39 [PMID:11553536]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011169",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Lewis rats were immunized with recombinant vaccinia virus (VV) expressing various proteins of measles virus (MV). VVP (Phosphoprotein) -immunized rats were partially protected from MV challenge [PMID:1833505]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "580"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012373",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "821"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Purified preparations of HBHA were emulsified in a dimethyldioctadecylammonium bromide-monophosphoryl lipid A adjuvant and tested for the ability to reduce M. tuberculosis infection in the mouse aerosol challenge model for tuberculosis. The HBHA-containing vaccine gave a approximately 0.7-log reduction in CFU in both mouse lungs and spleens compared to adjuvant controls 28 days following challenge [PMID:15557600]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011242",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "To examine the response by IE180 more closely, a vaccine trial in mice with a vector DNA construct that contains the gene encoding for IE180, designated pcDNAIE180 was conducted.  Seven months after immunization with pcDNAIE180, an overall 25% of BALB/c, C3H/HeJ, and C57BL/6 mice receiving a lethal PrV challenge were protected [PMID:9586695]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "658"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011000",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Oral immunization of mice with ZJ111/pcDNA3-SAG1 elicited specific humoral responses and stimulated proliferation of splenocytes (P<0.05). Mice immunized with ZJ111/pcDNA3-SAG1 displayed significant protection against an intraperitoneally challenge with 500 tachyzoite forms of T. gondii RH strain. Vaccination at 10(7) and 10(8)CFU per mice provided a 20% and 10% survival rate comparing 100% mortality of the non-immunized mice, exhibiting longer living time and better survival rate [PMID:18590785]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "326"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010945",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "FimH is a protective antigen [PMID:9110982]  Of the vaccine preparations, Fusion, Fusion + CT, and FimH admixed with FliC and CT showed the best protection against UPEC (Asadi et al., 2016)."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "263"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010944",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Systemic immunization of calves with a combination of EspA, intimin-531, and H7 flagellin resulted in a significant reduction in shedding of EHEC O157 to levels predicted to significantly impact on EHEC O157 cattle-to-cattle transmission [PMID:26020530]"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "93"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010988",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "282"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Active immunization of BALB/c mice with IroN antigen in Freund's adjuvant protects mice from lethal challenge with ExPEC strain S26 [PMID:17145948]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010903",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "448"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Mice and rabbits were immunized with recombinant HCR/A1 (rHCR/A1) from the classical type A-Hall strain (ATCC 3502) (BoNT/A1) and rHCR/E from BoNT serotype E Beluga (BoNT/E(B)).  The protection elicited by rHCR/A1 to BoNT/A1 and BoNT/A2 and by rHCR/E(B) to BoNT/E(A) indicate that immunization with receptor binding domains elicit protection within sub-serotypes of BoNT [PMID:16177380]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010940",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "199"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Mice immunized intranasally with recombinant Tir protein had a survival rate of 92.9% after challenge with EHEC 0157:H7  [PMID:26020530].  Immunization of calves with recombinant EHEC O157 EspA, intimin and Tir resulted in the generation of antibodies capable of cross-reacting with antigens from non-O157 EHEC serotypes, suggesting that immunization with these antigens may provide a degree of cross-protection against other EHEC serotypes [PMID:26020530]"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010864",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "16"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "VP35 expressed from alphavirus replicons induced a protective immune response in C57BL/6 mice when challenged with Ebola virus Zaire [PMID:11485406]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011119",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "524"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "A targeted fusion protein based on the CTA1-DD adjuvant and containing tandem repeats of the matrix protein 2 (M2e) ectodomain epitope derived from Influenza A virus (A/Puerto Rico/8/34(H1N1)), CTA1-3M2e-DD, confers strong protective immunity against a potentially lethal challenge infection with influenza virus in mice. The formulation was highly effective for mucosal immunizations and promoted high M2e-specific serum IgG and mucosal IgA antibody titers and an hitherto unknown anti-M2e CD4 T cell immunity [PMID:18243429]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010987",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Antibodies directed at the putative binding region of FimH (anti- s-FimH1-25) significantly reduced E. coli bladder infections in the experimental mouse model of urinary tract infections [PMID:9276729]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "281"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010986",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Immunization with IutA protects against urinary tract colinization by E.coli CFT073 in the bladders of CBA/J mice [PMID:26729174].  We demonstrated for IutA, antigen-specific serum IgG represents a strong correlate of protection in vaccinated mice [PMID:26729174]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "280"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010904",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "449"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "The DNA replicon vaccine (pSCARSBHc) encoding the Hc domain of BoNT/B (BHc) induced better responses and protection against BoNT/B mouse challenge than conventional DNA vaccine.  Recombinant SFV particle VRP-BHc protected mice from high-dose BoNT/B challenge [PMID:28869522]. The production of ciBoNT/B1 HP, ciBoNT/C1 HP, ciBoNT/E1 HP and ciBoNT/F1 HP suggest the ciBoNT HP vaccines exhibit superior potency after single vaccinations.[PMID:28869522]"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011072",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "470"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Mice immunized with rLm/iglC were protected against lethal challenge with F. tularensis LVS administered by the intranasal route, a route chosen to mimic airborne infection, and, most importantly, against aerosol challenge with the highly virulent Type A F. tularensis SchuS4 strain [PMID:19126421]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011193",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "The protective effects of ATP-dependent caseinolytic protease (ClpP) was evaluated. Vaccinated mice were intraperitoneally and/or intranasally challenged with different pneumococcal strains. In intraperitoneal challenge models with pneumococcal strain D39 (serotype 2), clpP elicited some protection in mice [PMID:20038538]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "608"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011192",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Immunization with the pneumococcal proteins pneumolysin (Ply), choline binding protein A (CbpA), or pneumococcal surface protein A (PspA) elicits protective responses against invasive pneumococcal disease in animal models.[PMID:26245351]"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "607"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011074",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Immunization with WbtI(G191V) protected mice against a relatively low-dose intraperitoneal challenge with LVS (F. tularensis subspecies holarctica live vaccine strain), but was less protective against a high-dose challenge [PMID:17768257]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "472"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011272",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Antibodies generated against TcpF are protective against experimental V. cholerae infection in the infant mouse cholera model [PMID:16040956]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "733"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Alterations to the promoter regions of bvg-activated genes can alter the kinetic pattern of expression of these genes without changing steady-state transcription levels. In addition, B. pertussis strains containing these promoter alterations that express either ptx at an early time or fha at a late time demonstrate a significant reduction in their ability to colonize respiratory tracts in an intranasal mouse model of infection [PMID:11254549]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "381"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "380"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Researchers examined the ability of B. pertussis mutants, defective in their ability to regulate the expression of the bvg-activated and/or the bvg-repressed genes, to cause disease in the mouse aerosol challenge model. Results indicate that the bvgR-mediated regulation of gene expression contributes to respiratory infection of mice [PMID:9712789]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "310"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "The invasive ability of Shigella spp. is correlated with the expression of several plasmid-encoded proteins, including invasion plasmid antigen C (IpaC).  Animals asymptomatic for shigellosis after challenge with S. flexneri recognized peptide epitopes within all three epitopic regions of IpaC, whereas symptomatic animals recognized peptides in only one or two of the epitopic regions.  Antibody from monkeys challenged with S. sonnei recognized IpaC peptide epitopes which fell within and outside the three S. flexneri epitopic regions [PMID:7558301]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "1074"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Immunizing mice with a single peptide, YopE(69-77), suffices to confer significant protection from lethal pulmonary challenge [PMID:21653834]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011079",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Anti-lpnA MAbs conferred significant, although not complete, protection of naÃ¯ve C3H/HeN mice from lethal challenge with F. tularensis LVS when administered therapeutically [PMID:19176692]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "477"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012369",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "DNA vaccines encoding  KatG antigen fused to TPA signal sequences evoked  a significant protective response in mice aerogenically challenged with low doses of Mycobacterium tuberculosis Erdman 17 to 21 days after the final immunization [PMID:10456931]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "817"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012368",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "816"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "In a prophylactic vaccine model, immunization with the Mycobacterium tuberculosis protein ESAT-6 with LANAC adjuvant elicited significant protective immunity against aerosol challenge with virulent M. tuberculosis [PMID:16751377]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011197",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "613"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Mice immunized with recombinant (r)PsrP(BR) had significantly less bacteria in their blood and improved survival versus controls following intranasal challenge [PMID:19627498]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011232",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Mice vaccinated intraperitoneally (i.p.) with 10^7 p.f.u. of a vaccinia virus recombinant expressing either the glycoprotein (rVac-G) or nucleoprotein (rVac-N) of rabies virus 3 weeks before challenge were protected against peripheral lethal infection [PMID:8207400]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "648"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011199",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Intraperitoneal immunization with recombinant SrtA was found to have  conferred to mice protection against S. pneumoniae intraperitoneal challenge and the passive transfer of immune serum before intraperitoneal challenge was also protective. Moreover, by using the intranasal challenge model,  significant reduction of bacteremia when mice were intraperitoneally immunized with SrtA was observed, while a moderate decrease of lung infection was achieved by intranasal immunization, even though no influence on nasopharynx colonization was seen [PMID:19433540]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "615"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011034",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "BALB/c mice were immunized with PTx vaccine on day 6 of life and then challenged with B. pertussis using the aerosol challenge model.  These primed mice were significantly better protected against leukocytosis, weight loss, and proliferation of B. pertussis in the lungs following aerosol challenge than the nonprimed group. This protection correlated with levels of anti-PT antibody in serum present on the day of aerosol challenge [PMID:12117973]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "379"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011033",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Researchers constructed isogenic mutants of B. pertussis Tohama expressing the alleles ptxA1 or ptxA2 and prn1 or prn2 and compared the efficacies of an acellular pertussis vaccine against the mutants in a mouse model. While the vaccine was effective against all of the B. pertussis strains regardless of the allele expression pattern, the strain expressing ptxA1 and prn2 displayed a survival advantage over the other strains [PMID:20357056]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "378"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012359",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "51"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment.  Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to yopH [PMID:10085037]."
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011261",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "Study compared the handling of overlapping 24-mer peptides from HIV Nef either mixed or covalently linked in tandem in one protein.  With adjuvant, overlapping peptides were capable of protecting Balb/c mice against lethal viral challenge with 3 Ã— 108 plaque forming units of vv-nef, whereas the intact protein was less protective [PMID:19193636]."
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "707"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
-      "type" : "PROPERTY",
-      "lbl" : "label"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011104",
+      "id" : "http://purl.obolibrary.org/obo/VO_0011104",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
@@ -623,220 +25,784 @@
       },
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011186",
+      "id" : "http://purl.obolibrary.org/obo/VO_0011261",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
-          "val" : "601"
+          "val" : "707"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
-          "val" : "A total of 11 meningococcal proteins that are necessary for establishing systemic infection were expressed as recombinant antigens and assessed for their ability to protect mice against live bacterial challenge against N. meningitidis; ExbB, which is required for iron acquisition, elicited protective immunity [PMID:15964482]."
+          "val" : "Study compared the handling of overlapping 24-mer peptides from HIV Nef either mixed or covalently linked in tandem in one protein.  With adjuvant, overlapping peptides were capable of protecting Balb/c mice against lethal viral challenge with 3 Ã— 108 plaque forming units of vv-nef, whereas the intact protein was less protective [PMID:19193636]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010878",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "The type III secretion apparatus encoded on the low-calcium response (LCR) virulence plasmid, pCD1 in strain KIM5, of Y. pestis is a conserved virulence mechanism that is absolutely required for virulence of Y. pestis. YscF is a surface localized protein required both to secrete Yops and to translocate toxins into eukaryotic cells. YscF polymerization is possibly required for a YscF needle to puncture eukaryotic cell membranes. It is also likely that YscF and its homologs function to provide a base that a translocon complex is built upon, or that YscF builds a conduit from the bacterium to the eukaryotic membrane - this suggestion seems more likely given that other proteins such as YopB, YopD, and LcrV are also required for translocation into eukaryotic cells. YscF is thought to be a surface-expressed protein in Y. pestis and is required for virulence. YscF has been found to function as a protective antigen against experimental plague infection [PMID:15978133]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "49"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010877",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment. Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to pla [PMID:10085037]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "48"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010875",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "45"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "An LcrV variant lacking amino acid residues 271 to 300 (rV10) elicited immune responses that protected mice against a lethal challenge with Y. pestis [PMID:16041032]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010952",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "122"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Researchers have developed DNA vaccines expressing M. tuberculosis antigen 85A (Ag85A, fbpA) and cytokine granulocyte macrophage colony stimulating factor (GM-CSF).  The immune strategy of BCG-prime and DNA vaccine boost induced mice to generate efficient immune protection against M. tuberculosis challenge [PMID:19450898]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010951",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "The 10-kDa culture filtrate protein (CFP-10, esxB) and 6-kDa early secretory antigen of T cells (ESAT-6) are secreted in abundance by Mycobacterium tuberculosis.  Study demonstrated that protective immunity is induced by CFP-10 DNA vaccination in C3H mice as measured by a CFU reduction in the lung and spleen 4 and 8 weeks after challenge with M. tuberculosis [PMID:18332205]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "121"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010874",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "MAb BA5 protected animals against plague, neutralized the Y. pestis type III secretion pathway and promoted opsonophagocytic clearance of bacteria in blood. LcrV residues 196-225 were necessary and sufficient for MAb BA5 binding.  These results identify LcrV residues 196-225 as a linear epitope that is recognized by the murine immune system to confer plague protection [PMID:20005318]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "44"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011204",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "620"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Groups of BALB/c mice immunized with choline binding protein PspA were challenged with either D39 or WCH16. PspA elicited protection by using moderate challenge doses of S. pneumoniae [PMID:17088353]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010919",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "The heterologous prime-boost strategy of live Salmonella vaccine expressing Mycobacterium tuberculosis fusion antigen Age5B-ESAT6 (esxA) from the chromosome followed by a systemic boost of antigen and adjuvant reduced the levels of M. tuberculosis bacteria in the lungs and spleen to the same extent as BCG. Additionally, this vaccination regimen was observed to be statistically equivalent in terms of protection to immunisation with BCG [PMID:16751377].    In a prophylactic vaccine model, immunization with the Mycobacterium tuberculosis protein ESAT-6 with LANAC adjuvant elicited significant protective immunity against aerosol challenge with virulent M. tuberculosis [PMID:16751377]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "104"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011098",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "BALB/c mice receiving a glycoprotein D1 (gD1, US5) DNA vaccine alone were 80% protected against a subsequent HSV-1 challenge.  Results also indicate that the administration of NLX as an adjuvant improved protective immunity against HSV-1 [PMID:19174474]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "501"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0012388",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "842"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "In an attempt to generate a subunit vaccine in this experimental disease model, eukaryotic plasmid DNA expression vectors containing genes encoding either the wild-type or modified forms of recombinant listeriolysin O (hly) were generated and used for genetic vaccination of naive mice. Results of these studies indicate that the intramuscular immunization of mice with specifically designed plasmid DNA constructs encoding recombinant forms of listeriolysin O (hly) stimulates peptide-specific CD8+ immune T cells that exhibit in vitro cytotoxic activity. More importantly, such immunization can provide protective immunity against a subsequent challenge with viable L. monocytogenes [PMID:10384131]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011014",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "351"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Study tested the efficacy of 2 proteins, Psn and a portion of LcrV in protecting mice against virulent Yersinia pestis challenge.  Results show that the truncated LcrV protein delivered by RASV is sufficient to afford a full protective immune response in a mouse model of bubonic plague and the Psn protein afforded partial protection in a non-optimized system [PMID:17966435]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011015",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment.  Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to yopH [PMID:10085037]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "352"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011170",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "581"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Lewis rats were immunized with recombinant vaccinia virus (VV) expressing various proteins of measles virus (MV). VVM (Matrix Protein) -immunized rats were partially protected from MV challenge [PMID:1833505]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010903",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "448"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Mice and rabbits were immunized with recombinant HCR/A1 (rHCR/A1) from the classical type A-Hall strain (ATCC 3502) (BoNT/A1) and rHCR/E from BoNT serotype E Beluga (BoNT/E(B)).  The protection elicited by rHCR/A1 to BoNT/A1 and BoNT/A2 and by rHCR/E(B) to BoNT/E(A) indicate that immunization with receptor binding domains elicit protection within sub-serotypes of BoNT [PMID:16177380]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010945",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "FimH is a protective antigen [PMID:9110982]  Of the vaccine preparations, Fusion, Fusion + CT, and FimH admixed with FliC and CT showed the best protection against UPEC (Asadi et al., 2016)."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "263"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010944",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "93"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Systemic immunization of calves with a combination of EspA, intimin-531, and H7 flagellin resulted in a significant reduction in shedding of EHEC O157 to levels predicted to significantly impact on EHEC O157 cattle-to-cattle transmission [PMID:26020530]"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010988",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Active immunization of BALB/c mice with IroN antigen in Freund's adjuvant protects mice from lethal challenge with ExPEC strain S26 [PMID:17145948]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "282"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010987",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Antibodies directed at the putative binding region of FimH (anti- s-FimH1-25) significantly reduced E. coli bladder infections in the experimental mouse model of urinary tract infections [PMID:9276729]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "281"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010986",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "280"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Immunization with IutA protects against urinary tract colinization by E.coli CFT073 in the bladders of CBA/J mice [PMID:26729174].  We demonstrated for IutA, antigen-specific serum IgG represents a strong correlate of protection in vaccinated mice [PMID:26729174]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010864",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "16"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "VP35 expressed from alphavirus replicons induced a protective immune response in C57BL/6 mice when challenged with Ebola virus Zaire [PMID:11485406]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010940",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Mice immunized intranasally with recombinant Tir protein had a survival rate of 92.9% after challenge with EHEC 0157:H7  [PMID:26020530].  Immunization of calves with recombinant EHEC O157 EspA, intimin and Tir resulted in the generation of antibodies capable of cross-reacting with antigens from non-O157 EHEC serotypes, suggesting that immunization with these antigens may provide a degree of cross-protection against other EHEC serotypes [PMID:26020530]"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "199"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011119",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "524"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "A targeted fusion protein based on the CTA1-DD adjuvant and containing tandem repeats of the matrix protein 2 (M2e) ectodomain epitope derived from Influenza A virus (A/Puerto Rico/8/34(H1N1)), CTA1-3M2e-DD, confers strong protective immunity against a potentially lethal challenge infection with influenza virus in mice. The formulation was highly effective for mucosal immunizations and promoted high M2e-specific serum IgG and mucosal IgA antibody titers and an hitherto unknown anti-M2e CD4 T cell immunity [PMID:18243429]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010904",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "449"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "The DNA replicon vaccine (pSCARSBHc) encoding the Hc domain of BoNT/B (BHc) induced better responses and protection against BoNT/B mouse challenge than conventional DNA vaccine.  Recombinant SFV particle VRP-BHc protected mice from high-dose BoNT/B challenge [PMID:28869522]. The production of ciBoNT/B1 HP, ciBoNT/C1 HP, ciBoNT/E1 HP and ciBoNT/F1 HP suggest the ciBoNT HP vaccines exhibit superior potency after single vaccinations.[PMID:28869522]"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0012373",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Purified preparations of HBHA were emulsified in a dimethyldioctadecylammonium bromide-monophosphoryl lipid A adjuvant and tested for the ability to reduce M. tuberculosis infection in the mouse aerosol challenge model for tuberculosis. The HBHA-containing vaccine gave a approximately 0.7-log reduction in CFU in both mouse lungs and spleens compared to adjuvant controls 28 days following challenge [PMID:15557600]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "821"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011000",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "326"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Oral immunization of mice with ZJ111/pcDNA3-SAG1 elicited specific humoral responses and stimulated proliferation of splenocytes (P<0.05). Mice immunized with ZJ111/pcDNA3-SAG1 displayed significant protection against an intraperitoneally challenge with 500 tachyzoite forms of T. gondii RH strain. Vaccination at 10(7) and 10(8)CFU per mice provided a 20% and 10% survival rate comparing 100% mortality of the non-immunized mice, exhibiting longer living time and better survival rate [PMID:18590785]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011242",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "658"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "To examine the response by IE180 more closely, a vaccine trial in mice with a vector DNA construct that contains the gene encoding for IE180, designated pcDNAIE180 was conducted.  Seven months after immunization with pcDNAIE180, an overall 25% of BALB/c, C3H/HeJ, and C57BL/6 mice receiving a lethal PrV challenge were protected [PMID:9586695]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011002",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "339"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Modified yopD antigens were able to partially protect immunized mice at various levels against lethal challenge with Y. pestis KIM 1001 strain [PMID:18291562]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011321",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Mice actively immunized using a recombinant V antigen (rVagHis, encoded by lcrV gene) of Y. enterocolitica were completely protected against challenge with both, Y. enterocolitica 0:8 and Y. pseudotuberculosis serotype III [PMID:10089162]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "790"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011169",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "580"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Lewis rats were immunized with recombinant vaccinia virus (VV) expressing various proteins of measles virus (MV). VVP (Phosphoprotein) -immunized rats were partially protected from MV challenge [PMID:1833505]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011203",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "619"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Mice were actively immunized with a fragment of choline binding protein A (CbpA; also known as PspC, Hic, and SpsA). CbpA was able to protect mice from intraperitoneal challenge with medium to very high doses of a highly virulent capsular type 2 pneumococcal strain, D39 [PMID:11553536]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0010992",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "288"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "S. flexneri M90T is a colonisation-defective mutant with a transposon in fnr, which encodes a regulator of anaerobic metabolism. To establish whether FNR-mediated repression of spa32 and spa33 contributes to increased Shigella entry into cells in an anaerobic cabinet, recombinant M90T strains were constructed which contain spa32 and spa33 under the control of either their native promoters (M90Tp32/33) or promoters with disrupted FNR boxes (M90Tp#32/#33).The presence in M90T of spa32 and spa33 alleles that are not repressed by FNR led to IpaB secretion during anaerobic growth, and loss of the increased entry of Shigella into cells in an anaerobic cabinet [PMID:20436458]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011084",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "485"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Rabbit antibody prepared against P2 from one strain was cross-reactive with P2 isolated from the other two heterologous strains by Western blot. This antibody passively protected infant rats against type b Haemophilus infection caused by the homologous organism, but not against challenge by a strain with the heterologous 36,500 mol wt P2 protein [PMID:6603479]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0012372",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "820"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "A selection of previously identified protective Mycobacterium tuberculosis DNA vaccines were re-formulated as proteins and administered with a Th1-inducing adjuvant to help stimulate the relevant immune responses necessary for protection. One candidate (Rv1806-1807) induced protection in the guinea pig aerosol infection model 30 days post-challenge on the basis of reducing the bacterial burden of M. tuberculosis in the lungs [PMID:16520093]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0012359",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Study evaluated the humoral immune response of mice that survived lethal Y. pestis aerosol challenge after antibiotic treatment.  Results indicated that one of the predominant antibody response of mice surviving pneumonic plague after treatment with antibiotics was to yopH [PMID:10085037]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "51"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011197",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Mice immunized with recombinant (r)PsrP(BR) had significantly less bacteria in their blood and improved survival versus controls following intranasal challenge [PMID:19627498]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "613"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011033",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "378"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Researchers constructed isogenic mutants of B. pertussis Tohama expressing the alleles ptxA1 or ptxA2 and prn1 or prn2 and compared the efficacies of an acellular pertussis vaccine against the mutants in a mouse model. While the vaccine was effective against all of the B. pertussis strains regardless of the allele expression pattern, the strain expressing ptxA1 and prn2 displayed a survival advantage over the other strains [PMID:20357056]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011232",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "648"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Mice vaccinated intraperitoneally (i.p.) with 10^7 p.f.u. of a vaccinia virus recombinant expressing either the glycoprotein (rVac-G) or nucleoprotein (rVac-N) of rabies virus 3 weeks before challenge were protected against peripheral lethal infection [PMID:8207400]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011199",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "615"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Intraperitoneal immunization with recombinant SrtA was found to have  conferred to mice protection against S. pneumoniae intraperitoneal challenge and the passive transfer of immune serum before intraperitoneal challenge was also protective. Moreover, by using the intranasal challenge model,  significant reduction of bacteremia when mice were intraperitoneally immunized with SrtA was observed, while a moderate decrease of lung infection was achieved by intranasal immunization, even though no influence on nasopharynx colonization was seen [PMID:19433540]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011034",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "BALB/c mice were immunized with PTx vaccine on day 6 of life and then challenged with B. pertussis using the aerosol challenge model.  These primed mice were significantly better protected against leukocytosis, weight loss, and proliferation of B. pertussis in the lungs following aerosol challenge than the nonprimed group. This protection correlated with levels of anti-PT antibody in serum present on the day of aerosol challenge [PMID:12117973]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "379"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011079",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "477"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Anti-lpnA MAbs conferred significant, although not complete, protection of naÃ¯ve C3H/HeN mice from lethal challenge with F. tularensis LVS when administered therapeutically [PMID:19176692]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0012368",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "816"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "In a prophylactic vaccine model, immunization with the Mycobacterium tuberculosis protein ESAT-6 with LANAC adjuvant elicited significant protective immunity against aerosol challenge with virulent M. tuberculosis [PMID:16751377]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0012369",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "817"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "DNA vaccines encoding  KatG antigen fused to TPA signal sequences evoked  a significant protective response in mice aerogenically challenged with low doses of Mycobacterium tuberculosis Erdman 17 to 21 days after the final immunization [PMID:10456931]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "type" : "PROPERTY",
+      "lbl" : "label"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011192",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Immunization with the pneumococcal proteins pneumolysin (Ply), choline binding protein A (CbpA), or pneumococcal surface protein A (PspA) elicits protective responses against invasive pneumococcal disease in animal models.[PMID:26245351]"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "607"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011193",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "The protective effects of ATP-dependent caseinolytic protease (ClpP) was evaluated. Vaccinated mice were intraperitoneally and/or intranasally challenged with different pneumococcal strains. In intraperitoneal challenge models with pneumococcal strain D39 (serotype 2), clpP elicited some protection in mice [PMID:20038538]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "608"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011072",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "470"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Mice immunized with rLm/iglC were protected against lethal challenge with F. tularensis LVS administered by the intranasal route, a route chosen to mimic airborne infection, and, most importantly, against aerosol challenge with the highly virulent Type A F. tularensis SchuS4 strain [PMID:19126421]."
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011074",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Immunization with WbtI(G191V) protected mice against a relatively low-dose intraperitoneal challenge with LVS (F. tularensis subspecies holarctica live vaccine strain), but was less protective against a high-dose challenge [PMID:17768257]."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "472"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/VO_0011272",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003557",
+          "val" : "733"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/VO_0003558",
+          "val" : "Antibodies generated against TcpF are protective against experimental V. cholerae infection in the infant mouse cholera model [PMID:16040956]."
         } ]
       },
       "type" : "CLASS"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011272",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010875",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010988",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011193",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011197",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011170",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012359",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011000",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011015",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011084",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011261",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011072",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010992",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011034",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011186",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011204",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011098",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011242",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011321",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011192",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011014",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010951",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010877",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010864",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012368",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011079",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010940",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011033",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010986",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011203",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011199",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0012368",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010903",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010877",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012372",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011104",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010952",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010952",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011104",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0012372",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010878",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010986",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012369",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011199",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010987",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010940",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010904",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010878",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0012369",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012373",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010903",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011170",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0012373",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011193",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010987",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010875",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011272",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011000",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011186",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011072",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010992",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011204",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011015",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011034",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010904",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011242",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0012359",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011084",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011261",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0012388",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011321",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011192",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010988",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011079",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011197",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011203",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011014",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010864",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011098",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011033",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011232",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010951",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011002",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011002",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011169",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011232",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011074",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011119",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011119",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011074",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010944",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010944",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010919",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0011169",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010874",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010919",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0012388",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010874",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/http://purl.obolibrary.org/obo/VO_0010945",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010945",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     } ],
