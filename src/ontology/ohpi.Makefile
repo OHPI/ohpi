@@ -61,7 +61,7 @@ ASSETS += $(ADDITIONAL_IMPORT_FILES)
 
 all_imports: ontofox_imports
 
-ONTOFOX_IMPORTS = cl clo ino ido idobru ncbitaxon
+ONTOFOX_IMPORTS = cl clo ino ido idobru ncbitaxon vo
 
 ONTOFOX_IMPORT_ROOTS = $(patsubst %, imports/%_import, $(ONTOFOX_IMPORTS))
 ONTOFOX_IMPORT_FILES = $(foreach n,$(ONTOFOX_IMPORT_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
