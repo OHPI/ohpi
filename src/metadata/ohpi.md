@@ -59,8 +59,8 @@ dependencies:
 - id: ido
 - id: idobru
 - id: ncbitaxon
+- id: vo
 - id: ogg-victor
-
 tracker: https://github.com/OHPI/ohpi/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/

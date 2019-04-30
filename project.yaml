@@ -101,6 +101,11 @@ import_group:
     rebuild_if_source_changes: true
     robot_settings: null
   - description: null
+    id: vo
+    mirror_from: null
+    rebuild_if_source_changes: true
+    robot_settings: null
+  - description: null
     id: ogg-victors
     mirror_from: null
     rebuild_if_source_changes: true
