@@ -522,11 +522,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] "
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an aggregate of human beings."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000116",
           "val" : "BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "an aggregate of human beings."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/BFO_0000180",
           "val" : "MaterialEntity"
@@ -1221,11 +1221,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
           "val" : "http://purl.obolibrary.org/obo/ido.owl"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
           "val" : "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "certain people have a predisposition to colon cancer"
@@ -1636,10 +1636,10 @@
           "val" : "http://purl.obolibrary.org/obo/ido.owl"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
+          "val" : "an organism"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
+          "val" : "a molecule"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000601",
           "val" : "For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])"
@@ -2480,13 +2480,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IDO_0000404",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IDO_0000405"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IDO_0000468",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IDO_0000467"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IDO_0000404",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IDO_0000405"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000017",
       "pred" : "is_a",
@@ -2504,13 +2504,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IDO_0000450"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IDO_0000628",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IDO_0000586"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IDO_0000567",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IDO_0000504"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IDO_0000628",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IDO_0000586"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/BFO_0000019",
       "pred" : "is_a",
@@ -2596,20 +2596,20 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/BFO_0000016",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IDO_0000633",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IDO_0000586"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/BFO_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000017"
     } ],
     "id" : "http://purl.obolibrary.org/obo/ohpi/imports/ido_import.owl",
     "meta" : {
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-12/imports/ido_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/ido_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

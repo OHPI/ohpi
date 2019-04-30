@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohpi/imports/doid_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-04-12/imports/doid_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/doid_import.owl"/>
     </owl:Ontology>
     
 
@@ -1457,6 +1457,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1319">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_3620"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_936"/>
         <obo:IAO_0000115>A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>DOID:2125</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:2126</oboInOwl:hasAlternativeId>
@@ -2024,7 +2025,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_176"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
         <obo:IAO_0000115>A cardiovascular cancer that is located_in blood vessels.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>DOID:3339</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:5454</oboInOwl:hasAlternativeId>
@@ -2133,7 +2133,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050686"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
         <obo:IAO_0000115>An organ system cancer that located_in the heart and blood vessels.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>CSP2005:2007-0683</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI2004_11_17:C4784</oboInOwl:hasDbXref>
@@ -2595,8 +2594,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5353"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5672"/>
-        <obo:IAO_0000115>A large intestine cancer that is located_in the colon.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+        <obo:IAO_0000115>A colorectal cancer that is located_in the colon.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>ICD10CM:C18</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:C18.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:153</oboInOwl:hasDbXref>
@@ -2615,7 +2614,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_219"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A large intestine cancer that is located_in the colon.</owl:annotatedTarget>
+        <owl:annotatedTarget>A colorectal cancer that is located_in the colon.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>url:http://www.cancer.gov/dictionary?CdrID=44237</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4983,6 +4982,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6713">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_936"/>
         <obo:IAO_0000115>An vascular disease that is characterized by dysfunction of the blood vessels supplying the brain.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>DOID:12214</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>DOID:3455</oboInOwl:hasAlternativeId>
@@ -5693,13 +5693,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref>KEGG:05210</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D015179</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>OMIM:114500</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:611469</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:612230</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:612231</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:612232</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:612589</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:612590</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:612592</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C1527249</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:9256</oboInOwl:id>
@@ -5799,6 +5792,39 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An adnexa disease that is located_in the eye socket.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>url:http://www.hopkinsmedicine.org/wilmer/services/oculofacial_plastic_surgery/reconstructive/orbital_disease.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_936">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
+        <obo:IAO_0000115>A central nervous system disease that is located_in the brain.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>DOID:8510</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:G93.40</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:G93.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:348.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:348.30</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:348.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001927</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C26920</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C96413</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2018_03_01:76011009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2018_03_01:81308009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0006111</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0085584</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>encephalopathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:936</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
+        <rdfs:label>brain disease</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_936"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A central nervous system disease that is located_in the brain.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://medlineplus.gov/braindiseases.html</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

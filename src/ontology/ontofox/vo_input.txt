@@ -1,0 +1,103 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ohpi/imports/vo_import.owl
+
+[Source ontology]
+VO
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PRO_000000001 # protein
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 # molecular entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
+
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/VO_0000457 # protective antigen role
+http://purl.obolibrary.org/obo/VO_0000147 # vaccine adjuvant role
+http://purl.obolibrary.org/obo/VO_0001274 # vaccine host role
+http://purl.obolibrary.org/obo/VO_0000580 # vaccine target 
+http://purl.obolibrary.org/obo/VO_0001479 # vaccine target specification
+http://purl.obolibrary.org/obo/VO_0000590 # vaccine preparation
+http://purl.obolibrary.org/obo/VO_0000494 # vaccine immunization
+http://purl.obolibrary.org/obo/VO_0000585 # immunization objective
+http://purl.obolibrary.org/obo/VO_0000278 # vaccine function
+http://purl.obolibrary.org/obo/VO_0000001 # vaccine
+http://purl.obolibrary.org/obo/VO_0000179 # vaccine component
+http://purl.obolibrary.org/obo/VO_0000580 # vaccine adjuvant
+includeAllChildren
+
+# The following are vaccine terms used in OHPI
+http://purl.obolibrary.org/obo/VO_0010864
+http://purl.obolibrary.org/obo/VO_0010874
+http://purl.obolibrary.org/obo/VO_0000831
+http://purl.obolibrary.org/obo/VO_0010875
+http://purl.obolibrary.org/obo/VO_0010877
+http://purl.obolibrary.org/obo/VO_0010878
+http://purl.obolibrary.org/obo/VO_0000834
+http://purl.obolibrary.org/obo/VO_0012359
+http://purl.obolibrary.org/obo/VO_0010903
+http://purl.obolibrary.org/obo/VO_0010904
+http://purl.obolibrary.org/obo/VO_0010919
+http://purl.obolibrary.org/obo/VO_0000536
+http://purl.obolibrary.org/obo/VO_0010940
+http://purl.obolibrary.org/obo/VO_0000459
+http://purl.obolibrary.org/obo/VO_0010944
+http://purl.obolibrary.org/obo/VO_0000478
+http://purl.obolibrary.org/obo/VO_0010945
+http://purl.obolibrary.org/obo/VO_0010951
+http://purl.obolibrary.org/obo/VO_0010952
+http://purl.obolibrary.org/obo/VO_0012368
+http://purl.obolibrary.org/obo/VO_0004035
+http://purl.obolibrary.org/obo/VO_0012369
+http://purl.obolibrary.org/obo/VO_0004058
+http://purl.obolibrary.org/obo/VO_0012372
+http://purl.obolibrary.org/obo/VO_0012373
+http://purl.obolibrary.org/obo/VO_0004059
+http://purl.obolibrary.org/obo/VO_0010986
+http://purl.obolibrary.org/obo/VO_0011445
+http://purl.obolibrary.org/obo/VO_0010987
+http://purl.obolibrary.org/obo/VO_0001168
+http://purl.obolibrary.org/obo/VO_0010988
+http://purl.obolibrary.org/obo/VO_0010992
+http://purl.obolibrary.org/obo/VO_0011000
+http://purl.obolibrary.org/obo/VO_0011002
+http://purl.obolibrary.org/obo/VO_0011014
+http://purl.obolibrary.org/obo/VO_0011015
+http://purl.obolibrary.org/obo/VO_0011033
+http://purl.obolibrary.org/obo/VO_0011034
+http://purl.obolibrary.org/obo/VO_0011072
+http://purl.obolibrary.org/obo/VO_0011074
+http://purl.obolibrary.org/obo/VO_0011079
+http://purl.obolibrary.org/obo/VO_0011084
+http://purl.obolibrary.org/obo/VO_0011098
+http://purl.obolibrary.org/obo/VO_0011104
+http://purl.obolibrary.org/obo/VO_0011119
+http://purl.obolibrary.org/obo/VO_0011169
+http://purl.obolibrary.org/obo/VO_0011170
+http://purl.obolibrary.org/obo/VO_0011186
+http://purl.obolibrary.org/obo/VO_0004011
+http://purl.obolibrary.org/obo/VO_0011192
+http://purl.obolibrary.org/obo/VO_0011193
+http://purl.obolibrary.org/obo/VO_0004006
+http://purl.obolibrary.org/obo/VO_0011197
+http://purl.obolibrary.org/obo/VO_0011199
+http://purl.obolibrary.org/obo/VO_0004008
+http://purl.obolibrary.org/obo/VO_0011203
+http://purl.obolibrary.org/obo/VO_0004005
+http://purl.obolibrary.org/obo/VO_0011204
+http://purl.obolibrary.org/obo/VO_0004007
+http://purl.obolibrary.org/obo/VO_0011232
+http://purl.obolibrary.org/obo/VO_0011242
+http://purl.obolibrary.org/obo/VO_0004039
+http://purl.obolibrary.org/obo/VO_0011261
+http://purl.obolibrary.org/obo/VO_0011272
+http://purl.obolibrary.org/obo/VO_0011321
+http://purl.obolibrary.org/obo/VO_0011503
+http://purl.obolibrary.org/obo/VO_0012388
+http://purl.obolibrary.org/obo/VO_0004031

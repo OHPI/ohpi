@@ -3472,13 +3472,13 @@
       "pred" : "http://purl.obolibrary.org/obo/CLO_0000179",
       "obj" : "http://purl.obolibrary.org/obo/DOID_3908"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CLO_0000102",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CLO_0000147"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0000106",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CLO_0000107"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000102",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CLO_0000147"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0001601",
       "pred" : "http://purl.obolibrary.org/obo/CLO_0000015",
@@ -3569,7 +3569,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-12/imports/clo_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/clo_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

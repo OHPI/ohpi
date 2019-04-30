@@ -3,18 +3,18 @@
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
 
-all_main: $(ONT)-merge.owl $(ONT)-merge.obo $(ONT)-merge.json
+IMP=true # Global parameter to bypass import generation
+MIR=true # Global parameter to bypass mirror generation
 
-all_imports: additional_imports ontofox_imports ogg-victors_import
-
+FOX=true # Global parameter to bypass ontofox import generation
+MOD=true # Global parameter to bypass module generation
 
 # ----------------------------------------
 # Additional ODK Mirror/Import
 # ----------------------------------------
 #
 
-IMP=true # Global parameter to bypass import generation
-MIR=true # Global parameter to bypass mirror generation
+all_imports: additional_imports
 
 ADDITIONAL_IMPORTS = doid
 
@@ -59,7 +59,7 @@ ASSETS += $(ADDITIONAL_IMPORT_FILES)
 # ----------------------------------------
 #
 
-FOX=true
+all_imports: ontofox_imports
 
 ONTOFOX_IMPORTS = cl clo ino ido idobru ncbitaxon
 
@@ -97,6 +97,8 @@ ASSETS += $(ONTOFOX_IMPORT_FILES)
 # ----------------------------------------
 #
 
+all_imports: ogg-victors_import
+
 ogg-victors_import: imports/ogg-victors_import.owl imports/ogg-victors_import.obo imports/ogg-victors_import.json
 
 imports/ogg-victors_import.owl: mirror/ogg-victors.owl
@@ -113,8 +115,45 @@ imports/ogg-victors_import.json: imports/ogg-victors_import.owl
 ASSETS += imports/ogg-victors_import.owl imports/ogg-victors_import.obo imports/ogg-victors_import.json
 
 # ----------------------------------------
+# Modules
+# ----------------------------------------
+
+MODULES = victors-annotation victors-pathogen victors-host victors-interaction victors-protegen-gene victors-protegen-protein
+
+MODULES_ROOTS = $(patsubst %, modules/%_module, $(MODULES))
+MODULES_FILES = $(foreach n,$(MODULES_ROOTS), $(foreach f,$(FORMATS), $(n).$(f)))
+MODULES_OWL_FILES = $(foreach n,$(MODULES_ROOTS), $(n).owl)
+
+all_modules: $(MODULES_FILES)
+
+all_modules_owl: $(foreach n,$(MODULES_ROOTS), $(n).owl)
+ 
+all_modules_obo: $(foreach n,$(MODULES_ROOTS), $(n).obo)
+ 
+all_modules_json: $(foreach n,$(MODULES_ROOTS), $(n).json)
+
+#TODO:
+#	Add the functionality to automatically generate modules from
+#	1) ontorat/*_input.txt
+#	2) victors/*_data.txt
+#	3) ontorat/victors.template.owl
+modules/%_module.owl:
+	@if [ $(MOD) = true ]; then $(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/$@ \
+	--version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: modules/%_module.owl
+
+modules/%_module.obo: modules/%_module.owl
+	@if [ $(MOD) = true ]; then $(ROBOT) convert --check false -i $< -f obo -o $@.tmp.obo && mv $@.tmp.obo $@; fi
+modules/%_module.json: modules/%_module.owl
+	@if [ $(MOD) = true ]; then $(ROBOT) convert --check false -i $< -f json -o $@.tmp.json && mv $@.tmp.json $@; fi
+
+ASSETS += $(MODULES_FILES)
+
+# ----------------------------------------
 # Export Formats
 # ----------------------------------------
+
+all_main: $(ONT)-merge.owl $(ONT)-merge.obo $(ONT)-merge.json
 
 ## Merge: The merge artefacts with imports merged
 $(ONT)-merge.owl: $(SRC) $(OTHER_SRC)

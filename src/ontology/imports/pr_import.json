@@ -284,6 +284,16 @@
       "type" : "CLASS",
       "lbl" : "Gallus gallus"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_235443",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Cryptococcus neoformans var. grubii H99"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10029",
       "meta" : {
         "synonyms" : [ {
@@ -1273,6 +1283,21 @@
       "type" : "CLASS",
       "lbl" : "Mycobacterium tuberculosis H37Rv"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10036",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "golden hamster",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Mesocricetus auratus"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_83333",
       "meta" : {
         "synonyms" : [ {
@@ -1588,6 +1613,25 @@
       "type" : "CLASS",
       "lbl" : "Medicago sativa"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/RO_0002215",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "RO:0002215"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#is_transitive",
+          "val" : "false"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+          "val" : "capable_of"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "capable_of"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
       "meta" : {
         "synonyms" : [ {
@@ -1691,13 +1735,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_441771",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_33208",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33154"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_441771",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_122586",
       "pred" : "is_a",
@@ -1711,11 +1755,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9940",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9940",
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
     }, {
@@ -1806,6 +1850,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_171101",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10036",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9989"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_568206",
       "pred" : "is_a",
@@ -1903,13 +1951,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_211044",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_197911"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_204722",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_234"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_211044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_197911"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1502",
       "pred" : "is_a",
@@ -1978,6 +2026,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_7955",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_33208"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_235443",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_4751"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_23367",
       "pred" : "is_a",
@@ -2059,13 +2111,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_623",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_93061",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1280"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_623",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_4932",
       "pred" : "is_a",
@@ -2096,7 +2148,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-15/imports/pr_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/pr_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -1,20 +1,106 @@
 ?cls	?pred	?val	?synType
-<http://purl.obolibrary.org/obo/OHPI_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"mouse-pathogen interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-pathogen interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-M. tuberculosis interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-bacterial pathogen interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000018>	<http://www.w3.org/2000/01/rdf-schema#label>	"human-Brucella interaction in macrophage"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"human-Brucella interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000010>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-viral pathogen interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"mouse-M. tuberculosis interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"pig-pathogen interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000021>	<http://www.w3.org/2000/01/rdf-schema#label>	"M. tuberculosis interaction with mouse cell line cell"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000012>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-fungal pathogen interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000031>	<http://www.w3.org/2000/01/rdf-schema#label>	"honeycomb moth-pathogen interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000022>	<http://www.w3.org/2000/01/rdf-schema#label>	"M. tuberculosis interaction with J774.A1 RAW cell"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000024>	<http://www.w3.org/2000/01/rdf-schema#label>	"M. tuberculosis interaction with mouse macrophage cell line cell"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000013>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-parasitic pathogen interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000032>	<http://www.w3.org/2000/01/rdf-schema#label>	"rat-pathogen interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"M. tuberculosis ahpC mutant interaction with J774.A1 cell"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000014>	<http://www.w3.org/2000/01/rdf-schema#label>	"host-Brucella interaction"@en	
-<http://purl.obolibrary.org/obo/OHPI_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"human-pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000103>	<http://www.w3.org/2000/01/rdf-schema#label>	"mouse host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000125>	<http://www.w3.org/2000/01/rdf-schema#label>	"C. elegans cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000079>	<http://www.w3.org/2000/01/rdf-schema#label>	"host SARS-related coronavirus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000010>	<http://www.w3.org/2000/01/rdf-schema#label>	"host viral pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000047>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Y. enterocolitica pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000006>	<http://www.w3.org/2000/01/rdf-schema#label>	"host bacterial pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000093>	<http://www.w3.org/2000/01/rdf-schema#label>	"virulence factor role"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Y. pestis pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000061>	<http://www.w3.org/2000/01/rdf-schema#label>	"host L. pneumophila pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000116>	<http://www.w3.org/2000/01/rdf-schema#label>	"monkey cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000115>	<http://www.w3.org/2000/01/rdf-schema#label>	"monkey host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000028>	<http://www.w3.org/2000/01/rdf-schema#label>	"host N. meningitidis pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000074>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Classical swine fever virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000042>	<http://www.w3.org/2000/01/rdf-schema#label>	"host B. pertussis pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000111>	<http://www.w3.org/2000/01/rdf-schema#label>	"hamster cell line cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000110>	<http://www.w3.org/2000/01/rdf-schema#label>	"hamster cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000087>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Myxoma virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000055>	<http://www.w3.org/2000/01/rdf-schema#label>	"host P. multocida pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000106>	<http://www.w3.org/2000/01/rdf-schema#label>	"rabbit host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"host C. tetani pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000109>	<http://www.w3.org/2000/01/rdf-schema#label>	"hamster host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000124>	<http://www.w3.org/2000/01/rdf-schema#label>	"C. elegans host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000068>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Hantavirus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000082>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Feline herpesvirus 1 pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000050>	<http://www.w3.org/2000/01/rdf-schema#label>	"host L. monocytogenes pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000105>	<http://www.w3.org/2000/01/rdf-schema#label>	"mouse cell line cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000104>	<http://www.w3.org/2000/01/rdf-schema#label>	"mouse cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000049>	<http://www.w3.org/2000/01/rdf-schema#label>	"host B. burgdorferi pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000017>	<http://www.w3.org/2000/01/rdf-schema#label>	"host C. botulinum pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000063>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Enterococcus spp. pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000031>	<http://www.w3.org/2000/01/rdf-schema#label>	"host C. diphtheriae pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000121>	<http://www.w3.org/2000/01/rdf-schema#label>	"goat host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000118>	<http://www.w3.org/2000/01/rdf-schema#label>	"cattle host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000107>	<http://www.w3.org/2000/01/rdf-schema#label>	"rabbit cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000100>	<http://www.w3.org/2000/01/rdf-schema#label>	"human host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000076>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Infectious hematopoietic necrosis virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000044>	<http://www.w3.org/2000/01/rdf-schema#label>	"host C. pneumoniae pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000012>	<http://www.w3.org/2000/01/rdf-schema#label>	"host fungal pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000113>	<http://www.w3.org/2000/01/rdf-schema#label>	"chicken cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000112>	<http://www.w3.org/2000/01/rdf-schema#label>	"chicken host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000089>	<http://www.w3.org/2000/01/rdf-schema#label>	"virulence factor gene role"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000057>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Leptospira spp. pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000071>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Rabies virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000126>	<http://www.w3.org/2000/01/rdf-schema#label>	"C. elegans cell line cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000038>	<http://www.w3.org/2000/01/rdf-schema#label>	"host B. avium pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000084>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Feline infectious peritonitis virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000052>	<http://www.w3.org/2000/01/rdf-schema#label>	"host S. aureus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"host M. tuberculosis pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"host E. coli pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000065>	<http://www.w3.org/2000/01/rdf-schema#label>	"host E. tarda pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000102>	<http://www.w3.org/2000/01/rdf-schema#label>	"human cell line cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000101>	<http://www.w3.org/2000/01/rdf-schema#label>	"human cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000078>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Rift valley fever virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000046>	<http://www.w3.org/2000/01/rdf-schema#label>	"host B. pseudomallei pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000014>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Brucella spp. pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000060>	<http://www.w3.org/2000/01/rdf-schema#label>	"host C. trachomatis pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000059>	<http://www.w3.org/2000/01/rdf-schema#label>	"host B. mallei pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Shigella pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000073>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Pseudorabies virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000041>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Rickettsia spp. pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000086>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Simian immunodeficiency virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000054>	<http://www.w3.org/2000/01/rdf-schema#label>	"host S. pyogenes pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000022>	<http://www.w3.org/2000/01/rdf-schema#label>	"host C. burnetii pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000123>	<http://www.w3.org/2000/01/rdf-schema#label>	"goat cell line cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000122>	<http://www.w3.org/2000/01/rdf-schema#label>	"goat cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000067>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Human immunodeficiency virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000081>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Feline immunodeficiency virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000048>	<http://www.w3.org/2000/01/rdf-schema#label>	"host H. pylori pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000094>	<http://www.w3.org/2000/01/rdf-schema#label>	"virulence factor protein role"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"host F. tularensis pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000062>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Bartonella spp. pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"host S. pneumoniae pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000117>	<http://www.w3.org/2000/01/rdf-schema#label>	"monkey cell line cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000075>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Bovine herpesvirus 1 pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000043>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Y. pseudotuberculosis pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000011>	<http://www.w3.org/2000/01/rdf-schema#label>	"host parasitic pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000088>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Ectromelia virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000056>	<http://www.w3.org/2000/01/rdf-schema#label>	"host B. bronchiseptica pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000024>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Salmonella spp. pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000070>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Measles virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000069>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Influenza virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000037>	<http://www.w3.org/2000/01/rdf-schema#label>	"host M. gallisepticum pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000083>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Gallid herpesvirus 1 pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000051>	<http://www.w3.org/2000/01/rdf-schema#label>	"host P. aeruginosa pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000120>	<http://www.w3.org/2000/01/rdf-schema#label>	"cattle cell line cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000119>	<http://www.w3.org/2000/01/rdf-schema#label>	"cattle cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000018>	<http://www.w3.org/2000/01/rdf-schema#label>	"host C. jejuni pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000064>	<http://www.w3.org/2000/01/rdf-schema#label>	"host A. hydrophila pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000032>	<http://www.w3.org/2000/01/rdf-schema#label>	"host A. salmonicida pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000077>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Herpes simplex virus type 1 pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000045>	<http://www.w3.org/2000/01/rdf-schema#label>	"host M. avium pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000013>	<http://www.w3.org/2000/01/rdf-schema#label>	"host B. anthracis pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000114>	<http://www.w3.org/2000/01/rdf-schema#label>	"chicken cell line cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000058>	<http://www.w3.org/2000/01/rdf-schema#label>	"host C. perfringens pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000072>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Rotavirus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"host V. cholerae pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000039>	<http://www.w3.org/2000/01/rdf-schema#label>	"host A. pleuropneumoniae pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000085>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Vaccinia virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000053>	<http://www.w3.org/2000/01/rdf-schema#label>	"host S. agalactiae pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000021>	<http://www.w3.org/2000/01/rdf-schema#label>	"host H. influenzae pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000108>	<http://www.w3.org/2000/01/rdf-schema#label>	"rabbit cell line cell host pathogen interaction"@en	
+<http://purl.obolibrary.org/obo/OHPI_0000066>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Ebola virus pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000034>	<http://www.w3.org/2000/01/rdf-schema#label>	"host S. equi pathogen interaction"	
+<http://purl.obolibrary.org/obo/OHPI_0000080>	<http://www.w3.org/2000/01/rdf-schema#label>	"host Bovine respiratory syncytial virus pathogen interaction"	
