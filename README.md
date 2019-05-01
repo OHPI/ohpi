@@ -5,7 +5,7 @@
 
 OHPI is a community-driven ontology of host-pathogen interactions (OHPI) and represents the virulence factors (VFs) and how the mutants of VFs in the [Victors](http://www.phidias.us/victors/index.php) database become less virulence inside a host organism or host cells. It is developed to represent manually curated HPI knowledge available in the [PHIDIAS](http://www.phidias.us) resource .
 
-**Example:** The OHPI object property ‘gene mutant attenuated in host cell’ represents a relation between a gene and a host cell where the microbial mutant lacking the gene is attenuated in the host cell compared to the wild type microbe. Such an object property can be used to represent a virulence factor and its interaction in a host cell, e.g., an oxidative stress response gene ahpC of *M. tuberculosis strain* H37Rv and mouse macrophage cell line J774 cell line where the ahpC mutant of strain *Mycobactrium tuberculosis* H37Rv is attenuated in J774 cells.
+**Example:** The OHPI object property ‘gene mutant attenuated in host cell’ represents a relation between a gene and a host cell where the microbial mutant lacking the gene is attenuated in the host cell compared to the wild type microbe. Such an object property can be used to represent a virulence factor and its interaction in a host cell, e.g., the ugpB gene of *Brucella spp.* and human epithelial cell line HeLa cell line where the ugpB mutant of *Brucella spp.* is attenuated in HeLa cells.
 
 ## Relevant links
 - Ontology discussion mailing-list: ohpi-discuss@googlegroups.com
@@ -26,9 +26,7 @@ More information can be found at http://obofoundry.org/ontology/ohpi
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/ohpi.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
+http://purl.obolibrary.org/obo/ohpi.owl (Approval pending)
 
 ### Editors' version
 
