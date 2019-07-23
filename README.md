@@ -26,7 +26,7 @@ More information can be found at http://obofoundry.org/ontology/ohpi
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/ohpi.owl (Approval pending)
+http://purl.obolibrary.org/obo/ohpi.owl
 
 ### Editors' version
 
