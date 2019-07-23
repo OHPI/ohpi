@@ -199,35 +199,6 @@
       "type" : "CLASS",
       "lbl" : "intestinal epithelial cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CL_0000542",
-      "meta" : {
-        "definition" : {
-          "val" : "A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.",
-          "xrefs" : [ ]
-        },
-        "xrefs" : [ {
-          "val" : "BTO:0000775"
-        }, {
-          "val" : "CALOHA:TS-0583"
-        }, {
-          "val" : "FMA:62863"
-        }, {
-          "val" : "VHOG:0001535"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
-          "val" : "http://purl.obolibrary.org/obo/cl.owl"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Editors note: consider adding taxon constraint to vertebrata (PMID:18025161)"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "cell"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "lymphocyte"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CL_0000003",
       "meta" : {
         "definition" : {
@@ -256,6 +227,35 @@
       },
       "type" : "CLASS",
       "lbl" : "native cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CL_0000542",
+      "meta" : {
+        "definition" : {
+          "val" : "A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "BTO:0000775"
+        }, {
+          "val" : "CALOHA:TS-0583"
+        }, {
+          "val" : "FMA:62863"
+        }, {
+          "val" : "VHOG:0001535"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/cl.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Editors note: consider adding taxon constraint to vertebrata (PMID:18025161)"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "cell"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lymphocyte"
     }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
       "type" : "PROPERTY",

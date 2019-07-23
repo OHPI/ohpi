@@ -634,6 +634,18 @@
       "type" : "CLASS",
       "lbl" : "mouse host pathogen interaction"
     }, {
+      "id" : "http://purl.org/dc/terms/license",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Mark Miller"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/date",
+          "val" : "2018-05-11T13:47:29Z"
+        } ]
+      },
+      "type" : "PROPERTY"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/OHPI_0000050",
       "type" : "CLASS",
       "lbl" : "host L. monocytogenes pathogen interaction"
@@ -747,11 +759,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000044",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000021",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000021",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000044",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
@@ -763,13 +775,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000055",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000110",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000109"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000055",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000074",
       "pred" : "is_a",
@@ -803,11 +815,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000046",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000023",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000023",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000046",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
@@ -835,13 +847,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000094",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000093"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000013",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000094",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000093"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000058",
       "pred" : "is_a",
@@ -867,21 +879,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000047",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000010",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000024",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000047",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000078",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000038",
       "pred" : "is_a",
@@ -907,11 +919,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000014",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000037",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000037",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000014",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
@@ -951,6 +963,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000113",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000112"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000112",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
@@ -958,10 +974,6 @@
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000102",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000101"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000113",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000112"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000100",
       "pred" : "is_a",
@@ -1023,13 +1035,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000007"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000116",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000115"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000105",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000104"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000116",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000115"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000061",
       "pred" : "is_a",
@@ -1139,8 +1151,11 @@
       }, {
         "pred" : "http://purl.org/dc/elements/1.1/title",
         "val" : "OHPI: Ontology of Host-Pathogen Interactions"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/ohpi-base.json"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-07-23/ohpi-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

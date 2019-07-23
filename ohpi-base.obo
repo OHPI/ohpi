@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-22/ohpi-base.obo
+data-version: ohpi/releases/2019-07-23/ohpi-base.obo
 ontology: ohpi/ohpi-base.obo
 property_value: http://purl.org/dc/elements/1.1/contributor "Bin Zhao" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Edison Ong" xsd:string
@@ -9,6 +9,7 @@ property_value: http://purl.org/dc/elements/1.1/description "OHPI is a biomedica
 property_value: http://purl.org/dc/elements/1.1/format "OWL-DL" xsd:string
 property_value: http://purl.org/dc/elements/1.1/subject "A biomedical ontology in the area of host-pathogen interactions." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "OHPI: Ontology of Host-Pathogen Interactions" xsd:string
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/ xsd:string
 
 [Term]
 id: OHPI:0000001

@@ -3,7 +3,7 @@ ERROR	missing_label	DOID:4	rdfs:label
 ERROR	missing_label	TRANS:0000000	rdfs:label		
 ERROR	missing_label	UBERON:0000000	rdfs:label		
 ERROR	missing_label	UBERON:0001062	rdfs:label		
-ERROR	missing_ontology_license	ohpi.owl	dc:license		
+ERROR	missing_label	dc:license	rdfs:label		
 WARN	missing_definition	DOID:4	IAO:0000115		
 WARN	missing_definition	DOID:4	IAO:0000600		
 WARN	missing_definition	IAO:0000111	IAO:0000115		
@@ -249,6 +249,8 @@ WARN	missing_definition	UBERON:0000000	IAO:0000115
 WARN	missing_definition	UBERON:0000000	IAO:0000600		
 WARN	missing_definition	UBERON:0001062	IAO:0000115		
 WARN	missing_definition	UBERON:0001062	IAO:0000600		
+WARN	missing_definition	dc:license	IAO:0000115		
+WARN	missing_definition	dc:license	IAO:0000600		
 INFO	missing_superclass	BFO:0000016	rdfs:subClassOf		
 INFO	missing_superclass	CLO:0001601	rdfs:subClassOf		
 INFO	missing_superclass	CLO:0001686	rdfs:subClassOf		

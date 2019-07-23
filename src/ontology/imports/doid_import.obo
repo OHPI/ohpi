@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-22/imports/doid_import.owl
+data-version: ohpi/releases/2019-07-23/imports/doid_import.owl
 ontology: ohpi/imports/doid_import
 
 [Term]
@@ -9,6 +9,7 @@ namespace: disease_ontology
 def: "A nervous system disease which is located in a part of the nervous system responsible for processing sensory information that consists of sensory receptors, neural pathways, and parts of the brain involved in sensory perception. Commonly recognized sensory systems are those for vision, hearing, somatic sensation (touch), taste and olfaction (smell)." [url:http\://en.wikipedia.org/wiki/Sensory_system]
 subset: DO_AGR_slim
 subset: DO_FlyBase_slim
+subset: DO_GXD_slim
 is_a: DOID:863 ! nervous system disease
 
 [Term]
@@ -122,6 +123,7 @@ name: thoracic disease
 namespace: disease_ontology
 def: "A disease of anatomical entity that is located_in the thoracic cavity." [url:http\://en.wikipedia.org/wiki/Thoracic_cavity]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 is_a: DOID:7 ! disease of anatomical entity
 created_by: lschriml
@@ -180,6 +182,7 @@ id: DOID:10124
 name: corneal disease
 namespace: disease_ontology
 alt_id: DOID:2284
+def: "An eye disease that affects the cornea, which is the transparent surface of the eye that assists in light refraction." [url:https\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C26731]
 subset: NCIthesaurus
 xref: ICD10CM:H18.9
 xref: ICD9CM:371.9
@@ -264,6 +267,7 @@ is_a: DOID:76 ! stomach disease
 id: DOID:110
 name: lens disease
 namespace: disease_ontology
+def: "An eye disease that affects the lens of the eye, which is the transparent disc that focuses light to the photosensors in the back of the eye." [url:https\://en.wikipedia.org/wiki/Lens_(anatomy)]
 subset: NCIthesaurus
 xref: ICD10CM:H25-H28
 xref: ICD10CM:H27.9
@@ -568,6 +572,7 @@ is_a: DOID:2531 ! hematologic cancer
 id: DOID:1242
 name: globe disease
 namespace: disease_ontology
+def: "An eye disease that involves the globe of the eye." [url:https\://en.wikipedia.org/wiki/Globe_(human_eye)]
 xref: ICD10CM:H44.39
 xref: ICD9CM:360.29
 xref: UMLS_CUI:C0154780
@@ -627,6 +632,7 @@ namespace: disease_ontology
 alt_id: DOID:73
 def: "A disease of anatomical entity which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis." [url:http\://en.wikipedia.org/wiki/Circulatory_system]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 subset: NCIthesaurus
 synonym: "disease of subdivision of hemolymphoid system" EXACT []
@@ -843,6 +849,7 @@ namespace: disease_ontology
 alt_id: DOID:6309
 def: "A disease of anatomical entity that is located_in reproductive system organs." [url:http\://en.wikipedia.org/wiki/Reproductive_system]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 subset: NCIthesaurus
 synonym: "genital system disease" EXACT []
@@ -872,6 +879,7 @@ namespace: disease_ontology
 alt_id: DOID:3226
 def: "A disease of anatomical entity that located_in the respiratory system which extends from the nasal sinuses to the diaphragm." [url:http\://en.wikipedia.org/wiki/File\:Respiratory_system_complete_en.svg, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=respiratory%20system]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 xref: ICD10CM:J96-J99
 xref: ICD10CM:J98
@@ -886,6 +894,7 @@ name: integumentary system disease
 namespace: disease_ontology
 def: "A disease of anatomical entity that is located_in the integumentary system comprising the skin and its appendages." [url:http\://en.wikipedia.org/wiki/Integumentary_system]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 is_a: DOID:7 ! disease of anatomical entity
 
@@ -893,10 +902,11 @@ is_a: DOID:7 ! disease of anatomical entity
 id: DOID:162
 name: cancer
 namespace: disease_ontology
-def: "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis." [stedman:rlc, url:http\://en.wikipedia.org/wiki/cancer, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cancer]
+def: "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis." [url:http\://en.wikipedia.org/wiki/cancer, url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cancer]
 comment: Updating out dated UMLS CUI.
 subset: DO_AGR_slim
 subset: DO_FlyBase_slim
+subset: DO_GXD_slim
 subset: NCIthesaurus
 synonym: "malignant neoplasm" EXACT []
 synonym: "malignant tumor" EXACT []
@@ -904,6 +914,7 @@ synonym: "primary cancer" EXACT []
 xref: ICD10CM:C80
 xref: ICD10CM:C80.1
 xref: ICD9CM:199
+xref: ICDO:M8000/3
 xref: MESH:D009369
 xref: NCI:C9305
 xref: SNOMEDCT_US_2018_03_01:38807002
@@ -917,6 +928,7 @@ name: musculoskeletal system disease
 namespace: disease_ontology
 def: "A disease of anatomical entity that occurs in the muscular and/or skeletal system." [url:http\://en.wikipedia.org/wiki/Human_musculoskeletal_system#Diseases_and_disorders]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 subset: NCIthesaurus
 xref: MESH:D009140
@@ -1059,6 +1071,7 @@ namespace: disease_ontology
 alt_id: DOID:579
 def: "A disease of anatomical entity that is located_in kidney, ureter, bladder and urethra." [url:http\://en.wikipedia.org/wiki/Urinary_system]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 subset: NCIthesaurus
 synonym: "Non-neoplastic urinary tract disease" EXACT [NCI2004_11_17:C27599]
@@ -1352,6 +1365,7 @@ xref: NCI:C4984
 xref: NCI:C7431
 xref: OMIM:167000
 xref: OMIM:607893
+xref: ORDO:213500
 xref: ORDO:213517
 xref: SNOMEDCT_US_2018_03_01:93934004
 xref: UMLS_CUI:C0919267
@@ -1454,6 +1468,7 @@ name: endocrine system disease
 namespace: disease_ontology
 def: "A disease of anatomical entity that is located_in endocrine glands which secretes a type of hormone directly into the bloodstream to regulate the body." [url:http\://en.wikipedia.org/wiki/Endocrine_system]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 subset: NCIthesaurus
 xref: ICD10CM:E34.9
@@ -1677,6 +1692,7 @@ name: central nervous system disease
 namespace: disease_ontology
 def: "A nervous system disease that affects either the spinal cord (myelopathy) or brain (encephalopathy) of the central nervous system." [url:http\://en.wikipedia.org/wiki/Central_nervous_system_disease]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: NCIthesaurus
 xref: ICD10CM:G96.9
 xref: MESH:D002493
@@ -1753,6 +1769,7 @@ is_a: DOID:3480 ! uveal disease
 id: DOID:3480
 name: uveal disease
 namespace: disease_ontology
+def: "An eye disease affecting the uvea, which are the pigmented layers of the eye consisting of the iris, ciliary body, and choroid." [url:https\://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C26908]
 subset: NCIthesaurus
 xref: GARD:8192
 xref: MESH:D014603
@@ -1928,12 +1945,13 @@ is_a: DOID:305 ! carcinoma
 
 [Term]
 id: DOID:3908
-name: non-small cell lung carcinoma
+name: lung non-small cell carcinoma
 namespace: disease_ontology
 def: "A lung carcinoma that is characterized as any type of epithelial lung cancer other than small cell lung carcinoma." [url:http\://en.wikipedia.org/wiki/Non-small-cell_lung_carcinoma]
 subset: DO_cancer_slim
 subset: NCIthesaurus
 synonym: "Non-small cell lung cancer" EXACT []
+synonym: "non-small cell lung carcinoma" EXACT []
 synonym: "NSCLC" EXACT []
 xref: EFO:0003060
 xref: KEGG:05223
@@ -2042,21 +2060,14 @@ alt_id: DOID:4208
 subset: NCIthesaurus
 synonym: "malignant neoplasm of brain stem" EXACT []
 synonym: "malignant neoplasm of brainstem" EXACT []
-synonym: "malignant tumor of Brainstem" EXACT [NCI2004_11_17:C3570]
 synonym: "neoplasm of adult brain stem" EXACT []
 synonym: "neoplasm of brain stem" EXACT []
 synonym: "primary brain stem neoplasm" EXACT []
-synonym: "primary brain Stem tumor" EXACT [NCI2004_11_17:C4975]
-synonym: "tumor of adult Brainstem" EXACT [NCI2004_11_17:C5967]
-synonym: "tumor of the Brainstem" EXACT [NCI2004_11_17:C4869]
+synonym: "primary brain Stem tumor" EXACT []
 xref: GARD:8244
 xref: ICD10CM:C71.7
 xref: ICD9CM:191.7
 xref: MESH:D020295
-xref: NCI2004_11_17:C3570
-xref: NCI2004_11_17:C4869
-xref: NCI2004_11_17:C4975
-xref: NCI2004_11_17:C5967
 xref: NCI:C3570
 xref: NCI:C4869
 xref: NCI:C4975
@@ -2416,6 +2427,7 @@ namespace: disease_ontology
 alt_id: DOID:13069
 def: "A nervous system disease that affects the peripheral nervous system." [url:http\://en.wikipedia.org/w/index.php?title=Peripheral_neuropathy&redirect=no]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: NCIthesaurus
 synonym: "peripheral nerve disease" RELATED [MTH:516]
 synonym: "peripheral neuropathy" RELATED [CSP2005:2042-6617]
@@ -2468,7 +2480,7 @@ is_a: DOID:117 ! heart cancer
 id: DOID:60001
 name: pulmonary artery disease
 namespace: disease_ontology
-def: "A disease that is located in the lungs." []
+def: "An artery disease that is located in the lungs." [url:https\://www.ncbi.nlm.nih.gov/pubmed/23737196]
 is_a: DOID:0050828 ! artery disease
 is_a: DOID:850 ! lung disease
 
@@ -2535,7 +2547,6 @@ xref: MESH:D002561
 xref: MESH:D020521
 xref: NCI:C2938
 xref: NCI:C3390
-xref: OMIM:601367
 xref: SNOMEDCT_US_2018_03_01:62914000
 xref: SNOMEDCT_US_2018_03_01:82797006
 xref: UMLS_CUI:C0007820
@@ -2553,7 +2564,7 @@ alt_id: DOID:5
 alt_id: DOID:71
 alt_id: DOID:72
 alt_id: DOID:8
-def: "A disease that manifests in a defined anatomical structure." [DO:wk\,ls, URL:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anatomic]
+def: "A disease that manifests in a defined anatomical structure." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=anatomic] {comment="DO:wk,ls"}
 is_a: DOID:4 ! disease
 
 [Term]
@@ -2601,6 +2612,7 @@ name: hematopoietic system disease
 namespace: disease_ontology
 def: "A disease of anatomical entity that has_material_basis_in hematopoietic cells." [url:http\://en.wikipedia.org/wiki/Hematopathology, url:https\://www.ncbi.nlm.nih.gov/books/NBK1741/]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 subset: NCIthesaurus
 synonym: "Blood disease" EXACT []
@@ -2646,6 +2658,7 @@ alt_id: DOID:27
 alt_id: DOID:944
 def: "A disease of anatomical entity that is located_in the gastrointestinal tract." [url:http\://en.wikipedia.org/wiki/Human_gastrointestinal_tract]
 subset: DO_AGR_slim
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 synonym: "alimentary system disease" EXACT []
 synonym: "digestive system disorder" EXACT []
@@ -2792,6 +2805,7 @@ id: DOID:863
 name: nervous system disease
 namespace: disease_ontology
 def: "A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system." [url:http\://en.wikipedia.org/wiki/Nervous_system]
+subset: DO_GXD_slim
 subset: DO_MGI_slim
 subset: NCIthesaurus
 xref: ICD10CM:G00-G99

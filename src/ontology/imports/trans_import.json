@@ -37,7 +37,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/trans_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-07-23/imports/trans_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

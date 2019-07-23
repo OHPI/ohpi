@@ -9,9 +9,10 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:doid="http://purl.obolibrary.org/obo/doid#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohpi/imports/doid_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/doid_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-07-23/imports/doid_import.owl"/>
     </owl:Ontology>
     
 
@@ -42,6 +43,12 @@
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label>definition source</rdfs:label>
     </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://purl.obolibrary.org/obo/iao.owl</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -101,6 +108,14 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
+        <rdfs:label>dc:date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description">
@@ -113,6 +128,14 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
         <rdfs:label>title</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
+        <rdfs:label>license</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -266,6 +289,7 @@
         <oboInOwl:id>DOID:0050155</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <rdfs:label>sensory system disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -515,6 +539,7 @@
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:0060118</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:label>thoracic disease</rdfs:label>
     </owl:Class>
@@ -623,6 +648,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5614"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye disease that affects the cornea, which is the transparent surface of the eye that assists in light refraction.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>DOID:2284</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>ICD10CM:H18.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:371.9</oboInOwl:hasDbXref>
@@ -635,6 +661,12 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>corneal disease</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_10124"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye disease that affects the cornea, which is the transparent surface of the eye that assists in light refraction.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C26731</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -748,6 +780,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_110">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5614"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye disease that affects the lens of the eye, which is the transparent disc that focuses light to the photosensors in the back of the eye.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>ICD10CM:H25-H28</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:H27.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D007905</oboInOwl:hasDbXref>
@@ -759,6 +792,12 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>lens disease</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_110"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye disease that affects the lens of the eye, which is the transparent disc that focuses light to the photosensors in the back of the eye.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://en.wikipedia.org/wiki/Lens_(anatomy)</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1305,6 +1344,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1242">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5614"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye disease that involves the globe of the eye.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>ICD10CM:H44.39</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:360.29</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0154780</oboInOwl:hasDbXref>
@@ -1312,6 +1352,12 @@
         <oboInOwl:id>DOID:1242</oboInOwl:id>
         <rdfs:label>globe disease</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_1242"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye disease that involves the globe of the eye.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://en.wikipedia.org/wiki/Globe_(human_eye)</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1410,6 +1456,7 @@
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:1287</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>cardiovascular system disease</rdfs:label>
@@ -1805,6 +1852,7 @@
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:15</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>reproductive system disease</rdfs:label>
@@ -1864,6 +1912,7 @@
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:1579</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:label>respiratory system disease</rdfs:label>
     </owl:Class>
@@ -1885,6 +1934,7 @@
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:16</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:label>integumentary system disease</rdfs:label>
     </owl:Class>
@@ -1905,6 +1955,7 @@
         <oboInOwl:hasDbXref>ICD10CM:C80</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10CM:C80.1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:199</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICDO:M8000/3</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D009369</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C9305</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2018_03_01:38807002</oboInOwl:hasDbXref>
@@ -1917,6 +1968,7 @@
         <oboInOwl:id>DOID:162</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:comment>Updating out dated UMLS CUI.</rdfs:comment>
         <rdfs:label>cancer</rdfs:label>
@@ -1925,7 +1977,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>stedman:rlc</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/cancer</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=cancer</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -1944,6 +1995,7 @@
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:17</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>musculoskeletal system disease</rdfs:label>
@@ -2147,13 +2199,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_176"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An organ system cancer that located_in the heart and blood vessels.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>url:http://www.cancer.gov/dictionary?CdrID=44005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>url:http://www.healthcentral.com/heart-disease/h/cardiovascular-cancer.html</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_176"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Cardiovascular tumors</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NCI2004_11_17:C4784</oboInOwl:hasDbXref>
@@ -2163,6 +2208,13 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>cardiovascular neoplasm</owl:annotatedTarget>
         <oboInOwl:hasDbXref>CSP2005:2007-0683</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_176"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An organ system cancer that located_in the heart and blood vessels.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.cancer.gov/dictionary?CdrID=44005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www.healthcentral.com/heart-disease/h/cardiovascular-cancer.html</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2221,21 +2273,22 @@
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:18</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>urinary system disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_18"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Non-neoplastic urinary tract disease</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCI2004_11_17:C27599</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_18"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A disease of anatomical entity that is located_in kidney, ureter, bladder and urethra.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Urinary_system</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_18"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Non-neoplastic urinary tract disease</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCI2004_11_17:C27599</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2768,6 +2821,7 @@
         <oboInOwl:hasDbXref>NCI:C7431</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>OMIM:167000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>OMIM:607893</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:213500</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ORDO:213517</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2018_03_01:93934004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0919267</oboInOwl:hasDbXref>
@@ -2991,6 +3045,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:28</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>endocrine system disease</rdfs:label>
@@ -3421,6 +3476,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:331</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>central nervous system disease</rdfs:label>
     </owl:Class>
@@ -3551,6 +3607,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3480">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_5614"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye disease affecting the uvea, which are the pigmented layers of the eye consisting of the iris, ciliary body, and choroid.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GARD:8192</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D014603</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C26908</oboInOwl:hasDbXref>
@@ -3561,6 +3618,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>uveal disease</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_3480"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An eye disease affecting the uvea, which are the pigmented layers of the eye consisting of the iris, ciliary body, and choroid.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">url:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C26908</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -3895,11 +3958,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007131</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>NSCLC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Non-small cell lung cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>non-small cell lung carcinoma</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:3908</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
-        <rdfs:label>non-small cell lung carcinoma</rdfs:label>
+        <rdfs:label>lung non-small cell carcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_3908"/>
@@ -4101,10 +4165,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref>ICD10CM:C71.7</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9CM:191.7</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D020295</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCI2004_11_17:C3570</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCI2004_11_17:C4869</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCI2004_11_17:C4975</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCI2004_11_17:C5967</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3570</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4869</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C4975</oboInOwl:hasDbXref>
@@ -4116,42 +4176,15 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref>UMLS_CUI:C1332192</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>malignant neoplasm of brain stem</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>malignant neoplasm of brainstem</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>malignant tumor of Brainstem</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>neoplasm of adult brain stem</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>neoplasm of brain stem</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>primary brain Stem tumor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>primary brain stem neoplasm</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>tumor of adult Brainstem</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>tumor of the Brainstem</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:4203</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>brain stem cancer</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_4203"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>malignant tumor of Brainstem</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCI2004_11_17:C3570</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_4203"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>primary brain Stem tumor</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCI2004_11_17:C4975</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_4203"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>tumor of adult Brainstem</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCI2004_11_17:C5967</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_4203"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>tumor of the Brainstem</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCI2004_11_17:C4869</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -4804,6 +4837,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasRelatedSynonym>peripheral neuropathy</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>DOID:574</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>peripheral nervous system disease</rdfs:label>
     </owl:Class>
@@ -4893,11 +4927,17 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_60001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050828"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
-        <obo:IAO_0000115>A disease that is located in the lungs.</obo:IAO_0000115>
+        <obo:IAO_0000115>An artery disease that is located in the lungs.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:60001</oboInOwl:id>
         <rdfs:label>pulmonary artery disease</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_60001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An artery disease that is located in the lungs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/pubmed/23737196</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4998,7 +5038,6 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D020521</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C2938</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCI:C3390</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OMIM:601367</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2018_03_01:62914000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US_2018_03_01:82797006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS_CUI:C0007820</oboInOwl:hasDbXref>
@@ -5049,8 +5088,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A disease that manifests in a defined anatomical structure.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>DO:wk,ls</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>URL:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=anatomic</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=anatomic</oboInOwl:hasDbXref>
+        <rdfs:comment>DO:wk,ls</rdfs:comment>
     </owl:Axiom>
     
 
@@ -5153,6 +5192,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:74</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>hematopoietic system disease</rdfs:label>
@@ -5246,6 +5286,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:77</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_AGR_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <rdfs:label>gastrointestinal system disease</rdfs:label>
     </owl:Class>
@@ -5527,6 +5568,7 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasDbXref>UMLS_CUI:C0027765</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id>DOID:863</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/doid#NCIthesaurus"/>
         <rdfs:label>nervous system disease</rdfs:label>
