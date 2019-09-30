@@ -44,13 +44,13 @@
           "val" : "BFO 2 Reference: Dispositions exist along a strength continuum. Weaker forms of disposition are realized in only a fraction of triggering cases. These forms occur in a significant number of cases of a similar type."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
+          "val" : "the cell wall is disposed to filter chemicals in endocitosis and exocitosis"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
           "val" : "b is a disposition means: b is a realizable entity & b’s bearer is some material entity & b is such that if it ceases to exist, then its bearer is physically changed, & b’s realization occurs when and because this bearer is in some special physical circumstances, & this realization occurs in virtue of the bearer’s physical make-up. (axiom label in BFO2 Reference: [062-002])"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the cell wall is disposed to filter chemicals in endocitosis and exocitosis"
+          "val" : "the cell wall is disposed to filter chemicals in endocytosis and exocytosis"
         } ]
       },
       "type" : "INDIVIDUAL",
@@ -459,7 +459,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/idobru_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/imports/idobru_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -182,13 +182,13 @@
       "pred" : "http://purl.obolibrary.org/obo/OHPI_0000090",
       "obj" : "http://purl.obolibrary.org/obo/VO_0011079"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OGG_3001489853",
-      "pred" : "http://purl.obolibrary.org/obo/OHPI_0000090",
-      "obj" : "http://purl.obolibrary.org/obo/VO_0011232"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OGG_3002703406",
       "pred" : "http://purl.obolibrary.org/obo/OHPI_0000090",
       "obj" : "http://purl.obolibrary.org/obo/VO_0011098"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OGG_3001489853",
+      "pred" : "http://purl.obolibrary.org/obo/OHPI_0000090",
+      "obj" : "http://purl.obolibrary.org/obo/VO_0011232"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OGG_3007900172",
       "pred" : "http://purl.obolibrary.org/obo/OHPI_0000090",
@@ -211,7 +211,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/modules/victors-protegen-gene_module.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/modules/victors-protegen-gene_module.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

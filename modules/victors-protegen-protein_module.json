@@ -610,19 +610,19 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/VO_0011193",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/VO_0011170",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/VO_0011084",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011193",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/VO_0011000",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011084",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
@@ -634,11 +634,11 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/VO_0011242",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011204",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/VO_0011204",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0011242",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
@@ -734,11 +734,11 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/VO_0012359",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0010904",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/VO_0010904",
+      "sub" : "http://purl.obolibrary.org/obo/VO_0012359",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000094"
     }, {
@@ -811,7 +811,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/modules/victors-protegen-protein_module.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/modules/victors-protegen-protein_module.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

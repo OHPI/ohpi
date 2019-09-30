@@ -775,13 +775,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000110",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000109"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000055",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000110",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000109"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000074",
       "pred" : "is_a",
@@ -815,11 +815,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000023",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000046",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000046",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000023",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
@@ -879,13 +879,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000010",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000047",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000078",
       "pred" : "is_a",
@@ -963,17 +963,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000006"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000113",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000102",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000112"
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000101"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000112",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000102",
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000113",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000101"
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000112"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000100",
       "pred" : "is_a",
@@ -1011,13 +1011,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000113"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000125",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000124"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000124",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000125",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000124"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000060",
       "pred" : "is_a",
@@ -1035,13 +1035,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000007"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000105",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000104"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000116",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OHPI_0000115"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OHPI_0000105",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OHPI_0000104"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OHPI_0000061",
       "pred" : "is_a",
@@ -1155,7 +1155,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-07-23/ohpi-base.json"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/ohpi-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -7729,21 +7729,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_91347",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1236"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11089",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_11051"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1311",
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_91347",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1301"
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1236"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_91561",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_314145"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1311",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1301"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
       "pred" : "is_a",
@@ -8109,13 +8109,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_5690"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_171",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_203692"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_446",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_118969"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_171",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_203692"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11051",
       "pred" : "is_a",
@@ -8129,13 +8129,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_693995"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_773",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_356"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9986",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_314147"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_773",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_356"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1236",
       "pred" : "is_a",
@@ -8374,7 +8374,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-07-23/imports/ncbitaxon_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/imports/ncbitaxon_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

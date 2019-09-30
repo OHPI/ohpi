@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-07-23/imports/bfo_import.owl
+data-version: ohpi/releases/2019-09-30/imports/bfo_import.owl
 ontology: ohpi/imports/bfo_import
 
 [Term]

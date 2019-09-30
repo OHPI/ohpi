@@ -365,6 +365,35 @@
       "type" : "PROPERTY",
       "lbl" : "example of usage"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0000233",
+      "meta" : {
+        "definition" : {
+          "val" : "An IRI or similar locator for a request or discussion of an ontology term.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000114",
+          "val" : "http://purl.obolibrary.org/obo/IAO_0000125"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000111",
+          "val" : "term tracker item"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "The 'tracker item' can associate a tracker with a specific ontology term."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "term tracker item"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000234",
       "meta" : {
         "definition" : {
@@ -2170,10 +2199,10 @@
           "val" : "(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] "
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "an organism"
+          "val" : "a molecule"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "a molecule"
+          "val" : "an organism"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] "
@@ -4105,13 +4134,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000052"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IAO_0000064",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0000104"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000309",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000308"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IAO_0000064",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000104"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IAO_0000027",
       "pred" : "is_a",
@@ -4526,7 +4555,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-07-23/imports/iao_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/imports/iao_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

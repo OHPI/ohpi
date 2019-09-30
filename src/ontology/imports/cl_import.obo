@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-22/imports/cl_import.owl
+data-version: ohpi/releases/2019-09-30/imports/cl_import.owl
 ontology: ohpi/imports/cl_import
 
 [Term]
@@ -16,6 +16,7 @@ xref: KUPO:0000002
 xref: VHOG:0001533
 xref: WBbt:0004017
 xref: XAO:0003012
+is_a: CL:0000000 ! cell
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
 
 [Term]
@@ -35,7 +36,7 @@ id: CL:0000010
 name: cultured cell
 namespace: cell
 def: "A cell in vitro that is or has been maintained or propagated as part of a cell culture." []
-comment: Note that this class was re-labeled to 'cultured cell' instead of 'cell line cell', as it intent was clarified to cover any cultured cells of multicellular and unicellular organisms. This includes cells actively being cultured, or cells that have been cultured but are stored in a quiescent state for future use. In having been cultured, cells must establish homeostasis and often replicate in a foreign environment. Accomodation of this stress initiates a selection of cells fit for such challenges, wherein necessary adaptive biochemical and.or genetic changes can occur. These changes can set them apart from the in vivo cells from which they derive, and such changes will typically accumulate and change over increasing time in culture. 
+comment: Note that this class was re-labeled to 'cultured cell' instead of 'cell line cell', as it intent was clarified to cover any cultured cells of multicellular and unicellular organisms. This includes cells actively being cultured, or cells that have been cultured but are stored in a quiescent state for future use. In having been cultured, cells must establish homeostasis and often replicate in a foreign environment. Accomodation of this stress initiates a selection of cells fit for such challenges, wherein necessary adaptive biochemical and.or genetic changes can occur. These changes can set them apart from the in vivo cells from which they derive, and such changes will typically accumulate and change over increasing time in culture.
 is_a: CL:0000000 ! cell
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
 

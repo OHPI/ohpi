@@ -784,17 +784,17 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000602",
           "val" : "(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] "
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the priest role"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
           "val" : "http://purl.obolibrary.org/obo/ino.owl"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "the role of a boundary to demarcate two neighboring administrative territories"
+          "val" : "the priest role"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "the role of a boundary to demarcate two neighboring administrative territories"
         } ]
       },
       "type" : "CLASS",
@@ -1023,7 +1023,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/ino_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/imports/ino_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

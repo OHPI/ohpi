@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: ohpi/releases/2019-04-22/modules/victors-protegen-protein_module.owl
+data-version: ohpi/releases/2019-09-30/modules/victors-protegen-protein_module.owl
 ontology: ohpi/modules/victors-protegen-protein_module
 
 [Term]

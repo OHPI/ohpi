@@ -11,7 +11,7 @@
      xmlns:cellline="http://www.ebi.ac.uk/cellline/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohpi/imports/clo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/clo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/imports/clo_import.owl"/>
     </owl:Ontology>
     
 

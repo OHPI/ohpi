@@ -449,11 +449,11 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
           "val" : "http://purl.obolibrary.org/obo/cl.owl"
         }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Note that this class was re-labeled to 'cultured cell' instead of 'cell line cell', as it intent was clarified to cover any cultured cells of multicellular and unicellular organisms. This includes cells actively being cultured, or cells that have been cultured but are stored in a quiescent state for future use. In having been cultured, cells must establish homeostasis and often replicate in a foreign environment. Accomodation of this stress initiates a selection of cells fit for such challenges, wherein necessary adaptive biochemical and.or genetic changes can occur. These changes can set them apart from the in vivo cells from which they derive, and such changes will typically accumulate and change over increasing time in culture. "
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "cell"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Note that this class was re-labeled to 'cultured cell' instead of 'cell line cell', as it intent was clarified to cover any cultured cells of multicellular and unicellular organisms. This includes cells actively being cultured, or cells that have been cultured but are stored in a quiescent state for future use. In having been cultured, cells must establish homeostasis and often replicate in a foreign environment. Accomodation of this stress initiates a selection of cells fit for such challenges, wherein necessary adaptive biochemical and.or genetic changes can occur. These changes can set them apart from the in vivo cells from which they derive, and such changes will typically accumulate and change over increasing time in culture."
         } ]
       },
       "type" : "CLASS",
@@ -671,12 +671,12 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
       "type" : "PROPERTY",
       "lbl" : "has_narrow_synonym"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-      "type" : "PROPERTY",
-      "lbl" : "has_alternative_id"
     } ],
     "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_1001573",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000066"
@@ -790,7 +790,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-04-22/imports/cl_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/imports/cl_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

@@ -72,11 +72,11 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "adenocarcinoma of the uterine Cervix",
-          "xrefs" : [ "NCI2004_11_17:C4029" ]
+          "val" : "adenocarcinoma cervix uteri",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "adenocarcinoma cervix uteri",
+          "val" : "adenocarcinoma of the uterine Cervix",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -153,7 +153,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Leukemia of the CNS",
-          "xrefs" : [ "NCI2004_11_17:C5440" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -184,7 +184,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Colonic carcinoma",
-          "xrefs" : [ "NCI2004_11_17:C4910" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
@@ -219,19 +219,19 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "tumor of the Ciliary body",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "malignant tumor of ciliary body",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumor of the Ciliary body",
-          "xrefs" : [ "NCI2004_11_17:C4766" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "tumor of the Ciliary body",
-          "xrefs" : [ "NCI2004_11_17:C4364" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of ciliary body",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of the Ciliary body",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -273,20 +273,20 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "Ocular tumor",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "eye neoplasm",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "neoplasm of eye",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant eye neoplasm",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "eye neoplasm",
-          "xrefs" : [ "CSP2005:2018-3273" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Ocular tumor",
-          "xrefs" : [ "NCI2004_11_17:C3030" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "neoplasm of eye proper",
@@ -316,7 +316,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of Smooth Muscle",
-          "xrefs" : [ "NCI2004_11_17:C6511" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -454,7 +454,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "connective tissue disorder",
-          "xrefs" : [ "CSP2005:0729-7208" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -529,12 +529,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "malignant osseous tumor",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "bone tumour",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant osseous tumor",
-          "xrefs" : [ "NCI2004_11_17:C4016" ]
+          "val" : "malignant neoplasm of bone",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant bone neoplasm",
@@ -545,24 +549,20 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "bone neoplasm",
-          "xrefs" : [ "CSP2005:2019-1041" ]
+          "val" : "osseous tumor",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant bone tumour",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "osseous tumor",
-          "xrefs" : [ "NCI2004_11_17:C9343" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "neoplasm of bone",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of bone",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93725000" ]
+          "val" : "bone neoplasm",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -583,9 +583,9 @@
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
         "xrefs" : [ {
-          "val" : "UMLS_CUI:C0042131"
-        }, {
           "val" : "MESH:D014591"
+        }, {
+          "val" : "UMLS_CUI:C0042131"
         }, {
           "val" : "ICD9CM:621.9"
         }, {
@@ -613,9 +613,9 @@
         }, {
           "val" : "NCI2004_11_17:C7525"
         }, {
-          "val" : "NCI:C7525"
-        }, {
           "val" : "UMLS_CUI:C0153618"
+        }, {
+          "val" : "NCI:C7525"
         }, {
           "val" : "SNOMEDCT_US_2018_03_01:93985007"
         }, {
@@ -636,14 +636,14 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carcinoma of kidney Pelvis",
-          "xrefs" : [ "NCI2004_11_17:C6142" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "malignant renal Pelvis neoplasm",
-          "xrefs" : [ "NCI2004_11_17:C7525" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of renal pelvis",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant renal Pelvis neoplasm",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -748,27 +748,27 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "Hematological disease",
-          "xrefs" : [ "MTH:NOCODE" ]
+          "val" : "DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "disease of hematopoietic system",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "blood disorder",
-          "xrefs" : [ "CSP2005:0427-3600" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS",
-          "xrefs" : [ "ICD9CM_2006:280-289.99" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "Blood dyscrasia",
-          "xrefs" : [ "MTHICD9_2006:289.9" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Blood disease",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Hematological disease",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "blood disorder",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -813,16 +813,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "vagina neoplasm",
-          "xrefs" : [ "CSP2005:2016-2004" ]
+          "val" : "malignant vaginal tumor",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "vaginal tumor",
-          "xrefs" : [ "NCI2004_11_17:C3437" ]
+          "val" : "vagina neoplasm",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of vagina",
-          "xrefs" : [ "ICD9CM_2006:184.0" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of vagina",
@@ -833,8 +833,8 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant vaginal tumor",
-          "xrefs" : [ "NCI2004_11_17:C7410" ]
+          "val" : "vaginal tumor",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -913,12 +913,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "malignant Rectal tumor",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of rectum",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carcinoma of the rectum",
-          "xrefs" : [ "NCI2004_11_17:C9382" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant rectum tumor",
@@ -939,10 +943,6 @@
           "pred" : "hasExactSynonym",
           "val" : "carcinoma of rectum",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "malignant Rectal tumor",
-          "xrefs" : [ "NCI2004_11_17:C7418" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -1052,24 +1052,24 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
+          "val" : "tumor of the nervous system",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of nervous system",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "neural tumor",
-          "xrefs" : [ "NCI2004_11_17:C35562" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "nervous system neoplasm",
-          "xrefs" : [ "CSP2005:2012-5157" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "neoplasm of nervous system",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "tumor of the nervous system",
-          "xrefs" : [ "NCI2004_11_17:C3268" ]
+          "val" : "nervous system neoplasm",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -1101,11 +1101,11 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of urinary bladder neck",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:94124002" ]
+          "val" : "malignant tumor of bladder neck",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumor of bladder neck",
+          "val" : "malignant neoplasm of urinary bladder neck",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -1136,11 +1136,11 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "stomach disorder",
-          "xrefs" : [ "NCI2004_11_17:C26886" ]
+          "val" : "Gastropathy",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Gastropathy",
+          "val" : "stomach disorder",
           "xrefs" : [ ]
         }, {
           "pred" : "hasRelatedSynonym",
@@ -1168,7 +1168,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of Dermis",
-          "xrefs" : [ "NCI2004_11_17:C4574" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of dermis",
@@ -1204,15 +1204,11 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "GIT disease",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:53619000" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Gastroenteropathy",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:25374005" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "digestive system disorder",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "GIT disease",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -1220,11 +1216,15 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "gastrointestinal disorder",
-          "xrefs" : [ "CSP2005:1248-3545" ]
+          "val" : "Gastroenteropathy",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "alimentary system disease",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "gastrointestinal disorder",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -1294,7 +1294,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "malignant anal tumor",
-          "xrefs" : [ "NCI2004_11_17:C7379" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "anal cancer",
@@ -1331,12 +1331,12 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant reproductive system neoplasm",
+          "val" : "Reproductive tumor",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Reproductive tumor",
-          "xrefs" : [ "NCI2004_11_17:C3674" ]
+          "val" : "malignant reproductive system neoplasm",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1518,7 +1518,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Colonic adenocarcinoma",
-          "xrefs" : [ "NCI2004_11_17:C4349" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "adenocarcinoma of the colon",
@@ -1568,12 +1568,12 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of intestine",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93838000" ]
+          "val" : "malignant intestinal tumors",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant intestinal tumors",
-          "xrefs" : [ "NCI2004_11_17:C4572" ]
+          "val" : "malignant neoplasm of intestine",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1582,6 +1582,15 @@
       },
       "type" : "CLASS",
       "lbl" : "intestinal cancer"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/doid#DO_GXD_slim",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "DO_GXD_slim"
+        } ]
+      },
+      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/DOID_117",
       "meta" : {
@@ -1616,11 +1625,11 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "malignant Cardiac tumor",
-          "xrefs" : [ "NCI2004_11_17:C3548" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Cardiac tumor",
-          "xrefs" : [ "NCI2004_11_17:C3081" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of heart",
@@ -1697,24 +1706,24 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of floor of mouth",
-          "xrefs" : [ "MTH:NOCODE" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of lateral portion of floor of mouth",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of the Floor of the Mouth",
-          "xrefs" : [ "NCI2004_11_17:C9318" ]
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of lateral floor of mouth",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of anterior floor of mouth",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of lateral floor of mouth",
-          "xrefs" : [ "MTH:U001372" ]
+          "val" : "malignant neoplasm of floor of mouth",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1788,16 +1797,16 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
+          "val" : "CVA",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "cerebrovascular accident",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Cerebrovascular accident",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "CVA",
-          "xrefs" : [ "CSP2005:0617-5539" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -1877,6 +1886,14 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
+          "val" : "primary malignant neoplasm of endometrium",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant endometrial neoplasm",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "neoplasm of endometrium",
           "xrefs" : [ ]
         }, {
@@ -1885,20 +1902,12 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of endometrium",
+          "val" : "tumor of Endometrium",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "tumor of Endometrium",
-          "xrefs" : [ "NCI2004_11_17:C3012" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "malignant endometrial neoplasm",
-          "xrefs" : [ "NCI2004_11_17:C27815" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "primary malignant neoplasm of endometrium",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93781006" ]
+          "val" : "malignant neoplasm of endometrium",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -1950,15 +1959,15 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "leukemia myelogenous",
-          "xrefs" : [ "MTH:NOCODE" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Non-Lymphocytic Leukemia",
-          "xrefs" : [ "NCI2004_11_17:C3172" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "myeloid granulocytic leukemia",
-          "xrefs" : [ "CSP2005:2004-4431" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -2066,12 +2075,12 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "bladder cancer",
+          "val" : "tumor of the bladder",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "tumor of the bladder",
-          "xrefs" : [ "NCI2004_11_17:C2901" ]
+          "val" : "bladder cancer",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2141,19 +2150,19 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "CA - cancer of uterus",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93718007" ]
+          "val" : "uterine tumor",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of uterus",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant uterine tumor",
-          "xrefs" : [ "NCI2004_11_17:C3552" ]
+          "val" : "Tumour of uterus",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Tumour of uterus",
+          "val" : "malignant uterine tumor",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -2161,12 +2170,12 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "uterine tumor",
-          "xrefs" : [ "NCI2004_11_17:C3435" ]
+          "val" : "uterus neoplasm",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "uterus neoplasm",
-          "xrefs" : [ "CSP2005:2016-1566" ]
+          "val" : "CA - cancer of uterus",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2242,7 +2251,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "malignant Gynecologic tumor",
-          "xrefs" : [ "NCI2004_11_17:C4913" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of female genital organ",
@@ -2303,7 +2312,7 @@
       "meta" : {
         "definition" : {
           "val" : "An artery disease that is characterized by degeneration of the cells composing the aortic wall.",
-          "xrefs" : [ "url:http://www.hopkinsmedicine.org/heart_vascular_institute/conditions_treatments/conditions/aorta.html", "url:https://www.cedars-sinai.edu/Patients/Programs-and-Services/Heart-Institute/Conditions/Aortic-Disease.aspx#3" ]
+          "xrefs" : [ "url:http://www.hopkinsmedicine.org/heart_vascular_institute/conditions_treatments/conditions/aorta.html" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
         "xrefs" : [ {
@@ -2320,11 +2329,11 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "aortic disorder",
-          "xrefs" : [ "CSP2005:0571-0627" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "disorder of the aorta",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:47040006" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2549,10 +2558,6 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "malignant Retinal neoplasm",
-          "xrefs" : [ "NCI2004_11_17:C3216" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of retina",
           "xrefs" : [ ]
         }, {
@@ -2561,12 +2566,16 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "neoplasm of retina",
+          "val" : "malignant Retinal neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Retinal tumor",
-          "xrefs" : [ "NCI2004_11_17:C4800" ]
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "neoplasm of retina",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -2619,15 +2628,15 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "tumor of the Spinal Cord",
-          "xrefs" : [ "NCI2004_11_17:C3381" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Intraspinal tumor",
-          "xrefs" : [ "NCI2004_11_17:C3382" ]
+          "val" : "malignant tumor of the Spinal Cord",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "spinal cord cancer",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of the Spinal Cord",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -2635,8 +2644,8 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumor of the Spinal Cord",
-          "xrefs" : [ "NCI2004_11_17:C3572" ]
+          "val" : "Intraspinal tumor",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2721,11 +2730,11 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "tumor of the Cervix Uteri",
-          "xrefs" : [ "NCI2004_11_17:C2940" ]
+          "val" : "uterine cervical neoplasm",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "uterine cervical neoplasm",
+          "val" : "cervical neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -2733,8 +2742,8 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "cervical neoplasm",
-          "xrefs" : [ "CSP2005:2016-1746" ]
+          "val" : "tumor of the Cervix Uteri",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2791,10 +2800,6 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumor of the Lip",
-          "xrefs" : [ "NCI2004_11_17:C7485" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of lip",
           "xrefs" : [ ]
         }, {
@@ -2803,15 +2808,15 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of external Lip, not specified as upper or lower",
-          "xrefs" : [ "MTHICD9_2006:140.9" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of lip, inner aspect",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of commissure of lip",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of lower lip, oral aspect",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -2823,10 +2828,6 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of oral aspect of lip, not specified whether upper or lower",
-          "xrefs" : [ "MTHICD9_2006:140.5" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "malignant tumor of lip",
           "xrefs" : [ ]
         }, {
@@ -2836,34 +2837,42 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumour of lip",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93869001" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of labial commissure of lip",
-          "xrefs" : [ "MTHICD9_2006:140.6" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of lip, external",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumour of labial commissure",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93762003" ]
+          "val" : "malignant neoplasm of vermilion border of lip",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of external Lip, not specified as upper or lower",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of lower lip, buccal aspect",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of lower lip, oral aspect",
-          "xrefs" : [ "MTHICD9_2006:140.4" ]
+          "val" : "malignant tumour of labial commissure",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of vermilion border of lip",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:94135007" ]
+          "val" : "malignant neoplasm of oral aspect of lip, not specified whether upper or lower",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of labial mucosa",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of the Lip",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of labial commissure of lip",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -2908,7 +2917,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "retina circulation disorder",
-          "xrefs" : [ "CSP2005:1114-7471" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -2986,24 +2995,24 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "Pseudomyxoma peritonei with unknown primary site",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:72495009" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Mucin-producing adenocarcinoma",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:900006" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Mucous carcinoma",
-          "xrefs" : [ "NCI2004_11_17:C26712" ]
+          "val" : "Mucin-Secreting carcinoma",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Mucin-Secreting adenocarcinoma",
-          "xrefs" : [ "NCI2004_11_17:C27379" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Mucin-Secreting carcinoma",
-          "xrefs" : [ "NCI2004_11_17:C27825" ]
+          "val" : "Mucin-producing adenocarcinoma",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Mucous carcinoma",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Pseudomyxoma peritonei with unknown primary site",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "mucin-producing adenocarcinoma",
@@ -3209,7 +3218,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "stomach adenocarcinoma",
-          "xrefs" : [ "NCI2004_11_17:C4004" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "adenocarcinoma of stomach",
@@ -3396,20 +3405,24 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "tumor, fallopian tube, malignant",
-          "xrefs" : [ "NCI2004_11_17:C7480" ]
+          "val" : "malignant tumour of fallopian tube",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumour of fallopian tube",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93794008" ]
+          "val" : "malignant neoplasm of uterine tube",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor, fallopian tube, malignant",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of fallopian tube",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of uterine tube",
-          "xrefs" : [ "MTHICD9_2006:183.2" ]
+          "val" : "tumor of the fallopian tube",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "neoplasm of fallopian tube",
@@ -3418,10 +3431,6 @@
           "pred" : "hasExactSynonym",
           "val" : "fallopian tube neoplasm",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "tumor of the fallopian tube",
-          "xrefs" : [ "NCI2004_11_17:C3032" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -3515,19 +3524,19 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "cancer of cervix",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93752005" ]
+          "val" : "carcinoma of the Cervix Uteri",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carcinoma OF CERVIX",
-          "xrefs" : [ "MTH:166" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "carcinoma of the Cervix Uteri",
-          "xrefs" : [ "NCI2004_11_17:C9039" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "carcinoma cervix uteri",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cancer of cervix",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -3561,24 +3570,20 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "hematopoietic tumors",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Hematological tumors",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "malignant hematopoietic neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "hematopoietic tumors",
-          "xrefs" : [ "NCI2004_11_17:C27134" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Hematological tumors",
-          "xrefs" : [ "NCI2004_11_17:C27134" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "hematopoietic and lymphoid system tumor",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "blood cancer",
-          "xrefs" : [ "CSP2005:2004-0139" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Hematologic neoplasm",
@@ -3594,6 +3599,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "hematopoietic neoplasm",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "blood cancer",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -3642,23 +3651,23 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of central nervous system",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "central nervous system tumors",
-          "xrefs" : [ "NCI2004_11_17:C9293" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of CNS",
-          "xrefs" : [ "NCI2004_11_17:C4627" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of central nervous system",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93744007" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "CNS neoplasm",
-          "xrefs" : [ "CSP2005:2012-5421" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "neoplasm of central nervous system",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "CNS neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -3708,15 +3717,15 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of skin",
-          "xrefs" : [ "MTH:NOCODE" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "CA - skin cancer",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "melanoma and Non-melanoma skin cancer",
-          "xrefs" : [ "NCI2004_11_17:C2920" ]
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "CA - skin cancer",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -3853,16 +3862,16 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
+          "val" : "thorax neoplasm",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "Thoracic tumor",
-          "xrefs" : [ "NCI2004_11_17:C3406" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "thorax cancer",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "thorax neoplasm",
-          "xrefs" : [ "CSP2005:2005-5041" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -3953,13 +3962,13 @@
           "val" : "UMLS_CUI:C0684249"
         } ],
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cancer of lung",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "carcinoma of lung",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "cancer of lung",
-          "xrefs" : [ "NCI2004_11_17:C4878" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
@@ -4078,11 +4087,15 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "epithelioma",
-          "xrefs" : [ "CSP2005:2000-5801" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant Epithelioma",
-          "xrefs" : [ "NCI2004_11_17:C6927" ]
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "epithelial cancer",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -4125,7 +4138,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant Endocardial tumor",
-          "xrefs" : [ "NCI2004_11_17:C4570" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -4160,11 +4173,11 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "cancer of the stomach",
-          "xrefs" : [ "NCI2004_11_17:C4911" ]
+          "val" : "gastric carcinoma",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "gastric carcinoma",
+          "val" : "cancer of the stomach",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -4308,20 +4321,20 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "acute Monoblastic Leukemia and acute Monocytic Leukemia",
-          "xrefs" : [ "NCI2004_11_17:C7318" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "acute monocytic leukemia, morphology",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:22331004" ]
+          "val" : "acute monocytic leukemia, FAB M5",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "acute monocytic leukemia without mention of remission",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "acute monocytic leukemia, FAB M5",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:91859000" ]
+          "val" : "acute Monoblastic Leukemia and acute Monocytic Leukemia",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "acute monocytic leukemia, morphology",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -4381,7 +4394,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "colon disorder",
-          "xrefs" : [ "CSP2005:1248-3971" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -4474,6 +4487,10 @@
       },
       "type" : "PROPERTY"
     }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_broad_synonym"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/DOID_0050161",
       "meta" : {
         "definition" : {
@@ -4494,6 +4511,43 @@
       },
       "type" : "CLASS",
       "lbl" : "lower respiratory tract disease"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_557",
+      "meta" : {
+        "definition" : {
+          "val" : "A urinary system disease that is located_in the kidney.",
+          "xrefs" : [ "url:http://www.nlm.nih.gov/medlineplus/kidneydiseases.html" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "UMLS_CUI:C0022658"
+        }, {
+          "val" : "ICD10CM:N28.9"
+        }, {
+          "val" : "MESH:D007674"
+        }, {
+          "val" : "ICD10CM:N08"
+        }, {
+          "val" : "NCI:C34843"
+        }, {
+          "val" : "EFO:0003086"
+        }, {
+          "val" : "NCI:C3149"
+        }, {
+          "val" : "SNOMEDCT_US_2018_03_01:90708001"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "nephropathy",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "kidney disease"
     }, {
       "id" : "http://purl.obolibrary.org/obo/DOID_1319",
       "meta" : {
@@ -4557,44 +4611,36 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "brain neoplasm, adult",
-          "xrefs" : [ "NCI2004_11_17:C7710" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "malignant tumor of Brain",
-          "xrefs" : [ "NCI2004_11_17:C3568" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "primary brain neoplasm",
-          "xrefs" : [ "NCI2004_11_17:C4952" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "primary malignant neoplasm of brain",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93727008" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant primary brain neoplasm",
-          "xrefs" : [ "NCI2004_11_17:C4954" ]
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "brain neoplasm",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "primary brain tumor",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumor of adult brain",
-          "xrefs" : [ "NCI2004_11_17:C5115" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "brain neoplasm",
-          "xrefs" : [ "CSP2005:2006-2736" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "adult malignant brain neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "tumor of the Brain",
-          "xrefs" : [ "NCI2004_11_17:C2907" ]
+          "val" : "primary malignant neoplasm of brain",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "brain neoplasm, adult",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "neoplasm of brain",
@@ -4606,6 +4652,14 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "BT - Brain tumour",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of the Brain",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of adult brain",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -4639,43 +4693,6 @@
       "type" : "CLASS",
       "lbl" : "brain cancer"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/DOID_557",
-      "meta" : {
-        "definition" : {
-          "val" : "A urinary system disease that is located_in the kidney.",
-          "xrefs" : [ "url:http://www.nlm.nih.gov/medlineplus/kidneydiseases.html" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
-        "xrefs" : [ {
-          "val" : "UMLS_CUI:C0022658"
-        }, {
-          "val" : "ICD10CM:N28.9"
-        }, {
-          "val" : "MESH:D007674"
-        }, {
-          "val" : "ICD10CM:N08"
-        }, {
-          "val" : "NCI:C34843"
-        }, {
-          "val" : "EFO:0003086"
-        }, {
-          "val" : "NCI:C3149"
-        }, {
-          "val" : "SNOMEDCT_US_2018_03_01:90708001"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "nephropathy",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "disease_ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "kidney disease"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/DOID_4706",
       "meta" : {
         "definition" : {
@@ -4702,12 +4719,12 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "brain neoplasm, Infratentorial",
-          "xrefs" : [ "NCI2004_11_17:C3139" ]
+          "val" : "malignant Infratentorial tumors",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant Infratentorial tumors",
-          "xrefs" : [ "NCI2004_11_17:C4966" ]
+          "val" : "brain neoplasm, Infratentorial",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -4764,20 +4781,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "Nontraumatic tear of anus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "anal disease",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Nontraumatic tear of anus",
-          "xrefs" : [ "MTHICD9_2006:565.0" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "anal ulcer",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Ulcer of anus",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:20928004" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "anal fissure and fistula",
@@ -4785,6 +4798,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "anal fissure",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Ulcer of anus",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -4858,7 +4875,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant ureteral tumor",
-          "xrefs" : [ "NCI2004_11_17:C7543" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -4901,16 +4918,16 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "tumor of head and neck",
+          "val" : "head/neck neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "head and neck neoplasm",
-          "xrefs" : [ "MTH:NOCODE" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "head/neck neoplasm",
-          "xrefs" : [ "CSP2005:2005-4325" ]
+          "val" : "tumor of head and neck",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -4924,7 +4941,7 @@
       "meta" : {
         "definition" : {
           "val" : "An endocrine system disease that is located_in the gonads.",
-          "xrefs" : [ "url:http://semmelweis.hu/belgyogyaszat3/files/2011/05/drigazp-gonaddiseasesenglishiii-publicversion.pdf" ]
+          "xrefs" : [ "url:https://www.nature.com/subjects/gonadal-disorders" ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
         "xrefs" : [ {
@@ -5059,20 +5076,20 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "tumor of the Ovary",
-          "xrefs" : [ "NCI2004_11_17:C4984" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "ovarian neoplasm",
-          "xrefs" : [ "MTH:NOCODE" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "ovary neoplasm",
-          "xrefs" : [ "CSP2005:2016-1387" ]
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of the Ovary",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant Ovarian tumor",
-          "xrefs" : [ "NCI2004_11_17:C7431" ]
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ovarian neoplasm",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -5119,19 +5136,19 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Corneal tumor",
-          "xrefs" : [ "NCI2004_11_17:C4361" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "neoplasm of cornea",
+          "val" : "malignant neoplasm of cornea",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant Corneal tumor",
-          "xrefs" : [ "NCI2004_11_17:C3565" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant neoplasm of cornea",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93766000" ]
+          "val" : "neoplasm of cornea",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of cornea",
@@ -5224,8 +5241,6 @@
           "val" : "ICD10CM:C80"
         }, {
           "val" : "ICDO:M8000/3"
-        }, {
-          "val" : "stedman:rlc"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -5286,12 +5301,12 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Tumour of connective tissue",
+          "val" : "connective tissue neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "connective tissue neoplasm",
-          "xrefs" : [ "CSP2005:2008-3809" ]
+          "val" : "Tumour of connective tissue",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -5410,16 +5425,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "malignant Uveal tumor",
-          "xrefs" : [ "NCI2004_11_17:C6105" ]
+          "val" : "Uveal tumor",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant uvea neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Uveal tumor",
-          "xrefs" : [ "NCI2004_11_17:C3436" ]
+          "val" : "malignant Uveal tumor",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -5461,7 +5476,7 @@
       "meta" : {
         "definition" : {
           "val" : "A heart disease that is located_in the innermost layer of tissue that lines the chambers of the heart.",
-          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Endocardium", "url:http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CCkQFjAA&url=http%3A%2F%2Fpeople.upei.ca%2Flmiller%2F2009_CV_Endocardial_Pathology%2FENDOCARDIUM-2009.pdf&ei=SsP7UsjSH8Tx0gGbgYHQAw&usg=AFQjCNH2MScGQBlPP4MG_tL5dAiBiQY_YA&sig2=nbNfx77zxOxnTA9O875QeQ&bvm=bv.61190604,d.dmQ&cad=rja" ]
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Endocardium", "url:http://people.upei.ca/lmiller/2009_CV_Endocardial_Pathology/ENDOCARDIUM-2009.pdf" ]
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -5511,15 +5526,15 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "digestive system cancer",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "gastrointestinal tract cancer",
-          "xrefs" : [ "NCI2004_11_17:C4890" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "GI tumor",
-          "xrefs" : [ "NCI2004_11_17:C3052" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "digestive system cancer",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -5565,6 +5580,49 @@
       "type" : "CLASS",
       "lbl" : "respiratory system disease"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_8527",
+      "meta" : {
+        "definition" : {
+          "val" : "A myeloid leukemia that is characterized by a dominance of monocytes in the marrow.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Monocytic_leukemia" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD10CM:C93"
+        }, {
+          "val" : "ICD9CM:206.8"
+        }, {
+          "val" : "CSP2005:2004-2820"
+        }, {
+          "val" : "UMLS_CUI:C0153903"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Schilling's leukemia",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:9151"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:8526"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:8809"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:8935"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:8884"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "monocytic leukemia"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/DOID_12759",
       "meta" : {
         "subsets" : [ "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
@@ -5591,16 +5649,12 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumor of the Choroid",
-          "xrefs" : [ "NCI2004_11_17:C3566" ]
-        }, {
-          "pred" : "hasExactSynonym",
           "val" : "choroid neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Choroidal tumor",
-          "xrefs" : [ "NCI2004_11_17:C2949" ]
+          "val" : "malignant tumor of the Choroid",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "neoplasm of choroid",
@@ -5608,6 +5662,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of choroid",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Choroidal tumor",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -5620,49 +5678,6 @@
       },
       "type" : "CLASS",
       "lbl" : "choroid cancer"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/DOID_8527",
-      "meta" : {
-        "definition" : {
-          "val" : "A myeloid leukemia that is characterized by a dominance of monocytes in the marrow.",
-          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Monocytic_leukemia" ]
-        },
-        "xrefs" : [ {
-          "val" : "ICD10CM:C93"
-        }, {
-          "val" : "ICD9CM:206.8"
-        }, {
-          "val" : "CSP2005:2004-2820"
-        }, {
-          "val" : "UMLS_CUI:C0153903"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Schilling's leukemia",
-          "xrefs" : [ "CSP2005:2004-2820" ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "DOID:9151"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "DOID:8526"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "DOID:8809"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "DOID:8935"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "DOID:8884"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "disease_ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "monocytic leukemia"
     }, {
       "id" : "http://purl.obolibrary.org/obo/DOID_11428",
       "meta" : {
@@ -5704,7 +5719,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "vascular disorder of kidney",
-          "xrefs" : [ "ICD9CM_2006:593.81" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "renal vascular disease",
@@ -5811,11 +5826,11 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of the Iris",
-          "xrefs" : [ "NCI2004_11_17:C4554" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "tumor of the Iris",
-          "xrefs" : [ "NCI2004_11_17:C3142" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of iris",
@@ -5884,7 +5899,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of Skeletal Muscle",
-          "xrefs" : [ "NCI2004_11_17:C6516" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -5926,16 +5941,16 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of the Muscle",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "malignant tumor of muscle",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of muscle",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93913006" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "malignant tumor of the Muscle",
-          "xrefs" : [ "NCI2004_11_17:C4883" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -5969,7 +5984,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "CNS hematopoietic tumor",
-          "xrefs" : [ "NCI2004_11_17:C5503" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -6046,16 +6061,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "tumor of Myocardium",
-          "xrefs" : [ "NCI2004_11_17:C5349" ]
+          "val" : "malignant Myocardial tumor",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of myocardium",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant Myocardial tumor",
-          "xrefs" : [ "NCI2004_11_17:C4569" ]
+          "val" : "tumor of Myocardium",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -6067,26 +6082,6 @@
       },
       "type" : "CLASS",
       "lbl" : "myocardium cancer"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/DOID_0050828",
-      "meta" : {
-        "definition" : {
-          "val" : "A vascular disease that is located_in an artery.",
-          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Artery#Pathology" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
-          "val" : "2014-02-12T03:08:35Z"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "lschriml"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "disease_ontology"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "artery disease"
     }, {
       "id" : "http://purl.obolibrary.org/obo/DOID_9297",
       "meta" : {
@@ -6109,7 +6104,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "disease of lips",
-          "xrefs" : [ "ICD9CM_2006:528.5" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -6118,6 +6113,26 @@
       },
       "type" : "CLASS",
       "lbl" : "lip disease"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0050828",
+      "meta" : {
+        "definition" : {
+          "val" : "A vascular disease that is located_in an artery.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Artery#Pathology" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2014-02-12T03:08:35Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "lschriml"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "artery disease"
     }, {
       "id" : "http://purl.obolibrary.org/obo/DOID_170",
       "meta" : {
@@ -6151,20 +6166,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumour of endocrine gland",
-          "xrefs" : [ "SNOMEDCT_2005_07_31:93780007" ]
+          "val" : "endocrine neoplasm",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant Endocrine tumor",
-          "xrefs" : [ "NCI2004_11_17:C3575" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "endocrine neoplasm",
-          "xrefs" : [ "CSP2005:2009-5861" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Endocrine tumor",
-          "xrefs" : [ "NCI2004_11_17:C3010" ]
+          "val" : "malignant tumour of endocrine gland",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "neoplasm of endocrine gland",
@@ -6176,6 +6187,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant neoplasm of endocrine gland",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Endocrine tumor",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -6240,7 +6255,7 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Non-neoplastic urinary tract disease",
-          "xrefs" : [ "NCI2004_11_17:C27599" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -6271,12 +6286,12 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "Cardiovascular tumors",
-          "xrefs" : [ "NCI2004_11_17:C4784" ]
+          "val" : "cardiovascular neoplasm",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "cardiovascular neoplasm",
-          "xrefs" : [ "CSP2005:2007-0683" ]
+          "val" : "Cardiovascular tumors",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -6341,23 +6356,23 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of pulmonary artery",
-          "xrefs" : [ "NCI2004_11_17:C5380" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Blood vessel tumors",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "vascular tumors",
-          "xrefs" : [ "NCI2004_11_17:C7388" ]
+          "val" : "leiomyosarcoma of the renal Vein",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "leiomyosarcoma of the renal Vein",
-          "xrefs" : [ "NCI2004_11_17:C5388" ]
+          "val" : "Blood Vessel neoplasm",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "blood vessel neoplasm",
-          "xrefs" : [ "CSP2005:2007-0683" ]
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Blood vessel tumor",
@@ -6368,8 +6383,8 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant vascular tumor",
-          "xrefs" : [ "NCI2004_11_17:C7390" ]
+          "val" : "malignant tumor of pulmonary Vein",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Blood vessel tumour disorder",
@@ -6380,16 +6395,12 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumor of pulmonary Vein",
-          "xrefs" : [ "NCI2004_11_17:C5383" ]
+          "val" : "vascular tumors",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "renal vein leiomyosarcoma",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Blood Vessel neoplasm",
-          "xrefs" : [ "NCI2004_11_17:C7387" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "pulmonary artery malignant neoplasm",
@@ -6405,6 +6416,10 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "malignant vascular neoplasm",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant vascular tumor",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -6555,7 +6570,7 @@
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "peripheral neuropathy",
-          "xrefs" : [ "CSP2005:2042-6617" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
@@ -6610,7 +6625,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "malignant tumor of Synovium",
-          "xrefs" : [ "NCI2004_11_17:C6531" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -6710,7 +6725,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Endometriosis of fallopian tube",
-          "xrefs" : [ "ICD9CM_2006:617.2" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -6754,11 +6769,11 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant urethral neoplasm",
-          "xrefs" : [ "NCI2004_11_17:C7507" ]
+          "val" : "malignant tumour of urethra",
+          "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "malignant tumour of urethra",
+          "val" : "malignant urethral neoplasm",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -6799,7 +6814,7 @@
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "urethra disease",
-          "xrefs" : [ "NCI2004_11_17:C26903" ]
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
@@ -7487,13 +7502,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_263"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/DOID_1964",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/DOID_120"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_110",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/DOID_5614"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_1964",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_120"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/DOID_3905",
       "pred" : "is_a",
@@ -7748,7 +7763,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-07-23/imports/doid_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/imports/doid_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

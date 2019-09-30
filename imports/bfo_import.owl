@@ -8,9 +8,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ohpi/imports/bfo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-07-23/imports/bfo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ohpi/releases/2019-09-30/imports/bfo_import.owl"/>
     </owl:Ontology>
     
 
@@ -173,6 +174,12 @@
     <!-- http://purl.org/dc/elements/1.1/member -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/member"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
