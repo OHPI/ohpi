@@ -101,6 +101,9 @@ all_imports: ogg-victors_import
 
 ogg-victors_import: imports/ogg-victors_import.owl imports/ogg-victors_import.obo imports/ogg-victors_import.json
 
+mirror/ogg-victors.owl: ogg-victors.owl
+	cp ogg-victors.owl mirror/ogg-victors.owl
+
 imports/ogg-victors_import.owl: mirror/ogg-victors.owl
 	$(ROBOT) annotate -i $< --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@
 .PRECIOUS: imports/%_import.owl
