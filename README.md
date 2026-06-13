@@ -28,7 +28,7 @@ The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/ohpi.owl
 
-(note: This links to: https://raw.githubusercontent.com/OHPI/ohpi/master/ohpi.owl )
+(_note_: This links to: https://raw.githubusercontent.com/OHPI/ohpi/master/ohpi.owl )
 
 ### Editors' version
 
