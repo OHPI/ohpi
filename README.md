@@ -28,6 +28,8 @@ The latest version of the ontology can always be found at:
 
 http://purl.obolibrary.org/obo/ohpi.owl
 
+(note: This links to: https://raw.githubusercontent.com/OHPI/ohpi/master/ohpi.owl )
+
 ### Editors' version
 
 Editors of this ontology should use the edit version, [src/ontology/ohpi-edit.owl](src/ontology/ohpi-edit.owl)
