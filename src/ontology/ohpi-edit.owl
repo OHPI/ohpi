@@ -2804,10 +2804,32 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000118>checkpoint</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">checkpoint role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000091"/>
+        <obo:IAO_0000118>HPI checkpoint</obo:IAO_0000118>
+        <obo:IAO_0000118>host-pathogen interaction checkpoint role</obo:IAO_0000118>
+        <cellline:definition>HPI checkpoint role is a role realized in host-pathogen molecular interaction and supported by perturbation evidence that an alteration of either interacting partner significantly changes an infection-associated phenotype or host outcome under one or more biological conditions.</cellline:definition>
+        <rdfs:label xml:lang="en">HPI checkpoint role</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OHPI_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000096"/>
         <obo:IAO_0000115>A role that is inherited in a pathogen molecule that makes the pathogen virulence in terms of colonization, immunoevasion, immunosuppression, entry into or exit out of host cell, and obtaining nutrient from the host.</obo:IAO_0000115>
         <obo:IAO_0000119>https://en.wikipedia.org/wiki/Virulence_factor</obo:IAO_0000119>
         <cellline:definition_editor>Oliver He, Edison Ong</cellline:definition_editor>
@@ -2823,6 +2845,51 @@
         <obo:IAO_0000115>A virulence factor role that is inherited in a protein</obo:IAO_0000115>
         <cellline:definition_editor>Oliver He, Edison Ong</cellline:definition_editor>
         <rdfs:label xml:lang="en">virulence factor protein role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000092"/>
+        <rdfs:label xml:lang="en">HPI host checkpoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000092"/>
+        <rdfs:label xml:lang="en">HPI pathogen checkpoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000093"/>
+        <rdfs:label xml:lang="en">virulence factor for immune evasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000093"/>
+        <rdfs:label xml:lang="en">virulence factor for host invasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OHPI_0000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OHPI_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OHPI_0000095"/>
+        <rdfs:label xml:lang="en">HPI host immune actation checkpoint</rdfs:label>
     </owl:Class>
     
 
